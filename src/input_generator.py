@@ -1,95 +1,53 @@
-import sys
-import argparse
+import itertools
 
-parser = argparse.ArgumentParser(description="Generate questions with nonces.")
-parser.add_argument("sentences")
-parser.add_argument("nonces")
-parser.add_argument("--template_nonces")
-
-
-args = parser.parse_args()
-
-sentences_txt = open(args.sentences, "r")
-nonces_txt = open(args.nonces, "r")
-
-nonces = []
-for line in nonces_txt.readlines():
-    nonces.append(line.strip())
-
-sentences = []
-for line in sentences_txt.readlines():
-    sentences.append(line.split(","))
-
-template_nonces = []
-if args.template_nonces == None:
-    template_nonces = ["wug", "dax", "XYZ","ABC"]
-    # question_template_nonces = ("q_wug", "q_dax", "q_XYZ","q_ABC")
-else:
-    template_nonces_txt = open(args.template_nonces, "r")
-    for line in template_nonces_txt.readlines():
-        template_nonces.append(line.strip())
-
-
-class Stimuli:
-    def __init__(self, args, question, connectives):
-        self.args = args
-        self.question = question
-        self.connectives = connectives
+# Function for generating stimulus, given two args(phrases), a templated base question,
+# a list of connectives, and a list of the template nonces used.
+#
+# Returns: dict of connectives, mapping to a list of (prompt, question) stimuli
+def make_stimuli(args, question, connectives, nonces, template_nonces):
     
-    def make_sentence(self, nonces):
-        prompt = []
-        nonce_args = []
-        nonce_args_r = []
-        questions = []
+    template_prompts = []
+    for conn in connectives:
+        template_prompts.append((conn,args[0] + " " + conn + " " + args[1]))
         
-        
-        # TODO: Refactor with list permutations (itertools.permutations?)
-        # But next priority is getting it loaded into the model
-        
-        i = 0
-        questions.append(str(self.question))
-        questions.append(str(self.question))
-        for index in range(len(nonces)):
-            
-            # BUG: Crashes if len(template_nonces) < len(nonces)
-            questions[0] = questions[0].replace(template_nonces[index], nonces[index])
-            questions[1]= questions[1].replace(template_nonces[1 - index], nonces[index])
-            
-        for arg in self.args:
-            arg_r = str(arg)
-            for index in range(len(nonces)):
-                arg = arg.replace(template_nonces[index], nonces[index])
-                arg_r = arg_r.replace(template_nonces[1 - index], nonces[index])
+    output_prompts = {conn:[] for conn in connectives}
 
-            nonce_args.append(arg)
-            nonce_args_r.append(arg_r)
-
-        for conn in self.connectives:
-            if conn == "":
-                conn = " "
-            else:
-                conn = " " + conn + " "
-            prompt.append(nonce_args[0] +  conn + nonce_args[1])
-            prompt.append(nonce_args_r[0] + conn + nonce_args_r[1])
-        
-        return (prompt, questions)
+    for conn, prompt in template_prompts:
+        for nonce_1, nonce_2 in itertools.permutations(nonces, 2):
+            new_prompt = prompt.replace(template_nonces[0], nonce_1).replace(template_nonces[1], nonce_2)
+            new_question = question.replace(template_nonces[0], nonce_1).replace(template_nonces[1], nonce_2)
+            output_prompts[conn].append((new_prompt, new_question))
+            
+    return output_prompts
+    
 
 
 # Examples:
-snowy_winters = Stimuli(["I prefer wug to dax","I hate fluffy creatures."], "Which creature is fluffy?", ["however", "because", ""])
-prompt, question = snowy_winters.make_sentence(["A","B"])
-print("Prompt:")
-print("\t", prompt)
-print("Question:")
-print("\t", question)
+
+stimulus = make_stimuli(args=["I [wug]ed","I was [dax]."], 
+                        question="Was I [dax] before [wug]ing, after [wug]ing, or during [wug]ing?", 
+                        connectives=["as","then","previously"],
+                        nonces=["X","Y","Z"],
+                        template_nonces=["[wug]","[dax]"])
+
+
+for conn in stimulus.keys():
+    for prompt, question in stimulus[conn]:
+        print(prompt, "\tQ: ", question)
+    print("#-----------------------------------------------------------#")
 
 print()
-print(nonces)
+
+stimulus = make_stimuli(args=["I prefer [wug] to [dax]","I hate the snowy winters."], 
+                        question="Which has the snowy winters?", 
+                        connectives=["because", "however"],
+                        nonces=["X","Y","Z","A","B","C"],
+                        template_nonces=["[wug]","[dax]"])
+
+for conn in stimulus.keys():
+    for prompt, question in stimulus[conn]:
+        print(prompt, "\tQ: ", question)
+    print("#-----------------------------------------------------------#")
 
 
-snowy_winters = Stimuli(["I wuged","I was dax."], "Was I dax before wuging, after wuging, or during wuging?", ["as","then","previously"])
-prompt, question = snowy_winters.make_sentence(nonces[0:4])
-print("Prompt:")
-print("\t", prompt)
-print("Question:")
-print("\t", question)
+
