@@ -18,7 +18,7 @@ def evaluate_stimuli(model, stimuli: dict[str:list[str]], responses: tuple):
     for conn in stimuli.keys():
         for prompt, question, correct_response in stimuli[conn]:
             for response in responses:
-                score = model.partial_score(prompt + question, response)
+                score = model.partial_score(prompt + " " + question, response)
                 output_logprobs[conn][(prompt, question)][response] = (score)
     
     return output_logprobs
