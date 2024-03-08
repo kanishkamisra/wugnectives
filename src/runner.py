@@ -56,17 +56,7 @@ with open("output.csv", 'w+', newline='') as csvfile:
     for stimulus, score in scores:
         for conn in score.keys():
             for p, q, direction, nonce_1, nonce_2 in stimulus[conn]:
-
-                # # find max score
-                # max = ["none", -sys.maxsize]
-                # for nonce, val in score[conn][(p,q)].items():
-                #     print(nonce + ":", val)
-
-                #     if val[0] >= max[1]:
-                #         max[0] = nonce
-                #         max[1] = val[0]
-
-
+                
                 # check right direction
                 nonce_1_score =  score[conn][(p,q)][nonce_1]
                 nonce_2_score =  score[conn][(p,q)][nonce_2]
@@ -83,9 +73,3 @@ with open("output.csv", 'w+', newline='') as csvfile:
                 row = [conn, p, q, correct, direction, nonce_1, nonce_2, nonce_1_score, nonce_2_score]
                 writer.writerow(row)
 
-                
-                # raw_score = [ val[0] for val in score[conn][(p,q)].values() ]
-                # row.extend(raw_score)
-
-                # print("expected response: \"" + r + "\"\tMax response:", max[0], "\tWas correct?", max[0] == r )
-                # print(p, "\tQ:", q,"\t",score[conn][(p,q)], "\n")
