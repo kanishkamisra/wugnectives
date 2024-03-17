@@ -1,0 +1,11 @@
+property_id,property,inference_phrase,number,entity_addition,type
+1,fuzzy creatures,are fuzzy creatures,pl,start,objects
+2,mammals,are mammals,pl,start,objects
+3,blue flowers,are blue flowers,pl,start,objects
+4,bass instruments,are bass instruments,pl,start,objects
+5,insects,are insects,pl,start,objects
+6,snowy winters,has snowy winters,sg,start,locations
+7,living near mountains,has mountains,sg,start,locations
+8,warm weather,has warm weather,sg,start,locations
+9,coastal cities,is a coastal city,sg,start,locations
+10,skyscrapers,has skyscrapers,sg,start,locations

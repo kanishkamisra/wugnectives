@@ -1,0 +1,231 @@
+item_id,stimuli_type,connective,target,stimuli_instance,stimuli_instance_description,entity1,entity2,premise,inference1,inference2
+1,temporal,after,before,1,,gekxtravaganza,blicketbash,"After blicketbash, gekxtravaganza happened.",gekxtravaganza occured before blicketbash.,blicketbash occured before gekxtravaganza.
+2,temporal,after,after,2,,gekxtravaganza,wugfest,"After wugfest, gekxtravaganza happened.",gekxtravaganza occured after wugfest.,wugfest occured after gekxtravaganza.
+3,temporal,after,before,3,,gekxtravaganza,fepfestival,gekxtravaganza happened after fepfestival.,gekxtravaganza occured before fepfestival.,fepfestival occured before gekxtravaganza.
+4,temporal,after,before,4,,daxday,wugfest,"After wugfest, daxday happened.",daxday occured before wugfest.,wugfest occured before daxday.
+5,temporal,after,after,5,,daxday,blicketbash,"After blicketbash, daxday happened.",daxday occured after blicketbash.,blicketbash occured after daxday.
+6,temporal,after,before,6,,daxday,blicketbash,"After blicketbash, daxday happened.",daxday occured before blicketbash.,blicketbash occured before daxday.
+7,temporal,after,after,7,,blicketbash,fepfestival,"After fepfestival, blicketbash happened.",blicketbash occured after fepfestival.,fepfestival occured after blicketbash.
+8,temporal,after,after,8,,fepfestival,wugfest,fepfestival happened after wugfest.,fepfestival occured after wugfest.,wugfest occured after fepfestival.
+9,temporal,after,after,9,,blicketbash,gekxtravaganza,"After gekxtravaganza, blicketbash happened.",blicketbash occured after gekxtravaganza.,gekxtravaganza occured after blicketbash.
+10,temporal,after,before,10,,gekxtravaganza,wugfest,"After wugfest, gekxtravaganza happened.",gekxtravaganza occured before wugfest.,wugfest occured before gekxtravaganza.
+11,temporal,afterwards,before,1,,fepfestival,gekxtravaganza,"fepfestival happened. Afterwards, gekxtravaganza happened.",fepfestival occured before gekxtravaganza.,gekxtravaganza occured before fepfestival.
+12,temporal,afterwards,after,2,,blicketbash,wugfest,"blicketbash happened. Afterwards, wugfest happened.",blicketbash occured after wugfest.,wugfest occured after blicketbash.
+13,temporal,afterwards,after,3,,wugfest,daxday,"wugfest happened. Afterwards, daxday happened.",wugfest occured after daxday.,daxday occured after wugfest.
+14,temporal,afterwards,after,4,,blicketbash,wugfest,"blicketbash happened. Afterwards, wugfest happened.",blicketbash occured after wugfest.,wugfest occured after blicketbash.
+15,temporal,afterwards,after,5,,gekxtravaganza,daxday,"gekxtravaganza happened. Afterwards, daxday happened.",gekxtravaganza occured after daxday.,daxday occured after gekxtravaganza.
+16,temporal,afterwards,before,6,,blicketbash,wugfest,"blicketbash happened. Afterwards, wugfest happened.",blicketbash occured before wugfest.,wugfest occured before blicketbash.
+17,temporal,afterwards,after,7,,daxday,fepfestival,"daxday happened. Afterwards, fepfestival happened.",daxday occured after fepfestival.,fepfestival occured after daxday.
+18,temporal,afterwards,after,8,,wugfest,daxday,"wugfest happened. Afterwards, daxday happened.",wugfest occured after daxday.,daxday occured after wugfest.
+19,temporal,afterwards,after,9,,wugfest,daxday,"wugfest happened. Afterwards, daxday happened.",wugfest occured after daxday.,daxday occured after wugfest.
+20,temporal,afterwards,after,10,,gekxtravaganza,fepfestival,"gekxtravaganza happened. Afterwards, fepfestival happened.",gekxtravaganza occured after fepfestival.,fepfestival occured after gekxtravaganza.
+21,temporal,as soon as,before,1,,blicketbash,daxday,blicketbash happened as soon as daxday finished.,blicketbash occured before daxday.,daxday occured before blicketbash.
+22,temporal,as soon as,before,2,,blicketbash,daxday,"As soon as daxday finished, blicketbash happened.",blicketbash occured before daxday.,daxday occured before blicketbash.
+23,temporal,as soon as,after,3,,fepfestival,blicketbash,fepfestival happened as soon as blicketbash finished.,fepfestival occured after blicketbash.,blicketbash occured after fepfestival.
+24,temporal,as soon as,after,4,,wugfest,fepfestival,wugfest happened as soon as fepfestival finished.,wugfest occured after fepfestival.,fepfestival occured after wugfest.
+25,temporal,as soon as,after,5,,daxday,blicketbash,daxday happened as soon as blicketbash finished.,daxday occured after blicketbash.,blicketbash occured after daxday.
+26,temporal,as soon as,after,6,,fepfestival,blicketbash,fepfestival happened as soon as blicketbash finished.,fepfestival occured after blicketbash.,blicketbash occured after fepfestival.
+27,temporal,as soon as,before,7,,daxday,gekxtravaganza,daxday happened as soon as gekxtravaganza finished.,daxday occured before gekxtravaganza.,gekxtravaganza occured before daxday.
+28,temporal,as soon as,after,8,,blicketbash,wugfest,blicketbash happened as soon as wugfest finished.,blicketbash occured after wugfest.,wugfest occured after blicketbash.
+29,temporal,as soon as,after,9,,blicketbash,gekxtravaganza,"As soon as gekxtravaganza finished, blicketbash happened.",blicketbash occured after gekxtravaganza.,gekxtravaganza occured after blicketbash.
+30,temporal,as soon as,before,10,,wugfest,daxday,wugfest happened as soon as daxday finished.,wugfest occured before daxday.,daxday occured before wugfest.
+31,temporal,as a result,before,1,,blicketbash,wugfest,wugfest happened as a result of blicketbash.,blicketbash occured before wugfest.,wugfest occured before blicketbash.
+32,temporal,as a result,before,2,,daxday,blicketbash,"daxday happened. As a result, blicketbash happened.",daxday occured before blicketbash.,blicketbash occured before daxday.
+33,temporal,as a result,after,3,,blicketbash,fepfestival,fepfestival happened as a result of blicketbash.,blicketbash occured after fepfestival.,fepfestival occured after blicketbash.
+34,temporal,as a result,after,4,,wugfest,fepfestival,fepfestival happened as a result of wugfest.,wugfest occured after fepfestival.,fepfestival occured after wugfest.
+35,temporal,as a result,before,5,,blicketbash,wugfest,"blicketbash happened. As a result, wugfest happened.",blicketbash occured before wugfest.,wugfest occured before blicketbash.
+36,temporal,as a result,after,6,,fepfestival,daxday,"fepfestival happened. As a result, daxday happened.",fepfestival occured after daxday.,daxday occured after fepfestival.
+37,temporal,as a result,before,7,,wugfest,gekxtravaganza,gekxtravaganza happened as a result of wugfest.,wugfest occured before gekxtravaganza.,gekxtravaganza occured before wugfest.
+38,temporal,as a result,after,8,,fepfestival,wugfest,"fepfestival happened. As a result, wugfest happened.",fepfestival occured after wugfest.,wugfest occured after fepfestival.
+39,temporal,as a result,after,9,,wugfest,fepfestival,fepfestival happened as a result of wugfest.,wugfest occured after fepfestival.,fepfestival occured after wugfest.
+40,temporal,as a result,after,10,,blicketbash,daxday,"blicketbash happened. As a result, daxday happened.",blicketbash occured after daxday.,daxday occured after blicketbash.
+41,temporal,because,before,1,,gekxtravaganza,daxday,gekxtravaganza happened because daxday.,gekxtravaganza occured before daxday.,daxday occured before gekxtravaganza.
+42,temporal,because,after,2,,wugfest,blicketbash,wugfest happened because blicketbash.,wugfest occured after blicketbash.,blicketbash occured after wugfest.
+43,temporal,because,after,3,,gekxtravaganza,daxday,gekxtravaganza happened because daxday.,gekxtravaganza occured after daxday.,daxday occured after gekxtravaganza.
+44,temporal,because,before,4,,fepfestival,blicketbash,"because blicketbash happened, fepfestival happened.",fepfestival occured before blicketbash.,blicketbash occured before fepfestival.
+45,temporal,because,before,5,,blicketbash,fepfestival,blicketbash happened because fepfestival.,blicketbash occured before fepfestival.,fepfestival occured before blicketbash.
+46,temporal,because,after,6,,blicketbash,fepfestival,"because fepfestival happened, blicketbash happened.",blicketbash occured after fepfestival.,fepfestival occured after blicketbash.
+47,temporal,because,before,7,,fepfestival,blicketbash,"because blicketbash happened, fepfestival happened.",fepfestival occured before blicketbash.,blicketbash occured before fepfestival.
+48,temporal,because,before,8,,blicketbash,gekxtravaganza,blicketbash happened because gekxtravaganza.,blicketbash occured before gekxtravaganza.,gekxtravaganza occured before blicketbash.
+49,temporal,because,after,9,,blicketbash,fepfestival,"because fepfestival happened, blicketbash happened.",blicketbash occured after fepfestival.,fepfestival occured after blicketbash.
+50,temporal,because,before,10,,wugfest,blicketbash,"because blicketbash happened, wugfest happened.",wugfest occured before blicketbash.,blicketbash occured before wugfest.
+51,temporal,before,after,1,,gekxtravaganza,wugfest,"Before wugfest, gekxtravaganza happened.",gekxtravaganza occured after wugfest.,wugfest occured after gekxtravaganza.
+52,temporal,before,before,2,,daxday,fepfestival,daxday happened before fepfestival.,daxday occured before fepfestival.,fepfestival occured before daxday.
+53,temporal,before,before,3,,gekxtravaganza,fepfestival,gekxtravaganza happened before fepfestival.,gekxtravaganza occured before fepfestival.,fepfestival occured before gekxtravaganza.
+54,temporal,before,before,4,,wugfest,fepfestival,"Before fepfestival, wugfest happened.",wugfest occured before fepfestival.,fepfestival occured before wugfest.
+55,temporal,before,before,5,,gekxtravaganza,fepfestival,gekxtravaganza happened before fepfestival.,gekxtravaganza occured before fepfestival.,fepfestival occured before gekxtravaganza.
+56,temporal,before,before,6,,fepfestival,gekxtravaganza,"Before gekxtravaganza, fepfestival happened.",fepfestival occured before gekxtravaganza.,gekxtravaganza occured before fepfestival.
+57,temporal,before,after,7,,daxday,gekxtravaganza,"Before gekxtravaganza, daxday happened.",daxday occured after gekxtravaganza.,gekxtravaganza occured after daxday.
+58,temporal,before,after,8,,daxday,fepfestival,"Before fepfestival, daxday happened.",daxday occured after fepfestival.,fepfestival occured after daxday.
+59,temporal,before,before,9,,fepfestival,wugfest,"Before wugfest, fepfestival happened.",fepfestival occured before wugfest.,wugfest occured before fepfestival.
+60,temporal,before,after,10,,daxday,gekxtravaganza,"Before gekxtravaganza, daxday happened.",daxday occured after gekxtravaganza.,gekxtravaganza occured after daxday.
+61,temporal,consequently,after,1,,wugfest,blicketbash,"wugfest happened. Consequently, blicketbash happened.",wugfest occured after blicketbash.,blicketbash occured after wugfest.
+62,temporal,consequently,after,2,,gekxtravaganza,wugfest,"gekxtravaganza happened. Consequently, wugfest happened.",gekxtravaganza occured after wugfest.,wugfest occured after gekxtravaganza.
+63,temporal,consequently,before,3,,fepfestival,blicketbash,"fepfestival happened. Consequently, blicketbash happened.",fepfestival occured before blicketbash.,blicketbash occured before fepfestival.
+64,temporal,consequently,after,4,,daxday,blicketbash,"daxday happened. Consequently, blicketbash happened.",daxday occured after blicketbash.,blicketbash occured after daxday.
+65,temporal,consequently,after,5,,gekxtravaganza,daxday,"gekxtravaganza happened. Consequently, daxday happened.",gekxtravaganza occured after daxday.,daxday occured after gekxtravaganza.
+66,temporal,consequently,before,6,,fepfestival,blicketbash,"fepfestival happened. Consequently, blicketbash happened.",fepfestival occured before blicketbash.,blicketbash occured before fepfestival.
+67,temporal,consequently,after,7,,wugfest,gekxtravaganza,"wugfest happened. Consequently, gekxtravaganza happened.",wugfest occured after gekxtravaganza.,gekxtravaganza occured after wugfest.
+68,temporal,consequently,before,8,,wugfest,gekxtravaganza,"wugfest happened. Consequently, gekxtravaganza happened.",wugfest occured before gekxtravaganza.,gekxtravaganza occured before wugfest.
+69,temporal,consequently,after,9,,blicketbash,gekxtravaganza,"blicketbash happened. Consequently, gekxtravaganza happened.",blicketbash occured after gekxtravaganza.,gekxtravaganza occured after blicketbash.
+70,temporal,consequently,before,10,,gekxtravaganza,daxday,"gekxtravaganza happened. Consequently, daxday happened.",gekxtravaganza occured before daxday.,daxday occured before gekxtravaganza.
+71,temporal,earlier,before,1,,blicketbash,gekxtravaganza,"blicketbash happend. Earlier, gekxtravaganza happened.",blicketbash occured before gekxtravaganza.,gekxtravaganza occured before blicketbash.
+72,temporal,earlier,after,2,,fepfestival,daxday,"fepfestival happend. Earlier, daxday happened.",fepfestival occured after daxday.,daxday occured after fepfestival.
+73,temporal,earlier,after,3,,daxday,fepfestival,"daxday happend. Earlier, fepfestival happened.",daxday occured after fepfestival.,fepfestival occured after daxday.
+74,temporal,earlier,after,4,,gekxtravaganza,fepfestival,"gekxtravaganza happend. Earlier, fepfestival happened.",gekxtravaganza occured after fepfestival.,fepfestival occured after gekxtravaganza.
+75,temporal,earlier,after,5,,fepfestival,daxday,"fepfestival happend. Earlier, daxday happened.",fepfestival occured after daxday.,daxday occured after fepfestival.
+76,temporal,earlier,before,6,,wugfest,daxday,"wugfest happend. Earlier, daxday happened.",wugfest occured before daxday.,daxday occured before wugfest.
+77,temporal,earlier,before,7,,fepfestival,daxday,"fepfestival happend. Earlier, daxday happened.",fepfestival occured before daxday.,daxday occured before fepfestival.
+78,temporal,earlier,before,8,,wugfest,daxday,"wugfest happend. Earlier, daxday happened.",wugfest occured before daxday.,daxday occured before wugfest.
+79,temporal,earlier,after,9,,fepfestival,daxday,"fepfestival happend. Earlier, daxday happened.",fepfestival occured after daxday.,daxday occured after fepfestival.
+80,temporal,earlier,before,10,,daxday,gekxtravaganza,"daxday happend. Earlier, gekxtravaganza happened.",daxday occured before gekxtravaganza.,gekxtravaganza occured before daxday.
+81,temporal,even after,before,1,,wugfest,gekxtravaganza,"Even after gekxtravaganza, wugfest happened.",wugfest occured before gekxtravaganza.,gekxtravaganza occured before wugfest.
+82,temporal,even after,before,2,,fepfestival,daxday,fepfestival happened even after daxday.,fepfestival occured before daxday.,daxday occured before fepfestival.
+83,temporal,even after,before,3,,daxday,fepfestival,"Even after fepfestival, daxday happened.",daxday occured before fepfestival.,fepfestival occured before daxday.
+84,temporal,even after,after,4,,blicketbash,wugfest,"Even after wugfest, blicketbash happened.",blicketbash occured after wugfest.,wugfest occured after blicketbash.
+85,temporal,even after,after,5,,blicketbash,fepfestival,"Even after fepfestival, blicketbash happened.",blicketbash occured after fepfestival.,fepfestival occured after blicketbash.
+86,temporal,even after,after,6,,gekxtravaganza,daxday,"Even after daxday, gekxtravaganza happened.",gekxtravaganza occured after daxday.,daxday occured after gekxtravaganza.
+87,temporal,even after,after,7,,blicketbash,wugfest,"Even after wugfest, blicketbash happened.",blicketbash occured after wugfest.,wugfest occured after blicketbash.
+88,temporal,even after,after,8,,blicketbash,gekxtravaganza,"Even after gekxtravaganza, blicketbash happened.",blicketbash occured after gekxtravaganza.,gekxtravaganza occured after blicketbash.
+89,temporal,even after,after,9,,blicketbash,wugfest,"Even after wugfest, blicketbash happened.",blicketbash occured after wugfest.,wugfest occured after blicketbash.
+90,temporal,even after,before,10,,gekxtravaganza,daxday,"Even after daxday, gekxtravaganza happened.",gekxtravaganza occured before daxday.,daxday occured before gekxtravaganza.
+91,temporal,even before,after,1,,fepfestival,gekxtravaganza,gekxtravaganza happened even before fepfestival.,fepfestival occured after gekxtravaganza.,gekxtravaganza occured after fepfestival.
+92,temporal,even before,before,2,,blicketbash,gekxtravaganza,"Even before blicketbash, gekxtravaganza happened.",blicketbash occured before gekxtravaganza.,gekxtravaganza occured before blicketbash.
+93,temporal,even before,after,3,,gekxtravaganza,daxday,daxday happened even before gekxtravaganza.,gekxtravaganza occured after daxday.,daxday occured after gekxtravaganza.
+94,temporal,even before,after,4,,daxday,blicketbash,blicketbash happened even before daxday.,daxday occured after blicketbash.,blicketbash occured after daxday.
+95,temporal,even before,after,5,,blicketbash,gekxtravaganza,"Even before blicketbash, gekxtravaganza happened.",blicketbash occured after gekxtravaganza.,gekxtravaganza occured after blicketbash.
+96,temporal,even before,after,6,,blicketbash,fepfestival,fepfestival happened even before blicketbash.,blicketbash occured after fepfestival.,fepfestival occured after blicketbash.
+97,temporal,even before,before,7,,daxday,blicketbash,"Even before daxday, blicketbash happened.",daxday occured before blicketbash.,blicketbash occured before daxday.
+98,temporal,even before,before,8,,wugfest,gekxtravaganza,gekxtravaganza happened even before wugfest.,wugfest occured before gekxtravaganza.,gekxtravaganza occured before wugfest.
+99,temporal,even before,after,9,,fepfestival,daxday,"Even before fepfestival, daxday happened.",fepfestival occured after daxday.,daxday occured after fepfestival.
+100,temporal,even before,after,10,,wugfest,blicketbash,blicketbash happened even before wugfest.,wugfest occured after blicketbash.,blicketbash occured after wugfest.
+101,temporal,even though,after,1,,wugfest,fepfestival,wugfest happened even though fepfestival had happened.,wugfest occured after fepfestival.,fepfestival occured after wugfest.
+102,temporal,even though,after,2,,wugfest,daxday,"Even though daxday had happened, wugfest happened.",wugfest occured after daxday.,daxday occured after wugfest.
+103,temporal,even though,after,3,,daxday,wugfest,daxday happened even though wugfest had happened.,daxday occured after wugfest.,wugfest occured after daxday.
+104,temporal,even though,after,4,,wugfest,fepfestival,"Even though fepfestival had happened, wugfest happened.",wugfest occured after fepfestival.,fepfestival occured after wugfest.
+105,temporal,even though,before,5,,gekxtravaganza,wugfest,gekxtravaganza happened even though wugfest had happened.,gekxtravaganza occured before wugfest.,wugfest occured before gekxtravaganza.
+106,temporal,even though,after,6,,daxday,fepfestival,daxday happened even though fepfestival had happened.,daxday occured after fepfestival.,fepfestival occured after daxday.
+107,temporal,even though,before,7,,fepfestival,wugfest,"Even though wugfest had happened, fepfestival happened.",fepfestival occured before wugfest.,wugfest occured before fepfestival.
+108,temporal,even though,before,8,,gekxtravaganza,blicketbash,"Even though blicketbash had happened, gekxtravaganza happened.",gekxtravaganza occured before blicketbash.,blicketbash occured before gekxtravaganza.
+109,temporal,even though,after,9,,wugfest,gekxtravaganza,"Even though gekxtravaganza had happened, wugfest happened.",wugfest occured after gekxtravaganza.,gekxtravaganza occured after wugfest.
+110,temporal,even though,before,10,,blicketbash,gekxtravaganza,blicketbash happened even though gekxtravaganza had happened.,blicketbash occured before gekxtravaganza.,gekxtravaganza occured before blicketbash.
+111,temporal,finally,before,1,,fepfestival,gekxtravaganza,"fepfestival happened. Finally, gekxtravaganza happened.",fepfestival occured before gekxtravaganza.,gekxtravaganza occured before fepfestival.
+112,temporal,finally,before,2,,wugfest,daxday,"wugfest happened. Finally, daxday happened.",wugfest occured before daxday.,daxday occured before wugfest.
+113,temporal,finally,after,3,,wugfest,fepfestival,"wugfest happened. Finally, fepfestival happened.",wugfest occured after fepfestival.,fepfestival occured after wugfest.
+114,temporal,finally,after,4,,blicketbash,gekxtravaganza,"blicketbash happened. Finally, gekxtravaganza happened.",blicketbash occured after gekxtravaganza.,gekxtravaganza occured after blicketbash.
+115,temporal,finally,after,5,,daxday,wugfest,"daxday happened. Finally, wugfest happened.",daxday occured after wugfest.,wugfest occured after daxday.
+116,temporal,finally,after,6,,wugfest,fepfestival,"wugfest happened. Finally, fepfestival happened.",wugfest occured after fepfestival.,fepfestival occured after wugfest.
+117,temporal,finally,before,7,,wugfest,daxday,"wugfest happened. Finally, daxday happened.",wugfest occured before daxday.,daxday occured before wugfest.
+118,temporal,finally,before,8,,wugfest,daxday,"wugfest happened. Finally, daxday happened.",wugfest occured before daxday.,daxday occured before wugfest.
+119,temporal,finally,after,9,,daxday,fepfestival,"daxday happened. Finally, fepfestival happened.",daxday occured after fepfestival.,fepfestival occured after daxday.
+120,temporal,finally,after,10,,wugfest,gekxtravaganza,"wugfest happened. Finally, gekxtravaganza happened.",wugfest occured after gekxtravaganza.,gekxtravaganza occured after wugfest.
+121,temporal,hence,before,1,,daxday,gekxtravaganza,"daxday happened. Hence, gekxtravaganza happened.",daxday occured before gekxtravaganza.,gekxtravaganza occured before daxday.
+122,temporal,hence,after,2,,gekxtravaganza,fepfestival,"gekxtravaganza happened. Hence, fepfestival happened.",gekxtravaganza occured after fepfestival.,fepfestival occured after gekxtravaganza.
+123,temporal,hence,after,3,,wugfest,blicketbash,"wugfest happened. Hence, blicketbash happened.",wugfest occured after blicketbash.,blicketbash occured after wugfest.
+124,temporal,hence,after,4,,wugfest,fepfestival,"wugfest happened. Hence, fepfestival happened.",wugfest occured after fepfestival.,fepfestival occured after wugfest.
+125,temporal,hence,after,5,,blicketbash,fepfestival,"blicketbash happened. Hence, fepfestival happened.",blicketbash occured after fepfestival.,fepfestival occured after blicketbash.
+126,temporal,hence,after,6,,wugfest,fepfestival,"wugfest happened. Hence, fepfestival happened.",wugfest occured after fepfestival.,fepfestival occured after wugfest.
+127,temporal,hence,before,7,,fepfestival,wugfest,"fepfestival happened. Hence, wugfest happened.",fepfestival occured before wugfest.,wugfest occured before fepfestival.
+128,temporal,hence,before,8,,daxday,blicketbash,"daxday happened. Hence, blicketbash happened.",daxday occured before blicketbash.,blicketbash occured before daxday.
+129,temporal,hence,before,9,,blicketbash,fepfestival,"blicketbash happened. Hence, fepfestival happened.",blicketbash occured before fepfestival.,fepfestival occured before blicketbash.
+130,temporal,hence,before,10,,fepfestival,daxday,"fepfestival happened. Hence, daxday happened.",fepfestival occured before daxday.,daxday occured before fepfestival.
+131,temporal,later,after,1,,gekxtravaganza,daxday,"gekxtravaganza happened. Later, daxday happened.",gekxtravaganza occured after daxday.,daxday occured after gekxtravaganza.
+132,temporal,later,before,2,,daxday,gekxtravaganza,"daxday happened. Later, gekxtravaganza happened.",daxday occured before gekxtravaganza.,gekxtravaganza occured before daxday.
+133,temporal,later,before,3,,fepfestival,daxday,"fepfestival happened. Later, daxday happened.",fepfestival occured before daxday.,daxday occured before fepfestival.
+134,temporal,later,after,4,,wugfest,daxday,"wugfest happened. Later, daxday happened.",wugfest occured after daxday.,daxday occured after wugfest.
+135,temporal,later,after,5,,gekxtravaganza,blicketbash,"gekxtravaganza happened. Later, blicketbash happened.",gekxtravaganza occured after blicketbash.,blicketbash occured after gekxtravaganza.
+136,temporal,later,after,6,,daxday,blicketbash,"daxday happened. Later, blicketbash happened.",daxday occured after blicketbash.,blicketbash occured after daxday.
+137,temporal,later,before,7,,blicketbash,fepfestival,"blicketbash happened. Later, fepfestival happened.",blicketbash occured before fepfestival.,fepfestival occured before blicketbash.
+138,temporal,later,after,8,,fepfestival,wugfest,"fepfestival happened. Later, wugfest happened.",fepfestival occured after wugfest.,wugfest occured after fepfestival.
+139,temporal,later,after,9,,blicketbash,wugfest,"blicketbash happened. Later, wugfest happened.",blicketbash occured after wugfest.,wugfest occured after blicketbash.
+140,temporal,later,after,10,,fepfestival,wugfest,"fepfestival happened. Later, wugfest happened.",fepfestival occured after wugfest.,wugfest occured after fepfestival.
+141,temporal,next,before,1,,blicketbash,wugfest,"blicketbash happened. Next, wugfest happened.",blicketbash occured before wugfest.,wugfest occured before blicketbash.
+142,temporal,next,before,2,,fepfestival,blicketbash,"fepfestival happened. Next, blicketbash happened.",fepfestival occured before blicketbash.,blicketbash occured before fepfestival.
+143,temporal,next,before,3,,blicketbash,wugfest,"blicketbash happened. Next, wugfest happened.",blicketbash occured before wugfest.,wugfest occured before blicketbash.
+144,temporal,next,before,4,,gekxtravaganza,daxday,"gekxtravaganza happened. Next, daxday happened.",gekxtravaganza occured before daxday.,daxday occured before gekxtravaganza.
+145,temporal,next,after,5,,blicketbash,gekxtravaganza,"blicketbash happened. Next, gekxtravaganza happened.",blicketbash occured after gekxtravaganza.,gekxtravaganza occured after blicketbash.
+146,temporal,next,after,6,,fepfestival,gekxtravaganza,"fepfestival happened. Next, gekxtravaganza happened.",fepfestival occured after gekxtravaganza.,gekxtravaganza occured after fepfestival.
+147,temporal,next,before,7,,fepfestival,wugfest,"fepfestival happened. Next, wugfest happened.",fepfestival occured before wugfest.,wugfest occured before fepfestival.
+148,temporal,next,after,8,,fepfestival,wugfest,"fepfestival happened. Next, wugfest happened.",fepfestival occured after wugfest.,wugfest occured after fepfestival.
+149,temporal,next,before,9,,fepfestival,daxday,"fepfestival happened. Next, daxday happened.",fepfestival occured before daxday.,daxday occured before fepfestival.
+150,temporal,next,after,10,,gekxtravaganza,daxday,"gekxtravaganza happened. Next, daxday happened.",gekxtravaganza occured after daxday.,daxday occured after gekxtravaganza.
+151,temporal,once,after,1,,blicketbash,daxday,blicketbash happened once daxday happened.,blicketbash occured after daxday.,daxday occured after blicketbash.
+152,temporal,once,before,2,,gekxtravaganza,blicketbash,"Once blicketbash happened, gekxtravaganza happened.",gekxtravaganza occured before blicketbash.,blicketbash occured before gekxtravaganza.
+153,temporal,once,after,3,,gekxtravaganza,wugfest,"Once wugfest happened, gekxtravaganza happened.",gekxtravaganza occured after wugfest.,wugfest occured after gekxtravaganza.
+154,temporal,once,before,4,,wugfest,fepfestival,"Once fepfestival happened, wugfest happened.",wugfest occured before fepfestival.,fepfestival occured before wugfest.
+155,temporal,once,before,5,,daxday,fepfestival,"Once fepfestival happened, daxday happened.",daxday occured before fepfestival.,fepfestival occured before daxday.
+156,temporal,once,before,6,,daxday,gekxtravaganza,daxday happened once gekxtravaganza happened.,daxday occured before gekxtravaganza.,gekxtravaganza occured before daxday.
+157,temporal,once,after,7,,fepfestival,wugfest,fepfestival happened once wugfest happened.,fepfestival occured after wugfest.,wugfest occured after fepfestival.
+158,temporal,once,before,8,,gekxtravaganza,daxday,"Once daxday happened, gekxtravaganza happened.",gekxtravaganza occured before daxday.,daxday occured before gekxtravaganza.
+159,temporal,once,after,9,,daxday,gekxtravaganza,daxday happened once gekxtravaganza happened.,daxday occured after gekxtravaganza.,gekxtravaganza occured after daxday.
+160,temporal,once,before,10,,wugfest,blicketbash,"Once blicketbash happened, wugfest happened.",wugfest occured before blicketbash.,blicketbash occured before wugfest.
+161,temporal,previously,before,1,,blicketbash,fepfestival,"blicketbash happened. Previously, fepfestival happened.",blicketbash occured before fepfestival.,fepfestival occured before blicketbash.
+162,temporal,previously,after,2,,gekxtravaganza,daxday,"gekxtravaganza happened. Previously, daxday happened.",gekxtravaganza occured after daxday.,daxday occured after gekxtravaganza.
+163,temporal,previously,after,3,,daxday,fepfestival,"daxday happened. Previously, fepfestival happened.",daxday occured after fepfestival.,fepfestival occured after daxday.
+164,temporal,previously,before,4,,fepfestival,blicketbash,"fepfestival happened. Previously, blicketbash happened.",fepfestival occured before blicketbash.,blicketbash occured before fepfestival.
+165,temporal,previously,before,5,,daxday,gekxtravaganza,"daxday happened. Previously, gekxtravaganza happened.",daxday occured before gekxtravaganza.,gekxtravaganza occured before daxday.
+166,temporal,previously,before,6,,blicketbash,fepfestival,"blicketbash happened. Previously, fepfestival happened.",blicketbash occured before fepfestival.,fepfestival occured before blicketbash.
+167,temporal,previously,after,7,,fepfestival,wugfest,"fepfestival happened. Previously, wugfest happened.",fepfestival occured after wugfest.,wugfest occured after fepfestival.
+168,temporal,previously,before,8,,blicketbash,daxday,"blicketbash happened. Previously, daxday happened.",blicketbash occured before daxday.,daxday occured before blicketbash.
+169,temporal,previously,before,9,,daxday,blicketbash,"daxday happened. Previously, blicketbash happened.",daxday occured before blicketbash.,blicketbash occured before daxday.
+170,temporal,previously,after,10,,blicketbash,wugfest,"blicketbash happened. Previously, wugfest happened.",blicketbash occured after wugfest.,wugfest occured after blicketbash.
+171,temporal,since,after,1,,daxday,blicketbash,daxday happened since blicketbash happened.,daxday occured after blicketbash.,blicketbash occured after daxday.
+172,temporal,since,before,2,,daxday,wugfest,"Since wugfest happened, daxday happened.",daxday occured before wugfest.,wugfest occured before daxday.
+173,temporal,since,before,3,,fepfestival,daxday,fepfestival happened since daxday happened.,fepfestival occured before daxday.,daxday occured before fepfestival.
+174,temporal,since,after,4,,fepfestival,blicketbash,fepfestival happened since blicketbash happened.,fepfestival occured after blicketbash.,blicketbash occured after fepfestival.
+175,temporal,since,before,5,,blicketbash,wugfest,blicketbash happened since wugfest happened.,blicketbash occured before wugfest.,wugfest occured before blicketbash.
+176,temporal,since,after,6,,fepfestival,daxday,fepfestival happened since daxday happened.,fepfestival occured after daxday.,daxday occured after fepfestival.
+177,temporal,since,after,7,,wugfest,fepfestival,wugfest happened since fepfestival happened.,wugfest occured after fepfestival.,fepfestival occured after wugfest.
+178,temporal,since,after,8,,wugfest,gekxtravaganza,wugfest happened since gekxtravaganza happened.,wugfest occured after gekxtravaganza.,gekxtravaganza occured after wugfest.
+179,temporal,since,before,9,,gekxtravaganza,blicketbash,gekxtravaganza happened since blicketbash happened.,gekxtravaganza occured before blicketbash.,blicketbash occured before gekxtravaganza.
+180,temporal,since,before,10,,blicketbash,wugfest,blicketbash happened since wugfest happened.,blicketbash occured before wugfest.,wugfest occured before blicketbash.
+181,temporal,so,after,1,,fepfestival,blicketbash,"fepfestival happened. So, blicketbash happened.",fepfestival occured after blicketbash.,blicketbash occured after fepfestival.
+182,temporal,so,before,2,,daxday,blicketbash,"daxday happened. So, blicketbash happened.",daxday occured before blicketbash.,blicketbash occured before daxday.
+183,temporal,so,before,3,,gekxtravaganza,fepfestival,"gekxtravaganza happened. So, fepfestival happened.",gekxtravaganza occured before fepfestival.,fepfestival occured before gekxtravaganza.
+184,temporal,so,after,4,,blicketbash,gekxtravaganza,"blicketbash happened. So, gekxtravaganza happened.",blicketbash occured after gekxtravaganza.,gekxtravaganza occured after blicketbash.
+185,temporal,so,after,5,,fepfestival,gekxtravaganza,"fepfestival happened. So, gekxtravaganza happened.",fepfestival occured after gekxtravaganza.,gekxtravaganza occured after fepfestival.
+186,temporal,so,before,6,,wugfest,fepfestival,"wugfest happened. So, fepfestival happened.",wugfest occured before fepfestival.,fepfestival occured before wugfest.
+187,temporal,so,before,7,,gekxtravaganza,fepfestival,"gekxtravaganza happened. So, fepfestival happened.",gekxtravaganza occured before fepfestival.,fepfestival occured before gekxtravaganza.
+188,temporal,so,after,8,,fepfestival,gekxtravaganza,"fepfestival happened. So, gekxtravaganza happened.",fepfestival occured after gekxtravaganza.,gekxtravaganza occured after fepfestival.
+189,temporal,so,before,9,,blicketbash,daxday,"blicketbash happened. So, daxday happened.",blicketbash occured before daxday.,daxday occured before blicketbash.
+190,temporal,so,before,10,,blicketbash,wugfest,"blicketbash happened. So, wugfest happened.",blicketbash occured before wugfest.,wugfest occured before blicketbash.
+191,temporal,subsequently,after,1,,wugfest,daxday,"wugfest happened. Subsequently, daxday happened.",wugfest occured after daxday.,daxday occured after wugfest.
+192,temporal,subsequently,after,2,,fepfestival,blicketbash,"fepfestival happened. Subsequently, blicketbash happened.",fepfestival occured after blicketbash.,blicketbash occured after fepfestival.
+193,temporal,subsequently,after,3,,wugfest,daxday,"wugfest happened. Subsequently, daxday happened.",wugfest occured after daxday.,daxday occured after wugfest.
+194,temporal,subsequently,before,4,,wugfest,fepfestival,"wugfest happened. Subsequently, fepfestival happened.",wugfest occured before fepfestival.,fepfestival occured before wugfest.
+195,temporal,subsequently,after,5,,fepfestival,blicketbash,"fepfestival happened. Subsequently, blicketbash happened.",fepfestival occured after blicketbash.,blicketbash occured after fepfestival.
+196,temporal,subsequently,after,6,,blicketbash,fepfestival,"blicketbash happened. Subsequently, fepfestival happened.",blicketbash occured after fepfestival.,fepfestival occured after blicketbash.
+197,temporal,subsequently,before,7,,blicketbash,fepfestival,"blicketbash happened. Subsequently, fepfestival happened.",blicketbash occured before fepfestival.,fepfestival occured before blicketbash.
+198,temporal,subsequently,before,8,,blicketbash,wugfest,"blicketbash happened. Subsequently, wugfest happened.",blicketbash occured before wugfest.,wugfest occured before blicketbash.
+199,temporal,subsequently,before,9,,gekxtravaganza,fepfestival,"gekxtravaganza happened. Subsequently, fepfestival happened.",gekxtravaganza occured before fepfestival.,fepfestival occured before gekxtravaganza.
+200,temporal,subsequently,after,10,,wugfest,fepfestival,"wugfest happened. Subsequently, fepfestival happened.",wugfest occured after fepfestival.,fepfestival occured after wugfest.
+201,temporal,then,after,1,,blicketbash,gekxtravaganza,"blicketbash happened. Then, gekxtravaganza happened.",blicketbash occured after gekxtravaganza.,gekxtravaganza occured after blicketbash.
+202,temporal,then,after,2,,fepfestival,blicketbash,"fepfestival happened. Then, blicketbash happened.",fepfestival occured after blicketbash.,blicketbash occured after fepfestival.
+203,temporal,then,before,3,,gekxtravaganza,blicketbash,"gekxtravaganza happened. Then, blicketbash happened.",gekxtravaganza occured before blicketbash.,blicketbash occured before gekxtravaganza.
+204,temporal,then,before,4,,wugfest,blicketbash,"wugfest happened. Then, blicketbash happened.",wugfest occured before blicketbash.,blicketbash occured before wugfest.
+205,temporal,then,before,5,,wugfest,daxday,"wugfest happened. Then, daxday happened.",wugfest occured before daxday.,daxday occured before wugfest.
+206,temporal,then,after,6,,daxday,wugfest,"daxday happened. Then, wugfest happened.",daxday occured after wugfest.,wugfest occured after daxday.
+207,temporal,then,before,7,,fepfestival,blicketbash,"fepfestival happened. Then, blicketbash happened.",fepfestival occured before blicketbash.,blicketbash occured before fepfestival.
+208,temporal,then,after,8,,blicketbash,fepfestival,"blicketbash happened. Then, fepfestival happened.",blicketbash occured after fepfestival.,fepfestival occured after blicketbash.
+209,temporal,then,after,9,,wugfest,daxday,"wugfest happened. Then, daxday happened.",wugfest occured after daxday.,daxday occured after wugfest.
+210,temporal,then,before,10,,fepfestival,gekxtravaganza,"fepfestival happened. Then, gekxtravaganza happened.",fepfestival occured before gekxtravaganza.,gekxtravaganza occured before fepfestival.
+211,temporal,thereafter,after,1,,wugfest,daxday,"wugfest happened. Thereafter, daxday happened.",wugfest occured after daxday.,daxday occured after wugfest.
+212,temporal,thereafter,after,2,,gekxtravaganza,wugfest,"gekxtravaganza happened. Thereafter, wugfest happened.",gekxtravaganza occured after wugfest.,wugfest occured after gekxtravaganza.
+213,temporal,thereafter,after,3,,blicketbash,daxday,"blicketbash happened. Thereafter, daxday happened.",blicketbash occured after daxday.,daxday occured after blicketbash.
+214,temporal,thereafter,before,4,,daxday,wugfest,"daxday happened. Thereafter, wugfest happened.",daxday occured before wugfest.,wugfest occured before daxday.
+215,temporal,thereafter,before,5,,blicketbash,daxday,"blicketbash happened. Thereafter, daxday happened.",blicketbash occured before daxday.,daxday occured before blicketbash.
+216,temporal,thereafter,after,6,,fepfestival,gekxtravaganza,"fepfestival happened. Thereafter, gekxtravaganza happened.",fepfestival occured after gekxtravaganza.,gekxtravaganza occured after fepfestival.
+217,temporal,thereafter,after,7,,fepfestival,daxday,"fepfestival happened. Thereafter, daxday happened.",fepfestival occured after daxday.,daxday occured after fepfestival.
+218,temporal,thereafter,before,8,,gekxtravaganza,daxday,"gekxtravaganza happened. Thereafter, daxday happened.",gekxtravaganza occured before daxday.,daxday occured before gekxtravaganza.
+219,temporal,thereafter,before,9,,daxday,gekxtravaganza,"daxday happened. Thereafter, gekxtravaganza happened.",daxday occured before gekxtravaganza.,gekxtravaganza occured before daxday.
+220,temporal,thereafter,before,10,,fepfestival,gekxtravaganza,"fepfestival happened. Thereafter, gekxtravaganza happened.",fepfestival occured before gekxtravaganza.,gekxtravaganza occured before fepfestival.
+221,temporal,therefore,after,1,,gekxtravaganza,wugfest,"gekxtravaganza happened. Therefore, wugfest happened.",gekxtravaganza occured after wugfest.,wugfest occured after gekxtravaganza.
+222,temporal,therefore,after,2,,blicketbash,gekxtravaganza,"blicketbash happened. Therefore, gekxtravaganza happened.",blicketbash occured after gekxtravaganza.,gekxtravaganza occured after blicketbash.
+223,temporal,therefore,after,3,,gekxtravaganza,wugfest,"gekxtravaganza happened. Therefore, wugfest happened.",gekxtravaganza occured after wugfest.,wugfest occured after gekxtravaganza.
+224,temporal,therefore,after,4,,wugfest,blicketbash,"wugfest happened. Therefore, blicketbash happened.",wugfest occured after blicketbash.,blicketbash occured after wugfest.
+225,temporal,therefore,after,5,,daxday,gekxtravaganza,"daxday happened. Therefore, gekxtravaganza happened.",daxday occured after gekxtravaganza.,gekxtravaganza occured after daxday.
+226,temporal,therefore,before,6,,gekxtravaganza,wugfest,"gekxtravaganza happened. Therefore, wugfest happened.",gekxtravaganza occured before wugfest.,wugfest occured before gekxtravaganza.
+227,temporal,therefore,after,7,,fepfestival,daxday,"fepfestival happened. Therefore, daxday happened.",fepfestival occured after daxday.,daxday occured after fepfestival.
+228,temporal,therefore,before,8,,daxday,fepfestival,"daxday happened. Therefore, fepfestival happened.",daxday occured before fepfestival.,fepfestival occured before daxday.
+229,temporal,therefore,before,9,,fepfestival,daxday,"fepfestival happened. Therefore, daxday happened.",fepfestival occured before daxday.,daxday occured before fepfestival.
+230,temporal,therefore,before,10,,fepfestival,wugfest,"fepfestival happened. Therefore, wugfest happened.",fepfestival occured before wugfest.,wugfest occured before fepfestival.

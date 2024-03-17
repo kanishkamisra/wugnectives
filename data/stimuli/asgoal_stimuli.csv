@@ -1,0 +1,31 @@
+item_id,stimuli_type,connective,target,stimuli_instance,stimuli_instance_description,entity1,entity2,premise,inference1,inference2
+1,asgoal,in order to,requires,1,,gek,blick,"In order to blick, you need to gek.",gek requires blick.,blick requires gek.
+2,asgoal,in order to,requires,2,,gek,fep,You need to gek in order to fep.,gek requires fep.,fep requires gek.
+3,asgoal,in order to,requires,3,,blick,wug,You need to blick in order to wug.,blick requires wug.,wug requires blick.
+4,asgoal,in order to,requires,4,,dax,blick,"In order to blick, you need to dax.",dax requires blick.,blick requires dax.
+5,asgoal,in order to,requires,5,,dax,wug,"In order to wug, you need to dax.",dax requires wug.,wug requires dax.
+6,asgoal,in order to,requires,6,,blick,dax,"In order to dax, you need to blick.",blick requires dax.,dax requires blick.
+7,asgoal,in order to,requires,7,,fep,gek,"In order to gek, you need to fep.",fep requires gek.,gek requires fep.
+8,asgoal,in order to,requires,8,,gek,wug,"In order to wug, you need to gek.",gek requires wug.,wug requires gek.
+9,asgoal,in order to,requires,9,,fep,dax,You need to fep in order to dax.,fep requires dax.,dax requires fep.
+10,asgoal,in order to,requires,10,,wug,blick,"In order to blick, you need to wug.",wug requires blick.,blick requires wug.
+11,asgoal,so that,requires,1,,dax,blick,You need to dax so that you can blick.,dax requires blick.,blick requires dax.
+12,asgoal,so that,requires,2,,wug,fep,You need to wug so that you can fep.,wug requires fep.,fep requires wug.
+13,asgoal,so that,requires,3,,gek,dax,You need to gek so that you can dax.,gek requires dax.,dax requires gek.
+14,asgoal,so that,requires,4,,dax,blick,You need to dax so that you can blick.,dax requires blick.,blick requires dax.
+15,asgoal,so that,requires,5,,blick,fep,You need to blick so that you can fep.,blick requires fep.,fep requires blick.
+16,asgoal,so that,requires,6,,gek,blick,You need to gek so that you can blick.,gek requires blick.,blick requires gek.
+17,asgoal,so that,requires,7,,dax,wug,You need to dax so that you can wug.,dax requires wug.,wug requires dax.
+18,asgoal,so that,requires,8,,gek,fep,You need to gek so that you can fep.,gek requires fep.,fep requires gek.
+19,asgoal,so that,requires,9,,gek,wug,You need to gek so that you can wug.,gek requires wug.,wug requires gek.
+20,asgoal,so that,requires,10,,gek,dax,You need to gek so that you can dax.,gek requires dax.,dax requires gek.
+21,asgoal,so as,requires,1,,dax,fep,You need to dax so as to be able to fep.,dax requires fep.,fep requires dax.
+22,asgoal,so as,requires,2,,wug,dax,You need to wug so as to be able to dax.,wug requires dax.,dax requires wug.
+23,asgoal,so as,requires,3,,wug,blick,You need to wug so as to be able to blick.,wug requires blick.,blick requires wug.
+24,asgoal,so as,requires,4,,blick,dax,You need to blick so as to be able to dax.,blick requires dax.,dax requires blick.
+25,asgoal,so as,requires,5,,blick,wug,You need to blick so as to be able to wug.,blick requires wug.,wug requires blick.
+26,asgoal,so as,requires,6,,fep,wug,You need to fep so as to be able to wug.,fep requires wug.,wug requires fep.
+27,asgoal,so as,requires,7,,fep,wug,You need to fep so as to be able to wug.,fep requires wug.,wug requires fep.
+28,asgoal,so as,requires,8,,gek,wug,You need to gek so as to be able to wug.,gek requires wug.,wug requires gek.
+29,asgoal,so as,requires,9,,blick,fep,You need to blick so as to be able to fep.,blick requires fep.,fep requires blick.
+30,asgoal,so as,requires,10,,gek,wug,You need to gek so as to be able to wug.,gek requires wug.,wug requires gek.
