@@ -17,10 +17,14 @@ def make_stimuli(args, question, connectives, directions, nonces, template_nonce
         for nonce_1, nonce_2 in itertools.permutations(nonces, 2):
             new_prompt = prompt.replace(template_nonces[0], nonce_1).replace(template_nonces[1], nonce_2)
             new_question = question.replace(template_nonces[0], nonce_1).replace(template_nonces[1], nonce_2)
-            if direction == "right": 
-                output_prompts[conn].append((new_prompt, new_question, nonce_2))
-            else:
-                output_prompts[conn].append((new_prompt, new_question, nonce_1))
+            
+            output_prompts[conn].append((new_prompt, new_question, direction, nonce_1, nonce_2))
+            
+            # if direction == "right": 
+                # output_prompts[conn].append((new_prompt, new_question, nonce_2))
+                
+            # else:
+                # output_prompts[conn].append((new_prompt, new_question, nonce_1))
             
     return output_prompts
     
@@ -28,30 +32,20 @@ def make_stimuli(args, question, connectives, directions, nonces, template_nonce
 
 # Examples:
 
-# stimulus = make_stimuli(args=["I [wug]ed","I was [dax]."], 
-#                         question="Was I [dax] before [wug]ing, after [wug]ing, or during [wug]ing?", 
-#                         connectives=["as","then","previously"],
-#                         nonces=["X","Y","Z"],
-#                         template_nonces=["[wug]","[dax]"])
+# question = "Which city is the state capital?"
+# argset_1 = ["I prefer [X] to [Y]", "I like state capitals."]
+# conn_1 = ["because", "however", "although", "but", "as", "since", "for", "though", "nevertheless", "even though"]
+# directions_1 = ["left", "right", "right", "right", "left", "left", "left", "right", "right", "right"]
+# nonces = ("wugsland", "daxville", "wugsburg", "daxtown", "wug","dax","xyz","abc","X","Y")
 
-
-# for conn in stimulus.keys():
-#     for prompt, question in stimulus[conn]:
-#         print(prompt, "\tQ: ", question)
-#     print("#-----------------------------------------------------------#")
-
-# print()
-
-# stimulus = make_stimuli(args=["I prefer [wug] to [dax]","I hate the snowy winters."], 
-#                         question="Which has the snowy winters?", 
-#                         connectives=["because", "however"],
-#                         nonces=["X","Y","Z","A","B","C"],
-#                         template_nonces=["[wug]","[dax]"])
+# stimulus = make_stimuli(args=argset_1,
+#                           question=question,
+#                           connectives=conn_1,
+#                           directions=directions_1,
+#                           nonces=nonces,
+#                           template_nonces=["[X]", "[Y]"],)
 
 # for conn in stimulus.keys():
-#     for prompt, question in stimulus[conn]:
-#         print(prompt, "\tQ: ", question)
+#     for prompt, question, direction, nonce_1, nonce_2 in stimulus[conn]:
+#         print(prompt, "\tQ: ", question, "\t", direction, "\t", nonce_1, "\t", nonce_2)
 #     print("#-----------------------------------------------------------#")
-
-
-

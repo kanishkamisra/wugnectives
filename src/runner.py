@@ -41,42 +41,35 @@ stimulus_2 = make_stimuli(args=argset_2,
 
 
 scores = []
-scores.append(evaluate_stimuli(model,stimulus_1, nonces))
-scores.append(evaluate_stimuli(model,stimulus_2, nonces))
+scores.append((stimulus_1, evaluate_stimuli(model,stimulus_1)))
+scores.append((stimulus_2, evaluate_stimuli(model,stimulus_2)))
 
 
 # print(scores)
 with open("output.csv", 'w+', newline='') as csvfile:
     writer = csv.writer(csvfile, delimiter=",")
     
-    header = ["prompt", "question", "expected output", "generated output"]
-    
-    # Get 'dummy' connectives and nonces in the scores object to add all included nonces to the output csv header
-    # so it doesn't depend on having nonces/prompts/questions in this file, which may change
-    header.extend(scores[0][next(iter(scores[0].keys()))][next(iter(scores[0][next(iter(scores[0].keys()))].keys()))])
+    header = ["connective", "prompt", "question", "right direction", "direction", "nonce_1", "nonce_2", "nonce_1_score", "nonce_2_score"]
     
     writer.writerow(header)
     
-    for score in scores:
+    for stimulus, score in scores:
         for conn in score.keys():
-            for p, q, r in stimulus_1[conn]:
+            for p, q, direction, nonce_1, nonce_2 in stimulus[conn]:
+                
+                # check right direction
+                nonce_1_score =  score[conn][(p,q)][nonce_1]
+                nonce_2_score =  score[conn][(p,q)][nonce_2]
+                
+                correct = False
+                
+                if direction == "left" and nonce_1_score >= nonce_2_score:
+                    correct = True
+                if direction == "right" and nonce_2_score >= nonce_1_score:
+                    correct = True
+                    
+                # print(direction, correct, nonce_1_score, nonce_2_score, "\n")
 
-                # find max score
-                max = ["none", -sys.maxsize]
-                for nonce, val in score[conn][(p,q)].items():
-                    print(nonce + ":", val)
-
-                    if val[0] >= max[1]:
-                        max[0] = nonce
-                        max[1] = val[0]
-
-
-                row = [p, q, r, max[0]]
-                raw_score = [ val[0] for val in score[conn][(p,q)].values() ]
-                row.extend(raw_score)
+                row = [conn, p, q, correct, direction, nonce_1, nonce_2, nonce_1_score, nonce_2_score]
                 writer.writerow(row)
 
-                print("expected response: \"" + r + "\"\tMax response:", max[0], "\tWas correct?", max[0] == r )
-                print(p, "\tQ:", q,"\t",score[conn][(p,q)], "\n")
-
-print("#-----------------------------------------------------------#")
