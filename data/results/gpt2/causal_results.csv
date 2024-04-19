@@ -1,0 +1,181 @@
+id,score,nonce,connective,target,statement,conclusion
+causal,-2.361537456512451,daxing,as long as,causes,daxing will happen as long as fepping happens.,daxing causes fepping.
+causal,-2.4498744010925293,fepping,as long as,causes,daxing will happen as long as fepping happens.,fepping causes daxing.
+causal,-1.9109277725219727,wugging,as long as,causes,wugging will happen as long as gekking happens.,wugging causes gekking.
+causal,-2.1602635383605957,gekking,as long as,causes,wugging will happen as long as gekking happens.,gekking causes wugging.
+causal,-2.515141248703003,gekking,as long as,causes,gekking will happen as long as fepping happens.,gekking causes fepping.
+causal,-3.2981278896331787,fepping,as long as,causes,gekking will happen as long as fepping happens.,fepping causes gekking.
+causal,-2.326223850250244,gekking,as long as,causes,gekking will happen as long as blicking happens.,gekking causes blicking.
+causal,-3.024543285369873,blicking,as long as,causes,gekking will happen as long as blicking happens.,blicking causes gekking.
+causal,-2.3547961711883545,blicking,as long as,causes,blicking will happen as long as fepping happens.,blicking causes fepping.
+causal,-3.020663022994995,fepping,as long as,causes,blicking will happen as long as fepping happens.,fepping causes blicking.
+causal,-1.8488456010818481,blicking,as long as,causes,blicking will happen as long as daxing happens.,blicking causes daxing.
+causal,-2.4273829460144043,daxing,as long as,causes,blicking will happen as long as daxing happens.,daxing causes blicking.
+causal,-2.6657984256744385,fepping,as long as,causes,fepping will happen as long as blicking happens.,fepping causes blicking.
+causal,-3.02984881401062,blicking,as long as,causes,fepping will happen as long as blicking happens.,blicking causes fepping.
+causal,-1.7638859748840332,wugging,as long as,causes,wugging will happen as long as daxing happens.,wugging causes daxing.
+causal,-2.1787922382354736,daxing,as long as,causes,wugging will happen as long as daxing happens.,daxing causes wugging.
+causal,-2.0789053440093994,blicking,as long as,causes,blicking will happen as long as gekking happens.,blicking causes gekking.
+causal,-2.4078240394592285,gekking,as long as,causes,blicking will happen as long as gekking happens.,gekking causes blicking.
+causal,-2.361537456512451,daxing,as long as,causes,daxing will happen as long as fepping happens.,daxing causes fepping.
+causal,-2.4498744010925293,fepping,as long as,causes,daxing will happen as long as fepping happens.,fepping causes daxing.
+causal,-2.6538238525390625,fepping,as a result,causes,"fepping happened. As a result, gekking happened.",fepping causes gekking.
+causal,-2.9875810146331787,gekking,as a result,causes,"fepping happened. As a result, gekking happened.",gekking causes fepping.
+causal,-2.0846190452575684,blicking,as a result,causes,"blicking happened. As a result, daxing happened.",blicking causes daxing.
+causal,-2.5245132446289062,daxing,as a result,causes,"blicking happened. As a result, daxing happened.",daxing causes blicking.
+causal,-2.1923625469207764,gekking,as a result,causes,"gekking happened. As a result, wugging happened.",gekking causes wugging.
+causal,-2.8242249488830566,wugging,as a result,causes,"gekking happened. As a result, wugging happened.",wugging causes gekking.
+causal,-2.2732529640197754,daxing,as a result,causes,"daxing happened. As a result, blicking happened.",daxing causes blicking.
+causal,-2.421491861343384,blicking,as a result,causes,"daxing happened. As a result, blicking happened.",blicking causes daxing.
+causal,-2.895878553390503,fepping,as a result,causes,"fepping happened. As a result, blicking happened.",fepping causes blicking.
+causal,-3.406662702560425,blicking,as a result,causes,"fepping happened. As a result, blicking happened.",blicking causes fepping.
+causal,-2.1394410133361816,daxing,as a result,causes,"daxing happened. As a result, wugging happened.",daxing causes wugging.
+causal,-2.0209343433380127,wugging,as a result,causes,"daxing happened. As a result, wugging happened.",wugging causes daxing.
+causal,-2.895878553390503,fepping,as a result,causes,"fepping happened. As a result, blicking happened.",fepping causes blicking.
+causal,-3.406662702560425,blicking,as a result,causes,"fepping happened. As a result, blicking happened.",blicking causes fepping.
+causal,-2.0575942993164062,daxing,as a result,causes,"daxing happened. As a result, gekking happened.",daxing causes gekking.
+causal,-2.0794789791107178,gekking,as a result,causes,"daxing happened. As a result, gekking happened.",gekking causes daxing.
+causal,-2.602290630340576,gekking,as a result,causes,"gekking happened. As a result, fepping happened.",gekking causes fepping.
+causal,-3.5102102756500244,fepping,as a result,causes,"gekking happened. As a result, fepping happened.",fepping causes gekking.
+causal,-2.2732529640197754,daxing,as a result,causes,"daxing happened. As a result, blicking happened.",daxing causes blicking.
+causal,-2.421491861343384,blicking,as a result,causes,"daxing happened. As a result, blicking happened.",blicking causes daxing.
+causal,-2.479419708251953,blicking,because,causes,blicking happened because fepping happened.,blicking causes fepping.
+causal,-2.987276792526245,fepping,because,causes,blicking happened because fepping happened.,fepping causes blicking.
+causal,-1.9566054344177246,wugging,because,causes,wugging happened because gekking happened.,wugging causes gekking.
+causal,-2.2142298221588135,gekking,because,causes,wugging happened because gekking happened.,gekking causes wugging.
+causal,-2.1841981410980225,gekking,because,causes,gekking happened because blicking happened.,gekking causes blicking.
+causal,-3.0533900260925293,blicking,because,causes,gekking happened because blicking happened.,blicking causes gekking.
+causal,-2.2904865741729736,daxing,because,causes,daxing happened because fepping happened.,daxing causes fepping.
+causal,-2.486056089401245,fepping,because,causes,daxing happened because fepping happened.,fepping causes daxing.
+causal,-2.1298766136169434,wugging,because,causes,wugging happened because fepping happened.,wugging causes fepping.
+causal,-2.6078732013702393,fepping,because,causes,wugging happened because fepping happened.,fepping causes wugging.
+causal,-2.1841981410980225,gekking,because,causes,gekking happened because blicking happened.,gekking causes blicking.
+causal,-3.0533900260925293,blicking,because,causes,gekking happened because blicking happened.,blicking causes gekking.
+causal,-2.1336402893066406,gekking,because,causes,gekking happened because wugging happened.,gekking causes wugging.
+causal,-2.765505790710449,wugging,because,causes,gekking happened because wugging happened.,wugging causes gekking.
+causal,-1.9857288599014282,blicking,because,causes,blicking happened because daxing happened.,blicking causes daxing.
+causal,-2.374721050262451,daxing,because,causes,blicking happened because daxing happened.,daxing causes blicking.
+causal,-2.6556754112243652,fepping,because,causes,fepping happened because blicking happened.,fepping causes blicking.
+causal,-3.1917285919189453,blicking,because,causes,fepping happened because blicking happened.,blicking causes fepping.
+causal,-1.9315975904464722,wugging,because,causes,wugging happened because blicking happened.,wugging causes blicking.
+causal,-2.5546600818634033,blicking,because,causes,wugging happened because blicking happened.,blicking causes wugging.
+causal,-1.8844271898269653,gekking,because of,causes,gekking happened because of daxing.,gekking causes daxing.
+causal,-2.671609401702881,daxing,because of,causes,gekking happened because of daxing.,daxing causes gekking.
+causal,-2.4236819744110107,gekking,because of,causes,gekking happened because of fepping.,gekking causes fepping.
+causal,-3.2893693447113037,fepping,because of,causes,gekking happened because of fepping.,fepping causes gekking.
+causal,-2.164416790008545,blicking,because of,causes,blicking happened because of gekking.,blicking causes gekking.
+causal,-2.4410018920898438,gekking,because of,causes,blicking happened because of gekking.,gekking causes blicking.
+causal,-2.0644311904907227,gekking,because of,causes,gekking happened because of wugging.,gekking causes wugging.
+causal,-2.69608211517334,wugging,because of,causes,gekking happened because of wugging.,wugging causes gekking.
+causal,-1.9452931880950928,wugging,because of,causes,wugging happened because of blicking.,wugging causes blicking.
+causal,-2.5057663917541504,blicking,because of,causes,wugging happened because of blicking.,blicking causes wugging.
+causal,-2.541797161102295,fepping,because of,causes,fepping happened because of gekking.,fepping causes gekking.
+causal,-2.86484956741333,gekking,because of,causes,fepping happened because of gekking.,gekking causes fepping.
+causal,-2.094146728515625,daxing,because of,causes,daxing happened because of blicking.,daxing causes blicking.
+causal,-2.2052128314971924,blicking,because of,causes,daxing happened because of blicking.,blicking causes daxing.
+causal,-1.9424872398376465,wugging,because of,causes,wugging happened because of gekking.,wugging causes gekking.
+causal,-2.2094476222991943,gekking,because of,causes,wugging happened because of gekking.,gekking causes wugging.
+causal,-2.597393751144409,fepping,because of,causes,fepping happened because of blicking.,fepping causes blicking.
+causal,-3.1899592876434326,blicking,because of,causes,fepping happened because of blicking.,blicking causes fepping.
+causal,-2.0269174575805664,daxing,because of,causes,daxing happened because of gekking.,daxing causes gekking.
+causal,-2.0102500915527344,gekking,because of,causes,daxing happened because of gekking.,gekking causes daxing.
+causal,-2.5885021686553955,gekking,consequently,causes,"gekking happened. Consequently, fepping happened.",gekking causes fepping.
+causal,-3.4392716884613037,fepping,consequently,causes,"gekking happened. Consequently, fepping happened.",fepping causes gekking.
+causal,-2.716853380203247,blicking,consequently,causes,"blicking happened. Consequently, fepping happened.",blicking causes fepping.
+causal,-3.2456514835357666,fepping,consequently,causes,"blicking happened. Consequently, fepping happened.",fepping causes blicking.
+causal,-2.312704086303711,gekking,consequently,causes,"gekking happened. Consequently, blicking happened.",gekking causes blicking.
+causal,-3.1685523986816406,blicking,consequently,causes,"gekking happened. Consequently, blicking happened.",blicking causes gekking.
+causal,-2.3277676105499268,blicking,consequently,causes,"blicking happened. Consequently, wugging happened.",blicking causes wugging.
+causal,-2.5918898582458496,wugging,consequently,causes,"blicking happened. Consequently, wugging happened.",wugging causes blicking.
+causal,-2.5656087398529053,fepping,consequently,causes,"fepping happened. Consequently, wugging happened.",fepping causes wugging.
+causal,-2.8087451457977295,wugging,consequently,causes,"fepping happened. Consequently, wugging happened.",wugging causes fepping.
+causal,-2.5885021686553955,gekking,consequently,causes,"gekking happened. Consequently, fepping happened.",gekking causes fepping.
+causal,-3.4392716884613037,fepping,consequently,causes,"gekking happened. Consequently, fepping happened.",fepping causes gekking.
+causal,-2.312704086303711,gekking,consequently,causes,"gekking happened. Consequently, blicking happened.",gekking causes blicking.
+causal,-3.1685523986816406,blicking,consequently,causes,"gekking happened. Consequently, blicking happened.",blicking causes gekking.
+causal,-1.9656256437301636,gekking,consequently,causes,"gekking happened. Consequently, daxing happened.",gekking causes daxing.
+causal,-2.781980514526367,daxing,consequently,causes,"gekking happened. Consequently, daxing happened.",daxing causes gekking.
+causal,-2.312704086303711,gekking,consequently,causes,"gekking happened. Consequently, blicking happened.",gekking causes blicking.
+causal,-3.1685523986816406,blicking,consequently,causes,"gekking happened. Consequently, blicking happened.",blicking causes gekking.
+causal,-2.312704086303711,gekking,consequently,causes,"gekking happened. Consequently, blicking happened.",gekking causes blicking.
+causal,-3.1685523986816406,blicking,consequently,causes,"gekking happened. Consequently, blicking happened.",blicking causes gekking.
+causal,-2.1422581672668457,daxing,hence,causes,"daxing happened. Hence, wugging happened.",daxing causes wugging.
+causal,-1.9999852180480957,wugging,hence,causes,"daxing happened. Hence, wugging happened.",wugging causes daxing.
+causal,-2.1422581672668457,daxing,hence,causes,"daxing happened. Hence, wugging happened.",daxing causes wugging.
+causal,-1.9999852180480957,wugging,hence,causes,"daxing happened. Hence, wugging happened.",wugging causes daxing.
+causal,-2.8970539569854736,fepping,hence,causes,"fepping happened. Hence, blicking happened.",fepping causes blicking.
+causal,-3.3010528087615967,blicking,hence,causes,"fepping happened. Hence, blicking happened.",blicking causes fepping.
+causal,-2.0863125324249268,blicking,hence,causes,"blicking happened. Hence, daxing happened.",blicking causes daxing.
+causal,-2.434257984161377,daxing,hence,causes,"blicking happened. Hence, daxing happened.",daxing causes blicking.
+causal,-2.40307354927063,gekking,hence,causes,"gekking happened. Hence, blicking happened.",gekking causes blicking.
+causal,-3.16709303855896,blicking,hence,causes,"gekking happened. Hence, blicking happened.",blicking causes gekking.
+causal,-2.026771068572998,daxing,hence,causes,"daxing happened. Hence, gekking happened.",daxing causes gekking.
+causal,-2.0353190898895264,gekking,hence,causes,"daxing happened. Hence, gekking happened.",gekking causes daxing.
+causal,-2.2183597087860107,blicking,hence,causes,"blicking happened. Hence, gekking happened.",blicking causes gekking.
+causal,-2.4846103191375732,gekking,hence,causes,"blicking happened. Hence, gekking happened.",gekking causes blicking.
+causal,-2.22440767288208,daxing,hence,causes,"daxing happened. Hence, blicking happened.",daxing causes blicking.
+causal,-2.3650577068328857,blicking,hence,causes,"daxing happened. Hence, blicking happened.",blicking causes daxing.
+causal,-2.655057191848755,gekking,hence,causes,"gekking happened. Hence, fepping happened.",gekking causes fepping.
+causal,-3.458862781524658,fepping,hence,causes,"gekking happened. Hence, fepping happened.",fepping causes gekking.
+causal,-2.40307354927063,gekking,hence,causes,"gekking happened. Hence, blicking happened.",gekking causes blicking.
+causal,-3.16709303855896,blicking,hence,causes,"gekking happened. Hence, blicking happened.",blicking causes gekking.
+causal,-2.2359063625335693,daxing,if,causes,daxing will happen if fepping happens.,daxing causes fepping.
+causal,-2.4594361782073975,fepping,if,causes,daxing will happen if fepping happens.,fepping causes daxing.
+causal,-2.2359063625335693,daxing,if,causes,daxing will happen if fepping happens.,daxing causes fepping.
+causal,-2.4594361782073975,fepping,if,causes,daxing will happen if fepping happens.,fepping causes daxing.
+causal,-2.0877480506896973,daxing,if,causes,daxing will happen if blicking happens.,daxing causes blicking.
+causal,-2.1390492916107178,blicking,if,causes,daxing will happen if blicking happens.,blicking causes daxing.
+causal,-2.3262710571289062,blicking,if,causes,blicking will happen if fepping happens.,blicking causes fepping.
+causal,-2.978752374649048,fepping,if,causes,blicking will happen if fepping happens.,fepping causes blicking.
+causal,-2.4094064235687256,fepping,if,causes,fepping will happen if wugging happens.,fepping causes wugging.
+causal,-2.634505033493042,wugging,if,causes,fepping will happen if wugging happens.,wugging causes fepping.
+causal,-2.3262710571289062,blicking,if,causes,blicking will happen if fepping happens.,blicking causes fepping.
+causal,-2.978752374649048,fepping,if,causes,blicking will happen if fepping happens.,fepping causes blicking.
+causal,-2.4094064235687256,fepping,if,causes,fepping will happen if wugging happens.,fepping causes wugging.
+causal,-2.634505033493042,wugging,if,causes,fepping will happen if wugging happens.,wugging causes fepping.
+causal,-2.0982742309570312,wugging,if,causes,wugging will happen if fepping happens.,wugging causes fepping.
+causal,-2.4863457679748535,fepping,if,causes,wugging will happen if fepping happens.,fepping causes wugging.
+causal,-2.5905234813690186,fepping,if,causes,fepping will happen if blicking happens.,fepping causes blicking.
+causal,-2.9802989959716797,blicking,if,causes,fepping will happen if blicking happens.,blicking causes fepping.
+causal,-2.2359063625335693,daxing,if,causes,daxing will happen if fepping happens.,daxing causes fepping.
+causal,-2.4594361782073975,fepping,if,causes,daxing will happen if fepping happens.,fepping causes daxing.
+causal,-2.096531867980957,daxing,only if,causes,daxing will happen only if wugging happens.,daxing causes wugging.
+causal,-1.9578609466552734,wugging,only if,causes,daxing will happen only if wugging happens.,wugging causes daxing.
+causal,-2.096531867980957,daxing,only if,causes,daxing will happen only if wugging happens.,daxing causes wugging.
+causal,-1.9578609466552734,wugging,only if,causes,daxing will happen only if wugging happens.,wugging causes daxing.
+causal,-2.096531867980957,daxing,only if,causes,daxing will happen only if wugging happens.,daxing causes wugging.
+causal,-1.9578609466552734,wugging,only if,causes,daxing will happen only if wugging happens.,wugging causes daxing.
+causal,-2.3524820804595947,blicking,only if,causes,blicking will happen only if fepping happens.,blicking causes fepping.
+causal,-2.9684150218963623,fepping,only if,causes,blicking will happen only if fepping happens.,fepping causes blicking.
+causal,-1.8086879253387451,wugging,only if,causes,wugging will happen only if daxing happens.,wugging causes daxing.
+causal,-2.179990291595459,daxing,only if,causes,wugging will happen only if daxing happens.,daxing causes wugging.
+causal,-1.997544765472412,gekking,only if,causes,gekking will happen only if daxing happens.,gekking causes daxing.
+causal,-2.7523984909057617,daxing,only if,causes,gekking will happen only if daxing happens.,daxing causes gekking.
+causal,-2.1230828762054443,blicking,only if,causes,blicking will happen only if gekking happens.,blicking causes gekking.
+causal,-2.3812408447265625,gekking,only if,causes,blicking will happen only if gekking happens.,gekking causes blicking.
+causal,-2.571582317352295,fepping,only if,causes,fepping will happen only if gekking happens.,fepping causes gekking.
+causal,-2.6903936862945557,gekking,only if,causes,fepping will happen only if gekking happens.,gekking causes fepping.
+causal,-1.9347267150878906,wugging,only if,causes,wugging will happen only if gekking happens.,wugging causes gekking.
+causal,-2.131999969482422,gekking,only if,causes,wugging will happen only if gekking happens.,gekking causes wugging.
+causal,-2.089818000793457,gekking,only if,causes,gekking will happen only if wugging happens.,gekking causes wugging.
+causal,-2.693183422088623,wugging,only if,causes,gekking will happen only if wugging happens.,wugging causes gekking.
+causal,-2.0781521797180176,blicking,therefore,causes,"blicking happened. Therefore, daxing happened.",blicking causes daxing.
+causal,-2.44030499458313,daxing,therefore,causes,"blicking happened. Therefore, daxing happened.",daxing causes blicking.
+causal,-2.2274868488311768,blicking,therefore,causes,"blicking happened. Therefore, gekking happened.",blicking causes gekking.
+causal,-2.4726126194000244,gekking,therefore,causes,"blicking happened. Therefore, gekking happened.",gekking causes blicking.
+causal,-2.62150239944458,fepping,therefore,causes,"fepping happened. Therefore, wugging happened.",fepping causes wugging.
+causal,-2.807802438735962,wugging,therefore,causes,"fepping happened. Therefore, wugging happened.",wugging causes fepping.
+causal,-2.62150239944458,fepping,therefore,causes,"fepping happened. Therefore, wugging happened.",fepping causes wugging.
+causal,-2.807802438735962,wugging,therefore,causes,"fepping happened. Therefore, wugging happened.",wugging causes fepping.
+causal,-2.901007890701294,fepping,therefore,causes,"fepping happened. Therefore, blicking happened.",fepping causes blicking.
+causal,-3.314121961593628,blicking,therefore,causes,"fepping happened. Therefore, blicking happened.",blicking causes fepping.
+causal,-2.2473304271698,daxing,therefore,causes,"daxing happened. Therefore, blicking happened.",daxing causes blicking.
+causal,-2.3629913330078125,blicking,therefore,causes,"daxing happened. Therefore, blicking happened.",blicking causes daxing.
+causal,-2.1486072540283203,daxing,therefore,causes,"daxing happened. Therefore, wugging happened.",daxing causes wugging.
+causal,-2.0021798610687256,wugging,therefore,causes,"daxing happened. Therefore, wugging happened.",wugging causes daxing.
+causal,-2.2473304271698,daxing,therefore,causes,"daxing happened. Therefore, blicking happened.",daxing causes blicking.
+causal,-2.3629913330078125,blicking,therefore,causes,"daxing happened. Therefore, blicking happened.",blicking causes daxing.
+causal,-2.1486072540283203,daxing,therefore,causes,"daxing happened. Therefore, wugging happened.",daxing causes wugging.
+causal,-2.0021798610687256,wugging,therefore,causes,"daxing happened. Therefore, wugging happened.",wugging causes daxing.
+causal,-2.4375431537628174,fepping,therefore,causes,"fepping happened. Therefore, daxing happened.",fepping causes daxing.
+causal,-2.8642585277557373,daxing,therefore,causes,"fepping happened. Therefore, daxing happened.",daxing causes fepping.

@@ -1,0 +1,81 @@
+id,score,nonce,connective,target,statement,conclusion
+instantiation,-2.080050468444824,blickets,for example,are a type of,"I hate blickets, for example, wugs are awful.",blickets are instances of wugs.
+instantiation,-1.8552870750427246,wugs,for example,are a type of,"I hate blickets, for example, wugs are awful.",wugs are instances of blickets.
+instantiation,-1.814946174621582,blickets,for example,are a type of,"I like blickets, for example, daxes are nice.",blickets are instances of daxes.
+instantiation,-1.6481965780258179,daxes,for example,are a type of,"I like blickets, for example, daxes are nice.",daxes are instances of blickets.
+instantiation,-1.9294673204421997,blickets,for example,are a type of,"I hate blickets, for example, feps are awful.",blickets are instances of feps.
+instantiation,-1.7574800252914429,feps,for example,are a type of,"I hate blickets, for example, feps are awful.",feps are instances of blickets.
+instantiation,-2.0424132347106934,blickets,for example,are a type of,"I hate blickets, for example, geks are awful.",blickets are instances of geks.
+instantiation,-1.9009222984313965,geks,for example,are a type of,"I hate blickets, for example, geks are awful.",geks are instances of blickets.
+instantiation,-1.973299264907837,wugs,for example,are a type of,"I hate wugs, for example, daxes are awful.",wugs are instances of daxes.
+instantiation,-1.8961737155914307,daxes,for example,are a type of,"I hate wugs, for example, daxes are awful.",daxes are instances of wugs.
+instantiation,-1.973299264907837,wugs,for example,are a type of,"I hate wugs, for example, daxes are awful.",wugs are instances of daxes.
+instantiation,-1.8961737155914307,daxes,for example,are a type of,"I hate wugs, for example, daxes are awful.",daxes are instances of wugs.
+instantiation,-2.1535208225250244,geks,for example,are a type of,"I like geks, for example, daxes are nice.",geks are instances of daxes.
+instantiation,-1.8961100578308105,daxes,for example,are a type of,"I like geks, for example, daxes are nice.",daxes are instances of geks.
+instantiation,-2.2983193397521973,wugs,for example,are a type of,"I hate wugs, for example, geks are awful.",wugs are instances of geks.
+instantiation,-2.250847578048706,geks,for example,are a type of,"I hate wugs, for example, geks are awful.",geks are instances of wugs.
+instantiation,-2.0424132347106934,blickets,for example,are a type of,"I hate blickets, for example, geks are awful.",blickets are instances of geks.
+instantiation,-1.9009222984313965,geks,for example,are a type of,"I hate blickets, for example, geks are awful.",geks are instances of blickets.
+instantiation,-2.0699312686920166,daxes,for example,are a type of,"I hate daxes, for example, geks are awful.",daxes are instances of geks.
+instantiation,-1.969564437866211,geks,for example,are a type of,"I hate daxes, for example, geks are awful.",geks are instances of daxes.
+instantiation,-1.8274866342544556,feps,for instance,are a type of,"I hate feps, for instance, daxes are awful.",feps are instances of daxes.
+instantiation,-1.720975637435913,daxes,for instance,are a type of,"I hate feps, for instance, daxes are awful.",daxes are instances of feps.
+instantiation,-1.5452238321304321,daxes,for instance,are a type of,"I like daxes, for instance, wugs are nice.",daxes are instances of wugs.
+instantiation,-1.3500186204910278,wugs,for instance,are a type of,"I like daxes, for instance, wugs are nice.",wugs are instances of daxes.
+instantiation,-1.6233707666397095,blickets,for instance,are a type of,"I like blickets, for instance, wugs are nice.",blickets are instances of wugs.
+instantiation,-1.416393756866455,wugs,for instance,are a type of,"I like blickets, for instance, wugs are nice.",wugs are instances of blickets.
+instantiation,-1.5452238321304321,daxes,for instance,are a type of,"I like daxes, for instance, wugs are nice.",daxes are instances of wugs.
+instantiation,-1.3500186204910278,wugs,for instance,are a type of,"I like daxes, for instance, wugs are nice.",wugs are instances of daxes.
+instantiation,-2.1063666343688965,geks,for instance,are a type of,"I hate geks, for instance, wugs are awful.",geks are instances of wugs.
+instantiation,-1.8433523178100586,wugs,for instance,are a type of,"I hate geks, for instance, wugs are awful.",wugs are instances of geks.
+instantiation,-1.8614896535873413,geks,for instance,are a type of,"I like geks, for instance, wugs are nice.",geks are instances of wugs.
+instantiation,-1.5842304229736328,wugs,for instance,are a type of,"I like geks, for instance, wugs are nice.",wugs are instances of geks.
+instantiation,-1.6224865913391113,wugs,for instance,are a type of,"I hate wugs, for instance, blickets are awful.",wugs are instances of blickets.
+instantiation,-1.5378488302230835,blickets,for instance,are a type of,"I hate wugs, for instance, blickets are awful.",blickets are instances of wugs.
+instantiation,-1.6120671033859253,daxes,for instance,are a type of,"I like daxes, for instance, geks are nice.",daxes are instances of geks.
+instantiation,-1.439069151878357,geks,for instance,are a type of,"I like daxes, for instance, geks are nice.",geks are instances of daxes.
+instantiation,-1.5191677808761597,daxes,for instance,are a type of,"I like daxes, for instance, feps are nice.",daxes are instances of feps.
+instantiation,-1.3546043634414673,feps,for instance,are a type of,"I like daxes, for instance, feps are nice.",feps are instances of daxes.
+instantiation,-2.068307399749756,geks,for instance,are a type of,"I hate geks, for instance, feps are awful.",geks are instances of feps.
+instantiation,-1.769213080406189,feps,for instance,are a type of,"I hate geks, for instance, feps are awful.",feps are instances of geks.
+instantiation,-2.152756452560425,daxes,in particular,are a type of,"I find daxes, in particular, feps to be cute.",daxes are instances of feps.
+instantiation,-1.9078954458236694,feps,in particular,are a type of,"I find daxes, in particular, feps to be cute.",feps are instances of daxes.
+instantiation,-2.1507670879364014,geks,in particular,are a type of,"I find geks, in particular, daxes to be awful.",geks are instances of daxes.
+instantiation,-1.9645699262619019,daxes,in particular,are a type of,"I find geks, in particular, daxes to be awful.",daxes are instances of geks.
+instantiation,-2.4374585151672363,feps,in particular,are a type of,"I find feps, in particular, geks to be cute.",feps are instances of geks.
+instantiation,-2.3109817504882812,geks,in particular,are a type of,"I find feps, in particular, geks to be cute.",geks are instances of feps.
+instantiation,-2.1507670879364014,geks,in particular,are a type of,"I find geks, in particular, daxes to be awful.",geks are instances of daxes.
+instantiation,-1.9645699262619019,daxes,in particular,are a type of,"I find geks, in particular, daxes to be awful.",daxes are instances of geks.
+instantiation,-2.1294853687286377,geks,in particular,are a type of,"I find geks, in particular, blickets to be cute.",geks are instances of blickets.
+instantiation,-1.91355299949646,blickets,in particular,are a type of,"I find geks, in particular, blickets to be cute.",blickets are instances of geks.
+instantiation,-1.8858180046081543,feps,in particular,are a type of,"I find feps, in particular, blickets to be awful.",feps are instances of blickets.
+instantiation,-1.844977855682373,blickets,in particular,are a type of,"I find feps, in particular, blickets to be awful.",blickets are instances of feps.
+instantiation,-2.130340337753296,blickets,in particular,are a type of,"I find blickets, in particular, geks to be cute.",blickets are instances of geks.
+instantiation,-1.9079780578613281,geks,in particular,are a type of,"I find blickets, in particular, geks to be cute.",geks are instances of blickets.
+instantiation,-1.9293897151947021,feps,in particular,are a type of,"I find feps, in particular, blickets to be cute.",feps are instances of blickets.
+instantiation,-1.9372954368591309,blickets,in particular,are a type of,"I find feps, in particular, blickets to be cute.",blickets are instances of feps.
+instantiation,-2.1294853687286377,geks,in particular,are a type of,"I find geks, in particular, blickets to be cute.",geks are instances of blickets.
+instantiation,-1.91355299949646,blickets,in particular,are a type of,"I find geks, in particular, blickets to be cute.",blickets are instances of geks.
+instantiation,-2.152756452560425,daxes,in particular,are a type of,"I find daxes, in particular, feps to be cute.",daxes are instances of feps.
+instantiation,-1.9078954458236694,feps,in particular,are a type of,"I find daxes, in particular, feps to be cute.",feps are instances of daxes.
+instantiation,-2.0627942085266113,blickets,such as,are a type of,"I find blickets such as wugs, to be awful.",blickets are instances of wugs.
+instantiation,-1.811858892440796,wugs,such as,are a type of,"I find blickets such as wugs, to be awful.",wugs are instances of blickets.
+instantiation,-1.8978989124298096,blickets,such as,are a type of,"I find blickets such as daxes, to be awful.",blickets are instances of daxes.
+instantiation,-1.7071640491485596,daxes,such as,are a type of,"I find blickets such as daxes, to be awful.",daxes are instances of blickets.
+instantiation,-2.317734718322754,daxes,such as,are a type of,"I find daxes such as feps, to be cute.",daxes are instances of feps.
+instantiation,-2.0550334453582764,feps,such as,are a type of,"I find daxes such as feps, to be cute.",feps are instances of daxes.
+instantiation,-2.4142661094665527,feps,such as,are a type of,"I find feps such as wugs, to be awful.",feps are instances of wugs.
+instantiation,-2.0392675399780273,wugs,such as,are a type of,"I find feps such as wugs, to be awful.",wugs are instances of feps.
+instantiation,-2.6102824211120605,feps,such as,are a type of,"I find feps such as wugs, to be cute.",feps are instances of wugs.
+instantiation,-2.115262985229492,wugs,such as,are a type of,"I find feps such as wugs, to be cute.",wugs are instances of feps.
+instantiation,-2.2255501747131348,wugs,such as,are a type of,"I find wugs such as feps, to be awful.",wugs are instances of feps.
+instantiation,-1.9497076272964478,feps,such as,are a type of,"I find wugs such as feps, to be awful.",feps are instances of wugs.
+instantiation,-2.6476516723632812,geks,such as,are a type of,"I find geks such as wugs, to be cute.",geks are instances of wugs.
+instantiation,-2.3481240272521973,wugs,such as,are a type of,"I find geks such as wugs, to be cute.",wugs are instances of geks.
+instantiation,-2.2603023052215576,daxes,such as,are a type of,"I find daxes such as geks, to be awful.",daxes are instances of geks.
+instantiation,-2.094864845275879,geks,such as,are a type of,"I find daxes such as geks, to be awful.",geks are instances of daxes.
+instantiation,-2.2767200469970703,daxes,such as,are a type of,"I find daxes such as feps, to be awful.",daxes are instances of feps.
+instantiation,-2.132188081741333,feps,such as,are a type of,"I find daxes such as feps, to be awful.",feps are instances of daxes.
+instantiation,-2.1015052795410156,wugs,such as,are a type of,"I find wugs such as daxes, to be cute.",wugs are instances of daxes.
+instantiation,-2.003554105758667,daxes,such as,are a type of,"I find wugs such as daxes, to be cute.",daxes are instances of wugs.

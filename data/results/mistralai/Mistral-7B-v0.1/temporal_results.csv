@@ -1,0 +1,461 @@
+id,score,nonce,connective,target,statement,conclusion
+temporal,-0.8600959777832031,gekxtravaganza,after,before,"After blicketbash, gekxtravaganza happened.",gekxtravaganza occured before blicketbash.
+temporal,-0.8269367814064026,blicketbash,after,before,"After blicketbash, gekxtravaganza happened.",blicketbash occured before gekxtravaganza.
+temporal,-0.8770394325256348,gekxtravaganza,after,after,"After wugfest, gekxtravaganza happened.",gekxtravaganza occured after wugfest.
+temporal,-0.9409355521202087,wugfest,after,after,"After wugfest, gekxtravaganza happened.",wugfest occured after gekxtravaganza.
+temporal,-1.064167857170105,gekxtravaganza,after,before,gekxtravaganza happened after fepfestival.,gekxtravaganza occured before fepfestival.
+temporal,-0.8962017297744751,fepfestival,after,before,gekxtravaganza happened after fepfestival.,fepfestival occured before gekxtravaganza.
+temporal,-1.2379788160324097,daxday,after,before,"After wugfest, daxday happened.",daxday occured before wugfest.
+temporal,-1.0472676753997803,wugfest,after,before,"After wugfest, daxday happened.",wugfest occured before daxday.
+temporal,-1.005393147468567,daxday,after,after,"After blicketbash, daxday happened.",daxday occured after blicketbash.
+temporal,-1.1240283250808716,blicketbash,after,after,"After blicketbash, daxday happened.",blicketbash occured after daxday.
+temporal,-1.0817383527755737,daxday,after,before,"After blicketbash, daxday happened.",daxday occured before blicketbash.
+temporal,-1.0239897966384888,blicketbash,after,before,"After blicketbash, daxday happened.",blicketbash occured before daxday.
+temporal,-0.9513803720474243,blicketbash,after,after,"After fepfestival, blicketbash happened.",blicketbash occured after fepfestival.
+temporal,-1.0335768461227417,fepfestival,after,after,"After fepfestival, blicketbash happened.",fepfestival occured after blicketbash.
+temporal,-1.1124160289764404,fepfestival,after,after,fepfestival happened after wugfest.,fepfestival occured after wugfest.
+temporal,-1.1586695909500122,wugfest,after,after,fepfestival happened after wugfest.,wugfest occured after fepfestival.
+temporal,-0.8399258255958557,blicketbash,after,after,"After gekxtravaganza, blicketbash happened.",blicketbash occured after gekxtravaganza.
+temporal,-0.9282302260398865,gekxtravaganza,after,after,"After gekxtravaganza, blicketbash happened.",gekxtravaganza occured after blicketbash.
+temporal,-0.9234246611595154,gekxtravaganza,after,before,"After wugfest, gekxtravaganza happened.",gekxtravaganza occured before wugfest.
+temporal,-0.8283013105392456,wugfest,after,before,"After wugfest, gekxtravaganza happened.",wugfest occured before gekxtravaganza.
+temporal,-0.9032360911369324,fepfestival,afterwards,before,"fepfestival happened. Afterwards, gekxtravaganza happened.",fepfestival occured before gekxtravaganza.
+temporal,-1.0480819940567017,gekxtravaganza,afterwards,before,"fepfestival happened. Afterwards, gekxtravaganza happened.",gekxtravaganza occured before fepfestival.
+temporal,-1.003023386001587,blicketbash,afterwards,after,"blicketbash happened. Afterwards, wugfest happened.",blicketbash occured after wugfest.
+temporal,-0.9864292740821838,wugfest,afterwards,after,"blicketbash happened. Afterwards, wugfest happened.",wugfest occured after blicketbash.
+temporal,-1.1643033027648926,wugfest,afterwards,after,"wugfest happened. Afterwards, daxday happened.",wugfest occured after daxday.
+temporal,-1.1545377969741821,daxday,afterwards,after,"wugfest happened. Afterwards, daxday happened.",daxday occured after wugfest.
+temporal,-1.003023386001587,blicketbash,afterwards,after,"blicketbash happened. Afterwards, wugfest happened.",blicketbash occured after wugfest.
+temporal,-0.9864292740821838,wugfest,afterwards,after,"blicketbash happened. Afterwards, wugfest happened.",wugfest occured after blicketbash.
+temporal,-1.0943058729171753,gekxtravaganza,afterwards,after,"gekxtravaganza happened. Afterwards, daxday happened.",gekxtravaganza occured after daxday.
+temporal,-1.0269500017166138,daxday,afterwards,after,"gekxtravaganza happened. Afterwards, daxday happened.",daxday occured after gekxtravaganza.
+temporal,-0.9126455783843994,blicketbash,afterwards,before,"blicketbash happened. Afterwards, wugfest happened.",blicketbash occured before wugfest.
+temporal,-0.9963014125823975,wugfest,afterwards,before,"blicketbash happened. Afterwards, wugfest happened.",wugfest occured before blicketbash.
+temporal,-1.2213070392608643,daxday,afterwards,after,"daxday happened. Afterwards, fepfestival happened.",daxday occured after fepfestival.
+temporal,-1.1293786764144897,fepfestival,afterwards,after,"daxday happened. Afterwards, fepfestival happened.",fepfestival occured after daxday.
+temporal,-1.1643033027648926,wugfest,afterwards,after,"wugfest happened. Afterwards, daxday happened.",wugfest occured after daxday.
+temporal,-1.1545377969741821,daxday,afterwards,after,"wugfest happened. Afterwards, daxday happened.",daxday occured after wugfest.
+temporal,-1.1643033027648926,wugfest,afterwards,after,"wugfest happened. Afterwards, daxday happened.",wugfest occured after daxday.
+temporal,-1.1545377969741821,daxday,afterwards,after,"wugfest happened. Afterwards, daxday happened.",daxday occured after wugfest.
+temporal,-1.0591012239456177,gekxtravaganza,afterwards,after,"gekxtravaganza happened. Afterwards, fepfestival happened.",gekxtravaganza occured after fepfestival.
+temporal,-0.963518500328064,fepfestival,afterwards,after,"gekxtravaganza happened. Afterwards, fepfestival happened.",fepfestival occured after gekxtravaganza.
+temporal,-1.2709091901779175,blicketbash,as soon as,before,blicketbash happened as soon as daxday finished.,blicketbash occured before daxday.
+temporal,-1.1828283071517944,daxday,as soon as,before,blicketbash happened as soon as daxday finished.,daxday occured before blicketbash.
+temporal,-1.1778632402420044,blicketbash,as soon as,before,"As soon as daxday finished, blicketbash happened.",blicketbash occured before daxday.
+temporal,-1.0551148653030396,daxday,as soon as,before,"As soon as daxday finished, blicketbash happened.",daxday occured before blicketbash.
+temporal,-1.0850436687469482,fepfestival,as soon as,after,fepfestival happened as soon as blicketbash finished.,fepfestival occured after blicketbash.
+temporal,-1.2167770862579346,blicketbash,as soon as,after,fepfestival happened as soon as blicketbash finished.,blicketbash occured after fepfestival.
+temporal,-1.2010561227798462,wugfest,as soon as,after,wugfest happened as soon as fepfestival finished.,wugfest occured after fepfestival.
+temporal,-1.400850772857666,fepfestival,as soon as,after,wugfest happened as soon as fepfestival finished.,fepfestival occured after wugfest.
+temporal,-1.2024258375167847,daxday,as soon as,after,daxday happened as soon as blicketbash finished.,daxday occured after blicketbash.
+temporal,-1.3119343519210815,blicketbash,as soon as,after,daxday happened as soon as blicketbash finished.,blicketbash occured after daxday.
+temporal,-1.0850436687469482,fepfestival,as soon as,after,fepfestival happened as soon as blicketbash finished.,fepfestival occured after blicketbash.
+temporal,-1.2167770862579346,blicketbash,as soon as,after,fepfestival happened as soon as blicketbash finished.,blicketbash occured after fepfestival.
+temporal,-1.2268034219741821,daxday,as soon as,before,daxday happened as soon as gekxtravaganza finished.,daxday occured before gekxtravaganza.
+temporal,-1.1656198501586914,gekxtravaganza,as soon as,before,daxday happened as soon as gekxtravaganza finished.,gekxtravaganza occured before daxday.
+temporal,-1.1469498872756958,blicketbash,as soon as,after,blicketbash happened as soon as wugfest finished.,blicketbash occured after wugfest.
+temporal,-1.2569650411605835,wugfest,as soon as,after,blicketbash happened as soon as wugfest finished.,wugfest occured after blicketbash.
+temporal,-0.8640292286872864,blicketbash,as soon as,after,"As soon as gekxtravaganza finished, blicketbash happened.",blicketbash occured after gekxtravaganza.
+temporal,-1.0203865766525269,gekxtravaganza,as soon as,after,"As soon as gekxtravaganza finished, blicketbash happened.",gekxtravaganza occured after blicketbash.
+temporal,-1.3310643434524536,wugfest,as soon as,before,wugfest happened as soon as daxday finished.,wugfest occured before daxday.
+temporal,-1.281272292137146,daxday,as soon as,before,wugfest happened as soon as daxday finished.,daxday occured before wugfest.
+temporal,-0.9222217202186584,blicketbash,as a result,before,wugfest happened as a result of blicketbash.,blicketbash occured before wugfest.
+temporal,-0.9780076742172241,wugfest,as a result,before,wugfest happened as a result of blicketbash.,wugfest occured before blicketbash.
+temporal,-1.2346988916397095,daxday,as a result,before,"daxday happened. As a result, blicketbash happened.",daxday occured before blicketbash.
+temporal,-1.2130321264266968,blicketbash,as a result,before,"daxday happened. As a result, blicketbash happened.",blicketbash occured before daxday.
+temporal,-1.1784884929656982,blicketbash,as a result,after,fepfestival happened as a result of blicketbash.,blicketbash occured after fepfestival.
+temporal,-0.9964249134063721,fepfestival,as a result,after,fepfestival happened as a result of blicketbash.,fepfestival occured after blicketbash.
+temporal,-1.258650541305542,wugfest,as a result,after,fepfestival happened as a result of wugfest.,wugfest occured after fepfestival.
+temporal,-1.104950189590454,fepfestival,as a result,after,fepfestival happened as a result of wugfest.,fepfestival occured after wugfest.
+temporal,-1.1389044523239136,blicketbash,as a result,before,"blicketbash happened. As a result, wugfest happened.",blicketbash occured before wugfest.
+temporal,-1.1640400886535645,wugfest,as a result,before,"blicketbash happened. As a result, wugfest happened.",wugfest occured before blicketbash.
+temporal,-1.3712773323059082,fepfestival,as a result,after,"fepfestival happened. As a result, daxday happened.",fepfestival occured after daxday.
+temporal,-1.526581883430481,daxday,as a result,after,"fepfestival happened. As a result, daxday happened.",daxday occured after fepfestival.
+temporal,-0.9427968263626099,wugfest,as a result,before,gekxtravaganza happened as a result of wugfest.,wugfest occured before gekxtravaganza.
+temporal,-0.9817587733268738,gekxtravaganza,as a result,before,gekxtravaganza happened as a result of wugfest.,gekxtravaganza occured before wugfest.
+temporal,-1.409518837928772,fepfestival,as a result,after,"fepfestival happened. As a result, wugfest happened.",fepfestival occured after wugfest.
+temporal,-1.43048894405365,wugfest,as a result,after,"fepfestival happened. As a result, wugfest happened.",wugfest occured after fepfestival.
+temporal,-1.258650541305542,wugfest,as a result,after,fepfestival happened as a result of wugfest.,wugfest occured after fepfestival.
+temporal,-1.104950189590454,fepfestival,as a result,after,fepfestival happened as a result of wugfest.,fepfestival occured after wugfest.
+temporal,-1.2695332765579224,blicketbash,as a result,after,"blicketbash happened. As a result, daxday happened.",blicketbash occured after daxday.
+temporal,-1.3403902053833008,daxday,as a result,after,"blicketbash happened. As a result, daxday happened.",daxday occured after blicketbash.
+temporal,-1.1120051145553589,gekxtravaganza,because,before,gekxtravaganza happened because daxday.,gekxtravaganza occured before daxday.
+temporal,-1.0828649997711182,daxday,because,before,gekxtravaganza happened because daxday.,daxday occured before gekxtravaganza.
+temporal,-1.0548456907272339,wugfest,because,after,wugfest happened because blicketbash.,wugfest occured after blicketbash.
+temporal,-1.0857349634170532,blicketbash,because,after,wugfest happened because blicketbash.,blicketbash occured after wugfest.
+temporal,-1.1399271488189697,gekxtravaganza,because,after,gekxtravaganza happened because daxday.,gekxtravaganza occured after daxday.
+temporal,-1.2258440256118774,daxday,because,after,gekxtravaganza happened because daxday.,daxday occured after gekxtravaganza.
+temporal,-1.1822640895843506,fepfestival,because,before,"because blicketbash happened, fepfestival happened.",fepfestival occured before blicketbash.
+temporal,-1.2171738147735596,blicketbash,because,before,"because blicketbash happened, fepfestival happened.",blicketbash occured before fepfestival.
+temporal,-1.067285418510437,blicketbash,because,before,blicketbash happened because fepfestival.,blicketbash occured before fepfestival.
+temporal,-1.0508475303649902,fepfestival,because,before,blicketbash happened because fepfestival.,fepfestival occured before blicketbash.
+temporal,-1.2010657787322998,blicketbash,because,after,"because fepfestival happened, blicketbash happened.",blicketbash occured after fepfestival.
+temporal,-1.3106815814971924,fepfestival,because,after,"because fepfestival happened, blicketbash happened.",fepfestival occured after blicketbash.
+temporal,-1.1822640895843506,fepfestival,because,before,"because blicketbash happened, fepfestival happened.",fepfestival occured before blicketbash.
+temporal,-1.2171738147735596,blicketbash,because,before,"because blicketbash happened, fepfestival happened.",blicketbash occured before fepfestival.
+temporal,-0.9026544094085693,blicketbash,because,before,blicketbash happened because gekxtravaganza.,blicketbash occured before gekxtravaganza.
+temporal,-0.9954953789710999,gekxtravaganza,because,before,blicketbash happened because gekxtravaganza.,gekxtravaganza occured before blicketbash.
+temporal,-1.2010657787322998,blicketbash,because,after,"because fepfestival happened, blicketbash happened.",blicketbash occured after fepfestival.
+temporal,-1.3106815814971924,fepfestival,because,after,"because fepfestival happened, blicketbash happened.",fepfestival occured after blicketbash.
+temporal,-1.1979925632476807,wugfest,because,before,"because blicketbash happened, wugfest happened.",wugfest occured before blicketbash.
+temporal,-1.2576775550842285,blicketbash,because,before,"because blicketbash happened, wugfest happened.",blicketbash occured before wugfest.
+temporal,-1.031348705291748,gekxtravaganza,before,after,"Before wugfest, gekxtravaganza happened.",gekxtravaganza occured after wugfest.
+temporal,-0.9578208923339844,wugfest,before,after,"Before wugfest, gekxtravaganza happened.",wugfest occured after gekxtravaganza.
+temporal,-1.1625069379806519,daxday,before,before,daxday happened before fepfestival.,daxday occured before fepfestival.
+temporal,-1.095589518547058,fepfestival,before,before,daxday happened before fepfestival.,fepfestival occured before daxday.
+temporal,-1.0016850233078003,gekxtravaganza,before,before,gekxtravaganza happened before fepfestival.,gekxtravaganza occured before fepfestival.
+temporal,-0.8930941224098206,fepfestival,before,before,gekxtravaganza happened before fepfestival.,fepfestival occured before gekxtravaganza.
+temporal,-1.0732098817825317,wugfest,before,before,"Before fepfestival, wugfest happened.",wugfest occured before fepfestival.
+temporal,-1.2037022113800049,fepfestival,before,before,"Before fepfestival, wugfest happened.",fepfestival occured before wugfest.
+temporal,-1.0016850233078003,gekxtravaganza,before,before,gekxtravaganza happened before fepfestival.,gekxtravaganza occured before fepfestival.
+temporal,-0.8930941224098206,fepfestival,before,before,gekxtravaganza happened before fepfestival.,fepfestival occured before gekxtravaganza.
+temporal,-0.8651836514472961,fepfestival,before,before,"Before gekxtravaganza, fepfestival happened.",fepfestival occured before gekxtravaganza.
+temporal,-0.9868119955062866,gekxtravaganza,before,before,"Before gekxtravaganza, fepfestival happened.",gekxtravaganza occured before fepfestival.
+temporal,-1.1675775051116943,daxday,before,after,"Before gekxtravaganza, daxday happened.",daxday occured after gekxtravaganza.
+temporal,-1.084491491317749,gekxtravaganza,before,after,"Before gekxtravaganza, daxday happened.",gekxtravaganza occured after daxday.
+temporal,-1.35608971118927,daxday,before,after,"Before fepfestival, daxday happened.",daxday occured after fepfestival.
+temporal,-1.186639428138733,fepfestival,before,after,"Before fepfestival, daxday happened.",fepfestival occured after daxday.
+temporal,-0.9974932074546814,fepfestival,before,before,"Before wugfest, fepfestival happened.",fepfestival occured before wugfest.
+temporal,-1.1066633462905884,wugfest,before,before,"Before wugfest, fepfestival happened.",wugfest occured before fepfestival.
+temporal,-1.1675775051116943,daxday,before,after,"Before gekxtravaganza, daxday happened.",daxday occured after gekxtravaganza.
+temporal,-1.084491491317749,gekxtravaganza,before,after,"Before gekxtravaganza, daxday happened.",gekxtravaganza occured after daxday.
+temporal,-1.335275650024414,wugfest,consequently,after,"wugfest happened. Consequently, blicketbash happened.",wugfest occured after blicketbash.
+temporal,-1.3831875324249268,blicketbash,consequently,after,"wugfest happened. Consequently, blicketbash happened.",blicketbash occured after wugfest.
+temporal,-1.3710434436798096,gekxtravaganza,consequently,after,"gekxtravaganza happened. Consequently, wugfest happened.",gekxtravaganza occured after wugfest.
+temporal,-1.315203309059143,wugfest,consequently,after,"gekxtravaganza happened. Consequently, wugfest happened.",wugfest occured after gekxtravaganza.
+temporal,-1.1748789548873901,fepfestival,consequently,before,"fepfestival happened. Consequently, blicketbash happened.",fepfestival occured before blicketbash.
+temporal,-1.2227942943572998,blicketbash,consequently,before,"fepfestival happened. Consequently, blicketbash happened.",blicketbash occured before fepfestival.
+temporal,-1.3919568061828613,daxday,consequently,after,"daxday happened. Consequently, blicketbash happened.",daxday occured after blicketbash.
+temporal,-1.3961087465286255,blicketbash,consequently,after,"daxday happened. Consequently, blicketbash happened.",blicketbash occured after daxday.
+temporal,-1.376343846321106,gekxtravaganza,consequently,after,"gekxtravaganza happened. Consequently, daxday happened.",gekxtravaganza occured after daxday.
+temporal,-1.30512535572052,daxday,consequently,after,"gekxtravaganza happened. Consequently, daxday happened.",daxday occured after gekxtravaganza.
+temporal,-1.1748789548873901,fepfestival,consequently,before,"fepfestival happened. Consequently, blicketbash happened.",fepfestival occured before blicketbash.
+temporal,-1.2227942943572998,blicketbash,consequently,before,"fepfestival happened. Consequently, blicketbash happened.",blicketbash occured before fepfestival.
+temporal,-1.2394899129867554,wugfest,consequently,after,"wugfest happened. Consequently, gekxtravaganza happened.",wugfest occured after gekxtravaganza.
+temporal,-1.2866016626358032,gekxtravaganza,consequently,after,"wugfest happened. Consequently, gekxtravaganza happened.",gekxtravaganza occured after wugfest.
+temporal,-1.1428391933441162,wugfest,consequently,before,"wugfest happened. Consequently, gekxtravaganza happened.",wugfest occured before gekxtravaganza.
+temporal,-1.2480523586273193,gekxtravaganza,consequently,before,"wugfest happened. Consequently, gekxtravaganza happened.",gekxtravaganza occured before wugfest.
+temporal,-1.1335302591323853,blicketbash,consequently,after,"blicketbash happened. Consequently, gekxtravaganza happened.",blicketbash occured after gekxtravaganza.
+temporal,-1.176482081413269,gekxtravaganza,consequently,after,"blicketbash happened. Consequently, gekxtravaganza happened.",gekxtravaganza occured after blicketbash.
+temporal,-1.2693572044372559,gekxtravaganza,consequently,before,"gekxtravaganza happened. Consequently, daxday happened.",gekxtravaganza occured before daxday.
+temporal,-1.2431972026824951,daxday,consequently,before,"gekxtravaganza happened. Consequently, daxday happened.",daxday occured before gekxtravaganza.
+temporal,-0.8989158868789673,blicketbash,earlier,before,"blicketbash happend. Earlier, gekxtravaganza happened.",blicketbash occured before gekxtravaganza.
+temporal,-0.9324900507926941,gekxtravaganza,earlier,before,"blicketbash happend. Earlier, gekxtravaganza happened.",gekxtravaganza occured before blicketbash.
+temporal,-1.19266939163208,fepfestival,earlier,after,"fepfestival happend. Earlier, daxday happened.",fepfestival occured after daxday.
+temporal,-1.344211220741272,daxday,earlier,after,"fepfestival happend. Earlier, daxday happened.",daxday occured after fepfestival.
+temporal,-1.118510127067566,daxday,earlier,after,"daxday happend. Earlier, fepfestival happened.",daxday occured after fepfestival.
+temporal,-1.2073493003845215,fepfestival,earlier,after,"daxday happend. Earlier, fepfestival happened.",fepfestival occured after daxday.
+temporal,-0.9584918022155762,gekxtravaganza,earlier,after,"gekxtravaganza happend. Earlier, fepfestival happened.",gekxtravaganza occured after fepfestival.
+temporal,-1.0438750982284546,fepfestival,earlier,after,"gekxtravaganza happend. Earlier, fepfestival happened.",fepfestival occured after gekxtravaganza.
+temporal,-1.19266939163208,fepfestival,earlier,after,"fepfestival happend. Earlier, daxday happened.",fepfestival occured after daxday.
+temporal,-1.344211220741272,daxday,earlier,after,"fepfestival happend. Earlier, daxday happened.",daxday occured after fepfestival.
+temporal,-1.076347827911377,wugfest,earlier,before,"wugfest happend. Earlier, daxday happened.",wugfest occured before daxday.
+temporal,-1.1564459800720215,daxday,earlier,before,"wugfest happend. Earlier, daxday happened.",daxday occured before wugfest.
+temporal,-1.1188820600509644,fepfestival,earlier,before,"fepfestival happend. Earlier, daxday happened.",fepfestival occured before daxday.
+temporal,-1.1642009019851685,daxday,earlier,before,"fepfestival happend. Earlier, daxday happened.",daxday occured before fepfestival.
+temporal,-1.076347827911377,wugfest,earlier,before,"wugfest happend. Earlier, daxday happened.",wugfest occured before daxday.
+temporal,-1.1564459800720215,daxday,earlier,before,"wugfest happend. Earlier, daxday happened.",daxday occured before wugfest.
+temporal,-1.19266939163208,fepfestival,earlier,after,"fepfestival happend. Earlier, daxday happened.",fepfestival occured after daxday.
+temporal,-1.344211220741272,daxday,earlier,after,"fepfestival happend. Earlier, daxday happened.",daxday occured after fepfestival.
+temporal,-0.9395008683204651,daxday,earlier,before,"daxday happend. Earlier, gekxtravaganza happened.",daxday occured before gekxtravaganza.
+temporal,-0.9606514573097229,gekxtravaganza,earlier,before,"daxday happend. Earlier, gekxtravaganza happened.",gekxtravaganza occured before daxday.
+temporal,-0.9891232252120972,wugfest,even after,before,"Even after gekxtravaganza, wugfest happened.",wugfest occured before gekxtravaganza.
+temporal,-1.04434335231781,gekxtravaganza,even after,before,"Even after gekxtravaganza, wugfest happened.",gekxtravaganza occured before wugfest.
+temporal,-1.1790953874588013,fepfestival,even after,before,fepfestival happened even after daxday.,fepfestival occured before daxday.
+temporal,-1.1115056276321411,daxday,even after,before,fepfestival happened even after daxday.,daxday occured before fepfestival.
+temporal,-1.2444863319396973,daxday,even after,before,"Even after fepfestival, daxday happened.",daxday occured before fepfestival.
+temporal,-1.1330413818359375,fepfestival,even after,before,"Even after fepfestival, daxday happened.",fepfestival occured before daxday.
+temporal,-1.0665767192840576,blicketbash,even after,after,"Even after wugfest, blicketbash happened.",blicketbash occured after wugfest.
+temporal,-1.0850294828414917,wugfest,even after,after,"Even after wugfest, blicketbash happened.",wugfest occured after blicketbash.
+temporal,-0.9594208598136902,blicketbash,even after,after,"Even after fepfestival, blicketbash happened.",blicketbash occured after fepfestival.
+temporal,-1.0319476127624512,fepfestival,even after,after,"Even after fepfestival, blicketbash happened.",fepfestival occured after blicketbash.
+temporal,-1.0942472219467163,gekxtravaganza,even after,after,"Even after daxday, gekxtravaganza happened.",gekxtravaganza occured after daxday.
+temporal,-1.064079999923706,daxday,even after,after,"Even after daxday, gekxtravaganza happened.",daxday occured after gekxtravaganza.
+temporal,-1.0665767192840576,blicketbash,even after,after,"Even after wugfest, blicketbash happened.",blicketbash occured after wugfest.
+temporal,-1.0850294828414917,wugfest,even after,after,"Even after wugfest, blicketbash happened.",wugfest occured after blicketbash.
+temporal,-0.881307065486908,blicketbash,even after,after,"Even after gekxtravaganza, blicketbash happened.",blicketbash occured after gekxtravaganza.
+temporal,-1.0221613645553589,gekxtravaganza,even after,after,"Even after gekxtravaganza, blicketbash happened.",gekxtravaganza occured after blicketbash.
+temporal,-1.0665767192840576,blicketbash,even after,after,"Even after wugfest, blicketbash happened.",blicketbash occured after wugfest.
+temporal,-1.0850294828414917,wugfest,even after,after,"Even after wugfest, blicketbash happened.",wugfest occured after blicketbash.
+temporal,-1.092907428741455,gekxtravaganza,even after,before,"Even after daxday, gekxtravaganza happened.",gekxtravaganza occured before daxday.
+temporal,-1.015188455581665,daxday,even after,before,"Even after daxday, gekxtravaganza happened.",daxday occured before gekxtravaganza.
+temporal,-0.9384664297103882,fepfestival,even before,after,gekxtravaganza happened even before fepfestival.,fepfestival occured after gekxtravaganza.
+temporal,-1.0395219326019287,gekxtravaganza,even before,after,gekxtravaganza happened even before fepfestival.,gekxtravaganza occured after fepfestival.
+temporal,-0.9741290211677551,blicketbash,even before,before,"Even before blicketbash, gekxtravaganza happened.",blicketbash occured before gekxtravaganza.
+temporal,-0.8702820539474487,gekxtravaganza,even before,before,"Even before blicketbash, gekxtravaganza happened.",gekxtravaganza occured before blicketbash.
+temporal,-1.0738980770111084,gekxtravaganza,even before,after,daxday happened even before gekxtravaganza.,gekxtravaganza occured after daxday.
+temporal,-1.0893927812576294,daxday,even before,after,daxday happened even before gekxtravaganza.,daxday occured after gekxtravaganza.
+temporal,-1.0527337789535522,daxday,even before,after,blicketbash happened even before daxday.,daxday occured after blicketbash.
+temporal,-1.179745078086853,blicketbash,even before,after,blicketbash happened even before daxday.,blicketbash occured after daxday.
+temporal,-1.001522183418274,blicketbash,even before,after,"Even before blicketbash, gekxtravaganza happened.",blicketbash occured after gekxtravaganza.
+temporal,-1.0098987817764282,gekxtravaganza,even before,after,"Even before blicketbash, gekxtravaganza happened.",gekxtravaganza occured after blicketbash.
+temporal,-1.0210927724838257,blicketbash,even before,after,fepfestival happened even before blicketbash.,blicketbash occured after fepfestival.
+temporal,-1.0672547817230225,fepfestival,even before,after,fepfestival happened even before blicketbash.,fepfestival occured after blicketbash.
+temporal,-1.1115697622299194,daxday,even before,before,"Even before daxday, blicketbash happened.",daxday occured before blicketbash.
+temporal,-1.0878950357437134,blicketbash,even before,before,"Even before daxday, blicketbash happened.",blicketbash occured before daxday.
+temporal,-0.9189288020133972,wugfest,even before,before,gekxtravaganza happened even before wugfest.,wugfest occured before gekxtravaganza.
+temporal,-0.9512932896614075,gekxtravaganza,even before,before,gekxtravaganza happened even before wugfest.,gekxtravaganza occured before wugfest.
+temporal,-1.2253425121307373,fepfestival,even before,after,"Even before fepfestival, daxday happened.",fepfestival occured after daxday.
+temporal,-1.3704137802124023,daxday,even before,after,"Even before fepfestival, daxday happened.",daxday occured after fepfestival.
+temporal,-0.9366039037704468,wugfest,even before,after,blicketbash happened even before wugfest.,wugfest occured after blicketbash.
+temporal,-1.0669366121292114,blicketbash,even before,after,blicketbash happened even before wugfest.,blicketbash occured after wugfest.
+temporal,-1.31991708278656,wugfest,even though,after,wugfest happened even though fepfestival had happened.,wugfest occured after fepfestival.
+temporal,-1.5017954111099243,fepfestival,even though,after,wugfest happened even though fepfestival had happened.,fepfestival occured after wugfest.
+temporal,-1.290616750717163,wugfest,even though,after,"Even though daxday had happened, wugfest happened.",wugfest occured after daxday.
+temporal,-1.5290404558181763,daxday,even though,after,"Even though daxday had happened, wugfest happened.",daxday occured after wugfest.
+temporal,-1.4550758600234985,daxday,even though,after,daxday happened even though wugfest had happened.,daxday occured after wugfest.
+temporal,-1.604918360710144,wugfest,even though,after,daxday happened even though wugfest had happened.,wugfest occured after daxday.
+temporal,-1.3239606618881226,wugfest,even though,after,"Even though fepfestival had happened, wugfest happened.",wugfest occured after fepfestival.
+temporal,-1.4445385932922363,fepfestival,even though,after,"Even though fepfestival had happened, wugfest happened.",fepfestival occured after wugfest.
+temporal,-1.165148138999939,gekxtravaganza,even though,before,gekxtravaganza happened even though wugfest had happened.,gekxtravaganza occured before wugfest.
+temporal,-1.1632946729660034,wugfest,even though,before,gekxtravaganza happened even though wugfest had happened.,wugfest occured before gekxtravaganza.
+temporal,-1.4340094327926636,daxday,even though,after,daxday happened even though fepfestival had happened.,daxday occured after fepfestival.
+temporal,-1.57093346118927,fepfestival,even though,after,daxday happened even though fepfestival had happened.,fepfestival occured after daxday.
+temporal,-1.213312029838562,fepfestival,even though,before,"Even though wugfest had happened, fepfestival happened.",fepfestival occured before wugfest.
+temporal,-1.3086602687835693,wugfest,even though,before,"Even though wugfest had happened, fepfestival happened.",wugfest occured before fepfestival.
+temporal,-1.0547236204147339,gekxtravaganza,even though,before,"Even though blicketbash had happened, gekxtravaganza happened.",gekxtravaganza occured before blicketbash.
+temporal,-1.110913872718811,blicketbash,even though,before,"Even though blicketbash had happened, gekxtravaganza happened.",blicketbash occured before gekxtravaganza.
+temporal,-1.0924521684646606,wugfest,even though,after,"Even though gekxtravaganza had happened, wugfest happened.",wugfest occured after gekxtravaganza.
+temporal,-1.3452444076538086,gekxtravaganza,even though,after,"Even though gekxtravaganza had happened, wugfest happened.",gekxtravaganza occured after wugfest.
+temporal,-0.987892210483551,blicketbash,even though,before,blicketbash happened even though gekxtravaganza had happened.,blicketbash occured before gekxtravaganza.
+temporal,-1.1011090278625488,gekxtravaganza,even though,before,blicketbash happened even though gekxtravaganza had happened.,gekxtravaganza occured before blicketbash.
+temporal,-1.0521266460418701,fepfestival,finally,before,"fepfestival happened. Finally, gekxtravaganza happened.",fepfestival occured before gekxtravaganza.
+temporal,-1.148545265197754,gekxtravaganza,finally,before,"fepfestival happened. Finally, gekxtravaganza happened.",gekxtravaganza occured before fepfestival.
+temporal,-1.2833116054534912,wugfest,finally,before,"wugfest happened. Finally, daxday happened.",wugfest occured before daxday.
+temporal,-1.3752669095993042,daxday,finally,before,"wugfest happened. Finally, daxday happened.",daxday occured before wugfest.
+temporal,-1.2862319946289062,wugfest,finally,after,"wugfest happened. Finally, fepfestival happened.",wugfest occured after fepfestival.
+temporal,-1.243604063987732,fepfestival,finally,after,"wugfest happened. Finally, fepfestival happened.",fepfestival occured after wugfest.
+temporal,-1.0697120428085327,blicketbash,finally,after,"blicketbash happened. Finally, gekxtravaganza happened.",blicketbash occured after gekxtravaganza.
+temporal,-1.066104769706726,gekxtravaganza,finally,after,"blicketbash happened. Finally, gekxtravaganza happened.",gekxtravaganza occured after blicketbash.
+temporal,-1.3889344930648804,daxday,finally,after,"daxday happened. Finally, wugfest happened.",daxday occured after wugfest.
+temporal,-1.3157702684402466,wugfest,finally,after,"daxday happened. Finally, wugfest happened.",wugfest occured after daxday.
+temporal,-1.2862319946289062,wugfest,finally,after,"wugfest happened. Finally, fepfestival happened.",wugfest occured after fepfestival.
+temporal,-1.243604063987732,fepfestival,finally,after,"wugfest happened. Finally, fepfestival happened.",fepfestival occured after wugfest.
+temporal,-1.2833116054534912,wugfest,finally,before,"wugfest happened. Finally, daxday happened.",wugfest occured before daxday.
+temporal,-1.3752669095993042,daxday,finally,before,"wugfest happened. Finally, daxday happened.",daxday occured before wugfest.
+temporal,-1.2833116054534912,wugfest,finally,before,"wugfest happened. Finally, daxday happened.",wugfest occured before daxday.
+temporal,-1.3752669095993042,daxday,finally,before,"wugfest happened. Finally, daxday happened.",daxday occured before wugfest.
+temporal,-1.3714731931686401,daxday,finally,after,"daxday happened. Finally, fepfestival happened.",daxday occured after fepfestival.
+temporal,-1.2956581115722656,fepfestival,finally,after,"daxday happened. Finally, fepfestival happened.",fepfestival occured after daxday.
+temporal,-1.1381083726882935,wugfest,finally,after,"wugfest happened. Finally, gekxtravaganza happened.",wugfest occured after gekxtravaganza.
+temporal,-1.120622992515564,gekxtravaganza,finally,after,"wugfest happened. Finally, gekxtravaganza happened.",gekxtravaganza occured after wugfest.
+temporal,-1.2617274522781372,daxday,hence,before,"daxday happened. Hence, gekxtravaganza happened.",daxday occured before gekxtravaganza.
+temporal,-1.326625943183899,gekxtravaganza,hence,before,"daxday happened. Hence, gekxtravaganza happened.",gekxtravaganza occured before daxday.
+temporal,-1.334631085395813,gekxtravaganza,hence,after,"gekxtravaganza happened. Hence, fepfestival happened.",gekxtravaganza occured after fepfestival.
+temporal,-1.2784780263900757,fepfestival,hence,after,"gekxtravaganza happened. Hence, fepfestival happened.",fepfestival occured after gekxtravaganza.
+temporal,-1.3909492492675781,wugfest,hence,after,"wugfest happened. Hence, blicketbash happened.",wugfest occured after blicketbash.
+temporal,-1.4386271238327026,blicketbash,hence,after,"wugfest happened. Hence, blicketbash happened.",blicketbash occured after wugfest.
+temporal,-1.4935111999511719,wugfest,hence,after,"wugfest happened. Hence, fepfestival happened.",wugfest occured after fepfestival.
+temporal,-1.4452253580093384,fepfestival,hence,after,"wugfest happened. Hence, fepfestival happened.",fepfestival occured after wugfest.
+temporal,-1.3473384380340576,blicketbash,hence,after,"blicketbash happened. Hence, fepfestival happened.",blicketbash occured after fepfestival.
+temporal,-1.3451660871505737,fepfestival,hence,after,"blicketbash happened. Hence, fepfestival happened.",fepfestival occured after blicketbash.
+temporal,-1.4935111999511719,wugfest,hence,after,"wugfest happened. Hence, fepfestival happened.",wugfest occured after fepfestival.
+temporal,-1.4452253580093384,fepfestival,hence,after,"wugfest happened. Hence, fepfestival happened.",fepfestival occured after wugfest.
+temporal,-1.431292176246643,fepfestival,hence,before,"fepfestival happened. Hence, wugfest happened.",fepfestival occured before wugfest.
+temporal,-1.5440411567687988,wugfest,hence,before,"fepfestival happened. Hence, wugfest happened.",wugfest occured before fepfestival.
+temporal,-1.3483656644821167,daxday,hence,before,"daxday happened. Hence, blicketbash happened.",daxday occured before blicketbash.
+temporal,-1.3547312021255493,blicketbash,hence,before,"daxday happened. Hence, blicketbash happened.",blicketbash occured before daxday.
+temporal,-1.2480978965759277,blicketbash,hence,before,"blicketbash happened. Hence, fepfestival happened.",blicketbash occured before fepfestival.
+temporal,-1.263476014137268,fepfestival,hence,before,"blicketbash happened. Hence, fepfestival happened.",fepfestival occured before blicketbash.
+temporal,-1.4082660675048828,fepfestival,hence,before,"fepfestival happened. Hence, daxday happened.",fepfestival occured before daxday.
+temporal,-1.5616012811660767,daxday,hence,before,"fepfestival happened. Hence, daxday happened.",daxday occured before fepfestival.
+temporal,-1.0985729694366455,gekxtravaganza,later,after,"gekxtravaganza happened. Later, daxday happened.",gekxtravaganza occured after daxday.
+temporal,-1.0089876651763916,daxday,later,after,"gekxtravaganza happened. Later, daxday happened.",daxday occured after gekxtravaganza.
+temporal,-0.939329206943512,daxday,later,before,"daxday happened. Later, gekxtravaganza happened.",daxday occured before gekxtravaganza.
+temporal,-1.084301471710205,gekxtravaganza,later,before,"daxday happened. Later, gekxtravaganza happened.",gekxtravaganza occured before daxday.
+temporal,-1.0997813940048218,fepfestival,later,before,"fepfestival happened. Later, daxday happened.",fepfestival occured before daxday.
+temporal,-1.2043896913528442,daxday,later,before,"fepfestival happened. Later, daxday happened.",daxday occured before fepfestival.
+temporal,-1.176215410232544,wugfest,later,after,"wugfest happened. Later, daxday happened.",wugfest occured after daxday.
+temporal,-1.1612250804901123,daxday,later,after,"wugfest happened. Later, daxday happened.",daxday occured after wugfest.
+temporal,-0.9701111316680908,gekxtravaganza,later,after,"gekxtravaganza happened. Later, blicketbash happened.",gekxtravaganza occured after blicketbash.
+temporal,-0.8786685466766357,blicketbash,later,after,"gekxtravaganza happened. Later, blicketbash happened.",blicketbash occured after gekxtravaganza.
+temporal,-1.0937891006469727,daxday,later,after,"daxday happened. Later, blicketbash happened.",daxday occured after blicketbash.
+temporal,-1.0273418426513672,blicketbash,later,after,"daxday happened. Later, blicketbash happened.",blicketbash occured after daxday.
+temporal,-0.9743548035621643,blicketbash,later,before,"blicketbash happened. Later, fepfestival happened.",blicketbash occured before fepfestival.
+temporal,-1.0299931764602661,fepfestival,later,before,"blicketbash happened. Later, fepfestival happened.",fepfestival occured before blicketbash.
+temporal,-1.2111562490463257,fepfestival,later,after,"fepfestival happened. Later, wugfest happened.",fepfestival occured after wugfest.
+temporal,-1.0924882888793945,wugfest,later,after,"fepfestival happened. Later, wugfest happened.",wugfest occured after fepfestival.
+temporal,-1.022094964981079,blicketbash,later,after,"blicketbash happened. Later, wugfest happened.",blicketbash occured after wugfest.
+temporal,-0.9649986028671265,wugfest,later,after,"blicketbash happened. Later, wugfest happened.",wugfest occured after blicketbash.
+temporal,-1.2111562490463257,fepfestival,later,after,"fepfestival happened. Later, wugfest happened.",fepfestival occured after wugfest.
+temporal,-1.0924882888793945,wugfest,later,after,"fepfestival happened. Later, wugfest happened.",wugfest occured after fepfestival.
+temporal,-0.9788442850112915,blicketbash,next,before,"blicketbash happened. Next, wugfest happened.",blicketbash occured before wugfest.
+temporal,-1.0088746547698975,wugfest,next,before,"blicketbash happened. Next, wugfest happened.",wugfest occured before blicketbash.
+temporal,-0.9874507188796997,fepfestival,next,before,"fepfestival happened. Next, blicketbash happened.",fepfestival occured before blicketbash.
+temporal,-0.9955019354820251,blicketbash,next,before,"fepfestival happened. Next, blicketbash happened.",blicketbash occured before fepfestival.
+temporal,-0.9788442850112915,blicketbash,next,before,"blicketbash happened. Next, wugfest happened.",blicketbash occured before wugfest.
+temporal,-1.0088746547698975,wugfest,next,before,"blicketbash happened. Next, wugfest happened.",wugfest occured before blicketbash.
+temporal,-0.999605119228363,gekxtravaganza,next,before,"gekxtravaganza happened. Next, daxday happened.",gekxtravaganza occured before daxday.
+temporal,-1.0174986124038696,daxday,next,before,"gekxtravaganza happened. Next, daxday happened.",daxday occured before gekxtravaganza.
+temporal,-0.9427369832992554,blicketbash,next,after,"blicketbash happened. Next, gekxtravaganza happened.",blicketbash occured after gekxtravaganza.
+temporal,-0.9170340895652771,gekxtravaganza,next,after,"blicketbash happened. Next, gekxtravaganza happened.",gekxtravaganza occured after blicketbash.
+temporal,-1.0441912412643433,fepfestival,next,after,"fepfestival happened. Next, gekxtravaganza happened.",fepfestival occured after gekxtravaganza.
+temporal,-1.0569454431533813,gekxtravaganza,next,after,"fepfestival happened. Next, gekxtravaganza happened.",gekxtravaganza occured after fepfestival.
+temporal,-1.128806471824646,fepfestival,next,before,"fepfestival happened. Next, wugfest happened.",fepfestival occured before wugfest.
+temporal,-1.1475828886032104,wugfest,next,before,"fepfestival happened. Next, wugfest happened.",wugfest occured before fepfestival.
+temporal,-1.2767034769058228,fepfestival,next,after,"fepfestival happened. Next, wugfest happened.",fepfestival occured after wugfest.
+temporal,-1.1905498504638672,wugfest,next,after,"fepfestival happened. Next, wugfest happened.",wugfest occured after fepfestival.
+temporal,-1.1178215742111206,fepfestival,next,before,"fepfestival happened. Next, daxday happened.",fepfestival occured before daxday.
+temporal,-1.205022931098938,daxday,next,before,"fepfestival happened. Next, daxday happened.",daxday occured before fepfestival.
+temporal,-1.1034696102142334,gekxtravaganza,next,after,"gekxtravaganza happened. Next, daxday happened.",gekxtravaganza occured after daxday.
+temporal,-1.0362178087234497,daxday,next,after,"gekxtravaganza happened. Next, daxday happened.",daxday occured after gekxtravaganza.
+temporal,-1.3141144514083862,blicketbash,once,after,blicketbash happened once daxday happened.,blicketbash occured after daxday.
+temporal,-1.4408866167068481,daxday,once,after,blicketbash happened once daxday happened.,daxday occured after blicketbash.
+temporal,-1.0850434303283691,gekxtravaganza,once,before,"Once blicketbash happened, gekxtravaganza happened.",gekxtravaganza occured before blicketbash.
+temporal,-1.0397778749465942,blicketbash,once,before,"Once blicketbash happened, gekxtravaganza happened.",blicketbash occured before gekxtravaganza.
+temporal,-1.1328809261322021,gekxtravaganza,once,after,"Once wugfest happened, gekxtravaganza happened.",gekxtravaganza occured after wugfest.
+temporal,-1.2577111721038818,wugfest,once,after,"Once wugfest happened, gekxtravaganza happened.",wugfest occured after gekxtravaganza.
+temporal,-1.2645394802093506,wugfest,once,before,"Once fepfestival happened, wugfest happened.",wugfest occured before fepfestival.
+temporal,-1.2904363870620728,fepfestival,once,before,"Once fepfestival happened, wugfest happened.",fepfestival occured before wugfest.
+temporal,-1.3691400289535522,daxday,once,before,"Once fepfestival happened, daxday happened.",daxday occured before fepfestival.
+temporal,-1.3463212251663208,fepfestival,once,before,"Once fepfestival happened, daxday happened.",fepfestival occured before daxday.
+temporal,-1.2193739414215088,daxday,once,before,daxday happened once gekxtravaganza happened.,daxday occured before gekxtravaganza.
+temporal,-1.218177080154419,gekxtravaganza,once,before,daxday happened once gekxtravaganza happened.,gekxtravaganza occured before daxday.
+temporal,-1.3458906412124634,fepfestival,once,after,fepfestival happened once wugfest happened.,fepfestival occured after wugfest.
+temporal,-1.4083653688430786,wugfest,once,after,fepfestival happened once wugfest happened.,wugfest occured after fepfestival.
+temporal,-1.1040369272232056,gekxtravaganza,once,before,"Once daxday happened, gekxtravaganza happened.",gekxtravaganza occured before daxday.
+temporal,-1.1215580701828003,daxday,once,before,"Once daxday happened, gekxtravaganza happened.",daxday occured before gekxtravaganza.
+temporal,-1.316511631011963,daxday,once,after,daxday happened once gekxtravaganza happened.,daxday occured after gekxtravaganza.
+temporal,-1.3034393787384033,gekxtravaganza,once,after,daxday happened once gekxtravaganza happened.,gekxtravaganza occured after daxday.
+temporal,-1.1911978721618652,wugfest,once,before,"Once blicketbash happened, wugfest happened.",wugfest occured before blicketbash.
+temporal,-1.2549103498458862,blicketbash,once,before,"Once blicketbash happened, wugfest happened.",blicketbash occured before wugfest.
+temporal,-1.0557563304901123,blicketbash,previously,before,"blicketbash happened. Previously, fepfestival happened.",blicketbash occured before fepfestival.
+temporal,-1.0369776487350464,fepfestival,previously,before,"blicketbash happened. Previously, fepfestival happened.",fepfestival occured before blicketbash.
+temporal,-1.0935401916503906,gekxtravaganza,previously,after,"gekxtravaganza happened. Previously, daxday happened.",gekxtravaganza occured after daxday.
+temporal,-1.2168017625808716,daxday,previously,after,"gekxtravaganza happened. Previously, daxday happened.",daxday occured after gekxtravaganza.
+temporal,-1.2539945840835571,daxday,previously,after,"daxday happened. Previously, fepfestival happened.",daxday occured after fepfestival.
+temporal,-1.2801543474197388,fepfestival,previously,after,"daxday happened. Previously, fepfestival happened.",fepfestival occured after daxday.
+temporal,-1.0501168966293335,fepfestival,previously,before,"fepfestival happened. Previously, blicketbash happened.",fepfestival occured before blicketbash.
+temporal,-1.0461565256118774,blicketbash,previously,before,"fepfestival happened. Previously, blicketbash happened.",blicketbash occured before fepfestival.
+temporal,-1.0627597570419312,daxday,previously,before,"daxday happened. Previously, gekxtravaganza happened.",daxday occured before gekxtravaganza.
+temporal,-1.0931767225265503,gekxtravaganza,previously,before,"daxday happened. Previously, gekxtravaganza happened.",gekxtravaganza occured before daxday.
+temporal,-1.0557563304901123,blicketbash,previously,before,"blicketbash happened. Previously, fepfestival happened.",blicketbash occured before fepfestival.
+temporal,-1.0369776487350464,fepfestival,previously,before,"blicketbash happened. Previously, fepfestival happened.",fepfestival occured before blicketbash.
+temporal,-1.2531874179840088,fepfestival,previously,after,"fepfestival happened. Previously, wugfest happened.",fepfestival occured after wugfest.
+temporal,-1.307700753211975,wugfest,previously,after,"fepfestival happened. Previously, wugfest happened.",wugfest occured after fepfestival.
+temporal,-1.1212619543075562,blicketbash,previously,before,"blicketbash happened. Previously, daxday happened.",blicketbash occured before daxday.
+temporal,-1.1594246625900269,daxday,previously,before,"blicketbash happened. Previously, daxday happened.",daxday occured before blicketbash.
+temporal,-1.1458834409713745,daxday,previously,before,"daxday happened. Previously, blicketbash happened.",daxday occured before blicketbash.
+temporal,-1.1049576997756958,blicketbash,previously,before,"daxday happened. Previously, blicketbash happened.",blicketbash occured before daxday.
+temporal,-1.0934982299804688,blicketbash,previously,after,"blicketbash happened. Previously, wugfest happened.",blicketbash occured after wugfest.
+temporal,-1.1283921003341675,wugfest,previously,after,"blicketbash happened. Previously, wugfest happened.",wugfest occured after blicketbash.
+temporal,-1.2332135438919067,daxday,since,after,daxday happened since blicketbash happened.,daxday occured after blicketbash.
+temporal,-1.2302581071853638,blicketbash,since,after,daxday happened since blicketbash happened.,blicketbash occured after daxday.
+temporal,-1.304465889930725,daxday,since,before,"Since wugfest happened, daxday happened.",daxday occured before wugfest.
+temporal,-1.198845624923706,wugfest,since,before,"Since wugfest happened, daxday happened.",wugfest occured before daxday.
+temporal,-1.3078234195709229,fepfestival,since,before,fepfestival happened since daxday happened.,fepfestival occured before daxday.
+temporal,-1.2845057249069214,daxday,since,before,fepfestival happened since daxday happened.,daxday occured before fepfestival.
+temporal,-1.1462464332580566,fepfestival,since,after,fepfestival happened since blicketbash happened.,fepfestival occured after blicketbash.
+temporal,-1.1823986768722534,blicketbash,since,after,fepfestival happened since blicketbash happened.,blicketbash occured after fepfestival.
+temporal,-1.130314588546753,blicketbash,since,before,blicketbash happened since wugfest happened.,blicketbash occured before wugfest.
+temporal,-1.070197343826294,wugfest,since,before,blicketbash happened since wugfest happened.,wugfest occured before blicketbash.
+temporal,-1.3326729536056519,fepfestival,since,after,fepfestival happened since daxday happened.,fepfestival occured after daxday.
+temporal,-1.4579254388809204,daxday,since,after,fepfestival happened since daxday happened.,daxday occured after fepfestival.
+temporal,-1.2946847677230835,wugfest,since,after,wugfest happened since fepfestival happened.,wugfest occured after fepfestival.
+temporal,-1.4002008438110352,fepfestival,since,after,wugfest happened since fepfestival happened.,fepfestival occured after wugfest.
+temporal,-1.0950027704238892,wugfest,since,after,wugfest happened since gekxtravaganza happened.,wugfest occured after gekxtravaganza.
+temporal,-1.2312061786651611,gekxtravaganza,since,after,wugfest happened since gekxtravaganza happened.,gekxtravaganza occured after wugfest.
+temporal,-1.0292251110076904,gekxtravaganza,since,before,gekxtravaganza happened since blicketbash happened.,gekxtravaganza occured before blicketbash.
+temporal,-0.9341504573822021,blicketbash,since,before,gekxtravaganza happened since blicketbash happened.,blicketbash occured before gekxtravaganza.
+temporal,-1.130314588546753,blicketbash,since,before,blicketbash happened since wugfest happened.,blicketbash occured before wugfest.
+temporal,-1.070197343826294,wugfest,since,before,blicketbash happened since wugfest happened.,wugfest occured before blicketbash.
+temporal,-1.269275188446045,fepfestival,so,after,"fepfestival happened. So, blicketbash happened.",fepfestival occured after blicketbash.
+temporal,-1.2419610023498535,blicketbash,so,after,"fepfestival happened. So, blicketbash happened.",blicketbash occured after fepfestival.
+temporal,-1.2988563776016235,daxday,so,before,"daxday happened. So, blicketbash happened.",daxday occured before blicketbash.
+temporal,-1.2498213052749634,blicketbash,so,before,"daxday happened. So, blicketbash happened.",blicketbash occured before daxday.
+temporal,-1.1964797973632812,gekxtravaganza,so,before,"gekxtravaganza happened. So, fepfestival happened.",gekxtravaganza occured before fepfestival.
+temporal,-1.1131962537765503,fepfestival,so,before,"gekxtravaganza happened. So, fepfestival happened.",fepfestival occured before gekxtravaganza.
+temporal,-1.1415003538131714,blicketbash,so,after,"blicketbash happened. So, gekxtravaganza happened.",blicketbash occured after gekxtravaganza.
+temporal,-1.23929762840271,gekxtravaganza,so,after,"blicketbash happened. So, gekxtravaganza happened.",gekxtravaganza occured after blicketbash.
+temporal,-1.2237085103988647,fepfestival,so,after,"fepfestival happened. So, gekxtravaganza happened.",fepfestival occured after gekxtravaganza.
+temporal,-1.2840745449066162,gekxtravaganza,so,after,"fepfestival happened. So, gekxtravaganza happened.",gekxtravaganza occured after fepfestival.
+temporal,-1.3167260885238647,wugfest,so,before,"wugfest happened. So, fepfestival happened.",wugfest occured before fepfestival.
+temporal,-1.2949472665786743,fepfestival,so,before,"wugfest happened. So, fepfestival happened.",fepfestival occured before wugfest.
+temporal,-1.1964797973632812,gekxtravaganza,so,before,"gekxtravaganza happened. So, fepfestival happened.",gekxtravaganza occured before fepfestival.
+temporal,-1.1131962537765503,fepfestival,so,before,"gekxtravaganza happened. So, fepfestival happened.",fepfestival occured before gekxtravaganza.
+temporal,-1.2237085103988647,fepfestival,so,after,"fepfestival happened. So, gekxtravaganza happened.",fepfestival occured after gekxtravaganza.
+temporal,-1.2840745449066162,gekxtravaganza,so,after,"fepfestival happened. So, gekxtravaganza happened.",gekxtravaganza occured after fepfestival.
+temporal,-1.2535258531570435,blicketbash,so,before,"blicketbash happened. So, daxday happened.",blicketbash occured before daxday.
+temporal,-1.3295334577560425,daxday,so,before,"blicketbash happened. So, daxday happened.",daxday occured before blicketbash.
+temporal,-1.2332699298858643,blicketbash,so,before,"blicketbash happened. So, wugfest happened.",blicketbash occured before wugfest.
+temporal,-1.212408185005188,wugfest,so,before,"blicketbash happened. So, wugfest happened.",wugfest occured before blicketbash.
+temporal,-1.1795785427093506,wugfest,subsequently,after,"wugfest happened. Subsequently, daxday happened.",wugfest occured after daxday.
+temporal,-1.214100956916809,daxday,subsequently,after,"wugfest happened. Subsequently, daxday happened.",daxday occured after wugfest.
+temporal,-1.075600504875183,fepfestival,subsequently,after,"fepfestival happened. Subsequently, blicketbash happened.",fepfestival occured after blicketbash.
+temporal,-1.0432865619659424,blicketbash,subsequently,after,"fepfestival happened. Subsequently, blicketbash happened.",blicketbash occured after fepfestival.
+temporal,-1.1795785427093506,wugfest,subsequently,after,"wugfest happened. Subsequently, daxday happened.",wugfest occured after daxday.
+temporal,-1.214100956916809,daxday,subsequently,after,"wugfest happened. Subsequently, daxday happened.",daxday occured after wugfest.
+temporal,-1.0290294885635376,wugfest,subsequently,before,"wugfest happened. Subsequently, fepfestival happened.",wugfest occured before fepfestival.
+temporal,-1.1303906440734863,fepfestival,subsequently,before,"wugfest happened. Subsequently, fepfestival happened.",fepfestival occured before wugfest.
+temporal,-1.075600504875183,fepfestival,subsequently,after,"fepfestival happened. Subsequently, blicketbash happened.",fepfestival occured after blicketbash.
+temporal,-1.0432865619659424,blicketbash,subsequently,after,"fepfestival happened. Subsequently, blicketbash happened.",blicketbash occured after fepfestival.
+temporal,-1.1045870780944824,blicketbash,subsequently,after,"blicketbash happened. Subsequently, fepfestival happened.",blicketbash occured after fepfestival.
+temporal,-1.033941388130188,fepfestival,subsequently,after,"blicketbash happened. Subsequently, fepfestival happened.",fepfestival occured after blicketbash.
+temporal,-1.0069104433059692,blicketbash,subsequently,before,"blicketbash happened. Subsequently, fepfestival happened.",blicketbash occured before fepfestival.
+temporal,-1.0477254390716553,fepfestival,subsequently,before,"blicketbash happened. Subsequently, fepfestival happened.",fepfestival occured before blicketbash.
+temporal,-0.9586611390113831,blicketbash,subsequently,before,"blicketbash happened. Subsequently, wugfest happened.",blicketbash occured before wugfest.
+temporal,-1.0258772373199463,wugfest,subsequently,before,"blicketbash happened. Subsequently, wugfest happened.",wugfest occured before blicketbash.
+temporal,-0.9812828302383423,gekxtravaganza,subsequently,before,"gekxtravaganza happened. Subsequently, fepfestival happened.",gekxtravaganza occured before fepfestival.
+temporal,-0.9717949032783508,fepfestival,subsequently,before,"gekxtravaganza happened. Subsequently, fepfestival happened.",fepfestival occured before gekxtravaganza.
+temporal,-1.1491267681121826,wugfest,subsequently,after,"wugfest happened. Subsequently, fepfestival happened.",wugfest occured after fepfestival.
+temporal,-1.1091810464859009,fepfestival,subsequently,after,"wugfest happened. Subsequently, fepfestival happened.",fepfestival occured after wugfest.
+temporal,-0.9525214433670044,blicketbash,then,after,"blicketbash happened. Then, gekxtravaganza happened.",blicketbash occured after gekxtravaganza.
+temporal,-0.9642409086227417,gekxtravaganza,then,after,"blicketbash happened. Then, gekxtravaganza happened.",gekxtravaganza occured after blicketbash.
+temporal,-1.1146628856658936,fepfestival,then,after,"fepfestival happened. Then, blicketbash happened.",fepfestival occured after blicketbash.
+temporal,-1.0489156246185303,blicketbash,then,after,"fepfestival happened. Then, blicketbash happened.",blicketbash occured after fepfestival.
+temporal,-0.910432755947113,gekxtravaganza,then,before,"gekxtravaganza happened. Then, blicketbash happened.",gekxtravaganza occured before blicketbash.
+temporal,-0.901724100112915,blicketbash,then,before,"gekxtravaganza happened. Then, blicketbash happened.",blicketbash occured before gekxtravaganza.
+temporal,-0.9481728076934814,wugfest,then,before,"wugfest happened. Then, blicketbash happened.",wugfest occured before blicketbash.
+temporal,-1.005237340927124,blicketbash,then,before,"wugfest happened. Then, blicketbash happened.",blicketbash occured before wugfest.
+temporal,-1.0788607597351074,wugfest,then,before,"wugfest happened. Then, daxday happened.",wugfest occured before daxday.
+temporal,-1.242266297340393,daxday,then,before,"wugfest happened. Then, daxday happened.",daxday occured before wugfest.
+temporal,-1.2571005821228027,daxday,then,after,"daxday happened. Then, wugfest happened.",daxday occured after wugfest.
+temporal,-1.1314352750778198,wugfest,then,after,"daxday happened. Then, wugfest happened.",wugfest occured after daxday.
+temporal,-1.0171265602111816,fepfestival,then,before,"fepfestival happened. Then, blicketbash happened.",fepfestival occured before blicketbash.
+temporal,-1.00595223903656,blicketbash,then,before,"fepfestival happened. Then, blicketbash happened.",blicketbash occured before fepfestival.
+temporal,-1.1097819805145264,blicketbash,then,after,"blicketbash happened. Then, fepfestival happened.",blicketbash occured after fepfestival.
+temporal,-1.0614991188049316,fepfestival,then,after,"blicketbash happened. Then, fepfestival happened.",fepfestival occured after blicketbash.
+temporal,-1.2076516151428223,wugfest,then,after,"wugfest happened. Then, daxday happened.",wugfest occured after daxday.
+temporal,-1.249247670173645,daxday,then,after,"wugfest happened. Then, daxday happened.",daxday occured after wugfest.
+temporal,-0.9820323586463928,fepfestival,then,before,"fepfestival happened. Then, gekxtravaganza happened.",fepfestival occured before gekxtravaganza.
+temporal,-1.1112051010131836,gekxtravaganza,then,before,"fepfestival happened. Then, gekxtravaganza happened.",gekxtravaganza occured before fepfestival.
+temporal,-1.1860764026641846,wugfest,thereafter,after,"wugfest happened. Thereafter, daxday happened.",wugfest occured after daxday.
+temporal,-1.1797517538070679,daxday,thereafter,after,"wugfest happened. Thereafter, daxday happened.",daxday occured after wugfest.
+temporal,-1.0422433614730835,gekxtravaganza,thereafter,after,"gekxtravaganza happened. Thereafter, wugfest happened.",gekxtravaganza occured after wugfest.
+temporal,-0.927281379699707,wugfest,thereafter,after,"gekxtravaganza happened. Thereafter, wugfest happened.",wugfest occured after gekxtravaganza.
+temporal,-1.1023350954055786,blicketbash,thereafter,after,"blicketbash happened. Thereafter, daxday happened.",blicketbash occured after daxday.
+temporal,-1.082551121711731,daxday,thereafter,after,"blicketbash happened. Thereafter, daxday happened.",daxday occured after blicketbash.
+temporal,-1.116979956626892,daxday,thereafter,before,"daxday happened. Thereafter, wugfest happened.",daxday occured before wugfest.
+temporal,-1.1396338939666748,wugfest,thereafter,before,"daxday happened. Thereafter, wugfest happened.",wugfest occured before daxday.
+temporal,-0.9853878617286682,blicketbash,thereafter,before,"blicketbash happened. Thereafter, daxday happened.",blicketbash occured before daxday.
+temporal,-1.0880600214004517,daxday,thereafter,before,"blicketbash happened. Thereafter, daxday happened.",daxday occured before blicketbash.
+temporal,-1.0217534303665161,fepfestival,thereafter,after,"fepfestival happened. Thereafter, gekxtravaganza happened.",fepfestival occured after gekxtravaganza.
+temporal,-1.0362188816070557,gekxtravaganza,thereafter,after,"fepfestival happened. Thereafter, gekxtravaganza happened.",gekxtravaganza occured after fepfestival.
+temporal,-1.2307463884353638,fepfestival,thereafter,after,"fepfestival happened. Thereafter, daxday happened.",fepfestival occured after daxday.
+temporal,-1.2528127431869507,daxday,thereafter,after,"fepfestival happened. Thereafter, daxday happened.",daxday occured after fepfestival.
+temporal,-0.9786067605018616,gekxtravaganza,thereafter,before,"gekxtravaganza happened. Thereafter, daxday happened.",gekxtravaganza occured before daxday.
+temporal,-1.0470839738845825,daxday,thereafter,before,"gekxtravaganza happened. Thereafter, daxday happened.",daxday occured before gekxtravaganza.
+temporal,-0.9814983606338501,daxday,thereafter,before,"daxday happened. Thereafter, gekxtravaganza happened.",daxday occured before gekxtravaganza.
+temporal,-1.0723992586135864,gekxtravaganza,thereafter,before,"daxday happened. Thereafter, gekxtravaganza happened.",gekxtravaganza occured before daxday.
+temporal,-0.9259039163589478,fepfestival,thereafter,before,"fepfestival happened. Thereafter, gekxtravaganza happened.",fepfestival occured before gekxtravaganza.
+temporal,-1.0549904108047485,gekxtravaganza,thereafter,before,"fepfestival happened. Thereafter, gekxtravaganza happened.",gekxtravaganza occured before fepfestival.
+temporal,-1.4135624170303345,gekxtravaganza,therefore,after,"gekxtravaganza happened. Therefore, wugfest happened.",gekxtravaganza occured after wugfest.
+temporal,-1.4598205089569092,wugfest,therefore,after,"gekxtravaganza happened. Therefore, wugfest happened.",wugfest occured after gekxtravaganza.
+temporal,-1.2411177158355713,blicketbash,therefore,after,"blicketbash happened. Therefore, gekxtravaganza happened.",blicketbash occured after gekxtravaganza.
+temporal,-1.3869328498840332,gekxtravaganza,therefore,after,"blicketbash happened. Therefore, gekxtravaganza happened.",gekxtravaganza occured after blicketbash.
+temporal,-1.4135624170303345,gekxtravaganza,therefore,after,"gekxtravaganza happened. Therefore, wugfest happened.",gekxtravaganza occured after wugfest.
+temporal,-1.4598205089569092,wugfest,therefore,after,"gekxtravaganza happened. Therefore, wugfest happened.",wugfest occured after gekxtravaganza.
+temporal,-1.3699204921722412,wugfest,therefore,after,"wugfest happened. Therefore, blicketbash happened.",wugfest occured after blicketbash.
+temporal,-1.4460945129394531,blicketbash,therefore,after,"wugfest happened. Therefore, blicketbash happened.",blicketbash occured after wugfest.
+temporal,-1.379515290260315,daxday,therefore,after,"daxday happened. Therefore, gekxtravaganza happened.",daxday occured after gekxtravaganza.
+temporal,-1.442108154296875,gekxtravaganza,therefore,after,"daxday happened. Therefore, gekxtravaganza happened.",gekxtravaganza occured after daxday.
+temporal,-1.335086703300476,gekxtravaganza,therefore,before,"gekxtravaganza happened. Therefore, wugfest happened.",gekxtravaganza occured before wugfest.
+temporal,-1.3567845821380615,wugfest,therefore,before,"gekxtravaganza happened. Therefore, wugfest happened.",wugfest occured before gekxtravaganza.
+temporal,-1.5369758605957031,fepfestival,therefore,after,"fepfestival happened. Therefore, daxday happened.",fepfestival occured after daxday.
+temporal,-1.7502789497375488,daxday,therefore,after,"fepfestival happened. Therefore, daxday happened.",daxday occured after fepfestival.
+temporal,-1.4344850778579712,daxday,therefore,before,"daxday happened. Therefore, fepfestival happened.",daxday occured before fepfestival.
+temporal,-1.456915020942688,fepfestival,therefore,before,"daxday happened. Therefore, fepfestival happened.",fepfestival occured before daxday.
+temporal,-1.4326622486114502,fepfestival,therefore,before,"fepfestival happened. Therefore, daxday happened.",fepfestival occured before daxday.
+temporal,-1.6136317253112793,daxday,therefore,before,"fepfestival happened. Therefore, daxday happened.",daxday occured before fepfestival.
+temporal,-1.4291003942489624,fepfestival,therefore,before,"fepfestival happened. Therefore, wugfest happened.",fepfestival occured before wugfest.
+temporal,-1.5850375890731812,wugfest,therefore,before,"fepfestival happened. Therefore, wugfest happened.",wugfest occured before fepfestival.
