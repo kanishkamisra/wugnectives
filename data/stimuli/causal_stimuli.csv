@@ -1,91 +1,91 @@
 item_id,stimuli_type,connective,target,stimuli_instance,stimuli_instance_description,entity1,entity2,premise,inference1,inference2
-1,causal,as long as,causes,1,,daxing,fepping,daxing will happen as long as fepping happens.,daxing causes fepping.,fepping causes daxing.
-2,causal,as long as,causes,2,,wugging,gekking,wugging will happen as long as gekking happens.,wugging causes gekking.,gekking causes wugging.
-3,causal,as long as,causes,3,,gekking,fepping,gekking will happen as long as fepping happens.,gekking causes fepping.,fepping causes gekking.
-4,causal,as long as,causes,4,,gekking,blicking,gekking will happen as long as blicking happens.,gekking causes blicking.,blicking causes gekking.
-5,causal,as long as,causes,5,,blicking,fepping,blicking will happen as long as fepping happens.,blicking causes fepping.,fepping causes blicking.
-6,causal,as long as,causes,6,,blicking,daxing,blicking will happen as long as daxing happens.,blicking causes daxing.,daxing causes blicking.
-7,causal,as long as,causes,7,,fepping,blicking,fepping will happen as long as blicking happens.,fepping causes blicking.,blicking causes fepping.
-8,causal,as long as,causes,8,,wugging,daxing,wugging will happen as long as daxing happens.,wugging causes daxing.,daxing causes wugging.
-9,causal,as long as,causes,9,,blicking,gekking,blicking will happen as long as gekking happens.,blicking causes gekking.,gekking causes blicking.
-10,causal,as long as,causes,10,,daxing,fepping,daxing will happen as long as fepping happens.,daxing causes fepping.,fepping causes daxing.
-11,causal,as a result,causes,1,,fepping,gekking,"fepping happened. As a result, gekking happened.",fepping causes gekking.,gekking causes fepping.
-12,causal,as a result,causes,2,,blicking,daxing,"blicking happened. As a result, daxing happened.",blicking causes daxing.,daxing causes blicking.
-13,causal,as a result,causes,3,,gekking,wugging,"gekking happened. As a result, wugging happened.",gekking causes wugging.,wugging causes gekking.
-14,causal,as a result,causes,4,,daxing,blicking,"daxing happened. As a result, blicking happened.",daxing causes blicking.,blicking causes daxing.
-15,causal,as a result,causes,5,,fepping,blicking,"fepping happened. As a result, blicking happened.",fepping causes blicking.,blicking causes fepping.
-16,causal,as a result,causes,6,,daxing,wugging,"daxing happened. As a result, wugging happened.",daxing causes wugging.,wugging causes daxing.
-17,causal,as a result,causes,7,,fepping,blicking,"fepping happened. As a result, blicking happened.",fepping causes blicking.,blicking causes fepping.
-18,causal,as a result,causes,8,,daxing,gekking,"daxing happened. As a result, gekking happened.",daxing causes gekking.,gekking causes daxing.
-19,causal,as a result,causes,9,,gekking,fepping,"gekking happened. As a result, fepping happened.",gekking causes fepping.,fepping causes gekking.
-20,causal,as a result,causes,10,,daxing,blicking,"daxing happened. As a result, blicking happened.",daxing causes blicking.,blicking causes daxing.
-21,causal,because,causes,1,,blicking,fepping,blicking happened because fepping happened.,blicking causes fepping.,fepping causes blicking.
-22,causal,because,causes,2,,wugging,gekking,wugging happened because gekking happened.,wugging causes gekking.,gekking causes wugging.
-23,causal,because,causes,3,,gekking,blicking,gekking happened because blicking happened.,gekking causes blicking.,blicking causes gekking.
-24,causal,because,causes,4,,daxing,fepping,daxing happened because fepping happened.,daxing causes fepping.,fepping causes daxing.
-25,causal,because,causes,5,,wugging,fepping,wugging happened because fepping happened.,wugging causes fepping.,fepping causes wugging.
-26,causal,because,causes,6,,gekking,blicking,gekking happened because blicking happened.,gekking causes blicking.,blicking causes gekking.
-27,causal,because,causes,7,,gekking,wugging,gekking happened because wugging happened.,gekking causes wugging.,wugging causes gekking.
-28,causal,because,causes,8,,blicking,daxing,blicking happened because daxing happened.,blicking causes daxing.,daxing causes blicking.
-29,causal,because,causes,9,,fepping,blicking,fepping happened because blicking happened.,fepping causes blicking.,blicking causes fepping.
-30,causal,because,causes,10,,wugging,blicking,wugging happened because blicking happened.,wugging causes blicking.,blicking causes wugging.
-31,causal,because of,causes,1,,gekking,daxing,gekking happened because of daxing.,gekking causes daxing.,daxing causes gekking.
-32,causal,because of,causes,2,,gekking,fepping,gekking happened because of fepping.,gekking causes fepping.,fepping causes gekking.
-33,causal,because of,causes,3,,blicking,gekking,blicking happened because of gekking.,blicking causes gekking.,gekking causes blicking.
-34,causal,because of,causes,4,,gekking,wugging,gekking happened because of wugging.,gekking causes wugging.,wugging causes gekking.
-35,causal,because of,causes,5,,wugging,blicking,wugging happened because of blicking.,wugging causes blicking.,blicking causes wugging.
-36,causal,because of,causes,6,,fepping,gekking,fepping happened because of gekking.,fepping causes gekking.,gekking causes fepping.
-37,causal,because of,causes,7,,daxing,blicking,daxing happened because of blicking.,daxing causes blicking.,blicking causes daxing.
-38,causal,because of,causes,8,,wugging,gekking,wugging happened because of gekking.,wugging causes gekking.,gekking causes wugging.
-39,causal,because of,causes,9,,fepping,blicking,fepping happened because of blicking.,fepping causes blicking.,blicking causes fepping.
-40,causal,because of,causes,10,,daxing,gekking,daxing happened because of gekking.,daxing causes gekking.,gekking causes daxing.
-41,causal,consequently,causes,1,,gekking,fepping,"gekking happened. Consequently, fepping happened.",gekking causes fepping.,fepping causes gekking.
-42,causal,consequently,causes,2,,blicking,fepping,"blicking happened. Consequently, fepping happened.",blicking causes fepping.,fepping causes blicking.
-43,causal,consequently,causes,3,,gekking,blicking,"gekking happened. Consequently, blicking happened.",gekking causes blicking.,blicking causes gekking.
-44,causal,consequently,causes,4,,blicking,wugging,"blicking happened. Consequently, wugging happened.",blicking causes wugging.,wugging causes blicking.
-45,causal,consequently,causes,5,,fepping,wugging,"fepping happened. Consequently, wugging happened.",fepping causes wugging.,wugging causes fepping.
-46,causal,consequently,causes,6,,gekking,fepping,"gekking happened. Consequently, fepping happened.",gekking causes fepping.,fepping causes gekking.
-47,causal,consequently,causes,7,,gekking,blicking,"gekking happened. Consequently, blicking happened.",gekking causes blicking.,blicking causes gekking.
-48,causal,consequently,causes,8,,gekking,daxing,"gekking happened. Consequently, daxing happened.",gekking causes daxing.,daxing causes gekking.
-49,causal,consequently,causes,9,,gekking,blicking,"gekking happened. Consequently, blicking happened.",gekking causes blicking.,blicking causes gekking.
-50,causal,consequently,causes,10,,gekking,blicking,"gekking happened. Consequently, blicking happened.",gekking causes blicking.,blicking causes gekking.
-51,causal,hence,causes,1,,daxing,wugging,"daxing happened. Hence, wugging happened.",daxing causes wugging.,wugging causes daxing.
-52,causal,hence,causes,2,,daxing,wugging,"daxing happened. Hence, wugging happened.",daxing causes wugging.,wugging causes daxing.
-53,causal,hence,causes,3,,fepping,blicking,"fepping happened. Hence, blicking happened.",fepping causes blicking.,blicking causes fepping.
-54,causal,hence,causes,4,,blicking,daxing,"blicking happened. Hence, daxing happened.",blicking causes daxing.,daxing causes blicking.
-55,causal,hence,causes,5,,gekking,blicking,"gekking happened. Hence, blicking happened.",gekking causes blicking.,blicking causes gekking.
-56,causal,hence,causes,6,,daxing,gekking,"daxing happened. Hence, gekking happened.",daxing causes gekking.,gekking causes daxing.
-57,causal,hence,causes,7,,blicking,gekking,"blicking happened. Hence, gekking happened.",blicking causes gekking.,gekking causes blicking.
-58,causal,hence,causes,8,,daxing,blicking,"daxing happened. Hence, blicking happened.",daxing causes blicking.,blicking causes daxing.
-59,causal,hence,causes,9,,gekking,fepping,"gekking happened. Hence, fepping happened.",gekking causes fepping.,fepping causes gekking.
-60,causal,hence,causes,10,,gekking,blicking,"gekking happened. Hence, blicking happened.",gekking causes blicking.,blicking causes gekking.
-61,causal,if,causes,1,,daxing,fepping,daxing will happen if fepping happens.,daxing causes fepping.,fepping causes daxing.
-62,causal,if,causes,2,,daxing,fepping,daxing will happen if fepping happens.,daxing causes fepping.,fepping causes daxing.
-63,causal,if,causes,3,,daxing,blicking,daxing will happen if blicking happens.,daxing causes blicking.,blicking causes daxing.
-64,causal,if,causes,4,,blicking,fepping,blicking will happen if fepping happens.,blicking causes fepping.,fepping causes blicking.
-65,causal,if,causes,5,,fepping,wugging,fepping will happen if wugging happens.,fepping causes wugging.,wugging causes fepping.
-66,causal,if,causes,6,,blicking,fepping,blicking will happen if fepping happens.,blicking causes fepping.,fepping causes blicking.
-67,causal,if,causes,7,,fepping,wugging,fepping will happen if wugging happens.,fepping causes wugging.,wugging causes fepping.
-68,causal,if,causes,8,,wugging,fepping,wugging will happen if fepping happens.,wugging causes fepping.,fepping causes wugging.
-69,causal,if,causes,9,,fepping,blicking,fepping will happen if blicking happens.,fepping causes blicking.,blicking causes fepping.
-70,causal,if,causes,10,,daxing,fepping,daxing will happen if fepping happens.,daxing causes fepping.,fepping causes daxing.
-71,causal,only if,causes,1,,daxing,wugging,daxing will happen only if wugging happens.,daxing causes wugging.,wugging causes daxing.
-72,causal,only if,causes,2,,daxing,wugging,daxing will happen only if wugging happens.,daxing causes wugging.,wugging causes daxing.
-73,causal,only if,causes,3,,daxing,wugging,daxing will happen only if wugging happens.,daxing causes wugging.,wugging causes daxing.
-74,causal,only if,causes,4,,blicking,fepping,blicking will happen only if fepping happens.,blicking causes fepping.,fepping causes blicking.
-75,causal,only if,causes,5,,wugging,daxing,wugging will happen only if daxing happens.,wugging causes daxing.,daxing causes wugging.
-76,causal,only if,causes,6,,gekking,daxing,gekking will happen only if daxing happens.,gekking causes daxing.,daxing causes gekking.
-77,causal,only if,causes,7,,blicking,gekking,blicking will happen only if gekking happens.,blicking causes gekking.,gekking causes blicking.
-78,causal,only if,causes,8,,fepping,gekking,fepping will happen only if gekking happens.,fepping causes gekking.,gekking causes fepping.
-79,causal,only if,causes,9,,wugging,gekking,wugging will happen only if gekking happens.,wugging causes gekking.,gekking causes wugging.
-80,causal,only if,causes,10,,gekking,wugging,gekking will happen only if wugging happens.,gekking causes wugging.,wugging causes gekking.
-81,causal,therefore,causes,1,,blicking,daxing,"blicking happened. Therefore, daxing happened.",blicking causes daxing.,daxing causes blicking.
-82,causal,therefore,causes,2,,blicking,gekking,"blicking happened. Therefore, gekking happened.",blicking causes gekking.,gekking causes blicking.
-83,causal,therefore,causes,3,,fepping,wugging,"fepping happened. Therefore, wugging happened.",fepping causes wugging.,wugging causes fepping.
-84,causal,therefore,causes,4,,fepping,wugging,"fepping happened. Therefore, wugging happened.",fepping causes wugging.,wugging causes fepping.
-85,causal,therefore,causes,5,,fepping,blicking,"fepping happened. Therefore, blicking happened.",fepping causes blicking.,blicking causes fepping.
+1,causal,as long as,causes,1,,wugging,blicking,wugging will happen as long as blicking happens.,wugging causes blicking.,blicking causes wugging.
+2,causal,as long as,causes,2,,wugging,daxing,wugging will happen as long as daxing happens.,wugging causes daxing.,daxing causes wugging.
+3,causal,as long as,causes,3,,wugging,gekking,wugging will happen as long as gekking happens.,wugging causes gekking.,gekking causes wugging.
+4,causal,as long as,causes,4,,daxing,blicking,daxing will happen as long as blicking happens.,daxing causes blicking.,blicking causes daxing.
+5,causal,as long as,causes,5,,daxing,fepping,daxing will happen as long as fepping happens.,daxing causes fepping.,fepping causes daxing.
+6,causal,as long as,causes,6,,fepping,blicking,fepping will happen as long as blicking happens.,fepping causes blicking.,blicking causes fepping.
+7,causal,as long as,causes,7,,wugging,fepping,wugging will happen as long as fepping happens.,wugging causes fepping.,fepping causes wugging.
+8,causal,as long as,causes,8,,blicking,gekking,blicking will happen as long as gekking happens.,blicking causes gekking.,gekking causes blicking.
+9,causal,as long as,causes,9,,fepping,gekking,fepping will happen as long as gekking happens.,fepping causes gekking.,gekking causes fepping.
+10,causal,as long as,causes,10,,daxing,gekking,daxing will happen as long as gekking happens.,daxing causes gekking.,gekking causes daxing.
+11,causal,as a result,causes,1,,daxing,fepping,"daxing happened. As a result, fepping happened.",daxing causes fepping.,fepping causes daxing.
+12,causal,as a result,causes,2,,daxing,blicking,"daxing happened. As a result, blicking happened.",daxing causes blicking.,blicking causes daxing.
+13,causal,as a result,causes,3,,fepping,gekking,"fepping happened. As a result, gekking happened.",fepping causes gekking.,gekking causes fepping.
+14,causal,as a result,causes,4,,wugging,daxing,"wugging happened. As a result, daxing happened.",wugging causes daxing.,daxing causes wugging.
+15,causal,as a result,causes,5,,wugging,blicking,"wugging happened. As a result, blicking happened.",wugging causes blicking.,blicking causes wugging.
+16,causal,as a result,causes,6,,fepping,blicking,"fepping happened. As a result, blicking happened.",fepping causes blicking.,blicking causes fepping.
+17,causal,as a result,causes,7,,blicking,gekking,"blicking happened. As a result, gekking happened.",blicking causes gekking.,gekking causes blicking.
+18,causal,as a result,causes,8,,wugging,gekking,"wugging happened. As a result, gekking happened.",wugging causes gekking.,gekking causes wugging.
+19,causal,as a result,causes,9,,wugging,fepping,"wugging happened. As a result, fepping happened.",wugging causes fepping.,fepping causes wugging.
+20,causal,as a result,causes,10,,daxing,gekking,"daxing happened. As a result, gekking happened.",daxing causes gekking.,gekking causes daxing.
+21,causal,because,causes,1,,daxing,gekking,daxing happened because gekking happened.,daxing causes gekking.,gekking causes daxing.
+22,causal,because,causes,2,,daxing,fepping,daxing happened because fepping happened.,daxing causes fepping.,fepping causes daxing.
+23,causal,because,causes,3,,blicking,gekking,blicking happened because gekking happened.,blicking causes gekking.,gekking causes blicking.
+24,causal,because,causes,4,,wugging,fepping,wugging happened because fepping happened.,wugging causes fepping.,fepping causes wugging.
+25,causal,because,causes,5,,wugging,gekking,wugging happened because gekking happened.,wugging causes gekking.,gekking causes wugging.
+26,causal,because,causes,6,,fepping,blicking,fepping happened because blicking happened.,fepping causes blicking.,blicking causes fepping.
+27,causal,because,causes,7,,wugging,daxing,wugging happened because daxing happened.,wugging causes daxing.,daxing causes wugging.
+28,causal,because,causes,8,,fepping,gekking,fepping happened because gekking happened.,fepping causes gekking.,gekking causes fepping.
+29,causal,because,causes,9,,wugging,blicking,wugging happened because blicking happened.,wugging causes blicking.,blicking causes wugging.
+30,causal,because,causes,10,,daxing,blicking,daxing happened because blicking happened.,daxing causes blicking.,blicking causes daxing.
+31,causal,because of,causes,1,,daxing,blicking,daxing happened because of blicking.,daxing causes blicking.,blicking causes daxing.
+32,causal,because of,causes,2,,wugging,blicking,wugging happened because of blicking.,wugging causes blicking.,blicking causes wugging.
+33,causal,because of,causes,3,,daxing,gekking,daxing happened because of gekking.,daxing causes gekking.,gekking causes daxing.
+34,causal,because of,causes,4,,fepping,gekking,fepping happened because of gekking.,fepping causes gekking.,gekking causes fepping.
+35,causal,because of,causes,5,,blicking,gekking,blicking happened because of gekking.,blicking causes gekking.,gekking causes blicking.
+36,causal,because of,causes,6,,fepping,blicking,fepping happened because of blicking.,fepping causes blicking.,blicking causes fepping.
+37,causal,because of,causes,7,,wugging,daxing,wugging happened because of daxing.,wugging causes daxing.,daxing causes wugging.
+38,causal,because of,causes,8,,wugging,fepping,wugging happened because of fepping.,wugging causes fepping.,fepping causes wugging.
+39,causal,because of,causes,9,,daxing,fepping,daxing happened because of fepping.,daxing causes fepping.,fepping causes daxing.
+40,causal,because of,causes,10,,wugging,gekking,wugging happened because of gekking.,wugging causes gekking.,gekking causes wugging.
+41,causal,consequently,causes,1,,wugging,gekking,"wugging happened. Consequently, gekking happened.",wugging causes gekking.,gekking causes wugging.
+42,causal,consequently,causes,2,,blicking,gekking,"blicking happened. Consequently, gekking happened.",blicking causes gekking.,gekking causes blicking.
+43,causal,consequently,causes,3,,fepping,gekking,"fepping happened. Consequently, gekking happened.",fepping causes gekking.,gekking causes fepping.
+44,causal,consequently,causes,4,,daxing,gekking,"daxing happened. Consequently, gekking happened.",daxing causes gekking.,gekking causes daxing.
+45,causal,consequently,causes,5,,fepping,blicking,"fepping happened. Consequently, blicking happened.",fepping causes blicking.,blicking causes fepping.
+46,causal,consequently,causes,6,,daxing,fepping,"daxing happened. Consequently, fepping happened.",daxing causes fepping.,fepping causes daxing.
+47,causal,consequently,causes,7,,wugging,daxing,"wugging happened. Consequently, daxing happened.",wugging causes daxing.,daxing causes wugging.
+48,causal,consequently,causes,8,,daxing,blicking,"daxing happened. Consequently, blicking happened.",daxing causes blicking.,blicking causes daxing.
+49,causal,consequently,causes,9,,wugging,fepping,"wugging happened. Consequently, fepping happened.",wugging causes fepping.,fepping causes wugging.
+50,causal,consequently,causes,10,,wugging,blicking,"wugging happened. Consequently, blicking happened.",wugging causes blicking.,blicking causes wugging.
+51,causal,hence,causes,1,,wugging,fepping,"wugging happened. Hence, fepping happened.",wugging causes fepping.,fepping causes wugging.
+52,causal,hence,causes,2,,daxing,gekking,"daxing happened. Hence, gekking happened.",daxing causes gekking.,gekking causes daxing.
+53,causal,hence,causes,3,,wugging,gekking,"wugging happened. Hence, gekking happened.",wugging causes gekking.,gekking causes wugging.
+54,causal,hence,causes,4,,fepping,gekking,"fepping happened. Hence, gekking happened.",fepping causes gekking.,gekking causes fepping.
+55,causal,hence,causes,5,,daxing,fepping,"daxing happened. Hence, fepping happened.",daxing causes fepping.,fepping causes daxing.
+56,causal,hence,causes,6,,fepping,blicking,"fepping happened. Hence, blicking happened.",fepping causes blicking.,blicking causes fepping.
+57,causal,hence,causes,7,,wugging,daxing,"wugging happened. Hence, daxing happened.",wugging causes daxing.,daxing causes wugging.
+58,causal,hence,causes,8,,wugging,blicking,"wugging happened. Hence, blicking happened.",wugging causes blicking.,blicking causes wugging.
+59,causal,hence,causes,9,,daxing,blicking,"daxing happened. Hence, blicking happened.",daxing causes blicking.,blicking causes daxing.
+60,causal,hence,causes,10,,blicking,gekking,"blicking happened. Hence, gekking happened.",blicking causes gekking.,gekking causes blicking.
+61,causal,if,causes,1,,daxing,gekking,daxing will happen if gekking happens.,daxing causes gekking.,gekking causes daxing.
+62,causal,if,causes,2,,fepping,gekking,fepping will happen if gekking happens.,fepping causes gekking.,gekking causes fepping.
+63,causal,if,causes,3,,wugging,fepping,wugging will happen if fepping happens.,wugging causes fepping.,fepping causes wugging.
+64,causal,if,causes,4,,fepping,blicking,fepping will happen if blicking happens.,fepping causes blicking.,blicking causes fepping.
+65,causal,if,causes,5,,blicking,gekking,blicking will happen if gekking happens.,blicking causes gekking.,gekking causes blicking.
+66,causal,if,causes,6,,daxing,fepping,daxing will happen if fepping happens.,daxing causes fepping.,fepping causes daxing.
+67,causal,if,causes,7,,wugging,blicking,wugging will happen if blicking happens.,wugging causes blicking.,blicking causes wugging.
+68,causal,if,causes,8,,daxing,blicking,daxing will happen if blicking happens.,daxing causes blicking.,blicking causes daxing.
+69,causal,if,causes,9,,wugging,daxing,wugging will happen if daxing happens.,wugging causes daxing.,daxing causes wugging.
+70,causal,if,causes,10,,wugging,gekking,wugging will happen if gekking happens.,wugging causes gekking.,gekking causes wugging.
+71,causal,only if,causes,1,,wugging,daxing,wugging will happen only if daxing happens.,wugging causes daxing.,daxing causes wugging.
+72,causal,only if,causes,2,,fepping,gekking,fepping will happen only if gekking happens.,fepping causes gekking.,gekking causes fepping.
+73,causal,only if,causes,3,,daxing,fepping,daxing will happen only if fepping happens.,daxing causes fepping.,fepping causes daxing.
+74,causal,only if,causes,4,,wugging,blicking,wugging will happen only if blicking happens.,wugging causes blicking.,blicking causes wugging.
+75,causal,only if,causes,5,,blicking,gekking,blicking will happen only if gekking happens.,blicking causes gekking.,gekking causes blicking.
+76,causal,only if,causes,6,,wugging,gekking,wugging will happen only if gekking happens.,wugging causes gekking.,gekking causes wugging.
+77,causal,only if,causes,7,,wugging,fepping,wugging will happen only if fepping happens.,wugging causes fepping.,fepping causes wugging.
+78,causal,only if,causes,8,,daxing,blicking,daxing will happen only if blicking happens.,daxing causes blicking.,blicking causes daxing.
+79,causal,only if,causes,9,,daxing,gekking,daxing will happen only if gekking happens.,daxing causes gekking.,gekking causes daxing.
+80,causal,only if,causes,10,,fepping,blicking,fepping will happen only if blicking happens.,fepping causes blicking.,blicking causes fepping.
+81,causal,therefore,causes,1,,wugging,daxing,"wugging happened. Therefore, daxing happened.",wugging causes daxing.,daxing causes wugging.
+82,causal,therefore,causes,2,,daxing,gekking,"daxing happened. Therefore, gekking happened.",daxing causes gekking.,gekking causes daxing.
+83,causal,therefore,causes,3,,wugging,blicking,"wugging happened. Therefore, blicking happened.",wugging causes blicking.,blicking causes wugging.
+84,causal,therefore,causes,4,,wugging,fepping,"wugging happened. Therefore, fepping happened.",wugging causes fepping.,fepping causes wugging.
+85,causal,therefore,causes,5,,wugging,gekking,"wugging happened. Therefore, gekking happened.",wugging causes gekking.,gekking causes wugging.
 86,causal,therefore,causes,6,,daxing,blicking,"daxing happened. Therefore, blicking happened.",daxing causes blicking.,blicking causes daxing.
-87,causal,therefore,causes,7,,daxing,wugging,"daxing happened. Therefore, wugging happened.",daxing causes wugging.,wugging causes daxing.
-88,causal,therefore,causes,8,,daxing,blicking,"daxing happened. Therefore, blicking happened.",daxing causes blicking.,blicking causes daxing.
-89,causal,therefore,causes,9,,daxing,wugging,"daxing happened. Therefore, wugging happened.",daxing causes wugging.,wugging causes daxing.
-90,causal,therefore,causes,10,,fepping,daxing,"fepping happened. Therefore, daxing happened.",fepping causes daxing.,daxing causes fepping.
+87,causal,therefore,causes,7,,fepping,gekking,"fepping happened. Therefore, gekking happened.",fepping causes gekking.,gekking causes fepping.
+88,causal,therefore,causes,8,,fepping,blicking,"fepping happened. Therefore, blicking happened.",fepping causes blicking.,blicking causes fepping.
+89,causal,therefore,causes,9,,blicking,gekking,"blicking happened. Therefore, gekking happened.",blicking causes gekking.,gekking causes blicking.
+90,causal,therefore,causes,10,,daxing,fepping,"daxing happened. Therefore, fepping happened.",daxing causes fepping.,fepping causes daxing.

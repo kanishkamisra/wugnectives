@@ -88,7 +88,7 @@ TEMPORAL_TEMPLATES = {
         "[e2] happened as a result of [e1].",
     ],
     "because": [
-        "[e1] happened because [e2].",
+        "[e1] happened because [e2] happened.",
         "because [e2] happened, [e1] happened.",
     ],
     "before": [
@@ -99,7 +99,7 @@ TEMPORAL_TEMPLATES = {
         "[e1] happened. Consequently, [e2] happened.",
     ],
     "earlier": [
-        "[e1] happend. Earlier, [e2] happened.",
+        "[e1] happend. Earlier, [e2] had happened.",
     ],
     "even after": [
         "Even after [e2], [e1] happened.",

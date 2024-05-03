@@ -1,4 +1,5 @@
 import csv
+import itertools
 import pathlib
 import random
 
@@ -7,10 +8,7 @@ import connectives
 import entities
 import generators
 
-# import properties
 
-
-# Count the number of templates for each type of connective
 preferences = connectives.PREFERENCE_TEMPLATES
 temporals = connectives.TEMPORAL_TEMPLATES
 causals = connectives.CAUSAL_TEMPLATES
@@ -45,27 +43,26 @@ pref_dataset = []
 item_id = 1
 for connective, templates in connectives.PREFERENCE_TEMPLATES.items():
     # pref_verb = random.sample(["love", "hate"], 1)[0]
-    pref_verbs = ["love"] * len(properties)/2 + ["hate"] * len(properties)/2 
+    pref_verbs = ["love"] * int(len(properties)/2) + ["hate"] * int(len(properties)/2)
     random.shuffle(pref_verbs)
-    for prop, pref_verb in zip(properties, pref_verbs):
+    object_pairs = list(itertools.combinations(entities.OBJECTS, 2))
+    location_pairs = list(itertools.combinations(entities.LOCATIONS, 2))
+    random.shuffle(object_pairs)
+    random.shuffle(location_pairs)
+    for i, prop in enumerate(properties):
         # sample pairs of entities
         if prop["type"] == "objects":
-            e_space = entities.OBJECTS
+            e1, e2 = object_pairs[i]
         elif prop["type"] == "locations":
-            e_space = entities.LOCATIONS
-
-        e1, e2 = random.sample(e_space, 2)
+            e1, e2 = location_pairs[i]
 
         # sample template
         sampled_template = random.sample(templates, 1)[0]
-
-        # preference verbs
-        # for pref_verb in ["love", "hate"]:
         premise, inference1, inference2 = generators.PreferencePremise(
             e1,
             e2,
             sampled_template,
-            pref_verb,
+            pref_verbs[i],
             prop["property"],
             prop["inference_phrase"],
         ).generate_inference_pair("")
@@ -75,7 +72,7 @@ for connective, templates in connectives.PREFERENCE_TEMPLATES.items():
                 item_id,
                 "preference",
                 connective,
-                pref_verb,
+                pref_verbs[i],
                 prop["property_id"],
                 prop["property"],
                 e1,
@@ -85,7 +82,6 @@ for connective, templates in connectives.PREFERENCE_TEMPLATES.items():
                 inference2,
             )
         )
-
         item_id += 1
 
 # temporal connectives
@@ -95,11 +91,12 @@ item_id = 1
 for connective, template in connectives.TEMPORAL_TEMPLATES.items():
     orders = ["before"] * len(properties) + ["after"] * len(properties)
     random.shuffle(orders)
+    event_pairs = list(itertools.combinations(entities.EVENTS, 2))
+    random.shuffle(event_pairs)
     for i in range(len(properties)):
-        e1, e2 = random.sample(entities.EVENTS, 2)
+        e1, e2 = event_pairs[i]
         sampled_template = random.sample(template, 1)[0]
-        # for order in ["before", "after"]:
-        # order = random.sample(["before", "after"], 1)[0]
+        
         order = orders[i]
         premise, inference1, inference2 = generators.TemporalPremise(
             e1, e2, sampled_template, order
@@ -128,10 +125,12 @@ causal_dataset = []
 
 item_id = 1
 for connective, template in connectives.CAUSAL_TEMPLATES.items():
+    action_pairs = list(itertools.combinations(entities.ACTIONS, 2))
+    random.shuffle(action_pairs)
     for i in range(len(properties)):
-        e1, e2 = random.sample(entities.ACTIONS, 2)
+        e1, e2 = action_pairs[i]
         sampled_template = random.sample(template, 1)[0]
-        # for cause in ["because", "so"]:
+    
         premise, inference1, inference2 = generators.CausalPremise(
             e1, e2, sampled_template
         ).generate_inference_pair("")
@@ -154,46 +153,17 @@ for connective, template in connectives.CAUSAL_TEMPLATES.items():
 
         item_id += 1
 
-# asgoal connectives
-asgoal_dataset = []
-
-item_id = 1
-
-for connective, template in connectives.ASGOAL_TEMPLATES.items():
-    for i in range(len(properties)):
-        e1, e2 = random.sample(entities.ACTIONS_PRESENT_TENSE, 2)
-        sampled_template = random.sample(template, 1)[0]
-        premise, inference1, inference2 = generators.AsGoalPremise(
-            e1, e2, sampled_template
-        ).generate_inference_pair("")
-
-        asgoal_dataset.append(
-            (
-                item_id,
-                "asgoal",
-                connective,
-                "requires",
-                i + 1,
-                "",
-                e1,
-                e2,
-                premise,
-                inference1,
-                inference2,
-            )
-        )
-
-        item_id += 1
 
 # instantiation connectives
 inst_dataset = []
 
 item_id = 1
-
 for connective, template in connectives.INSTANTIATION_TEMPLATES.items():
+    object_pairs = list(itertools.combinations(entities.OBJECTS, 2))
     for i in range(len(properties)):
-        e1, e2 = random.sample(entities.OBJECTS, 2)
+        e1, e2 = object_pairs[i]
         sampled_template = random.sample(template, 1)[0]
+        
         premise, inference1, inference2 = generators.InstantiationPremise(
             e1, e2, sampled_template
         ).generate_inference_pair("")
@@ -215,7 +185,6 @@ for connective, template in connectives.INSTANTIATION_TEMPLATES.items():
         )
 
         item_id += 1
-# print(pref_dataset)
 
 
 # write to csv
@@ -246,5 +215,4 @@ pathlib.Path("data/stimuli").mkdir(parents=True, exist_ok=True)
 write_stimuli(pref_dataset, "data/stimuli/preference_stimuli.csv")
 write_stimuli(temporal_dataset, "data/stimuli/temporal_stimuli.csv")
 write_stimuli(causal_dataset, "data/stimuli/causal_stimuli.csv")
-write_stimuli(asgoal_dataset, "data/stimuli/asgoal_stimuli.csv")
 write_stimuli(inst_dataset, "data/stimuli/instantiation_stimuli.csv")

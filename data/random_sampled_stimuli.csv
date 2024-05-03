@@ -1,0 +1,56 @@
+idx,item,connective,stimuli-type,premise,inference1,inference2
+1,1,as long as,causal,daxing will happen as long as fepping happens.,daxing causes fepping.,fepping causes daxing.
+2,18,as a result,causal,"daxing happened. As a result, gekking happened.",daxing causes gekking.,gekking causes daxing.
+3,27,because,causal,gekking happened because wugging happened.,gekking causes wugging.,wugging causes gekking.
+4,36,because of,causal,fepping happened because of gekking.,fepping causes gekking.,gekking causes fepping.
+5,49,consequently,causal,"gekking happened. Consequently, blicking happened.",gekking causes blicking.,blicking causes gekking.
+6,52,hence,causal,"daxing happened. Hence, wugging happened.",daxing causes wugging.,wugging causes daxing.
+7,68,if,causal,wugging will happen if fepping happens.,wugging causes fepping.,fepping causes wugging.
+8,79,only if,causal,wugging will happen only if gekking happens.,wugging causes gekking.,gekking causes wugging.
+9,86,therefore,causal,"daxing happened. Therefore, blicking happened.",daxing causes blicking.,blicking causes daxing.
+10,6,for example,instantiation,"I hate wugs, for example, daxes are awful.",wugs are instances of daxes.,daxes are instances of wugs.
+11,17,for instance,instantiation,"I hate wugs, for instance, blickets are awful.",wugs are instances of blickets.,blickets are instances of wugs.
+12,22,in particular,instantiation,"I find geks, in particular, daxes to be awful.",geks are instances of daxes.,daxes are instances of geks.
+13,33,such as,instantiation,"I find daxes such as feps, to be cute.",daxes are instances of feps.,feps are instances of daxes.
+14,7,although,preference,"I prefer Gektopia to Fepopolis, although I love living near mountains.",Gektopia has mountains.,Fepopolis has mountains.
+15,12,as,preference,"I prefer geks to wugs, as I love mammals.",geks are mammals.,wugs are mammals.
+16,27,as a result,preference,"I hate living near mountains. As a result, I prefer Wugsville to Daxburgh.",Wugsville has mountains.,Daxburgh has mountains.
+17,33,as much as,preference,"As much as I hate blue flowers, I prefer feps to daxes.",feps are blue flowers.,daxes are blue flowers.
+18,47,because,preference,I prefer Gektopia to Blicketland because I hate living near mountains.,Gektopia has mountains.,Blicketland has mountains.
+19,58,but,preference,"I hate warm weather, but I prefer Blicketland to Wugsville.",Blicketland has warm weather.,Wugsville has warm weather.
+20,68,even though,preference,"Even though I hate warm weather, I prefer Daxburgh to Fepopolis.",Daxburgh has warm weather.,Fepopolis has warm weather.
+21,79,for,preference,"I prefer Wugsville to Fepopolis, for I hate coastal cities.",Wugsville is a coastal city.,Fepopolis is a coastal city.
+22,86,for example,preference,"I love snowy winters. For example, I prefer Daxburgh to Gektopia.",Daxburgh has snowy winters.,Gektopia has snowy winters.
+23,100,for instance,preference,"I hate skyscrapers. For instance, I prefer Wugsville to Fepopolis.",Wugsville has skyscrapers.,Fepopolis has skyscrapers.
+24,110,however,preference,"I prefer Blicketland to Wugsville, however, I hate skyscrapers.",Blicketland has skyscrapers.,Wugsville has skyscrapers.
+25,112,nevertheless,preference,"I prefer blickets to daxes, nevertheless, I love mammals.",blickets are mammals.,daxes are mammals.
+26,121,since,preference,"Since I love fuzzy creatures, I prefer feps to geks.",feps are fuzzy creatures.,geks are fuzzy creatures.
+27,132,so,preference,"I hate mammals. So, I prefer geks to wugs.",geks are mammals.,wugs are mammals.
+28,142,therefore,preference,"I love mammals. Therefore, I prefer feps to daxes.",feps are mammals.,daxes are mammals.
+29,152,though,preference,"Though I prefer blickets to feps, I love mammals.",blickets are mammals.,feps are mammals.
+30,166,thus,preference,"I love snowy winters. Thus, I prefer Gektopia to Daxburgh.",Gektopia has snowy winters.,Daxburgh has snowy winters.
+31,176,while,preference,"While I prefer Daxburgh to Gektopia, I love snowy winters.",Daxburgh has snowy winters.,Gektopia has snowy winters.
+32,181,yet,preference,"I love fuzzy creatures, yet I prefer feps to wugs.",feps are fuzzy creatures.,wugs are fuzzy creatures.
+33,6,after,temporal,"After blicketbash, daxday happened.",daxday occured before blicketbash.,blicketbash occured before daxday.
+34,15,afterwards,temporal,"gekxtravaganza happened. Afterwards, daxday happened.",gekxtravaganza occured after daxday.,daxday occured after gekxtravaganza.
+35,23,as soon as,temporal,fepfestival happened as soon as blicketbash finished.,fepfestival occured after blicketbash.,blicketbash occured after fepfestival.
+36,33,as a result,temporal,fepfestival happened as a result of blicketbash.,blicketbash occured after fepfestival.,fepfestival occured after blicketbash.
+37,43,because,temporal,gekxtravaganza happened because daxday.,gekxtravaganza occured after daxday.,daxday occured after gekxtravaganza.
+38,57,before,temporal,"Before gekxtravaganza, daxday happened.",daxday occured after gekxtravaganza.,gekxtravaganza occured after daxday.
+39,65,consequently,temporal,"gekxtravaganza happened. Consequently, daxday happened.",gekxtravaganza occured after daxday.,daxday occured after gekxtravaganza.
+40,73,earlier,temporal,"daxday happend. Earlier, fepfestival happened.",daxday occured after fepfestival.,fepfestival occured after daxday.
+41,82,even after,temporal,fepfestival happened even after daxday.,fepfestival occured before daxday.,daxday occured before fepfestival.
+42,94,even before,temporal,blicketbash happened even before daxday.,daxday occured after blicketbash.,blicketbash occured after daxday.
+43,110,even though,temporal,blicketbash happened even though gekxtravaganza had happened.,blicketbash occured before gekxtravaganza.,gekxtravaganza occured before blicketbash.
+44,112,finally,temporal,"wugfest happened. Finally, daxday happened.",wugfest occured before daxday.,daxday occured before wugfest.
+45,128,hence,temporal,"daxday happened. Hence, blicketbash happened.",daxday occured before blicketbash.,blicketbash occured before daxday.
+46,139,later,temporal,"blicketbash happened. Later, wugfest happened.",blicketbash occured after wugfest.,wugfest occured after blicketbash.
+47,141,next,temporal,"blicketbash happened. Next, wugfest happened.",blicketbash occured before wugfest.,wugfest occured before blicketbash.
+48,157,once,temporal,fepfestival happened once wugfest happened.,fepfestival occured after wugfest.,wugfest occured after fepfestival.
+49,161,previously,temporal,"blicketbash happened. Previously, fepfestival happened.",blicketbash occured before fepfestival.,fepfestival occured before blicketbash.
+50,171,since,temporal,daxday happened since blicketbash happened.,daxday occured after blicketbash.,blicketbash occured after daxday.
+51,184,so,temporal,"blicketbash happened. So, gekxtravaganza happened.",blicketbash occured after gekxtravaganza.,gekxtravaganza occured after blicketbash.
+52,193,subsequently,temporal,"wugfest happened. Subsequently, daxday happened.",wugfest occured after daxday.,daxday occured after wugfest.
+53,206,then,temporal,"daxday happened. Then, wugfest happened.",daxday occured after wugfest.,wugfest occured after daxday.
+54,216,thereafter,temporal,"fepfestival happened. Thereafter, gekxtravaganza happened.",fepfestival occured after gekxtravaganza.,gekxtravaganza occured after fepfestival.
+55,228,therefore,temporal,"daxday happened. Therefore, fepfestival happened.",daxday occured before fepfestival.,fepfestival occured before daxday.
