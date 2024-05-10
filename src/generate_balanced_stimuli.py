@@ -173,7 +173,7 @@ for connective, template in connectives.INSTANTIATION_TEMPLATES.items():
                 item_id,
                 "instantiation",
                 connective,
-                "are a type of",
+                "are",
                 i + 1,
                 "",
                 e1,
