@@ -20,7 +20,7 @@ with open('data/stimuli/preference_stimuli.csv') as pref_csv_file:
 
             
 inst_data = []
-with open('data/stimuli/preference_stimuli.csv') as inst_csv_file:
+with open('data/stimuli/instantiation_stimuli.csv') as inst_csv_file:
         inst_reader = csv.reader(inst_csv_file)
         
         lines = 0
@@ -35,7 +35,7 @@ with open('data/stimuli/preference_stimuli.csv') as inst_csv_file:
 
 
 causal_data = []
-with open('data/stimuli/preference_stimuli.csv') as causal_csv_file:
+with open('data/stimuli/causal_stimuli.csv') as causal_csv_file:
         causal_reader = csv.reader(causal_csv_file)
         
         lines = 0
@@ -50,7 +50,7 @@ with open('data/stimuli/preference_stimuli.csv') as causal_csv_file:
 
 
 temp_data = []
-with open('data/stimuli/preference_stimuli.csv') as temp_csv_file:
+with open('data/stimuli/temporal_stimuli.csv') as temp_csv_file:
         temp_reader = csv.reader(temp_csv_file)
         
         lines = 0
@@ -88,7 +88,7 @@ random.shuffle(non_temp_data)
 
 output = []
 idx = 0
-while (len(temp_data) + len(non_temp_data)) > 25:
+while (len(temp_data) + len(non_temp_data)) >= 25:
     output.append([None] * 25)
     
     temp_instances = 5
