@@ -70,7 +70,7 @@ with open('data/stimuli/temporal_stimuli.csv') as temp_csv_file:
 
 # remove headers 
 temp_data = temp_data[1:]
-causal_data = causal_data[1:]
+# causal_data = causal_data[1:]
 pref_data = pref_data[1:]
 inst_data = inst_data[1:]
 
@@ -79,7 +79,7 @@ random.seed(2048)
 random.shuffle(temp_data)
 non_temp_data = []
 non_temp_data.extend(inst_data)
-non_temp_data.extend(causal_data)
+# non_temp_data.extend(causal_data)
 non_temp_data.extend(pref_data)
 
 random.shuffle(non_temp_data)
