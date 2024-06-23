@@ -210,9 +210,9 @@ def write_stimuli(
         writer.writerow(header)
         writer.writerows(dataset)
 
-
-pathlib.Path("data/stimuli").mkdir(parents=True, exist_ok=True)
-write_stimuli(pref_dataset, "data/stimuli/preference_stimuli.csv")
-write_stimuli(temporal_dataset, "data/stimuli/temporal_stimuli.csv")
-write_stimuli(causal_dataset, "data/stimuli/causal_stimuli.csv")
-write_stimuli(inst_dataset, "data/stimuli/instantiation_stimuli.csv")
+if '__main__' == __name__:
+    pathlib.Path("data/stimuli").mkdir(parents=True, exist_ok=True)
+    write_stimuli(pref_dataset, "data/stimuli/preference_stimuli.csv")
+    write_stimuli(temporal_dataset, "data/stimuli/temporal_stimuli.csv")
+    write_stimuli(causal_dataset, "data/stimuli/causal_stimuli.csv")
+    write_stimuli(inst_dataset, "data/stimuli/instantiation_stimuli.csv")
