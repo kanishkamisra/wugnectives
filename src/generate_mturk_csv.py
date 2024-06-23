@@ -3,9 +3,10 @@ import random
 
 from generate_balanced_stimuli import write_stimuli
 
-#unpack from csv (maybe not neccessary?)
+data_path = "../data/stimuli/"
+
 pref_data = []
-with open('data/stimuli/preference_stimuli.csv') as pref_csv_file:
+with open(data_path + 'preference_stimuli.csv') as pref_csv_file:
         pref_reader = csv.reader(pref_csv_file)
         
         lines = 0
@@ -20,7 +21,7 @@ with open('data/stimuli/preference_stimuli.csv') as pref_csv_file:
 
             
 inst_data = []
-with open('data/stimuli/instantiation_stimuli.csv') as inst_csv_file:
+with open(data_path + 'instantiation_stimuli.csv') as inst_csv_file:
         inst_reader = csv.reader(inst_csv_file)
         
         lines = 0
@@ -35,7 +36,7 @@ with open('data/stimuli/instantiation_stimuli.csv') as inst_csv_file:
 
 
 causal_data = []
-with open('data/stimuli/causal_stimuli.csv') as causal_csv_file:
+with open(data_path + 'causal_stimuli.csv') as causal_csv_file:
         causal_reader = csv.reader(causal_csv_file)
         
         lines = 0
@@ -50,7 +51,7 @@ with open('data/stimuli/causal_stimuli.csv') as causal_csv_file:
 
 
 temp_data = []
-with open('data/stimuli/temporal_stimuli.csv') as temp_csv_file:
+with open(data_path + 'temporal_stimuli.csv') as temp_csv_file:
         temp_reader = csv.reader(temp_csv_file)
         
         lines = 0
