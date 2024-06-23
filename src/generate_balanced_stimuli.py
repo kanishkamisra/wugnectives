@@ -34,7 +34,7 @@ print(f"Total: {pref + temporal + causal + asgoal + inst}")
 random.seed(42)
 
 # read properties
-with open("data/properties.csv", "r") as f:
+with open("../data/properties.csv", "r") as f:
     reader = csv.DictReader(f)
     properties = list(reader)
 
