@@ -3,7 +3,7 @@ import random
 
 from generate_balanced_stimuli import write_stimuli
 
-data_path = "../data/stimuli/"
+data_path = "data/stimuli/"
 
 pref_data = []
 with open(data_path + 'preference_stimuli.csv') as pref_csv_file:
