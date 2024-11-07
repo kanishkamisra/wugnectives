@@ -1,74 +1,102 @@
-import pathlib
-import random
 from minicons import scorer
 import numpy as np
-import json
 from input_generator import make_stimuli
-from model_prompter import evaluate_dataset
-import sys
-import csv
-from generate_stimuli import pref_dataset, causal_dataset, temporal_dataset, inst_dataset, write_stimuli
+from model_prompter import *
+import pandas as pd
 import argparse
+import getpass
 
-parser = argparse.ArgumentParser(prog="Run model on all stimuli")
+
+parser = argparse.ArgumentParser(prog="Run models on all human evaluated stimuli")
 parser.add_argument("model_name")
+parser.add_argument("outfile")
 parser.add_argument("compute")
 
 args = parser.parse_args()
+data_path = "data/"
 
 # model_name = "../../../shared/hf_cache/models--mistralai--Mistral-7B-v0.1/snapshots/26bca36bde8333b5d7f72e9ed20ccda6a618af24/"
 # compute = 'cuda:0'
 
+# token = getpass.getpass(prompt="Input Huggingface Token:")
+
 compute = ''
 model_name = ''
+outfile = ''
 
 if args.compute == None:
     compute = 'cpu'
 else:
     compute = args.compute
-
 if args.model_name == None:
     model_name = 'gpt2'
 else:
     model_name = args.model_name
+if args.outfile == None:
+    outfile = 'tmp.csv'
+else:
+    outfile = args.outfile
 
 
+model = scorer.IncrementalLMScorer(model_name, compute, cache_dir="/home/shared/hf_cache")
 print("Running model " + model_name + " on " + compute + "...")
 
+stimulus_path = "mturk_stimuli.csv"
+df_stim_raw = pd.read_csv(stimulus_path)
 
-model = scorer.IncrementalLMScorer(model_name, compute)
+df_stim = format_stimuli(df_stim_raw)
 
-pref_dataset
-temporal_dataset
-causal_dataset
-inst_dataset
+df_to_run = setup_dataframe(df_stim)
 
-print("Running pref dataset...", end="")
-pref_scores = evaluate_dataset(model, pref_dataset)
-print("Finished.")
-print("Running temporal dataset...", end="")
-temporal_scores = evaluate_dataset(model, temporal_dataset)
-print("Finished.")
-print("Running causal dataset...", end="")
-causal_scores = evaluate_dataset(model, causal_dataset)
-print("Finished.")
-print("Running causal dataset...", end="")
-inst_scores = evaluate_dataset(model, inst_dataset)
-print("Finished.")
+df_out = run_model(model=model, df=df_to_run)
+
+df_out.to_csv(data_path + outfile + "_results.csv")
 
 
-header = ["id", "score", "nonce", "connective", "target", "statement", "conclusion"]
 
-pathlib.Path("data/results/" + model_name +
-             "/").mkdir(parents=True, exist_ok=True)
-write_stimuli(pref_scores,     "data/results/" +
-              model_name + "/preference_results.csv", header)
-write_stimuli(temporal_scores, "data/results/" +
-              model_name + "/temporal_results.csv", header)
-write_stimuli(causal_scores,   "data/results/" +
-              model_name + "/causal_results.csv", header)
-write_stimuli(inst_scores,     "data/results/" + model_name +
-              "/instantiation_results.csv", header)
+
+
+
+
+
+
+
+
+
+
+
+
+# pref_dataset
+# temporal_dataset
+# causal_dataset
+# inst_dataset
+
+# print("Running pref dataset...", end="")
+# pref_scores = evaluate_dataset(model, pref_dataset)
+# print("Finished.")
+# print("Running temporal dataset...", end="")
+# temporal_scores = evaluate_dataset(model, temporal_dataset)
+# print("Finished.")
+# print("Running causal dataset...", end="")
+# causal_scores = evaluate_dataset(model, causal_dataset)
+# print("Finished.")
+# print("Running causal dataset...", end="")
+# inst_scores = evaluate_dataset(model, inst_dataset)
+# print("Finished.")
+
+
+# header = ["id", "score", "nonce", "connective", "target", "statement", "conclusion"]
+
+# pathlib.Path("data/results/" + model_name +
+#              "/").mkdir(parents=True, exist_ok=True)
+# write_stimuli(pref_scores,     "data/results/" +
+#               model_name + "/preference_results.csv", header)
+# write_stimuli(temporal_scores, "data/results/" +
+#               model_name + "/temporal_results.csv", header)
+# write_stimuli(causal_scores,   "data/results/" +
+#               model_name + "/causal_results.csv", header)
+# write_stimuli(inst_scores,     "data/results/" + model_name +
+#               "/instantiation_results.csv", header)
 
 
 # question = "Which city is the state capital?"
