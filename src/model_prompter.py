@@ -79,10 +79,139 @@ def setup_dataframe(df_stim:pd.DataFrame):
     
     return df_out
 
+
+def setup_dataframe_simpleprompt(df_stim:pd.DataFrame):
+    df_out = df_stim.copy()
+    
+    df_out.insert(column="nonce_A", loc=len(df_out.columns), value=None)
+    df_out.insert(column="nonce_B", loc=len(df_out.columns), value=None)
+
+    # df_output.insert(column="inference_A", loc=len(df_output.columns), value=None)
+    # df_output.insert(column="inference_B", loc=len(df_output.columns), value=None)
+    
+    # one column for each prompt - QA
+    df_out.insert(column="prompt_QA", loc=len(df_out.columns), value=None)
+    
+    df_out.insert(column="prompt_A_YN", loc=len(df_out.columns), value=None)
+    df_out.insert(column="prompt_B_YN", loc=len(df_out.columns), value=None)
+    
+    # one column for each rating - QA 
+    df_out.insert(column="rating_QA_A", loc=len(df_out.columns), value=None)
+    df_out.insert(column="rating_QA_B", loc=len(df_out.columns), value=None)
+
+    df_out.insert(column="rating_A_YN_Y", loc=len(df_out.columns), value=None)
+    df_out.insert(column="rating_A_YN_N", loc=len(df_out.columns), value=None)
+    df_out.insert(column="rating_B_YN_Y", loc=len(df_out.columns), value=None)
+    df_out.insert(column="rating_B_YN_N", loc=len(df_out.columns), value=None)
+    
+    
+    for index, row in df_stim.iterrows():       
+        
+        premise         = row["premise"]
+        inference_A     = row["inference_A"]
+        inference_A_id  = row["inference_id_A"]
+        inference_B     = row["inference_B"]
+        inference_B_id  = row["inference_id_B"]
+        
+        # extract nonces from sentences, as the ID is unclear which Nonce is being targeted 
+        nonce_A = inference_A_id.split("_")[-2].split(" ")[0]
+        nonce_B = inference_B_id.split("_")[-2].split(" ")[0]
+        
+        QA_prompt = premise
+        
+        YN_prompt_A = "Given the following statement:\n" + premise + "\n\nIs it true that " + inference_A[:-1] + "? Answer yes or no: "
+        YN_prompt_B = "Given the following statement:\n" + premise + "\n\nIs it true that " + inference_B[:-1] + "? Answer yes or no: "
+        
+        #input nonces into the dataframes
+        df_out.loc[df_out["premise"] == premise, "nonce_A"] = nonce_A
+        df_out.loc[df_out["premise"] == premise, "nonce_B"] = nonce_B
+        
+        # imput these prompts into the dataframe
+        df_out.loc[df_out["premise"] == premise, "prompt_QA"] = QA_prompt  
+        df_out.loc[df_out["premise"] == premise, "prompt_A_YN"] = YN_prompt_A
+        df_out.loc[df_out["premise"] == premise, "prompt_B_YN"] = YN_prompt_B
+    
+    return df_out
+
+
+
+def _chat_template(sequence, tokenizer, post_text="Response:"):
+    formatted = [{"role": "user", "content": sequence.strip()}]
+    templated = tokenizer.apply_chat_template(
+        formatted, tokenize=False, add_generation_prompt=True
+    )
+    reformatted = tokenizer.decode(
+        tokenizer(templated, add_special_tokens=False).input_ids[1:]
+    ) + f"{post_text}\n"
+    return reformatted
+
+def setup_dataframe_chat(df_stim:pd.DataFrame, lm:scorer):
+    df_out = df_stim.copy()
+    
+    df_out.insert(column="nonce_A", loc=len(df_out.columns), value=None)
+    df_out.insert(column="nonce_B", loc=len(df_out.columns), value=None)
+
+    # df_output.insert(column="inference_A", loc=len(df_output.columns), value=None)
+    # df_output.insert(column="inference_B", loc=len(df_output.columns), value=None)
+    
+    # one column for each prompt - QA
+    df_out.insert(column="prompt_QA", loc=len(df_out.columns), value=None)
+    
+    df_out.insert(column="prompt_A_YN", loc=len(df_out.columns), value=None)
+    df_out.insert(column="prompt_B_YN", loc=len(df_out.columns), value=None)
+    
+    # one column for each rating - QA 
+    df_out.insert(column="rating_QA_A", loc=len(df_out.columns), value=None)
+    df_out.insert(column="rating_QA_B", loc=len(df_out.columns), value=None)
+
+    df_out.insert(column="rating_A_YN_Y", loc=len(df_out.columns), value=None)
+    df_out.insert(column="rating_A_YN_N", loc=len(df_out.columns), value=None)
+    df_out.insert(column="rating_B_YN_Y", loc=len(df_out.columns), value=None)
+    df_out.insert(column="rating_B_YN_N", loc=len(df_out.columns), value=None)
+    
+    
+    for index, row in df_stim.iterrows():       
+        
+        premise         = row["premise"]
+        inference_A     = row["inference_A"]
+        inference_A_id  = row["inference_id_A"]
+        inference_B     = row["inference_B"]
+        inference_B_id  = row["inference_id_B"]
+        
+        
+        prompt_nonqa = "Given the following statement:\n" + premise + "\n\nProduce a valid conclusion: "
+        prompt_yn_A = "Given the following statement:\n" + premise + "\n\nIs it true that " + inference_A[:-1] + "? Answer in the format 'Answer: [answer]'"
+        prompt_yn_B = "Given the following statement:\n" + premise + "\n\nIs it true that " + inference_B[:-1] + "? Answer in the format 'Answer: [answer]'"
+
+        # extract nonces from sentences, as the ID is unclear which Nonce is being targeted 
+        nonce_A = inference_A_id.split("_")[-2].split(" ")[0]
+        nonce_B = inference_B_id.split("_")[-2].split(" ")[0]
+        
+        QA_prompt = _chat_template(prompt_nonqa, lm.tokenizer, post_text="")
+        
+        YN_prompt_A = _chat_template(prompt_yn_A, lm.tokenizer, post_text="Answer: ")
+        YN_prompt_B = _chat_template(prompt_yn_B, lm.tokenizer, post_text="Answer: ")
+        
+        #input nonces into the dataframes
+        df_out.loc[df_out["premise"] == premise, "nonce_A"] = nonce_A
+        df_out.loc[df_out["premise"] == premise, "nonce_B"] = nonce_B
+        
+        # imput these prompts into the dataframe
+        df_out.loc[df_out["premise"] == premise, "prompt_QA"] = QA_prompt  
+        df_out.loc[df_out["premise"] == premise, "prompt_A_YN"] = YN_prompt_A
+        df_out.loc[df_out["premise"] == premise, "prompt_B_YN"] = YN_prompt_B
+    
+    return df_out
+
+
+
 def run_model(model:scorer, df:pd.DataFrame):
     df_out = df.copy()
     
-    for index, row in df_out.iterrows():
+    #progress bar
+    from tqdm import tqdm
+    
+    for index, row in tqdm(df_out.iterrows(),desc="Running Model...", total=len(df_out)):
         premise         = row["premise"]
         
         # get scores
@@ -106,10 +235,6 @@ def run_model(model:scorer, df:pd.DataFrame):
     # model.partial_score(given_str + produce_str_1, conclusion_1)[0]
     
     return df_out
-
-
-
-
 
 
 

@@ -1,44 +1,70 @@
+import csv
 import os
 import argparse
+import getpass
 
 # Runs runner.py over multiple models
 # Mostly as a quick solution to memory errors that built up with a plain for loop inside runner.py
 
 parser = argparse.ArgumentParser(prog="Run Specified models on all human evaluated stimuli")
 
+parser.add_argument("models_csv")
 parser.add_argument("compute")
+parser.add_argument("--use_hf_token", default=False)
+parser.add_argument("--use_chat", default=False, action=argparse.BooleanOptionalAction)
+
 args = parser.parse_args()
+
+token = ""
 
 if args.compute == None:
     compute = 'cpu'
 else:
     compute = args.compute
+if not args.use_hf_token == False:
+    token = getpass("Input your huggingface access token.")
 
-model_dirs = [
-    "/home/shared/hf_cache/models--mistralai--Mistral-7B-v0.3/snapshots/7e728d76bdbc28c23c0ff5de71bf45663be9ff36/", 
-    "/home/shared/hf_cache/models--meta-llama--Llama-3.2-3B/snapshots/5cc0ffe09ee49f7be6ca7c794ee6bd7245e84e60/", 
-    # "/home/shared/hf_cache/models--meta-llama--Llama-3.2-3B-Instruct/snapshots/392a143b624368100f77a3eafaa4a2468ba50a72/", -- DOESN'T WORK
-    "/home/shared/hf_cache/models--babylm--babyllama-100m-2024/snapshots/9c1aeb3459c892ad28fd56ece6672a223c43ba9c/", 
-    "/home/shared/hf_cache/models--babylm--opt-125m-strict/snapshots/cdc1b7349c61df949df94a03bdd7b43be5313cec/", 
-    "/home/shared/hf_cache/models--mistralai--Mistral-7B-Instruct-v0.3/snapshots/d79d1742f78eb0cc788c11e5b41a7539d7cb56ef/", 
-    "/home/shared/hf_cache/models--meta-llama--Llama-3.1-8B/snapshots/d04e592bb4f6aa9cfee91e2e20afa771667e1d4b/", 
-    "/home/shared/hf_cache/models--meta-llama--Llama-3.1-8B-Instruct/snapshots/0e9e39f249a16976918f6564b8830bc894c89659/",
-    "gpt2"
-]
+use_chat = ""
+if args.use_chat:
+    use_chat = "--use_chat"
 
-output_files = [
-    "mistralai--Mistral-7B-v0.3", 
-    "meta-llama--Llama-3.2-3B", 
-    # "meta-llama--Llama-3.2-3B-Instruct",  -- DOESN'T WORK
-    "babylm--babyllama-100m-2024", 
-    "babylm--opt-125m-strict", 
-    "mistralai--Mistral-7B-Instruct-v0.3", 
-    "meta-llama--Llama-3.1-8B", 
-    "meta-llama--Llama-3.1-8B-Instruct",
-    "gpt2"
-]
+with open(args.models_csv) as csv_file:
+    models_csv = csv.reader(csv_file)
+    lines = -1
+    
+    for entry in models_csv:
+        model, outfile, delete_afterwards = entry
+        lines += 1
+        
+        if lines == 0:
+            # header row
+            if not (model == "model" and outfile == "outfile" and "delete_afterwards" == delete_afterwards):
+                print("malformed CSV. Must start have headers \"model\", \"outfile\", and \"delete_afterwards\"")
+                print("You have", model + ",", outfile + ", and", delete_afterwards)
+                break
+            else:
+                continue
+        
+        # normalize delete_afterwards to a bool from a string
+        delete_afterwards = (delete_afterwards.lower().strip() == "true")
+        
+        print(model, outfile, delete_afterwards, type(delete_afterwards))
+        if "70B-Instruct" in model:
+            print("RUNNING LLAMA 70B INSTRUCT ")
+            os.system("HF_HOME=\"~/tmpcache\" TRANSFORMERS_CACHE=\"~/tmpcache\" python src/runner.py " + model + " " + outfile + " " + compute + " " + token + " " + use_chat)
+        else:
+            os.system("python src/runner.py " + model + " " + outfile + " " + compute + " " + token + " " + use_chat)
+           
+        if delete_afterwards:
+            # doesn't work so just commented out for now
+            
+            # path = "/home/shared/hf_cache/models--" + model.replace("/", "--")
+            # print("deleting", path + "...")
+            # os.system("rm -rI path")
+            pass
 
-
-for model_name, outfile in zip(model_dirs, output_files):
-    os.system("python src/runner.py " + model_name + " " + outfile + " " + compute)
+#                       models--google--gemma-2-2b
+# /home/shared/hf_cache/models--google--gemma-2-2b
+    
+# for model_name, outfile in zip(gemma_model_dirs, gemma_output_files):
     

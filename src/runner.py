@@ -1,28 +1,34 @@
+import os
 from minicons import scorer
 import numpy as np
 from input_generator import make_stimuli
 from model_prompter import *
 import pandas as pd
 import argparse
-import getpass
-
+from transformers import BitsAndBytesConfig
+import torch
+from huggingface_hub import login
 
 parser = argparse.ArgumentParser(prog="Run models on all human evaluated stimuli")
 parser.add_argument("model_name")
 parser.add_argument("outfile")
 parser.add_argument("compute")
+parser.add_argument("--hf_token", default=None)
+parser.add_argument("--use_chat", default=False, action=argparse.BooleanOptionalAction)
 
 args = parser.parse_args()
-data_path = "data/"
+data_path = "data/output_simpleprompt/"
 
 # model_name = "../../../shared/hf_cache/models--mistralai--Mistral-7B-v0.1/snapshots/26bca36bde8333b5d7f72e9ed20ccda6a618af24/"
 # compute = 'cuda:0'
 
-# token = getpass.getpass(prompt="Input Huggingface Token:")
 
 compute = ''
 model_name = ''
 outfile = ''
+token = args.hf_token
+
+# login(token=token)
 
 if args.compute == None:
     compute = 'cpu'
@@ -37,8 +43,18 @@ if args.outfile == None:
 else:
     outfile = args.outfile
 
+bnb_config = BitsAndBytesConfig(
+            load_in_4bit=True,
+            bnb_4bit_use_double_quant=True,
+            bnb_4bit_quant_type="nf4",
+            bnb_4bit_compute_dtype=torch.bfloat16,
+        )
 
-model = scorer.IncrementalLMScorer(model_name, compute, cache_dir="/home/shared/hf_cache")
+cache_dir = "/home/shared/hf_cache"
+
+model = scorer.IncrementalLMScorer(model_name, compute, cache_dir=cache_dir, token=token, quantization_config=bnb_config)
+
+
 print("Running model " + model_name + " on " + compute + "...")
 
 stimulus_path = "mturk_stimuli.csv"
@@ -46,7 +62,12 @@ df_stim_raw = pd.read_csv(stimulus_path)
 
 df_stim = format_stimuli(df_stim_raw)
 
-df_to_run = setup_dataframe(df_stim)
+df_to_run = None
+if args.use_chat:
+    df_to_run = setup_dataframe_chat(df_stim, model)
+else:
+    df_to_run = setup_dataframe(df_stim)
+
 
 df_out = run_model(model=model, df=df_to_run)
 
