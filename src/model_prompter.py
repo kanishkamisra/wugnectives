@@ -328,7 +328,7 @@ def run_model(model:scorer, model_name:str, df:pd.DataFrame, chat=False, noforma
         # premise         = row["premise"]
 
         # get scores
-        if not chat:
+        if not chat or noformat:
             rating_QA_A = model.conditional_score(row["prompt_QA"], row["inference_A"])[0]
             rating_QA_B = model.conditional_score(row["prompt_QA"], row["inference_B"])[0]
 
