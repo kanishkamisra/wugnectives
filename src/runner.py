@@ -1,23 +1,29 @@
 import os
+
+# os.environ['CUDA_VISIBLE_DEVICES'] = "0"
+
+import os
 from minicons import scorer
 import numpy as np
 from input_generator import make_stimuli
 from model_prompter import *
 import pandas as pd
-import argparse
-from transformers import BitsAndBytesConfig
-import torch
 from huggingface_hub import login
+import traceback
 
+import argparse
 parser = argparse.ArgumentParser(prog="Run models on all human evaluated stimuli")
 parser.add_argument("model_name")
 parser.add_argument("outfile")
 parser.add_argument("compute")
 parser.add_argument("--hf_token", default=None)
 parser.add_argument("--use_chat", default=False, action=argparse.BooleanOptionalAction)
-
+parser.add_argument("--use_chat_noformat", default=False, action=argparse.BooleanOptionalAction)
+parser.add_argument("--reason", default=False, action=argparse.BooleanOptionalAction)
+parser.add_argument("--temp_stim", default=False, action=argparse.BooleanOptionalAction)
 args = parser.parse_args()
-data_path = "data/output_simpleprompt/"
+
+data_path = "data/"
 
 # model_name = "../../../shared/hf_cache/models--mistralai--Mistral-7B-v0.1/snapshots/26bca36bde8333b5d7f72e9ed20ccda6a618af24/"
 # compute = 'cuda:0'
@@ -28,12 +34,17 @@ model_name = ''
 outfile = ''
 token = args.hf_token
 
-# login(token=token)
+if args.use_chat and args.use_chat_noformat:
+    raise ValueError("Select only one of --use_chat or --use_chat_noformat. Both set chat=True, but noformat does not add the chat template (i.e. <|user|>)")
 
 if args.compute == None:
     compute = 'cpu'
 else:
-    compute = args.compute
+    if (not args.compute == "cpu"):
+        if (not "," in os.environ['CUDA_VISIBLE_DEVICES']):
+            compute = "cuda:0"
+    else:
+        compute = args.compute
 if args.model_name == None:
     model_name = 'gpt2'
 else:
@@ -42,36 +53,44 @@ if args.outfile == None:
     outfile = 'tmp.csv'
 else:
     outfile = args.outfile
-
-bnb_config = BitsAndBytesConfig(
-            load_in_4bit=True,
-            bnb_4bit_use_double_quant=True,
-            bnb_4bit_quant_type="nf4",
-            bnb_4bit_compute_dtype=torch.bfloat16,
-        )
-
 cache_dir = "/home/shared/hf_cache"
+try:
+    model = None
 
-model = scorer.IncrementalLMScorer(model_name, compute, cache_dir=cache_dir, token=token, quantization_config=bnb_config)
-
-
-print("Running model " + model_name + " on " + compute + "...")
-
-stimulus_path = "mturk_stimuli.csv"
-df_stim_raw = pd.read_csv(stimulus_path)
-
-df_stim = format_stimuli(df_stim_raw)
-
-df_to_run = None
-if args.use_chat:
-    df_to_run = setup_dataframe_chat(df_stim, model)
-else:
-    df_to_run = setup_dataframe(df_stim)
+    model = scorer.IncrementalLMScorer(model_name, compute, cache_dir=cache_dir, token=token)
 
 
-df_out = run_model(model=model, df=df_to_run)
 
-df_out.to_csv(data_path + outfile + "_results.csv")
+    print("Running model " + model_name + " on " + compute + "...")
+
+    stimulus_path = "stimuli.csv"
+    if(args.temp_stim):
+        stimulus_path = "temp_rev_stimuli.csv"
+        outfile = "revtemp_" + outfile
+
+    df_stim = pd.read_csv(stimulus_path)
+    # print(df_stim)
+
+    # df_stim = format_stimuli(df_stim_raw)
+
+    df_to_run = None
+    if args.use_chat:
+        data_path + "chat/"
+        df_to_run = setup_dataframe_chat(df_stim, model, model_name, reason=args.reason)
+    else:
+        df_to_run = setup_dataframe(df_stim)
+
+    df_out = run_model(model=model, model_name=model_name, df=df_to_run, chat=args.use_chat, noformat=args.use_chat_noformat, reason=args.reason)
+
+    df_out.to_csv(data_path + outfile + "_results.csv")
+except Exception as e: 
+    print(e)
+    
+
+    with open("failures.txt", "a+") as file:
+        file.write(model_name + "\n")
+        file.write(traceback.format_exc())
+
 
 
 
