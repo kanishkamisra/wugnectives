@@ -1,0 +1,4 @@
+model,outfile,delete_afterwards
+EleutherAI/pythia-12b-deduped,pythia-12b-deduped,FALSE
+allenai/OLMo-2-1124-13B,OLMo-2-13B,FALSE
+google/gemma-3-12b-pt,gemma-3-12b-pt,FALSE

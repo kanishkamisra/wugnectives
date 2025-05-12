@@ -1,0 +1,2 @@
+model,outfile,delete_afterwards
+Qwen/Qwen2.5-32B,qwen2.5-32B,FALSE

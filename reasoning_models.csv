@@ -1,0 +1,4 @@
+model,outfile,delete_afterwards
+meta-llama/Llama-3.1-8B-Instruct,meta-llama--Llama-3.1-8B-Instruct,FALSE
+deepseek-ai/DeepSeek-R1-Distill-Llama-8B,deepseek--R1-Distill-Llama-8B
+Qwen/QwQ-32B,qwq-32B

@@ -1,0 +1,6 @@
+model,outfile,delete_afterwards
+Qwen/Qwen2.5-0.5B,qwen2.5-0.5B,FALSE
+Qwen/Qwen2.5-1.5B,qwen2.5-1.5B,FALSE
+Qwen/Qwen2.5-3B,qwen2.5-3B,FALSE
+Qwen/Qwen2.5-7B,qwen--qwen2.5-7B,FALSE
+Qwen/Qwen2.5-32B,qwen2.5-32B,FALSE

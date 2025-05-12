@@ -1,0 +1,4 @@
+model,outfile,delete_afterwards
+google/gemma-3-12b-it,gemma-3-12b-it,FALSE
+allenai/OLMo-2-1124-13B-Instruct,OLMo-2-13B-Instruct,FALSE
+Qwen/Qwen2.5-32B-Instruct,qwen2.5-32B-Instruct,FALSE
