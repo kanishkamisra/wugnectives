@@ -98,4 +98,4 @@ with open(args.models_csv) as csv_file:
             pass
 
 import shutil
-shutil.move('failure.txt', date_str + 'failure.txt')
+shutil.move('failures.txt', date_str + 'failures.txt')
