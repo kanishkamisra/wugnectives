@@ -4,9 +4,10 @@ import pathlib
 import random
 
 import config
-import connectives
+import connectives as connectives
 import entities
 import generators
+
 
 # write to csv
 def write_stimuli(
@@ -31,7 +32,8 @@ def write_stimuli(
         writer.writerow(header)
         writer.writerows(dataset)
 
-if '__main__' == __name__:
+
+if "__main__" == __name__:
     preferences = connectives.PREFERENCE_TEMPLATES
     temporals = connectives.TEMPORAL_TEMPLATES
     causals = connectives.CAUSAL_TEMPLATES
@@ -52,12 +54,11 @@ if '__main__' == __name__:
     # print(f"Total: {pref + temporal + causal}")
     print(f"Total: {pref + temporal + causal + asgoal + inst}")
 
-
     # preference connectives
     random.seed(42)
 
     # read properties
-    with open(".data/properties.csv", "r") as f:
+    with open("data/properties.csv", "r") as f:
         reader = csv.DictReader(f)
         properties = list(reader)
 
@@ -66,7 +67,9 @@ if '__main__' == __name__:
     item_id = 1
     for connective, templates in connectives.PREFERENCE_TEMPLATES.items():
         # pref_verb = random.sample(["love", "hate"], 1)[0]
-        pref_verbs = ["love"] * int(len(properties)/2) + ["hate"] * int(len(properties)/2)
+        pref_verbs = ["love"] * int(len(properties) / 2) + ["hate"] * int(
+            len(properties) / 2
+        )
         random.shuffle(pref_verbs)
         object_pairs = list(itertools.combinations(entities.OBJECTS, 2))
         location_pairs = list(itertools.combinations(entities.LOCATIONS, 2))
@@ -176,7 +179,6 @@ if '__main__' == __name__:
 
             item_id += 1
 
-
     # instantiation connectives
     inst_dataset = []
 
@@ -209,11 +211,9 @@ if '__main__' == __name__:
 
             item_id += 1
 
-
-
-
-        pathlib.Path("data/stimuli").mkdir(parents=True, exist_ok=True)
-        write_stimuli(pref_dataset, "data/stimuli/preference_stimuli.csv")
-        write_stimuli(temporal_dataset, "data/stimuli/temporal_stimuli.csv")
-        write_stimuli(causal_dataset, "data/stimuli/causal_stimuli.csv")
-        write_stimuli(inst_dataset, "data/stimuli/instantiation_stimuli.csv")
+        PATH = "data/stimuli-new"
+        pathlib.Path(PATH).mkdir(parents=True, exist_ok=True)
+        write_stimuli(pref_dataset, f"{PATH}/preference_stimuli.csv")
+        write_stimuli(temporal_dataset, f"{PATH}/temporal_stimuli.csv")
+        write_stimuli(causal_dataset, f"{PATH}/causal_stimuli.csv")
+        write_stimuli(inst_dataset, f"{PATH}/instantiation_stimuli.csv")

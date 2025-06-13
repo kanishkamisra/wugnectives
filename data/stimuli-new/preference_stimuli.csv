@@ -1,0 +1,191 @@
+item_id,stimuli_type,connective,target,stimuli_instance,stimuli_instance_description,entity1,entity2,premise,inference1,inference2
+1,preference,although,hate,1,fuzzy creatures,wugs,geks,"Although I prefer wugs to geks, I hate fuzzy creatures.",wugs are fuzzy creatures.,geks are fuzzy creatures.
+2,preference,although,love,2,mammals,daxes,blickets,"Although I love mammals, I prefer daxes to blickets.",daxes are mammals.,blickets are mammals.
+3,preference,although,love,3,blue flowers,wugs,blickets,"Although I love blue flowers, I prefer wugs to blickets.",wugs are blue flowers.,blickets are blue flowers.
+4,preference,although,hate,4,bass instruments,daxes,feps,"Although I hate bass instruments, I prefer daxes to feps.",daxes are bass instruments.,feps are bass instruments.
+5,preference,although,hate,5,insects,wugs,feps,"I prefer wugs to feps, although I hate insects.",wugs are insects.,feps are insects.
+6,preference,although,hate,6,snowy winters,Blicketland,Gektopia,"I prefer Blicketland to Gektopia, although I hate snowy winters.",Blicketland has snowy winters.,Gektopia has snowy winters.
+7,preference,although,hate,7,living near mountains,Wugsville,Fepopolis,"Although I hate living near mountains, I prefer Wugsville to Fepopolis.",Wugsville has mountains.,Fepopolis has mountains.
+8,preference,although,love,8,warm weather,Daxburgh,Gektopia,"I prefer Daxburgh to Gektopia, although I love warm weather.",Daxburgh has warm weather.,Gektopia has warm weather.
+9,preference,although,love,9,coastal cities,Wugsville,Gektopia,"I prefer Wugsville to Gektopia, although I love coastal cities.",Wugsville is a coastal city.,Gektopia is a coastal city.
+10,preference,although,love,10,skyscrapers,Fepopolis,Gektopia,"Although I love skyscrapers, I prefer Fepopolis to Gektopia.",Fepopolis has skyscrapers.,Gektopia has skyscrapers.
+11,preference,as,hate,1,fuzzy creatures,feps,geks,"I prefer feps to geks, as I hate fuzzy creatures.",feps are fuzzy creatures.,geks are fuzzy creatures.
+12,preference,as,hate,2,mammals,wugs,daxes,"I prefer wugs to daxes, as I hate mammals.",wugs are mammals.,daxes are mammals.
+13,preference,as,hate,3,blue flowers,wugs,geks,"I prefer wugs to geks, as I hate blue flowers.",wugs are blue flowers.,geks are blue flowers.
+14,preference,as,love,4,bass instruments,wugs,blickets,"I prefer wugs to blickets, as I love bass instruments.",wugs are bass instruments.,blickets are bass instruments.
+15,preference,as,love,5,insects,feps,blickets,"I prefer feps to blickets, as I love insects.",feps are insects.,blickets are insects.
+16,preference,as,love,6,snowy winters,Wugsville,Blicketland,"I prefer Wugsville to Blicketland, as I love snowy winters.",Wugsville has snowy winters.,Blicketland has snowy winters.
+17,preference,as,love,7,living near mountains,Daxburgh,Gektopia,"I prefer Daxburgh to Gektopia, as I love living near mountains.",Daxburgh has mountains.,Gektopia has mountains.
+18,preference,as,hate,8,warm weather,Wugsville,Gektopia,"I prefer Wugsville to Gektopia, as I hate warm weather.",Wugsville has warm weather.,Gektopia has warm weather.
+19,preference,as,hate,9,coastal cities,Wugsville,Daxburgh,"I prefer Wugsville to Daxburgh, as I hate coastal cities.",Wugsville is a coastal city.,Daxburgh is a coastal city.
+20,preference,as,love,10,skyscrapers,Wugsville,Fepopolis,"I prefer Wugsville to Fepopolis, as I love skyscrapers.",Wugsville has skyscrapers.,Fepopolis has skyscrapers.
+21,preference,as a result,love,1,fuzzy creatures,wugs,feps,"I love fuzzy creatures. As a result, I prefer wugs to feps.",wugs are fuzzy creatures.,feps are fuzzy creatures.
+22,preference,as a result,hate,2,mammals,daxes,feps,"I hate mammals. As a result, I prefer daxes to feps.",daxes are mammals.,feps are mammals.
+23,preference,as a result,love,3,blue flowers,feps,blickets,"I love blue flowers. As a result, I prefer feps to blickets.",feps are blue flowers.,blickets are blue flowers.
+24,preference,as a result,love,4,bass instruments,daxes,blickets,"I love bass instruments. As a result, I prefer daxes to blickets.",daxes are bass instruments.,blickets are bass instruments.
+25,preference,as a result,hate,5,insects,feps,geks,"I hate insects. As a result, I prefer feps to geks.",feps are insects.,geks are insects.
+26,preference,as a result,hate,6,snowy winters,Fepopolis,Blicketland,"I hate snowy winters. As a result, I prefer Fepopolis to Blicketland.",Fepopolis has snowy winters.,Blicketland has snowy winters.
+27,preference,as a result,hate,7,living near mountains,Fepopolis,Gektopia,"I hate living near mountains. As a result, I prefer Fepopolis to Gektopia.",Fepopolis has mountains.,Gektopia has mountains.
+28,preference,as a result,love,8,warm weather,Wugsville,Gektopia,"I love warm weather. As a result, I prefer Wugsville to Gektopia.",Wugsville has warm weather.,Gektopia has warm weather.
+29,preference,as a result,love,9,coastal cities,Daxburgh,Blicketland,"I love coastal cities. As a result, I prefer Daxburgh to Blicketland.",Daxburgh is a coastal city.,Blicketland is a coastal city.
+30,preference,as a result,hate,10,skyscrapers,Blicketland,Gektopia,"I hate skyscrapers. As a result, I prefer Blicketland to Gektopia.",Blicketland has skyscrapers.,Gektopia has skyscrapers.
+31,preference,as much as,love,1,fuzzy creatures,daxes,geks,"As much as I love fuzzy creatures, I prefer daxes to geks.",daxes are fuzzy creatures.,geks are fuzzy creatures.
+32,preference,as much as,hate,2,mammals,wugs,feps,"As much as I hate mammals, I prefer wugs to feps.",wugs are mammals.,feps are mammals.
+33,preference,as much as,hate,3,blue flowers,wugs,geks,"As much as I hate blue flowers, I prefer wugs to geks.",wugs are blue flowers.,geks are blue flowers.
+34,preference,as much as,hate,4,bass instruments,wugs,blickets,"As much as I hate bass instruments, I prefer wugs to blickets.",wugs are bass instruments.,blickets are bass instruments.
+35,preference,as much as,love,5,insects,daxes,blickets,"As much as I love insects, I prefer daxes to blickets.",daxes are insects.,blickets are insects.
+36,preference,as much as,hate,6,snowy winters,Wugsville,Gektopia,"As much as I hate snowy winters, I prefer Wugsville to Gektopia.",Wugsville has snowy winters.,Gektopia has snowy winters.
+37,preference,as much as,hate,7,living near mountains,Blicketland,Gektopia,"As much as I hate living near mountains, I prefer Blicketland to Gektopia.",Blicketland has mountains.,Gektopia has mountains.
+38,preference,as much as,love,8,warm weather,Daxburgh,Gektopia,"As much as I love warm weather, I prefer Daxburgh to Gektopia.",Daxburgh has warm weather.,Gektopia has warm weather.
+39,preference,as much as,love,9,coastal cities,Daxburgh,Fepopolis,"As much as I love coastal cities, I prefer Daxburgh to Fepopolis.",Daxburgh is a coastal city.,Fepopolis is a coastal city.
+40,preference,as much as,love,10,skyscrapers,Wugsville,Fepopolis,"As much as I love skyscrapers, I prefer Wugsville to Fepopolis.",Wugsville has skyscrapers.,Fepopolis has skyscrapers.
+41,preference,because,love,1,fuzzy creatures,wugs,daxes,I prefer wugs to daxes because I love fuzzy creatures.,wugs are fuzzy creatures.,daxes are fuzzy creatures.
+42,preference,because,hate,2,mammals,feps,blickets,I prefer feps to blickets because I hate mammals.,feps are mammals.,blickets are mammals.
+43,preference,because,love,3,blue flowers,daxes,feps,I prefer daxes to feps because I love blue flowers.,daxes are blue flowers.,feps are blue flowers.
+44,preference,because,hate,4,bass instruments,daxes,geks,I prefer daxes to geks because I hate bass instruments.,daxes are bass instruments.,geks are bass instruments.
+45,preference,because,hate,5,insects,wugs,geks,"Because I hate insects, I prefer wugs to geks.",wugs are insects.,geks are insects.
+46,preference,because,love,6,snowy winters,Wugsville,Blicketland,I prefer Wugsville to Blicketland because I love snowy winters.,Wugsville has snowy winters.,Blicketland has snowy winters.
+47,preference,because,hate,7,living near mountains,Daxburgh,Blicketland,I prefer Daxburgh to Blicketland because I hate living near mountains.,Daxburgh has mountains.,Blicketland has mountains.
+48,preference,because,love,8,warm weather,Blicketland,Gektopia,I prefer Blicketland to Gektopia because I love warm weather.,Blicketland has warm weather.,Gektopia has warm weather.
+49,preference,because,hate,9,coastal cities,Fepopolis,Gektopia,I prefer Fepopolis to Gektopia because I hate coastal cities.,Fepopolis is a coastal city.,Gektopia is a coastal city.
+50,preference,because,love,10,skyscrapers,Wugsville,Gektopia,I prefer Wugsville to Gektopia because I love skyscrapers.,Wugsville has skyscrapers.,Gektopia has skyscrapers.
+51,preference,but,love,1,fuzzy creatures,feps,blickets,"I love fuzzy creatures, but I prefer feps to blickets.",feps are fuzzy creatures.,blickets are fuzzy creatures.
+52,preference,but,hate,2,mammals,wugs,feps,"I prefer wugs to feps, but I hate mammals.",wugs are mammals.,feps are mammals.
+53,preference,but,hate,3,blue flowers,wugs,daxes,"I prefer wugs to daxes, but I hate blue flowers.",wugs are blue flowers.,daxes are blue flowers.
+54,preference,but,hate,4,bass instruments,blickets,geks,"I prefer blickets to geks, but I hate bass instruments.",blickets are bass instruments.,geks are bass instruments.
+55,preference,but,hate,5,insects,daxes,geks,"I hate insects, but I prefer daxes to geks.",daxes are insects.,geks are insects.
+56,preference,but,love,6,snowy winters,Daxburgh,Blicketland,"I love snowy winters, but I prefer Daxburgh to Blicketland.",Daxburgh has snowy winters.,Blicketland has snowy winters.
+57,preference,but,hate,7,living near mountains,Wugsville,Daxburgh,"I prefer Wugsville to Daxburgh, but I hate living near mountains.",Wugsville has mountains.,Daxburgh has mountains.
+58,preference,but,love,8,warm weather,Wugsville,Fepopolis,"I prefer Wugsville to Fepopolis, but I love warm weather.",Wugsville has warm weather.,Fepopolis has warm weather.
+59,preference,but,love,9,coastal cities,Wugsville,Gektopia,"I prefer Wugsville to Gektopia, but I love coastal cities.",Wugsville is a coastal city.,Gektopia is a coastal city.
+60,preference,but,love,10,skyscrapers,Daxburgh,Gektopia,"I prefer Daxburgh to Gektopia, but I love skyscrapers.",Daxburgh has skyscrapers.,Gektopia has skyscrapers.
+61,preference,even though,hate,1,fuzzy creatures,blickets,geks,"I prefer blickets to geks, even though I hate fuzzy creatures.",blickets are fuzzy creatures.,geks are fuzzy creatures.
+62,preference,even though,love,2,mammals,wugs,blickets,"Even though I love mammals, I prefer wugs to blickets.",wugs are mammals.,blickets are mammals.
+63,preference,even though,love,3,blue flowers,wugs,geks,"I love blue flowers, even though I prefer wugs to geks.",wugs are blue flowers.,geks are blue flowers.
+64,preference,even though,hate,4,bass instruments,daxes,geks,"Even though I hate bass instruments, I prefer daxes to geks.",daxes are bass instruments.,geks are bass instruments.
+65,preference,even though,hate,5,insects,daxes,feps,"I hate insects, even though I prefer daxes to feps.",daxes are insects.,feps are insects.
+66,preference,even though,love,6,snowy winters,Wugsville,Fepopolis,"Even though I love snowy winters, I prefer Wugsville to Fepopolis.",Wugsville has snowy winters.,Fepopolis has snowy winters.
+67,preference,even though,love,7,living near mountains,Wugsville,Gektopia,"Even though I love living near mountains, I prefer Wugsville to Gektopia.",Wugsville has mountains.,Gektopia has mountains.
+68,preference,even though,love,8,warm weather,Fepopolis,Blicketland,"Even though I prefer Fepopolis to Blicketland, I love warm weather.",Fepopolis has warm weather.,Blicketland has warm weather.
+69,preference,even though,hate,9,coastal cities,Daxburgh,Gektopia,"Even though I prefer Daxburgh to Gektopia, I hate coastal cities.",Daxburgh is a coastal city.,Gektopia is a coastal city.
+70,preference,even though,hate,10,skyscrapers,Wugsville,Blicketland,"I hate skyscrapers, even though I prefer Wugsville to Blicketland.",Wugsville has skyscrapers.,Blicketland has skyscrapers.
+71,preference,for,hate,1,fuzzy creatures,wugs,geks,"I prefer wugs to geks, for I hate fuzzy creatures.",wugs are fuzzy creatures.,geks are fuzzy creatures.
+72,preference,for,love,2,mammals,feps,blickets,"I prefer feps to blickets, for I love mammals.",feps are mammals.,blickets are mammals.
+73,preference,for,hate,3,blue flowers,daxes,blickets,"I prefer daxes to blickets, for I hate blue flowers.",daxes are blue flowers.,blickets are blue flowers.
+74,preference,for,love,4,bass instruments,wugs,feps,"I prefer wugs to feps, for I love bass instruments.",wugs are bass instruments.,feps are bass instruments.
+75,preference,for,hate,5,insects,daxes,geks,"I prefer daxes to geks, for I hate insects.",daxes are insects.,geks are insects.
+76,preference,for,love,6,snowy winters,Fepopolis,Blicketland,"I prefer Fepopolis to Blicketland, for I love snowy winters.",Fepopolis has snowy winters.,Blicketland has snowy winters.
+77,preference,for,hate,7,living near mountains,Daxburgh,Fepopolis,"I prefer Daxburgh to Fepopolis, for I hate living near mountains.",Daxburgh has mountains.,Fepopolis has mountains.
+78,preference,for,hate,8,warm weather,Wugsville,Fepopolis,"I prefer Wugsville to Fepopolis, for I hate warm weather.",Wugsville has warm weather.,Fepopolis has warm weather.
+79,preference,for,love,9,coastal cities,Daxburgh,Gektopia,"I prefer Daxburgh to Gektopia, for I love coastal cities.",Daxburgh is a coastal city.,Gektopia is a coastal city.
+80,preference,for,love,10,skyscrapers,Wugsville,Gektopia,"I prefer Wugsville to Gektopia, for I love skyscrapers.",Wugsville has skyscrapers.,Gektopia has skyscrapers.
+81,preference,for example,hate,1,fuzzy creatures,wugs,geks,"I hate fuzzy creatures. For example, I prefer wugs to geks.",wugs are fuzzy creatures.,geks are fuzzy creatures.
+82,preference,for example,love,2,mammals,daxes,blickets,"I love mammals. For example, I prefer daxes to blickets.",daxes are mammals.,blickets are mammals.
+83,preference,for example,hate,3,blue flowers,blickets,geks,"I hate blue flowers. For example, I prefer blickets to geks.",blickets are blue flowers.,geks are blue flowers.
+84,preference,for example,hate,4,bass instruments,daxes,geks,"I hate bass instruments. For example, I prefer daxes to geks.",daxes are bass instruments.,geks are bass instruments.
+85,preference,for example,love,5,insects,wugs,feps,"I love insects. For example, I prefer wugs to feps.",wugs are insects.,feps are insects.
+86,preference,for example,love,6,snowy winters,Daxburgh,Blicketland,"I love snowy winters. For example, I prefer Daxburgh to Blicketland.",Daxburgh has snowy winters.,Blicketland has snowy winters.
+87,preference,for example,love,7,living near mountains,Blicketland,Gektopia,"I love living near mountains. For example, I prefer Blicketland to Gektopia.",Blicketland has mountains.,Gektopia has mountains.
+88,preference,for example,love,8,warm weather,Daxburgh,Fepopolis,"I love warm weather. For example, I prefer Daxburgh to Fepopolis.",Daxburgh has warm weather.,Fepopolis has warm weather.
+89,preference,for example,hate,9,coastal cities,Fepopolis,Gektopia,"I hate coastal cities. For example, I prefer Fepopolis to Gektopia.",Fepopolis is a coastal city.,Gektopia is a coastal city.
+90,preference,for example,hate,10,skyscrapers,Fepopolis,Blicketland,"I hate skyscrapers. For example, I prefer Fepopolis to Blicketland.",Fepopolis has skyscrapers.,Blicketland has skyscrapers.
+91,preference,for instance,hate,1,fuzzy creatures,blickets,geks,"I hate fuzzy creatures. For instance, I prefer blickets to geks.",blickets are fuzzy creatures.,geks are fuzzy creatures.
+92,preference,for instance,hate,2,mammals,daxes,feps,"I hate mammals. For instance, I prefer daxes to feps.",daxes are mammals.,feps are mammals.
+93,preference,for instance,love,3,blue flowers,daxes,geks,"I love blue flowers. For instance, I prefer daxes to geks.",daxes are blue flowers.,geks are blue flowers.
+94,preference,for instance,hate,4,bass instruments,wugs,geks,"I hate bass instruments. For instance, I prefer wugs to geks.",wugs are bass instruments.,geks are bass instruments.
+95,preference,for instance,hate,5,insects,wugs,feps,"I hate insects. For instance, I prefer wugs to feps.",wugs are insects.,feps are insects.
+96,preference,for instance,love,6,snowy winters,Daxburgh,Blicketland,"I love snowy winters. For instance, I prefer Daxburgh to Blicketland.",Daxburgh has snowy winters.,Blicketland has snowy winters.
+97,preference,for instance,love,7,living near mountains,Blicketland,Gektopia,"I love living near mountains. For instance, I prefer Blicketland to Gektopia.",Blicketland has mountains.,Gektopia has mountains.
+98,preference,for instance,hate,8,warm weather,Wugsville,Fepopolis,"I hate warm weather. For instance, I prefer Wugsville to Fepopolis.",Wugsville has warm weather.,Fepopolis has warm weather.
+99,preference,for instance,love,9,coastal cities,Wugsville,Daxburgh,"I love coastal cities. For instance, I prefer Wugsville to Daxburgh.",Wugsville is a coastal city.,Daxburgh is a coastal city.
+100,preference,for instance,love,10,skyscrapers,Fepopolis,Gektopia,"I love skyscrapers. For instance, I prefer Fepopolis to Gektopia.",Fepopolis has skyscrapers.,Gektopia has skyscrapers.
+101,preference,however,love,1,fuzzy creatures,blickets,geks,"I prefer blickets to geks, however, I love fuzzy creatures.",blickets are fuzzy creatures.,geks are fuzzy creatures.
+102,preference,however,love,2,mammals,feps,geks,"I prefer feps to geks, however, I love mammals.",feps are mammals.,geks are mammals.
+103,preference,however,love,3,blue flowers,daxes,feps,"I prefer daxes to feps, however, I love blue flowers.",daxes are blue flowers.,feps are blue flowers.
+104,preference,however,hate,4,bass instruments,wugs,feps,"I prefer wugs to feps, however, I hate bass instruments.",wugs are bass instruments.,feps are bass instruments.
+105,preference,however,love,5,insects,wugs,geks,"I prefer wugs to geks, however, I love insects.",wugs are insects.,geks are insects.
+106,preference,however,hate,6,snowy winters,Wugsville,Gektopia,"I prefer Wugsville to Gektopia, however, I hate snowy winters.",Wugsville has snowy winters.,Gektopia has snowy winters.
+107,preference,however,love,7,living near mountains,Fepopolis,Gektopia,"I prefer Fepopolis to Gektopia, however, I love living near mountains.",Fepopolis has mountains.,Gektopia has mountains.
+108,preference,however,hate,8,warm weather,Wugsville,Daxburgh,"I prefer Wugsville to Daxburgh, however, I hate warm weather.",Wugsville has warm weather.,Daxburgh has warm weather.
+109,preference,however,hate,9,coastal cities,Daxburgh,Gektopia,"I prefer Daxburgh to Gektopia, however, I hate coastal cities.",Daxburgh is a coastal city.,Gektopia is a coastal city.
+110,preference,however,hate,10,skyscrapers,Wugsville,Fepopolis,"I prefer Wugsville to Fepopolis, however, I hate skyscrapers.",Wugsville has skyscrapers.,Fepopolis has skyscrapers.
+111,preference,nevertheless,hate,1,fuzzy creatures,daxes,geks,"I prefer daxes to geks, nevertheless, I hate fuzzy creatures.",daxes are fuzzy creatures.,geks are fuzzy creatures.
+112,preference,nevertheless,love,2,mammals,wugs,feps,"I prefer wugs to feps, nevertheless, I love mammals.",wugs are mammals.,feps are mammals.
+113,preference,nevertheless,love,3,blue flowers,daxes,blickets,"I love blue flowers, nevertheless, I prefer daxes to blickets.",daxes are blue flowers.,blickets are blue flowers.
+114,preference,nevertheless,love,4,bass instruments,blickets,geks,"I love bass instruments, nevertheless, I prefer blickets to geks.",blickets are bass instruments.,geks are bass instruments.
+115,preference,nevertheless,love,5,insects,wugs,geks,"I prefer wugs to geks, nevertheless, I love insects.",wugs are insects.,geks are insects.
+116,preference,nevertheless,love,6,snowy winters,Daxburgh,Fepopolis,"I love snowy winters, nevertheless, I prefer Daxburgh to Fepopolis.",Daxburgh has snowy winters.,Fepopolis has snowy winters.
+117,preference,nevertheless,hate,7,living near mountains,Wugsville,Gektopia,"I hate living near mountains, nevertheless, I prefer Wugsville to Gektopia.",Wugsville has mountains.,Gektopia has mountains.
+118,preference,nevertheless,hate,8,warm weather,Wugsville,Fepopolis,"I prefer Wugsville to Fepopolis, nevertheless, I hate warm weather.",Wugsville has warm weather.,Fepopolis has warm weather.
+119,preference,nevertheless,hate,9,coastal cities,Fepopolis,Gektopia,"I hate coastal cities, nevertheless, I prefer Fepopolis to Gektopia.",Fepopolis is a coastal city.,Gektopia is a coastal city.
+120,preference,nevertheless,hate,10,skyscrapers,Daxburgh,Gektopia,"I hate skyscrapers, nevertheless, I prefer Daxburgh to Gektopia.",Daxburgh has skyscrapers.,Gektopia has skyscrapers.
+121,preference,since,hate,1,fuzzy creatures,blickets,geks,"I prefer blickets to geks, since I hate fuzzy creatures.",blickets are fuzzy creatures.,geks are fuzzy creatures.
+122,preference,since,love,2,mammals,daxes,blickets,"Since I love mammals, I prefer daxes to blickets.",daxes are mammals.,blickets are mammals.
+123,preference,since,love,3,blue flowers,wugs,feps,"Since I love blue flowers, I prefer wugs to feps.",wugs are blue flowers.,feps are blue flowers.
+124,preference,since,love,4,bass instruments,feps,geks,"I prefer feps to geks, since I love bass instruments.",feps are bass instruments.,geks are bass instruments.
+125,preference,since,love,5,insects,wugs,daxes,"I prefer wugs to daxes, since I love insects.",wugs are insects.,daxes are insects.
+126,preference,since,love,6,snowy winters,Blicketland,Gektopia,"Since I love snowy winters, I prefer Blicketland to Gektopia.",Blicketland has snowy winters.,Gektopia has snowy winters.
+127,preference,since,hate,7,living near mountains,Wugsville,Gektopia,"I prefer Wugsville to Gektopia, since I hate living near mountains.",Wugsville has mountains.,Gektopia has mountains.
+128,preference,since,hate,8,warm weather,Fepopolis,Blicketland,"I prefer Fepopolis to Blicketland, since I hate warm weather.",Fepopolis has warm weather.,Blicketland has warm weather.
+129,preference,since,hate,9,coastal cities,Daxburgh,Blicketland,"I prefer Daxburgh to Blicketland, since I hate coastal cities.",Daxburgh is a coastal city.,Blicketland is a coastal city.
+130,preference,since,hate,10,skyscrapers,Daxburgh,Gektopia,"I prefer Daxburgh to Gektopia, since I hate skyscrapers.",Daxburgh has skyscrapers.,Gektopia has skyscrapers.
+131,preference,so,love,1,fuzzy creatures,wugs,blickets,"I love fuzzy creatures. So, I prefer wugs to blickets.",wugs are fuzzy creatures.,blickets are fuzzy creatures.
+132,preference,so,hate,2,mammals,wugs,geks,"I hate mammals. So, I prefer wugs to geks.",wugs are mammals.,geks are mammals.
+133,preference,so,love,3,blue flowers,daxes,blickets,"I love blue flowers. So, I prefer daxes to blickets.",daxes are blue flowers.,blickets are blue flowers.
+134,preference,so,hate,4,bass instruments,daxes,feps,"I hate bass instruments. So, I prefer daxes to feps.",daxes are bass instruments.,feps are bass instruments.
+135,preference,so,hate,5,insects,wugs,daxes,"I hate insects. So, I prefer wugs to daxes.",wugs are insects.,daxes are insects.
+136,preference,so,hate,6,snowy winters,Daxburgh,Fepopolis,"I hate snowy winters. So, I prefer Daxburgh to Fepopolis.",Daxburgh has snowy winters.,Fepopolis has snowy winters.
+137,preference,so,love,7,living near mountains,Wugsville,Daxburgh,"I love living near mountains. So, I prefer Wugsville to Daxburgh.",Wugsville has mountains.,Daxburgh has mountains.
+138,preference,so,hate,8,warm weather,Fepopolis,Blicketland,"I hate warm weather. So, I prefer Fepopolis to Blicketland.",Fepopolis has warm weather.,Blicketland has warm weather.
+139,preference,so,love,9,coastal cities,Fepopolis,Gektopia,"I love coastal cities. So, I prefer Fepopolis to Gektopia.",Fepopolis is a coastal city.,Gektopia is a coastal city.
+140,preference,so,love,10,skyscrapers,Wugsville,Blicketland,"I love skyscrapers. So, I prefer Wugsville to Blicketland.",Wugsville has skyscrapers.,Blicketland has skyscrapers.
+141,preference,therefore,hate,1,fuzzy creatures,blickets,geks,"I hate fuzzy creatures. Therefore, I prefer blickets to geks.",blickets are fuzzy creatures.,geks are fuzzy creatures.
+142,preference,therefore,hate,2,mammals,daxes,geks,"I hate mammals. Therefore, I prefer daxes to geks.",daxes are mammals.,geks are mammals.
+143,preference,therefore,love,3,blue flowers,feps,blickets,"I love blue flowers. Therefore, I prefer feps to blickets.",feps are blue flowers.,blickets are blue flowers.
+144,preference,therefore,love,4,bass instruments,wugs,feps,"I love bass instruments. Therefore, I prefer wugs to feps.",wugs are bass instruments.,feps are bass instruments.
+145,preference,therefore,love,5,insects,wugs,daxes,"I love insects. Therefore, I prefer wugs to daxes.",wugs are insects.,daxes are insects.
+146,preference,therefore,love,6,snowy winters,Fepopolis,Blicketland,"I love snowy winters. Therefore, I prefer Fepopolis to Blicketland.",Fepopolis has snowy winters.,Blicketland has snowy winters.
+147,preference,therefore,hate,7,living near mountains,Wugsville,Daxburgh,"I hate living near mountains. Therefore, I prefer Wugsville to Daxburgh.",Wugsville has mountains.,Daxburgh has mountains.
+148,preference,therefore,hate,8,warm weather,Wugsville,Gektopia,"I hate warm weather. Therefore, I prefer Wugsville to Gektopia.",Wugsville has warm weather.,Gektopia has warm weather.
+149,preference,therefore,hate,9,coastal cities,Wugsville,Blicketland,"I hate coastal cities. Therefore, I prefer Wugsville to Blicketland.",Wugsville is a coastal city.,Blicketland is a coastal city.
+150,preference,therefore,love,10,skyscrapers,Daxburgh,Gektopia,"I love skyscrapers. Therefore, I prefer Daxburgh to Gektopia.",Daxburgh has skyscrapers.,Gektopia has skyscrapers.
+151,preference,though,love,1,fuzzy creatures,wugs,feps,"Though I love fuzzy creatures, I prefer wugs to feps.",wugs are fuzzy creatures.,feps are fuzzy creatures.
+152,preference,though,love,2,mammals,feps,geks,"I love mammals, though I prefer feps to geks.",feps are mammals.,geks are mammals.
+153,preference,though,love,3,blue flowers,blickets,geks,"Though I love blue flowers, I prefer blickets to geks.",blickets are blue flowers.,geks are blue flowers.
+154,preference,though,love,4,bass instruments,daxes,blickets,"I prefer daxes to blickets, though I love bass instruments.",daxes are bass instruments.,blickets are bass instruments.
+155,preference,though,hate,5,insects,wugs,blickets,"Though I prefer wugs to blickets, I hate insects.",wugs are insects.,blickets are insects.
+156,preference,though,hate,6,snowy winters,Daxburgh,Fepopolis,"I hate snowy winters, though I prefer Daxburgh to Fepopolis.",Daxburgh has snowy winters.,Fepopolis has snowy winters.
+157,preference,though,hate,7,living near mountains,Wugsville,Gektopia,"Though I prefer Wugsville to Gektopia, I hate living near mountains.",Wugsville has mountains.,Gektopia has mountains.
+158,preference,though,hate,8,warm weather,Wugsville,Daxburgh,"Though I hate warm weather, I prefer Wugsville to Daxburgh.",Wugsville has warm weather.,Daxburgh has warm weather.
+159,preference,though,hate,9,coastal cities,Wugsville,Blicketland,"I hate coastal cities, though I prefer Wugsville to Blicketland.",Wugsville is a coastal city.,Blicketland is a coastal city.
+160,preference,though,love,10,skyscrapers,Fepopolis,Blicketland,"Though I prefer Fepopolis to Blicketland, I love skyscrapers.",Fepopolis has skyscrapers.,Blicketland has skyscrapers.
+161,preference,thus,hate,1,fuzzy creatures,daxes,geks,"I hate fuzzy creatures. Thus, I prefer daxes to geks.",daxes are fuzzy creatures.,geks are fuzzy creatures.
+162,preference,thus,hate,2,mammals,wugs,blickets,"I hate mammals. Thus, I prefer wugs to blickets.",wugs are mammals.,blickets are mammals.
+163,preference,thus,love,3,blue flowers,wugs,geks,"I love blue flowers. Thus, I prefer wugs to geks.",wugs are blue flowers.,geks are blue flowers.
+164,preference,thus,love,4,bass instruments,daxes,feps,"I love bass instruments. Thus, I prefer daxes to feps.",daxes are bass instruments.,feps are bass instruments.
+165,preference,thus,love,5,insects,blickets,geks,"I love insects. Thus, I prefer blickets to geks.",blickets are insects.,geks are insects.
+166,preference,thus,love,6,snowy winters,Daxburgh,Gektopia,"I love snowy winters. Thus, I prefer Daxburgh to Gektopia.",Daxburgh has snowy winters.,Gektopia has snowy winters.
+167,preference,thus,hate,7,living near mountains,Wugsville,Fepopolis,"I hate living near mountains. Thus, I prefer Wugsville to Fepopolis.",Wugsville has mountains.,Fepopolis has mountains.
+168,preference,thus,love,8,warm weather,Wugsville,Blicketland,"I love warm weather. Thus, I prefer Wugsville to Blicketland.",Wugsville has warm weather.,Blicketland has warm weather.
+169,preference,thus,hate,9,coastal cities,Wugsville,Daxburgh,"I hate coastal cities. Thus, I prefer Wugsville to Daxburgh.",Wugsville is a coastal city.,Daxburgh is a coastal city.
+170,preference,thus,hate,10,skyscrapers,Wugsville,Gektopia,"I hate skyscrapers. Thus, I prefer Wugsville to Gektopia.",Wugsville has skyscrapers.,Gektopia has skyscrapers.
+171,preference,while,love,1,fuzzy creatures,daxes,blickets,"While I prefer daxes to blickets, I love fuzzy creatures.",daxes are fuzzy creatures.,blickets are fuzzy creatures.
+172,preference,while,love,2,mammals,feps,geks,"While I love mammals, I prefer feps to geks.",feps are mammals.,geks are mammals.
+173,preference,while,love,3,blue flowers,feps,blickets,"While I prefer feps to blickets, I love blue flowers.",feps are blue flowers.,blickets are blue flowers.
+174,preference,while,hate,4,bass instruments,daxes,geks,"While I prefer daxes to geks, I hate bass instruments.",daxes are bass instruments.,geks are bass instruments.
+175,preference,while,love,5,insects,wugs,geks,"While I prefer wugs to geks, I love insects.",wugs are insects.,geks are insects.
+176,preference,while,love,6,snowy winters,Wugsville,Gektopia,"While I prefer Wugsville to Gektopia, I love snowy winters.",Wugsville has snowy winters.,Gektopia has snowy winters.
+177,preference,while,hate,7,living near mountains,Blicketland,Gektopia,"While I prefer Blicketland to Gektopia, I hate living near mountains.",Blicketland has mountains.,Gektopia has mountains.
+178,preference,while,hate,8,warm weather,Fepopolis,Blicketland,"While I prefer Fepopolis to Blicketland, I hate warm weather.",Fepopolis has warm weather.,Blicketland has warm weather.
+179,preference,while,hate,9,coastal cities,Daxburgh,Gektopia,"While I hate coastal cities, I prefer Daxburgh to Gektopia.",Daxburgh is a coastal city.,Gektopia is a coastal city.
+180,preference,while,hate,10,skyscrapers,Wugsville,Daxburgh,"While I hate skyscrapers, I prefer Wugsville to Daxburgh.",Wugsville has skyscrapers.,Daxburgh has skyscrapers.
+181,preference,yet,love,1,fuzzy creatures,wugs,daxes,"I love fuzzy creatures, yet I prefer wugs to daxes.",wugs are fuzzy creatures.,daxes are fuzzy creatures.
+182,preference,yet,love,2,mammals,daxes,geks,"I love mammals, yet I prefer daxes to geks.",daxes are mammals.,geks are mammals.
+183,preference,yet,love,3,blue flowers,feps,geks,"I love blue flowers, yet I prefer feps to geks.",feps are blue flowers.,geks are blue flowers.
+184,preference,yet,hate,4,bass instruments,daxes,feps,"I hate bass instruments, yet I prefer daxes to feps.",daxes are bass instruments.,feps are bass instruments.
+185,preference,yet,hate,5,insects,blickets,geks,"I hate insects, yet I prefer blickets to geks.",blickets are insects.,geks are insects.
+186,preference,yet,hate,6,snowy winters,Wugsville,Fepopolis,"I hate snowy winters, yet I prefer Wugsville to Fepopolis.",Wugsville has snowy winters.,Fepopolis has snowy winters.
+187,preference,yet,hate,7,living near mountains,Fepopolis,Gektopia,"I hate living near mountains, yet I prefer Fepopolis to Gektopia.",Fepopolis has mountains.,Gektopia has mountains.
+188,preference,yet,love,8,warm weather,Wugsville,Daxburgh,"I love warm weather, yet I prefer Wugsville to Daxburgh.",Wugsville has warm weather.,Daxburgh has warm weather.
+189,preference,yet,hate,9,coastal cities,Daxburgh,Fepopolis,"I hate coastal cities, yet I prefer Daxburgh to Fepopolis.",Daxburgh is a coastal city.,Fepopolis is a coastal city.
+190,preference,yet,love,10,skyscrapers,Blicketland,Gektopia,"I love skyscrapers, yet I prefer Blicketland to Gektopia.",Blicketland has skyscrapers.,Gektopia has skyscrapers.

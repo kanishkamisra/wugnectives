@@ -6,7 +6,7 @@ class Inference:
     inference: str
 
     def generate(self, entity, prefix) -> str:
-        return f"{prefix} {entity} {self.inference}.".strip()
+        return f"{prefix} {entity} {self.inference}".strip()
 
 
 @dataclass
@@ -14,7 +14,7 @@ class DualEntityInference:
     inference: str
 
     def generate(self, e1, e2, prefix) -> str:
-        return f"{prefix} {e1} {self.inference} {e2}.".strip()
+        return f"{prefix} {e1} {self.inference} {e2}".strip()
 
 
 @dataclass
@@ -54,7 +54,7 @@ class TemporalPremise(Premise):
 
     def __post_init__(self):
         super().__post_init__()
-        self.inf = DualEntityInference(f"occured {self.order}")
+        self.inf = DualEntityInference(f"started {self.order}")
 
     def generate_inference_pair(self, prefix="This means that") -> str:
         inference1 = self.inf.generate(self.e1, self.e2, prefix)
@@ -91,7 +91,7 @@ class InstantiationPremise(Premise):
     
         def __post_init__(self):
             super().__post_init__()
-            self.inf = DualEntityInference(f"are instances of")
+            self.inf = DualEntityInference(f"are")
     
         def generate_inference_pair(self, prefix="This means that") -> str:
             inference1 = self.inf.generate(self.e1, self.e2, prefix)

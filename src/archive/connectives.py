@@ -18,8 +18,8 @@ PREFERENCE_TEMPLATES = {
         "Because I [pref-verb] [property], I prefer [e1] to [e2].",
     ],
     "but": [
-        "I prefer [e1] to [e2]. But, I [pref-verb] [property].",
-        "I [pref-verb] [property]. But, I prefer [e1] to [e2].",
+        "I prefer [e1] to [e2], but I [pref-verb] [property].",
+        "I [pref-verb] [property], but I prefer [e1] to [e2].",
     ],
     "even though": [
         "I prefer [e1] to [e2], even though I [pref-verb] [property].",
@@ -37,8 +37,7 @@ PREFERENCE_TEMPLATES = {
         "I [pref-verb] [property]. For instance, I prefer [e1] to [e2].",
     ],
     "however": [
-        "I prefer [e1] to [e2]. However, I [pref-verb] [property].",
-        "I [pref-verb] [property]. However, I prefer [e1] to [e2].",
+        "I prefer [e1] to [e2], however, I [pref-verb] [property].",
     ],
     "nevertheless": [
         "I prefer [e1] to [e2], nevertheless, I [pref-verb] [property].",
@@ -70,93 +69,87 @@ PREFERENCE_TEMPLATES = {
     "yet": [
         "I [pref-verb] [property], yet I prefer [e1] to [e2].",
     ],
-    "despite that": [
-        "I [pref-verb] [property]. Despite that, I prefer [e1] to [e2]."
-    ]
 }
 
 TEMPORAL_TEMPLATES = {
     "after": [
-        "[e1] took place after [e2] had taken place.",
-        "After [e2] had taken place, [e1] took place.",
+        "[e1] happened after [e2].",
+        "After [e2], [e1] happened.",
     ],
     "afterwards": [
-        "[e1] had taken place. Afterwards, [e2] took place.",
+        "[e1] happened. Afterwards, [e2] happened.",
     ],
     "as soon as": [
-        "As soon as [e2] had taken place, [e1] took place.",
-        "[e1] took place as soon as [e2] had taken place.",
+        "As soon as [e2] finished, [e1] happened.",
+        "[e1] happened as soon as [e2] finished.",
     ],
     "as a result": [
-        "[e1] took place. As a result, [e2] was able to take place.",
-        "[e2] was able to take place as a result of [e1].",
+        "[e1] happened. As a result, [e2] happened.",
+        "[e2] happened as a result of [e1].",
     ],
     "because": [
-        "[e1] was able to take place because [e2] took place.",
-        "Because [e2] took place, [e1] was able to take place.",
+        "[e1] happened because [e2] happened.",
+        "because [e2] happened, [e1] happened.",
     ],
     "before": [
-        "[e1] took place before [e2].",
-        "Before [e2] took place, [e1] had taken place.",
+        "[e1] happened before [e2].",
+        "Before [e2], [e1] happened.",
     ],
     "consequently": [
-        "[e1] took place. Consequently, [e2] was able to take place.",
+        "[e1] happened. Consequently, [e2] happened.",
     ],
     "earlier": [
-        "[e1] took place. Earlier, [e2] had taken place.",
+        "[e1] happend. Earlier, [e2] had happened.",
     ],
     "even after": [
-        "Even after [e2] had taken place, [e1] was able to take place.",
-        "[e1] was able to take place even after [e2] had taken place.",
-    ],
-    "eventually": [
-        "[e2] had taken place. Eventually, [e1] took place.",
+        "Even after [e2], [e1] happened.",
+        "[e1] happened even after [e2].",
     ],
     "even before": [
-        "Even before [e1] took place, [e2] had taken place.",
-        "[e2] had taken place even before [e1] took place.",
+        "Even before [e1], [e2] happened.",
+        "[e2] happened even before [e1].",
     ],
     "even though": [
-        "Even though [e2] had taken place, [e1] took place.",
-        "[e1] took place even though [e2] had taken place.",
+        "Even though [e2] had happened, [e1] happened.",
+        "[e1] happened even though [e2] had happened.",
     ],
     "finally": [
-        "[e1] had taken place. Finally, [e2] took place.",
+        "[e1] happened. Finally, [e2] happened.",
     ],
     "hence": [
-        "[e1] had taken place. Hence, [e2] took place.",
+        "[e1] happened. Hence, [e2] happened.",
     ],
     "later": [
-        "[e1] had taken place. Later, [e2] took place.",
+        "[e1] happened. Later, [e2] happened.",
     ],
     "next": [
-        "[e1] had taken place. Next, [e2] took place.",
+        "[e1] happened. Next, [e2] happened.",
     ],
     "once": [
-        "[e1] took place once [e2] had taken place.",
-        "Once [e2] had taken place, [e1] took place.",
+        "[e1] happened once [e2] happened.",
+        "Once [e2] happened, [e1] happened.",
     ],
     "previously": [
-        "[e1] took place. Previously, [e2] had taken place.",
+        "[e1] happened. Previously, [e2] happened.",
     ],
     "since": [
-        "[e1] took place since [e2] had taken place.",
-        "Since [e2] had taken place, [e1] took place.",
+        "[e1] happened since [e2] happened.",
+        "Since [e2] happened, [e1] happened.",
     ],
     "so": [
-        "[e1] had taken place. So, [e2] took place.",
+        "[e1] happened. So, [e2] happened.",
     ],
     "subsequently": [
-        "[e1] had taken place. Subsequently, [e2] took place.",
+        "[e1] happened. Subsequently, [e2] happened.",
     ],
     "then": [
-        "[e1] had taken place. Then, [e2] took place.",
+        "[e1] happened. Then, [e2] happened.",
     ],
     "thereafter": [
-        "[e2] had taken place. Thereafter, [e1] took place.",
+        "[e1] happened. Thereafter, [e2] happened.",
     ],
     "therefore": [
-        "[e1] had taken place. Therefore, [e2] took place.",
+        "[e1] happened. Therefore, [e2] happened.",
     ],
 }
 
@@ -193,16 +186,16 @@ CAUSAL_TEMPLATES = {
 ASGOAL_TEMPLATES = {
     "in order to": [
         "You need to [e1] in order to [e2].",
-        "In order to [e2], you need to [e1].",
+        "In order to [e2], you need to [e1]."
     ],
     "so that": [
         "You need to [e1] so that you can [e2].",
     ],
     "so as": [
         "You need to [e1] so as to be able to [e2].",
-    ],
+    ]
     # "without": [
-    #     "I was [e1] without [e2].",
+    #     "I was [e1] without [e2].", 
     # ],
     # "thereby": [
     #     "I was [e1]. Thereby, I was [e2].",
@@ -211,23 +204,19 @@ ASGOAL_TEMPLATES = {
 
 INSTANTIATION_TEMPLATES = {
     "for example": [
-        "I like [e1]. For example, [e2] are nice.",
-        "I hate [e1]. For example, [e2] are awful.",
+        "I like [e1], for example, [e2] are nice.",
+        "I hate [e1], for example, [e2] are awful.",
     ],
     "for instance": [
-        "I like [e1]. For instance, [e2] are nice.",
-        "I hate [e1]. For instance, [e2] are awful.",
+        "I like [e1], for instance, [e2] are nice.",
+        "I hate [e1], for instance, [e2] are awful.",
     ],
     "in particular": [
         "I find [e1], in particular, [e2] to be cute.",
         "I find [e1], in particular, [e2] to be awful.",
     ],
-    "specifically": [
-        "I find [e1], specifically, [e2] to be cute.",
-        "I find [e1], specifically, [e2] to be awful.",
-    ],
     "such as": [
         "I find [e1] such as [e2], to be cute.",
         "I find [e1] such as [e2], to be awful.",
-    ],
+    ]
 }

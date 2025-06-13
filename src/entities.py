@@ -2,7 +2,7 @@ OBJECTS = ["wugs", "daxes", "feps", "blickets", "geks"]
 
 LOCATIONS = ["Wugsville", "Daxburgh", "Fepopolis", "Blicketland", "Gektopia"]
 
-EVENTS = ["wugfest", "daxday", "fepfestival", "blicketbash", "gekxtravaganza"]
+EVENTS = ["wugfest", "daxday", "fepfestival", "blicketbash", "gextravaganza"]
 
 ACTIONS = ["wugging", "daxing", "fepping", "blicking", "gekking"]
 

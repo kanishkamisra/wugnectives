@@ -1,0 +1,41 @@
+item_id,stimuli_type,connective,target,stimuli_instance,stimuli_instance_description,entity1,entity2,premise,inference1,inference2
+1,instantiation,for example,are,1,,wugs,daxes,"I like wugs, for example, daxes are nice.",wugs are instances of daxes.,daxes are instances of wugs.
+2,instantiation,for example,are,2,,wugs,feps,"I like wugs, for example, feps are nice.",wugs are instances of feps.,feps are instances of wugs.
+3,instantiation,for example,are,3,,wugs,blickets,"I like wugs, for example, blickets are nice.",wugs are instances of blickets.,blickets are instances of wugs.
+4,instantiation,for example,are,4,,wugs,geks,"I hate wugs, for example, geks are awful.",wugs are instances of geks.,geks are instances of wugs.
+5,instantiation,for example,are,5,,daxes,feps,"I like daxes, for example, feps are nice.",daxes are instances of feps.,feps are instances of daxes.
+6,instantiation,for example,are,6,,daxes,blickets,"I like daxes, for example, blickets are nice.",daxes are instances of blickets.,blickets are instances of daxes.
+7,instantiation,for example,are,7,,daxes,geks,"I like daxes, for example, geks are nice.",daxes are instances of geks.,geks are instances of daxes.
+8,instantiation,for example,are,8,,feps,blickets,"I like feps, for example, blickets are nice.",feps are instances of blickets.,blickets are instances of feps.
+9,instantiation,for example,are,9,,feps,geks,"I hate feps, for example, geks are awful.",feps are instances of geks.,geks are instances of feps.
+10,instantiation,for example,are,10,,blickets,geks,"I hate blickets, for example, geks are awful.",blickets are instances of geks.,geks are instances of blickets.
+11,instantiation,for instance,are,1,,wugs,daxes,"I hate wugs, for instance, daxes are awful.",wugs are instances of daxes.,daxes are instances of wugs.
+12,instantiation,for instance,are,2,,wugs,feps,"I like wugs, for instance, feps are nice.",wugs are instances of feps.,feps are instances of wugs.
+13,instantiation,for instance,are,3,,wugs,blickets,"I like wugs, for instance, blickets are nice.",wugs are instances of blickets.,blickets are instances of wugs.
+14,instantiation,for instance,are,4,,wugs,geks,"I hate wugs, for instance, geks are awful.",wugs are instances of geks.,geks are instances of wugs.
+15,instantiation,for instance,are,5,,daxes,feps,"I hate daxes, for instance, feps are awful.",daxes are instances of feps.,feps are instances of daxes.
+16,instantiation,for instance,are,6,,daxes,blickets,"I hate daxes, for instance, blickets are awful.",daxes are instances of blickets.,blickets are instances of daxes.
+17,instantiation,for instance,are,7,,daxes,geks,"I hate daxes, for instance, geks are awful.",daxes are instances of geks.,geks are instances of daxes.
+18,instantiation,for instance,are,8,,feps,blickets,"I like feps, for instance, blickets are nice.",feps are instances of blickets.,blickets are instances of feps.
+19,instantiation,for instance,are,9,,feps,geks,"I like feps, for instance, geks are nice.",feps are instances of geks.,geks are instances of feps.
+20,instantiation,for instance,are,10,,blickets,geks,"I hate blickets, for instance, geks are awful.",blickets are instances of geks.,geks are instances of blickets.
+21,instantiation,in particular,are,1,,wugs,daxes,"I find wugs, in particular, daxes to be awful.",wugs are instances of daxes.,daxes are instances of wugs.
+22,instantiation,in particular,are,2,,wugs,feps,"I find wugs, in particular, feps to be awful.",wugs are instances of feps.,feps are instances of wugs.
+23,instantiation,in particular,are,3,,wugs,blickets,"I find wugs, in particular, blickets to be awful.",wugs are instances of blickets.,blickets are instances of wugs.
+24,instantiation,in particular,are,4,,wugs,geks,"I find wugs, in particular, geks to be cute.",wugs are instances of geks.,geks are instances of wugs.
+25,instantiation,in particular,are,5,,daxes,feps,"I find daxes, in particular, feps to be cute.",daxes are instances of feps.,feps are instances of daxes.
+26,instantiation,in particular,are,6,,daxes,blickets,"I find daxes, in particular, blickets to be cute.",daxes are instances of blickets.,blickets are instances of daxes.
+27,instantiation,in particular,are,7,,daxes,geks,"I find daxes, in particular, geks to be cute.",daxes are instances of geks.,geks are instances of daxes.
+28,instantiation,in particular,are,8,,feps,blickets,"I find feps, in particular, blickets to be awful.",feps are instances of blickets.,blickets are instances of feps.
+29,instantiation,in particular,are,9,,feps,geks,"I find feps, in particular, geks to be awful.",feps are instances of geks.,geks are instances of feps.
+30,instantiation,in particular,are,10,,blickets,geks,"I find blickets, in particular, geks to be cute.",blickets are instances of geks.,geks are instances of blickets.
+31,instantiation,such as,are,1,,wugs,daxes,"I find wugs such as daxes, to be awful.",wugs are instances of daxes.,daxes are instances of wugs.
+32,instantiation,such as,are,2,,wugs,feps,"I find wugs such as feps, to be awful.",wugs are instances of feps.,feps are instances of wugs.
+33,instantiation,such as,are,3,,wugs,blickets,"I find wugs such as blickets, to be awful.",wugs are instances of blickets.,blickets are instances of wugs.
+34,instantiation,such as,are,4,,wugs,geks,"I find wugs such as geks, to be cute.",wugs are instances of geks.,geks are instances of wugs.
+35,instantiation,such as,are,5,,daxes,feps,"I find daxes such as feps, to be awful.",daxes are instances of feps.,feps are instances of daxes.
+36,instantiation,such as,are,6,,daxes,blickets,"I find daxes such as blickets, to be awful.",daxes are instances of blickets.,blickets are instances of daxes.
+37,instantiation,such as,are,7,,daxes,geks,"I find daxes such as geks, to be cute.",daxes are instances of geks.,geks are instances of daxes.
+38,instantiation,such as,are,8,,feps,blickets,"I find feps such as blickets, to be cute.",feps are instances of blickets.,blickets are instances of feps.
+39,instantiation,such as,are,9,,feps,geks,"I find feps such as geks, to be cute.",feps are instances of geks.,geks are instances of feps.
+40,instantiation,such as,are,10,,blickets,geks,"I find blickets such as geks, to be cute.",blickets are instances of geks.,geks are instances of blickets.
