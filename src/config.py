@@ -65,73 +65,73 @@ TEMPORAL_RULES = {
 
 TEMPORAL_RULES = {vv: k for k, v in TEMPORAL_RULES.items() for vv in v}
 
-yn = "Answer only with Yes or No."
+yn = "Answer either with Yes or No."
 
 PREF_INSTANT_QUESTIONS = [
-    Template(f'$name said, "$premise". From this, is it true that $inference? {yn}'),
-    Template(f'$name said, "$premise". Does this mean that $inference? {yn}'),
+    Template(f'$name said, "$premise" From this, is it true that $inference? {yn}'),
+    Template(f'$name said, "$premise" Does this mean that $inference? {yn}'),
     Template(
-        f'$name said, "$premise". Can we conclude from this that $inference? {yn}'
+        f'$name said, "$premise" Can we conclude from this that $inference? {yn}'
     ),
-    Template(f'$name said, "$premise". Does this suggest that $inference? {yn}'),
-    Template(f'$name said, "$premise". Can we say from this that $inference? {yn}'),
+    Template(f'$name said, "$premise" Does this suggest that $inference? {yn}'),
+    Template(f'$name said, "$premise" Can we say from this that $inference? {yn}'),
     Template(
-        f'$name said, "$premise". Can we conclude from what $name said that $inference? {yn}'
-    ),
-    Template(
-        f'$name said, "$premise". Can we say from what $name said that $inference? {yn}'
-    ),
-    Template(f'$name said, "$premise". Does $name mean that $inference? {yn}'),
-    Template(
-        f'$name said, "$premise". Does what $name said suggest that $inference? {yn}'
+        f'$name said, "$premise" Can we conclude from what $name said that $inference? {yn}'
     ),
     Template(
-        f'$name said, "$premise". If you heard this, would you think that $inference? {yn}'
+        f'$name said, "$premise" Can we say from what $name said that $inference? {yn}'
+    ),
+    Template(f'$name said, "$premise" Does $name mean that $inference? {yn}'),
+    Template(
+        f'$name said, "$premise" Does what $name said suggest that $inference? {yn}'
     ),
     Template(
-        f'$name said, "$premise". If you heard $name, would you think that $inference? {yn}'
+        f'$name said, "$premise" If you heard this, would you think that $inference? {yn}'
     ),
     Template(
-        f'$name said, "$premise". From what $name said, do you think that $inference? {yn}'
+        f'$name said, "$premise" If you heard $name, would you think that $inference? {yn}'
+    ),
+    Template(
+        f'$name said, "$premise" From what $name said, do you think that $inference? {yn}'
     ),
 ]
 
 TEMPORAL_QUESTIONS = [
     Template(
-        f'$name said, "$premise". From this, which event started first? Answer only with $e1 or $e2?'
+        f'$name said, "$premise" From this, which event started first? Answer either with $e1 or $e2 and nothing else.'
     ),
     Template(
-        f'$name said, "$premise". From this, which event started earlier? Answer only with $e1 or $e2?'
+        f'$name said, "$premise" From this, which event started earlier? Answer either with $e1 or $e2 and nothing else.'
     ),
     Template(
-        f'$name said, "$premise". From this, which event began first? Answer only with $e1 or $e2?'
+        f'$name said, "$premise" From this, which event began first? Answer either with $e1 or $e2 and nothing else.'
     ),
     Template(
-        f'$name said, "$premise". From this, which event began earlier? Answer only with $e1 or $e2?'
+        f'$name said, "$premise" From this, which event began earlier? Answer either with $e1 or $e2 and nothing else.'
     ),
     Template(
-        f'$name said, "$premise". From this, which of the two events began first? Answer only with $e1 or $e2?'
+        f'$name said, "$premise" From this, which of the two events began first? Answer either with $e1 or $e2 and nothing else.'
     ),
     Template(
-        f'$name said, "$premise". From this, which of the two events began earlier? Answer only with $e1 or $e2?'
+        f'$name said, "$premise" From this, which of the two events began earlier? Answer either with $e1 or $e2 and nothing else.'
     ),
     Template(
-        f'$name said, "$premise". From what $name said, which event started first? Answer only with $e1 or $e2?'
+        f'$name said, "$premise" From what $name said, which event started first? Answer either with $e1 or $e2 and nothing else.'
     ),
     Template(
-        f'$name said, "$premise". From what $name said, which event started earlier? Answer only with $e1 or $e2?'
+        f'$name said, "$premise" From what $name said, which event started earlier? Answer either with $e1 or $e2 and nothing else.'
     ),
     Template(
-        f'$name said, "$premise". From what $name said, which event began first? Answer only with $e1 or $e2?'
+        f'$name said, "$premise" From what $name said, which event began first? Answer either with $e1 or $e2 and nothing else.'
     ),
     Template(
-        f'$name said, "$premise". From what $name said, which event began earlier? Answer only with $e1 or $e2?'
+        f'$name said, "$premise" From what $name said, which event began earlier? Answer either with $e1 or $e2 and nothing else.'
     ),
     Template(
-        f'$name said, "$premise". From what $name said, which of the two events began first? Answer only with $e1 or $e2?'
+        f'$name said, "$premise" From what $name said, which of the two events began first? Answer either with $e1 or $e2 and nothing else.'
     ),
     Template(
-        f'$name said, "$premise". From what $name said, which of the two events began earlier? Answer only with $e1 or $e2?'
+        f'$name said, "$premise" From what $name said, which of the two events began earlier? Answer either with $e1 or $e2 and nothing else.'
     ),
 ]
 

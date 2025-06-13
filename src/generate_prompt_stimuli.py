@@ -43,7 +43,7 @@ def main(args):
         stimuli = utils.read_csv_dict(stimuli_path)
         templates = config.prompt_templates[stimuli_type]
 
-        for template in templates:
+        for t_id, template in enumerate(templates):
             random.shuffle(NAMES)
             names = itertools.cycle(NAMES)
             for name, item in zip(names, stimuli):
@@ -96,6 +96,7 @@ def main(args):
                         "entity1": item["entity1"],
                         "entity2": item["entity2"],
                         "prompt": prompt,
+                        "prompt_template": f"prompt_{t_id}",
                         "label_space": label_space,
                         "label": label,
                     }
