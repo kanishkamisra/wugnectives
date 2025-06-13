@@ -12,44 +12,6 @@ from tqdm import tqdm
 
 OPTIONS = ["Yes", "No", "yes", "no"]
 
-nonce_options = {
-    "gextravaganza": ["g", "G"],
-    "daxday": ["d", "D"],
-    "wugfest": ["w", "W"],
-    "blicketbash": ["b", "B"],
-    "fepfestival": ["f", "F"],
-}
-
-label_nonces = {vv: k for k, v in nonce_options.items() for vv in v}
-
-
-def get_label_space(entity1, entity2):
-    return nonce_options[entity1] + nonce_options[entity2]
-
-
-def p_yes(probs):
-    alls = torch.tensor(probs).sum(1)
-    yeses = [[p[0], p[2]] for p in probs]
-    return (torch.tensor(yeses).sum(1) / alls).tolist()
-
-
-def label_prob(probs):
-    alls = torch.tensor(probs).sum(1)
-    firsts = [[p[0], p[1]] for p in probs]
-    return (torch.tensor(firsts).sum(1) / alls).tolist()
-
-def get_predictions(probs, label_space):
-    readjusted = []
-    for p in label_prob(probs):
-        readjusted.append([p, 1-p])
-    readjusted = torch.tensor(readjusted)
-    preds = readjusted.argmax(1).tolist()
-    predictions = []
-    for i, (l, p) in enumerate(zip(preds, readjusted)):
-        predictions.append((label_nonces[label_space[i][l]], p[l].item()))
-
-    return predictions
-
 
 def chat_template(sentence, tok, response_prompt=None):
     """
@@ -90,6 +52,60 @@ def main(args):
     instruct = args.instruct
     model_name = model.replace("/", "_")
 
+    if "llama" in model_name.lower():
+        model_family = "llama"
+    elif "qwen" in model_name.lower():
+        model_family = "qwen"
+
+    nonce_options = {
+        "llama": {
+            "gextravaganza": ["g", "G"],
+            "daxday": ["d", "D"],
+            "wugfest": ["w", "W"],
+            "blicketbash": ["blick", "Blick"],
+            "fepfestival": ["f", "F"],
+        },
+        "qwen": {
+            "gextravaganza": ["g", "G"],
+            "daxday": ["d", "D"],
+            "wugfest": ["w", "W"],
+            "blicketbash": ["b", "B"],
+            "fepfestival": ["f", "F"],
+        },
+    }
+
+    nonce_options = nonce_options[model_family]
+
+    label_nonces = {vv: k for k, v in nonce_options.items() for vv in v}
+
+
+    def get_label_space(entity1, entity2):
+        return nonce_options[entity1] + nonce_options[entity2]
+
+
+    def p_yes(probs):
+        alls = torch.tensor(probs).sum(1)
+        yeses = [[p[0], p[2]] for p in probs]
+        return (torch.tensor(yeses).sum(1) / alls).tolist()
+
+
+    def label_prob(probs):
+        alls = torch.tensor(probs).sum(1)
+        firsts = [[p[0], p[1]] for p in probs]
+        return (torch.tensor(firsts).sum(1) / alls).tolist()
+
+    def get_predictions(probs, label_space):
+        readjusted = []
+        for p in label_prob(probs):
+            readjusted.append([p, 1-p])
+        readjusted = torch.tensor(readjusted)
+        preds = readjusted.argmax(1).tolist()
+        predictions = []
+        for i, (l, p) in enumerate(zip(preds, readjusted)):
+            predictions.append((label_nonces[label_space[i][l]], p[l].item()))
+
+        return predictions
+
     # load the model
     lm = scorer.IncrementalLMScorer(model, device=args.device, trust_remote_code=True)
 
@@ -101,7 +117,7 @@ def main(args):
         if args.instruct:
             item.update({"input": chat_template(item["prompt"], lm.tokenizer)})
         else:
-            item.update({"input": item["prompt"]})
+            item.update({"input": f'{item["prompt"]} Answer:'})
         if item["stimuli_type"] != "temporal":
             eval_non_temporal.append(item)
         else:
