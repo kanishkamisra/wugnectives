@@ -102,7 +102,7 @@ def main(args):
         preds = readjusted.argmax(1).tolist()
         predictions = []
         for i, (l, p) in enumerate(zip(preds, readjusted)):
-            predictions.append((label_nonces[label_space[i][l]], p[l].item()))
+            predictions.append((label_space[i][l], p[l].item()))
 
         return predictions
 
@@ -157,11 +157,12 @@ def main(args):
         entity1 = batch["entity1"]
         entity2 = batch["entity2"]
         label_space = [get_label_space(e1, e2) for e1, e2 in zip(entity1, entity2)]
+        readj_space = [(e1,e2) for e1, e2 in zip(entity1, entity2)]
 
         dist = lm.next_word_distribution(inputs)
         probs, ranks = lm.query(dist, queries=label_space)
 
-        preds = get_predictions(probs, label_space)
+        preds = get_predictions(probs, readj_space)
 
         for i, (l, p) in zip(idx, preds):
             results.append((i, p, l))
