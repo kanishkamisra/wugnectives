@@ -54,11 +54,20 @@ def main(args):
 
     if "llama" in model_name.lower():
         model_family = "llama"
+    elif "olmo-2" in model_name.lower():
+        model_family = "olmo2"
     elif "qwen" in model_name.lower():
         model_family = "qwen"
 
     nonce_options = {
         "llama": {
+            "gextravaganza": ["g", "G"],
+            "daxday": ["d", "D"],
+            "wugfest": ["w", "W"],
+            "blicketbash": ["blick", "Blick"],
+            "fepfestival": ["f", "F"],
+        },
+        "olmo2": {
             "gextravaganza": ["g", "G"],
             "daxday": ["d", "D"],
             "wugfest": ["w", "W"],
