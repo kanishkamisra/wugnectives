@@ -116,10 +116,13 @@ for connective, template in connectives.TEMPORAL_TEMPLATES.items():
         e1, e2 = event_pairs[i]
         sampled_template = random.sample(template, 1)[0]
 
+        occur_list = connectives.OCCUR_VERBS 
+        occur_1, occur_2 = random.sample(occur_list, 2)
+
         order = orders[i]
         premise, inference1, inference2 = generators.TemporalPremise(
-            e1, e2, sampled_template, order
-        ).generate_inference_pair("")
+            e1, e2, sampled_template, order, 
+        ).generate_inference_pair("", occur_1=occur_1, occur_2=occur_2)
 
         label = config.TEMPORAL_RULES[connective]
         if label == "e1":
@@ -143,7 +146,6 @@ for connective, template in connectives.TEMPORAL_TEMPLATES.items():
                 label,
             )
         )
-
         item_id += 1
 
 inst_dataset = []
@@ -182,6 +184,6 @@ for connective, template in connectives.INSTANTIATION_TEMPLATES.items():
 
 PATH = "data/stimuli-nonce"
 pathlib.Path(PATH).mkdir(parents=True, exist_ok=True)
-write_stimuli(pref_dataset, f"{PATH}/preference_stimuli.csv")
+# write_stimuli(pref_dataset, f"{PATH}/preference_stimuli.csv")
 write_stimuli(temporal_dataset, f"{PATH}/temporal_stimuli.csv")
-write_stimuli(inst_dataset, f"{PATH}/instantiation_stimuli.csv")
+# write_stimuli(inst_dataset, f"{PATH}/instantiation_stimuli.csv")

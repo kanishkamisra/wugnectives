@@ -77,88 +77,95 @@ PREFERENCE_TEMPLATES = {
 
 TEMPORAL_TEMPLATES = {
     "after": [
-        "[e1] took place after [e2] had taken place.",
-        "After [e2] had taken place, [e1] took place.",
+        "[e1] [occur_1] after [e2] [occur_2].",
+        "After [e2] [occur_2], [e1] [occur_1].",
     ],
     "afterwards": [
-        "[e1] had taken place. Afterwards, [e2] took place.",
+        "[e1] [occur_1]. Afterwards, [e2] [occur_2].",
     ],
     "as soon as": [
-        "As soon as [e2] had taken place, [e1] took place.",
-        "[e1] took place as soon as [e2] had taken place.",
+        "As soon as [e2] [occur_2], [e1] [occur_1].",
+        "[e1] [occur_1] as soon as [e2] [occur_2].",
     ],
     "as a result": [
-        "[e1] took place. As a result, [e2] was able to take place.",
-        "[e2] was able to take place as a result of [e1].",
+        "[e1] [occur_1]. As a result, [e2] [occur_2].",
+        "[e2] [occur_2] as a result of [e1].",
     ],
     "because": [
-        "[e1] was able to take place because [e2] took place.",
-        "Because [e2] took place, [e1] was able to take place.",
+        "[e1] [occur_1] because [e2] [occur_2].",
+        "Because [e2] [occur_2], [e1] [occur_1].",
     ],
     "before": [
-        "[e1] took place before [e2].",
-        "Before [e2] took place, [e1] had taken place.",
+        "[e1] [occur_1] before [e2].",
+        "Before [e2] [occur_2], [e1] [occur_1].",
     ],
     "consequently": [
-        "[e1] took place. Consequently, [e2] was able to take place.",
+        "[e1] [occur_1]. Consequently, [e2] [occur_2].",
     ],
     "earlier": [
-        "[e1] took place. Earlier, [e2] had taken place.",
+        "[e1] [occur_1]. Earlier, [e2] [occur_2].",
     ],
     "even after": [
-        "Even after [e2] had taken place, [e1] was able to take place.",
-        "[e1] was able to take place even after [e2] had taken place.",
+        "Even after [e2] [occur_2], [e1] [occur_1].",
+        "[e1] [occur_1] even after [e2] [occur_2].",
     ],
     "eventually": [
-        "[e2] had taken place. Eventually, [e1] took place.",
+        "[e2] [occur_2]. Eventually, [e1] [occur_1].",
     ],
     "even before": [
-        "Even before [e1] took place, [e2] had taken place.",
-        "[e2] had taken place even before [e1] took place.",
+        "Even before [e1] [occur_1], [e2] [occur_2].",
+        "[e2] [occur_2] even before [e1] [occur_1].",
     ],
     "even though": [
-        "Even though [e2] had taken place, [e1] took place.",
-        "[e1] took place even though [e2] had taken place.",
+        "Even though [e2] [occur_2], [e1] [occur_1].",
+        "[e1] [occur_1] even though [e2] [occur_2].",
     ],
     "finally": [
-        "[e1] had taken place. Finally, [e2] took place.",
+        "[e1] [occur_1]. Finally, [e2] [occur_2].",
     ],
     "hence": [
-        "[e1] had taken place. Hence, [e2] took place.",
+        "[e1] [occur_1]. Hence, [e2] [occur_2].",
     ],
     "later": [
-        "[e1] had taken place. Later, [e2] took place.",
+        "[e1] [occur_1]. Later, [e2] [occur_2].",
     ],
     "next": [
-        "[e1] had taken place. Next, [e2] took place.",
+        "[e1] [occur_1]. Next, [e2] [occur_2].",
     ],
     "once": [
-        "[e1] took place once [e2] had taken place.",
-        "Once [e2] had taken place, [e1] took place.",
+        "[e1] [occur_1] once [e2] [occur_2].",
+        "Once [e2] [occur_2], [e1] [occur_1].",
     ],
     "previously": [
-        "[e1] took place. Previously, [e2] had taken place.",
+        "[e1] [occur_1]. Previously, [e2] [occur_2].",
     ],
     "since": [
-        "[e1] took place since [e2] had taken place.",
-        "Since [e2] had taken place, [e1] took place.",
+        "[e1] [occur_1] since [e2] [occur_2].",
+        "Since [e2] [occur_2], [e1] [occur_1].",
     ],
     "so": [
-        "[e1] had taken place. So, [e2] took place.",
+        "[e1] [occur_1]. So, [e2] [occur_2].",
     ],
     "subsequently": [
-        "[e1] had taken place. Subsequently, [e2] took place.",
+        "[e1] [occur_1]. Subsequently, [e2] [occur_2].",
     ],
     "then": [
-        "[e1] had taken place. Then, [e2] took place.",
+        "[e1] [occur_1]. Then, [e2] [occur_2].",
     ],
     "thereafter": [
-        "[e2] had taken place. Thereafter, [e1] took place.",
+        "[e2] [occur_2]. Thereafter, [e1] [occur_1].",
     ],
     "therefore": [
-        "[e1] had taken place. Therefore, [e2] took place.",
+        "[e1] [occur_1]. Therefore, [e2] [occur_2].",
     ],
 }
+
+
+OCCUR_VERBS = [
+    "took place",
+    "happened",
+    "occurred",
+]
 
 CAUSAL_TEMPLATES = {
     "as long as": [

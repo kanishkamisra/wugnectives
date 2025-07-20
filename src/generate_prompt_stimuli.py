@@ -27,11 +27,29 @@ def main(args):
     stimuli_dir = args.stimuli_dir
     random.seed(1024)
 
-    stimuli_types = {
-        "preference": f"{stimuli_dir}/preference_stimuli.csv",
-        "temporal": f"{stimuli_dir}/temporal_stimuli.csv",
-        "instantiation": f"{stimuli_dir}/instantiation_stimuli.csv",
-    }
+    stimuli_types = {}
+    if args.category == "all":
+        stimuli_types = {
+            "preference": f"{stimuli_dir}/preference_stimuli.csv",
+            "temporal": f"{stimuli_dir}/temporal_stimuli.csv",
+            "instantiation": f"{stimuli_dir}/instantiation_stimuli.csv",
+        }
+    elif args.category == "preference":
+        stimuli_types = {
+            "preference": f"{stimuli_dir}/preference_stimuli.csv",
+        }
+    elif args.category == "temporal":
+        stimuli_types = {
+            "temporal": f"{stimuli_dir}/temporal_stimuli.csv",
+        }
+    elif args.category == "instantiation":
+        stimuli_types = {
+            "preference": f"{stimuli_dir}/preference_stimuli.csv",
+            "temporal": f"{stimuli_dir}/temporal_stimuli.csv",
+            "instantiation": f"{stimuli_dir}/instantiation_stimuli.csv",
+        }
+    else: 
+        raise ValueError("category must be 'preference', 'temporal', or 'instantiation'. Received: ", args.category)
 
     prompts = []
     idx = 0
@@ -113,5 +131,6 @@ if __name__ == "__main__":
     parser.add_argument("--stimuli_dir", type=str, default="data/stimuli-nonce")
     parser.add_argument("--out_dir", type=str, default="data/stimuli-nonce/")
     parser.add_argument("--outfile", type=str, default="prompts")
+    parser.add_argument("--category", type=str, default="all")
     args = parser.parse_args()
     main(args)

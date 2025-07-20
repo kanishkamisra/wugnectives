@@ -1,241 +1,241 @@
 item_id,stimuli_type,connective,target,stimuli_instance,stimuli_instance_description,entity1,entity2,premise,inference1,inference2,label
-1,temporal,after,before,1,,daxday,gextravaganza,"After gextravaganza had taken place, daxday took place.",daxday started before gextravaganza,gextravaganza started before daxday,gextravaganza
-2,temporal,after,after,2,,daxday,blicketbash,"After blicketbash had taken place, daxday took place.",daxday started after blicketbash,blicketbash started after daxday,blicketbash
-3,temporal,after,after,3,,blicketbash,gextravaganza,blicketbash took place after gextravaganza had taken place.,blicketbash started after gextravaganza,gextravaganza started after blicketbash,gextravaganza
-4,temporal,after,before,4,,daxday,fepfestival,"After fepfestival had taken place, daxday took place.",daxday started before fepfestival,fepfestival started before daxday,fepfestival
-5,temporal,after,after,5,,wugfest,daxday,"After daxday had taken place, wugfest took place.",wugfest started after daxday,daxday started after wugfest,daxday
-6,temporal,after,before,6,,wugfest,fepfestival,"After fepfestival had taken place, wugfest took place.",wugfest started before fepfestival,fepfestival started before wugfest,fepfestival
-7,temporal,after,before,7,,fepfestival,blicketbash,"After blicketbash had taken place, fepfestival took place.",fepfestival started before blicketbash,blicketbash started before fepfestival,blicketbash
-8,temporal,after,after,8,,wugfest,blicketbash,"After blicketbash had taken place, wugfest took place.",wugfest started after blicketbash,blicketbash started after wugfest,blicketbash
-9,temporal,after,before,9,,wugfest,gextravaganza,"After gextravaganza had taken place, wugfest took place.",wugfest started before gextravaganza,gextravaganza started before wugfest,gextravaganza
-10,temporal,after,before,10,,fepfestival,gextravaganza,fepfestival took place after gextravaganza had taken place.,fepfestival started before gextravaganza,gextravaganza started before fepfestival,gextravaganza
-11,temporal,afterwards,before,1,,blicketbash,gextravaganza,"blicketbash had taken place. Afterwards, gextravaganza took place.",blicketbash started before gextravaganza,gextravaganza started before blicketbash,blicketbash
-12,temporal,afterwards,before,2,,fepfestival,gextravaganza,"fepfestival had taken place. Afterwards, gextravaganza took place.",fepfestival started before gextravaganza,gextravaganza started before fepfestival,fepfestival
-13,temporal,afterwards,before,3,,wugfest,fepfestival,"wugfest had taken place. Afterwards, fepfestival took place.",wugfest started before fepfestival,fepfestival started before wugfest,wugfest
-14,temporal,afterwards,after,4,,fepfestival,blicketbash,"fepfestival had taken place. Afterwards, blicketbash took place.",fepfestival started after blicketbash,blicketbash started after fepfestival,fepfestival
-15,temporal,afterwards,after,5,,wugfest,daxday,"wugfest had taken place. Afterwards, daxday took place.",wugfest started after daxday,daxday started after wugfest,wugfest
-16,temporal,afterwards,after,6,,wugfest,gextravaganza,"wugfest had taken place. Afterwards, gextravaganza took place.",wugfest started after gextravaganza,gextravaganza started after wugfest,wugfest
-17,temporal,afterwards,before,7,,daxday,blicketbash,"daxday had taken place. Afterwards, blicketbash took place.",daxday started before blicketbash,blicketbash started before daxday,daxday
-18,temporal,afterwards,before,8,,daxday,gextravaganza,"daxday had taken place. Afterwards, gextravaganza took place.",daxday started before gextravaganza,gextravaganza started before daxday,daxday
-19,temporal,afterwards,after,9,,wugfest,blicketbash,"wugfest had taken place. Afterwards, blicketbash took place.",wugfest started after blicketbash,blicketbash started after wugfest,wugfest
-20,temporal,afterwards,after,10,,daxday,fepfestival,"daxday had taken place. Afterwards, fepfestival took place.",daxday started after fepfestival,fepfestival started after daxday,daxday
-21,temporal,as soon as,before,1,,fepfestival,gextravaganza,"As soon as gextravaganza had taken place, fepfestival took place.",fepfestival started before gextravaganza,gextravaganza started before fepfestival,gextravaganza
-22,temporal,as soon as,before,2,,blicketbash,gextravaganza,"As soon as gextravaganza had taken place, blicketbash took place.",blicketbash started before gextravaganza,gextravaganza started before blicketbash,gextravaganza
-23,temporal,as soon as,before,3,,daxday,blicketbash,"As soon as blicketbash had taken place, daxday took place.",daxday started before blicketbash,blicketbash started before daxday,blicketbash
-24,temporal,as soon as,after,4,,daxday,gextravaganza,"As soon as gextravaganza had taken place, daxday took place.",daxday started after gextravaganza,gextravaganza started after daxday,gextravaganza
-25,temporal,as soon as,before,5,,wugfest,fepfestival,wugfest took place as soon as fepfestival had taken place.,wugfest started before fepfestival,fepfestival started before wugfest,fepfestival
-26,temporal,as soon as,after,6,,daxday,fepfestival,"As soon as fepfestival had taken place, daxday took place.",daxday started after fepfestival,fepfestival started after daxday,fepfestival
-27,temporal,as soon as,after,7,,wugfest,blicketbash,wugfest took place as soon as blicketbash had taken place.,wugfest started after blicketbash,blicketbash started after wugfest,blicketbash
-28,temporal,as soon as,after,8,,wugfest,gextravaganza,"As soon as gextravaganza had taken place, wugfest took place.",wugfest started after gextravaganza,gextravaganza started after wugfest,gextravaganza
-29,temporal,as soon as,before,9,,wugfest,daxday,"As soon as daxday had taken place, wugfest took place.",wugfest started before daxday,daxday started before wugfest,daxday
-30,temporal,as soon as,after,10,,fepfestival,blicketbash,"As soon as blicketbash had taken place, fepfestival took place.",fepfestival started after blicketbash,blicketbash started after fepfestival,blicketbash
-31,temporal,as a result,after,1,,wugfest,gextravaganza,gextravaganza was able to take place as a result of wugfest.,wugfest started after gextravaganza,gextravaganza started after wugfest,wugfest
-32,temporal,as a result,before,2,,daxday,blicketbash,"daxday took place. As a result, blicketbash was able to take place.",daxday started before blicketbash,blicketbash started before daxday,daxday
-33,temporal,as a result,before,3,,blicketbash,gextravaganza,gextravaganza was able to take place as a result of blicketbash.,blicketbash started before gextravaganza,gextravaganza started before blicketbash,blicketbash
-34,temporal,as a result,before,4,,wugfest,daxday,daxday was able to take place as a result of wugfest.,wugfest started before daxday,daxday started before wugfest,wugfest
-35,temporal,as a result,after,5,,fepfestival,blicketbash,blicketbash was able to take place as a result of fepfestival.,fepfestival started after blicketbash,blicketbash started after fepfestival,fepfestival
-36,temporal,as a result,before,6,,fepfestival,gextravaganza,gextravaganza was able to take place as a result of fepfestival.,fepfestival started before gextravaganza,gextravaganza started before fepfestival,fepfestival
-37,temporal,as a result,after,7,,wugfest,blicketbash,blicketbash was able to take place as a result of wugfest.,wugfest started after blicketbash,blicketbash started after wugfest,wugfest
-38,temporal,as a result,after,8,,daxday,gextravaganza,gextravaganza was able to take place as a result of daxday.,daxday started after gextravaganza,gextravaganza started after daxday,daxday
-39,temporal,as a result,after,9,,daxday,fepfestival,fepfestival was able to take place as a result of daxday.,daxday started after fepfestival,fepfestival started after daxday,daxday
-40,temporal,as a result,after,10,,wugfest,fepfestival,"wugfest took place. As a result, fepfestival was able to take place.",wugfest started after fepfestival,fepfestival started after wugfest,wugfest
-41,temporal,because,before,1,,daxday,fepfestival,daxday was able to take place because fepfestival took place.,daxday started before fepfestival,fepfestival started before daxday,fepfestival
-42,temporal,because,after,2,,daxday,gextravaganza,"Because gextravaganza took place, daxday was able to take place.",daxday started after gextravaganza,gextravaganza started after daxday,gextravaganza
-43,temporal,because,before,3,,wugfest,blicketbash,"Because blicketbash took place, wugfest was able to take place.",wugfest started before blicketbash,blicketbash started before wugfest,blicketbash
-44,temporal,because,before,4,,wugfest,gextravaganza,"Because gextravaganza took place, wugfest was able to take place.",wugfest started before gextravaganza,gextravaganza started before wugfest,gextravaganza
-45,temporal,because,before,5,,blicketbash,gextravaganza,"Because gextravaganza took place, blicketbash was able to take place.",blicketbash started before gextravaganza,gextravaganza started before blicketbash,gextravaganza
-46,temporal,because,before,6,,daxday,blicketbash,daxday was able to take place because blicketbash took place.,daxday started before blicketbash,blicketbash started before daxday,blicketbash
-47,temporal,because,after,7,,wugfest,daxday,"Because daxday took place, wugfest was able to take place.",wugfest started after daxday,daxday started after wugfest,daxday
-48,temporal,because,after,8,,fepfestival,blicketbash,"Because blicketbash took place, fepfestival was able to take place.",fepfestival started after blicketbash,blicketbash started after fepfestival,blicketbash
-49,temporal,because,before,9,,fepfestival,gextravaganza,"Because gextravaganza took place, fepfestival was able to take place.",fepfestival started before gextravaganza,gextravaganza started before fepfestival,gextravaganza
-50,temporal,because,after,10,,wugfest,fepfestival,"Because fepfestival took place, wugfest was able to take place.",wugfest started after fepfestival,fepfestival started after wugfest,fepfestival
-51,temporal,before,after,1,,blicketbash,gextravaganza,blicketbash took place before gextravaganza.,blicketbash started after gextravaganza,gextravaganza started after blicketbash,blicketbash
-52,temporal,before,after,2,,wugfest,daxday,wugfest took place before daxday.,wugfest started after daxday,daxday started after wugfest,wugfest
-53,temporal,before,after,3,,wugfest,blicketbash,wugfest took place before blicketbash.,wugfest started after blicketbash,blicketbash started after wugfest,wugfest
-54,temporal,before,before,4,,daxday,gextravaganza,"Before gextravaganza took place, daxday had taken place.",daxday started before gextravaganza,gextravaganza started before daxday,daxday
-55,temporal,before,before,5,,fepfestival,blicketbash,fepfestival took place before blicketbash.,fepfestival started before blicketbash,blicketbash started before fepfestival,fepfestival
-56,temporal,before,before,6,,wugfest,fepfestival,"Before fepfestival took place, wugfest had taken place.",wugfest started before fepfestival,fepfestival started before wugfest,wugfest
-57,temporal,before,before,7,,wugfest,gextravaganza,wugfest took place before gextravaganza.,wugfest started before gextravaganza,gextravaganza started before wugfest,wugfest
-58,temporal,before,after,8,,fepfestival,gextravaganza,fepfestival took place before gextravaganza.,fepfestival started after gextravaganza,gextravaganza started after fepfestival,fepfestival
-59,temporal,before,after,9,,daxday,blicketbash,"Before blicketbash took place, daxday had taken place.",daxday started after blicketbash,blicketbash started after daxday,daxday
-60,temporal,before,after,10,,daxday,fepfestival,"Before fepfestival took place, daxday had taken place.",daxday started after fepfestival,fepfestival started after daxday,daxday
-61,temporal,consequently,after,1,,wugfest,daxday,"wugfest took place. Consequently, daxday was able to take place.",wugfest started after daxday,daxday started after wugfest,wugfest
-62,temporal,consequently,after,2,,fepfestival,gextravaganza,"fepfestival took place. Consequently, gextravaganza was able to take place.",fepfestival started after gextravaganza,gextravaganza started after fepfestival,fepfestival
-63,temporal,consequently,after,3,,daxday,gextravaganza,"daxday took place. Consequently, gextravaganza was able to take place.",daxday started after gextravaganza,gextravaganza started after daxday,daxday
-64,temporal,consequently,after,4,,daxday,blicketbash,"daxday took place. Consequently, blicketbash was able to take place.",daxday started after blicketbash,blicketbash started after daxday,daxday
-65,temporal,consequently,before,5,,wugfest,blicketbash,"wugfest took place. Consequently, blicketbash was able to take place.",wugfest started before blicketbash,blicketbash started before wugfest,wugfest
-66,temporal,consequently,after,6,,daxday,fepfestival,"daxday took place. Consequently, fepfestival was able to take place.",daxday started after fepfestival,fepfestival started after daxday,daxday
-67,temporal,consequently,after,7,,blicketbash,gextravaganza,"blicketbash took place. Consequently, gextravaganza was able to take place.",blicketbash started after gextravaganza,gextravaganza started after blicketbash,blicketbash
-68,temporal,consequently,before,8,,wugfest,gextravaganza,"wugfest took place. Consequently, gextravaganza was able to take place.",wugfest started before gextravaganza,gextravaganza started before wugfest,wugfest
-69,temporal,consequently,before,9,,wugfest,fepfestival,"wugfest took place. Consequently, fepfestival was able to take place.",wugfest started before fepfestival,fepfestival started before wugfest,wugfest
-70,temporal,consequently,before,10,,fepfestival,blicketbash,"fepfestival took place. Consequently, blicketbash was able to take place.",fepfestival started before blicketbash,blicketbash started before fepfestival,fepfestival
-71,temporal,earlier,after,1,,wugfest,daxday,"wugfest took place. Earlier, daxday had taken place.",wugfest started after daxday,daxday started after wugfest,daxday
-72,temporal,earlier,after,2,,fepfestival,blicketbash,"fepfestival took place. Earlier, blicketbash had taken place.",fepfestival started after blicketbash,blicketbash started after fepfestival,blicketbash
-73,temporal,earlier,after,3,,blicketbash,gextravaganza,"blicketbash took place. Earlier, gextravaganza had taken place.",blicketbash started after gextravaganza,gextravaganza started after blicketbash,gextravaganza
-74,temporal,earlier,after,4,,wugfest,gextravaganza,"wugfest took place. Earlier, gextravaganza had taken place.",wugfest started after gextravaganza,gextravaganza started after wugfest,gextravaganza
-75,temporal,earlier,after,5,,wugfest,blicketbash,"wugfest took place. Earlier, blicketbash had taken place.",wugfest started after blicketbash,blicketbash started after wugfest,blicketbash
-76,temporal,earlier,after,6,,wugfest,fepfestival,"wugfest took place. Earlier, fepfestival had taken place.",wugfest started after fepfestival,fepfestival started after wugfest,fepfestival
-77,temporal,earlier,after,7,,daxday,gextravaganza,"daxday took place. Earlier, gextravaganza had taken place.",daxday started after gextravaganza,gextravaganza started after daxday,gextravaganza
-78,temporal,earlier,after,8,,daxday,fepfestival,"daxday took place. Earlier, fepfestival had taken place.",daxday started after fepfestival,fepfestival started after daxday,fepfestival
-79,temporal,earlier,before,9,,daxday,blicketbash,"daxday took place. Earlier, blicketbash had taken place.",daxday started before blicketbash,blicketbash started before daxday,blicketbash
-80,temporal,earlier,before,10,,fepfestival,gextravaganza,"fepfestival took place. Earlier, gextravaganza had taken place.",fepfestival started before gextravaganza,gextravaganza started before fepfestival,gextravaganza
-81,temporal,even after,after,1,,fepfestival,blicketbash,"Even after blicketbash had taken place, fepfestival was able to take place.",fepfestival started after blicketbash,blicketbash started after fepfestival,blicketbash
-82,temporal,even after,after,2,,daxday,fepfestival,"Even after fepfestival had taken place, daxday was able to take place.",daxday started after fepfestival,fepfestival started after daxday,fepfestival
-83,temporal,even after,before,3,,wugfest,daxday,wugfest was able to take place even after daxday had taken place.,wugfest started before daxday,daxday started before wugfest,daxday
-84,temporal,even after,before,4,,daxday,gextravaganza,daxday was able to take place even after gextravaganza had taken place.,daxday started before gextravaganza,gextravaganza started before daxday,gextravaganza
-85,temporal,even after,after,5,,wugfest,blicketbash,"Even after blicketbash had taken place, wugfest was able to take place.",wugfest started after blicketbash,blicketbash started after wugfest,blicketbash
-86,temporal,even after,before,6,,fepfestival,gextravaganza,"Even after gextravaganza had taken place, fepfestival was able to take place.",fepfestival started before gextravaganza,gextravaganza started before fepfestival,gextravaganza
-87,temporal,even after,after,7,,daxday,blicketbash,"Even after blicketbash had taken place, daxday was able to take place.",daxday started after blicketbash,blicketbash started after daxday,blicketbash
-88,temporal,even after,before,8,,wugfest,fepfestival,"Even after fepfestival had taken place, wugfest was able to take place.",wugfest started before fepfestival,fepfestival started before wugfest,fepfestival
-89,temporal,even after,before,9,,wugfest,gextravaganza,wugfest was able to take place even after gextravaganza had taken place.,wugfest started before gextravaganza,gextravaganza started before wugfest,gextravaganza
-90,temporal,even after,before,10,,blicketbash,gextravaganza,blicketbash was able to take place even after gextravaganza had taken place.,blicketbash started before gextravaganza,gextravaganza started before blicketbash,gextravaganza
-91,temporal,eventually,before,1,,daxday,fepfestival,"fepfestival had taken place. Eventually, daxday took place.",daxday started before fepfestival,fepfestival started before daxday,fepfestival
-92,temporal,eventually,before,2,,fepfestival,blicketbash,"blicketbash had taken place. Eventually, fepfestival took place.",fepfestival started before blicketbash,blicketbash started before fepfestival,blicketbash
-93,temporal,eventually,after,3,,daxday,gextravaganza,"gextravaganza had taken place. Eventually, daxday took place.",daxday started after gextravaganza,gextravaganza started after daxday,gextravaganza
-94,temporal,eventually,after,4,,wugfest,fepfestival,"fepfestival had taken place. Eventually, wugfest took place.",wugfest started after fepfestival,fepfestival started after wugfest,fepfestival
-95,temporal,eventually,after,5,,wugfest,blicketbash,"blicketbash had taken place. Eventually, wugfest took place.",wugfest started after blicketbash,blicketbash started after wugfest,blicketbash
-96,temporal,eventually,before,6,,wugfest,gextravaganza,"gextravaganza had taken place. Eventually, wugfest took place.",wugfest started before gextravaganza,gextravaganza started before wugfest,gextravaganza
-97,temporal,eventually,after,7,,wugfest,daxday,"daxday had taken place. Eventually, wugfest took place.",wugfest started after daxday,daxday started after wugfest,daxday
-98,temporal,eventually,before,8,,blicketbash,gextravaganza,"gextravaganza had taken place. Eventually, blicketbash took place.",blicketbash started before gextravaganza,gextravaganza started before blicketbash,gextravaganza
-99,temporal,eventually,before,9,,fepfestival,gextravaganza,"gextravaganza had taken place. Eventually, fepfestival took place.",fepfestival started before gextravaganza,gextravaganza started before fepfestival,gextravaganza
-100,temporal,eventually,after,10,,daxday,blicketbash,"blicketbash had taken place. Eventually, daxday took place.",daxday started after blicketbash,blicketbash started after daxday,blicketbash
-101,temporal,even before,before,1,,daxday,fepfestival,"Even before daxday took place, fepfestival had taken place.",daxday started before fepfestival,fepfestival started before daxday,fepfestival
-102,temporal,even before,after,2,,fepfestival,blicketbash,"Even before fepfestival took place, blicketbash had taken place.",fepfestival started after blicketbash,blicketbash started after fepfestival,blicketbash
-103,temporal,even before,before,3,,fepfestival,gextravaganza,gextravaganza had taken place even before fepfestival took place.,fepfestival started before gextravaganza,gextravaganza started before fepfestival,gextravaganza
-104,temporal,even before,after,4,,daxday,gextravaganza,gextravaganza had taken place even before daxday took place.,daxday started after gextravaganza,gextravaganza started after daxday,gextravaganza
-105,temporal,even before,after,5,,wugfest,blicketbash,blicketbash had taken place even before wugfest took place.,wugfest started after blicketbash,blicketbash started after wugfest,blicketbash
-106,temporal,even before,before,6,,wugfest,fepfestival,"Even before wugfest took place, fepfestival had taken place.",wugfest started before fepfestival,fepfestival started before wugfest,fepfestival
-107,temporal,even before,after,7,,wugfest,daxday,daxday had taken place even before wugfest took place.,wugfest started after daxday,daxday started after wugfest,daxday
-108,temporal,even before,after,8,,blicketbash,gextravaganza,"Even before blicketbash took place, gextravaganza had taken place.",blicketbash started after gextravaganza,gextravaganza started after blicketbash,gextravaganza
-109,temporal,even before,before,9,,wugfest,gextravaganza,"Even before wugfest took place, gextravaganza had taken place.",wugfest started before gextravaganza,gextravaganza started before wugfest,gextravaganza
-110,temporal,even before,after,10,,daxday,blicketbash,blicketbash had taken place even before daxday took place.,daxday started after blicketbash,blicketbash started after daxday,blicketbash
-111,temporal,even though,after,1,,wugfest,fepfestival,"Even though fepfestival had taken place, wugfest took place.",wugfest started after fepfestival,fepfestival started after wugfest,fepfestival
-112,temporal,even though,before,2,,wugfest,blicketbash,wugfest took place even though blicketbash had taken place.,wugfest started before blicketbash,blicketbash started before wugfest,blicketbash
-113,temporal,even though,before,3,,wugfest,daxday,wugfest took place even though daxday had taken place.,wugfest started before daxday,daxday started before wugfest,daxday
-114,temporal,even though,after,4,,blicketbash,gextravaganza,"Even though gextravaganza had taken place, blicketbash took place.",blicketbash started after gextravaganza,gextravaganza started after blicketbash,gextravaganza
-115,temporal,even though,after,5,,daxday,blicketbash,daxday took place even though blicketbash had taken place.,daxday started after blicketbash,blicketbash started after daxday,blicketbash
-116,temporal,even though,before,6,,fepfestival,blicketbash,fepfestival took place even though blicketbash had taken place.,fepfestival started before blicketbash,blicketbash started before fepfestival,blicketbash
-117,temporal,even though,before,7,,wugfest,gextravaganza,wugfest took place even though gextravaganza had taken place.,wugfest started before gextravaganza,gextravaganza started before wugfest,gextravaganza
-118,temporal,even though,before,8,,daxday,fepfestival,daxday took place even though fepfestival had taken place.,daxday started before fepfestival,fepfestival started before daxday,fepfestival
-119,temporal,even though,before,9,,fepfestival,gextravaganza,fepfestival took place even though gextravaganza had taken place.,fepfestival started before gextravaganza,gextravaganza started before fepfestival,gextravaganza
-120,temporal,even though,after,10,,daxday,gextravaganza,"Even though gextravaganza had taken place, daxday took place.",daxday started after gextravaganza,gextravaganza started after daxday,gextravaganza
-121,temporal,finally,before,1,,daxday,gextravaganza,"daxday had taken place. Finally, gextravaganza took place.",daxday started before gextravaganza,gextravaganza started before daxday,daxday
-122,temporal,finally,after,2,,wugfest,fepfestival,"wugfest had taken place. Finally, fepfestival took place.",wugfest started after fepfestival,fepfestival started after wugfest,wugfest
-123,temporal,finally,before,3,,daxday,fepfestival,"daxday had taken place. Finally, fepfestival took place.",daxday started before fepfestival,fepfestival started before daxday,daxday
-124,temporal,finally,after,4,,wugfest,blicketbash,"wugfest had taken place. Finally, blicketbash took place.",wugfest started after blicketbash,blicketbash started after wugfest,wugfest
-125,temporal,finally,after,5,,wugfest,gextravaganza,"wugfest had taken place. Finally, gextravaganza took place.",wugfest started after gextravaganza,gextravaganza started after wugfest,wugfest
-126,temporal,finally,before,6,,wugfest,daxday,"wugfest had taken place. Finally, daxday took place.",wugfest started before daxday,daxday started before wugfest,wugfest
-127,temporal,finally,before,7,,fepfestival,blicketbash,"fepfestival had taken place. Finally, blicketbash took place.",fepfestival started before blicketbash,blicketbash started before fepfestival,fepfestival
-128,temporal,finally,before,8,,daxday,blicketbash,"daxday had taken place. Finally, blicketbash took place.",daxday started before blicketbash,blicketbash started before daxday,daxday
-129,temporal,finally,before,9,,fepfestival,gextravaganza,"fepfestival had taken place. Finally, gextravaganza took place.",fepfestival started before gextravaganza,gextravaganza started before fepfestival,fepfestival
-130,temporal,finally,after,10,,blicketbash,gextravaganza,"blicketbash had taken place. Finally, gextravaganza took place.",blicketbash started after gextravaganza,gextravaganza started after blicketbash,blicketbash
-131,temporal,hence,after,1,,blicketbash,gextravaganza,"blicketbash had taken place. Hence, gextravaganza took place.",blicketbash started after gextravaganza,gextravaganza started after blicketbash,blicketbash
-132,temporal,hence,before,2,,wugfest,blicketbash,"wugfest had taken place. Hence, blicketbash took place.",wugfest started before blicketbash,blicketbash started before wugfest,wugfest
-133,temporal,hence,after,3,,daxday,gextravaganza,"daxday had taken place. Hence, gextravaganza took place.",daxday started after gextravaganza,gextravaganza started after daxday,daxday
-134,temporal,hence,before,4,,wugfest,gextravaganza,"wugfest had taken place. Hence, gextravaganza took place.",wugfest started before gextravaganza,gextravaganza started before wugfest,wugfest
-135,temporal,hence,before,5,,fepfestival,blicketbash,"fepfestival had taken place. Hence, blicketbash took place.",fepfestival started before blicketbash,blicketbash started before fepfestival,fepfestival
-136,temporal,hence,before,6,,wugfest,fepfestival,"wugfest had taken place. Hence, fepfestival took place.",wugfest started before fepfestival,fepfestival started before wugfest,wugfest
-137,temporal,hence,before,7,,wugfest,daxday,"wugfest had taken place. Hence, daxday took place.",wugfest started before daxday,daxday started before wugfest,wugfest
-138,temporal,hence,before,8,,fepfestival,gextravaganza,"fepfestival had taken place. Hence, gextravaganza took place.",fepfestival started before gextravaganza,gextravaganza started before fepfestival,fepfestival
-139,temporal,hence,after,9,,daxday,blicketbash,"daxday had taken place. Hence, blicketbash took place.",daxday started after blicketbash,blicketbash started after daxday,daxday
-140,temporal,hence,after,10,,daxday,fepfestival,"daxday had taken place. Hence, fepfestival took place.",daxday started after fepfestival,fepfestival started after daxday,daxday
-141,temporal,later,after,1,,daxday,fepfestival,"daxday had taken place. Later, fepfestival took place.",daxday started after fepfestival,fepfestival started after daxday,daxday
-142,temporal,later,after,2,,fepfestival,blicketbash,"fepfestival had taken place. Later, blicketbash took place.",fepfestival started after blicketbash,blicketbash started after fepfestival,fepfestival
-143,temporal,later,after,3,,daxday,blicketbash,"daxday had taken place. Later, blicketbash took place.",daxday started after blicketbash,blicketbash started after daxday,daxday
-144,temporal,later,before,4,,daxday,gextravaganza,"daxday had taken place. Later, gextravaganza took place.",daxday started before gextravaganza,gextravaganza started before daxday,daxday
-145,temporal,later,before,5,,wugfest,daxday,"wugfest had taken place. Later, daxday took place.",wugfest started before daxday,daxday started before wugfest,wugfest
-146,temporal,later,before,6,,blicketbash,gextravaganza,"blicketbash had taken place. Later, gextravaganza took place.",blicketbash started before gextravaganza,gextravaganza started before blicketbash,blicketbash
-147,temporal,later,before,7,,wugfest,blicketbash,"wugfest had taken place. Later, blicketbash took place.",wugfest started before blicketbash,blicketbash started before wugfest,wugfest
-148,temporal,later,before,8,,wugfest,fepfestival,"wugfest had taken place. Later, fepfestival took place.",wugfest started before fepfestival,fepfestival started before wugfest,wugfest
-149,temporal,later,after,9,,fepfestival,gextravaganza,"fepfestival had taken place. Later, gextravaganza took place.",fepfestival started after gextravaganza,gextravaganza started after fepfestival,fepfestival
-150,temporal,later,after,10,,wugfest,gextravaganza,"wugfest had taken place. Later, gextravaganza took place.",wugfest started after gextravaganza,gextravaganza started after wugfest,wugfest
-151,temporal,next,before,1,,blicketbash,gextravaganza,"blicketbash had taken place. Next, gextravaganza took place.",blicketbash started before gextravaganza,gextravaganza started before blicketbash,blicketbash
-152,temporal,next,after,2,,wugfest,fepfestival,"wugfest had taken place. Next, fepfestival took place.",wugfest started after fepfestival,fepfestival started after wugfest,wugfest
-153,temporal,next,before,3,,daxday,blicketbash,"daxday had taken place. Next, blicketbash took place.",daxday started before blicketbash,blicketbash started before daxday,daxday
-154,temporal,next,after,4,,wugfest,gextravaganza,"wugfest had taken place. Next, gextravaganza took place.",wugfest started after gextravaganza,gextravaganza started after wugfest,wugfest
-155,temporal,next,after,5,,daxday,fepfestival,"daxday had taken place. Next, fepfestival took place.",daxday started after fepfestival,fepfestival started after daxday,daxday
-156,temporal,next,after,6,,wugfest,blicketbash,"wugfest had taken place. Next, blicketbash took place.",wugfest started after blicketbash,blicketbash started after wugfest,wugfest
-157,temporal,next,before,7,,fepfestival,gextravaganza,"fepfestival had taken place. Next, gextravaganza took place.",fepfestival started before gextravaganza,gextravaganza started before fepfestival,fepfestival
-158,temporal,next,after,8,,fepfestival,blicketbash,"fepfestival had taken place. Next, blicketbash took place.",fepfestival started after blicketbash,blicketbash started after fepfestival,fepfestival
-159,temporal,next,after,9,,wugfest,daxday,"wugfest had taken place. Next, daxday took place.",wugfest started after daxday,daxday started after wugfest,wugfest
-160,temporal,next,after,10,,daxday,gextravaganza,"daxday had taken place. Next, gextravaganza took place.",daxday started after gextravaganza,gextravaganza started after daxday,daxday
-161,temporal,once,after,1,,fepfestival,gextravaganza,fepfestival took place once gextravaganza had taken place.,fepfestival started after gextravaganza,gextravaganza started after fepfestival,gextravaganza
-162,temporal,once,after,2,,wugfest,daxday,wugfest took place once daxday had taken place.,wugfest started after daxday,daxday started after wugfest,daxday
-163,temporal,once,before,3,,daxday,blicketbash,"Once blicketbash had taken place, daxday took place.",daxday started before blicketbash,blicketbash started before daxday,blicketbash
-164,temporal,once,after,4,,daxday,fepfestival,"Once fepfestival had taken place, daxday took place.",daxday started after fepfestival,fepfestival started after daxday,fepfestival
-165,temporal,once,after,5,,daxday,gextravaganza,"Once gextravaganza had taken place, daxday took place.",daxday started after gextravaganza,gextravaganza started after daxday,gextravaganza
-166,temporal,once,after,6,,blicketbash,gextravaganza,"Once gextravaganza had taken place, blicketbash took place.",blicketbash started after gextravaganza,gextravaganza started after blicketbash,gextravaganza
-167,temporal,once,before,7,,fepfestival,blicketbash,"Once blicketbash had taken place, fepfestival took place.",fepfestival started before blicketbash,blicketbash started before fepfestival,blicketbash
-168,temporal,once,before,8,,wugfest,fepfestival,wugfest took place once fepfestival had taken place.,wugfest started before fepfestival,fepfestival started before wugfest,fepfestival
-169,temporal,once,after,9,,wugfest,gextravaganza,"Once gextravaganza had taken place, wugfest took place.",wugfest started after gextravaganza,gextravaganza started after wugfest,gextravaganza
-170,temporal,once,after,10,,wugfest,blicketbash,wugfest took place once blicketbash had taken place.,wugfest started after blicketbash,blicketbash started after wugfest,blicketbash
-171,temporal,previously,before,1,,blicketbash,gextravaganza,"blicketbash took place. Previously, gextravaganza had taken place.",blicketbash started before gextravaganza,gextravaganza started before blicketbash,gextravaganza
-172,temporal,previously,after,2,,daxday,blicketbash,"daxday took place. Previously, blicketbash had taken place.",daxday started after blicketbash,blicketbash started after daxday,blicketbash
-173,temporal,previously,after,3,,daxday,gextravaganza,"daxday took place. Previously, gextravaganza had taken place.",daxday started after gextravaganza,gextravaganza started after daxday,gextravaganza
-174,temporal,previously,after,4,,wugfest,blicketbash,"wugfest took place. Previously, blicketbash had taken place.",wugfest started after blicketbash,blicketbash started after wugfest,blicketbash
-175,temporal,previously,after,5,,wugfest,fepfestival,"wugfest took place. Previously, fepfestival had taken place.",wugfest started after fepfestival,fepfestival started after wugfest,fepfestival
-176,temporal,previously,before,6,,daxday,fepfestival,"daxday took place. Previously, fepfestival had taken place.",daxday started before fepfestival,fepfestival started before daxday,fepfestival
-177,temporal,previously,before,7,,wugfest,gextravaganza,"wugfest took place. Previously, gextravaganza had taken place.",wugfest started before gextravaganza,gextravaganza started before wugfest,gextravaganza
-178,temporal,previously,after,8,,wugfest,daxday,"wugfest took place. Previously, daxday had taken place.",wugfest started after daxday,daxday started after wugfest,daxday
-179,temporal,previously,before,9,,fepfestival,gextravaganza,"fepfestival took place. Previously, gextravaganza had taken place.",fepfestival started before gextravaganza,gextravaganza started before fepfestival,gextravaganza
-180,temporal,previously,after,10,,fepfestival,blicketbash,"fepfestival took place. Previously, blicketbash had taken place.",fepfestival started after blicketbash,blicketbash started after fepfestival,blicketbash
-181,temporal,since,after,1,,daxday,gextravaganza,daxday took place since gextravaganza had taken place.,daxday started after gextravaganza,gextravaganza started after daxday,gextravaganza
-182,temporal,since,before,2,,wugfest,gextravaganza,wugfest took place since gextravaganza had taken place.,wugfest started before gextravaganza,gextravaganza started before wugfest,gextravaganza
-183,temporal,since,before,3,,fepfestival,blicketbash,"Since blicketbash had taken place, fepfestival took place.",fepfestival started before blicketbash,blicketbash started before fepfestival,blicketbash
-184,temporal,since,before,4,,fepfestival,gextravaganza,"Since gextravaganza had taken place, fepfestival took place.",fepfestival started before gextravaganza,gextravaganza started before fepfestival,gextravaganza
-185,temporal,since,after,5,,wugfest,fepfestival,"Since fepfestival had taken place, wugfest took place.",wugfest started after fepfestival,fepfestival started after wugfest,fepfestival
-186,temporal,since,before,6,,daxday,fepfestival,daxday took place since fepfestival had taken place.,daxday started before fepfestival,fepfestival started before daxday,fepfestival
-187,temporal,since,before,7,,wugfest,daxday,wugfest took place since daxday had taken place.,wugfest started before daxday,daxday started before wugfest,daxday
-188,temporal,since,after,8,,daxday,blicketbash,"Since blicketbash had taken place, daxday took place.",daxday started after blicketbash,blicketbash started after daxday,blicketbash
-189,temporal,since,before,9,,wugfest,blicketbash,"Since blicketbash had taken place, wugfest took place.",wugfest started before blicketbash,blicketbash started before wugfest,blicketbash
-190,temporal,since,before,10,,blicketbash,gextravaganza,blicketbash took place since gextravaganza had taken place.,blicketbash started before gextravaganza,gextravaganza started before blicketbash,gextravaganza
-191,temporal,so,after,1,,wugfest,daxday,"wugfest had taken place. So, daxday took place.",wugfest started after daxday,daxday started after wugfest,wugfest
-192,temporal,so,before,2,,wugfest,gextravaganza,"wugfest had taken place. So, gextravaganza took place.",wugfest started before gextravaganza,gextravaganza started before wugfest,wugfest
-193,temporal,so,after,3,,fepfestival,gextravaganza,"fepfestival had taken place. So, gextravaganza took place.",fepfestival started after gextravaganza,gextravaganza started after fepfestival,fepfestival
-194,temporal,so,after,4,,daxday,fepfestival,"daxday had taken place. So, fepfestival took place.",daxday started after fepfestival,fepfestival started after daxday,daxday
-195,temporal,so,after,5,,daxday,blicketbash,"daxday had taken place. So, blicketbash took place.",daxday started after blicketbash,blicketbash started after daxday,daxday
-196,temporal,so,before,6,,fepfestival,blicketbash,"fepfestival had taken place. So, blicketbash took place.",fepfestival started before blicketbash,blicketbash started before fepfestival,fepfestival
-197,temporal,so,after,7,,wugfest,fepfestival,"wugfest had taken place. So, fepfestival took place.",wugfest started after fepfestival,fepfestival started after wugfest,wugfest
-198,temporal,so,before,8,,daxday,gextravaganza,"daxday had taken place. So, gextravaganza took place.",daxday started before gextravaganza,gextravaganza started before daxday,daxday
-199,temporal,so,before,9,,wugfest,blicketbash,"wugfest had taken place. So, blicketbash took place.",wugfest started before blicketbash,blicketbash started before wugfest,wugfest
-200,temporal,so,after,10,,blicketbash,gextravaganza,"blicketbash had taken place. So, gextravaganza took place.",blicketbash started after gextravaganza,gextravaganza started after blicketbash,blicketbash
-201,temporal,subsequently,before,1,,blicketbash,gextravaganza,"blicketbash had taken place. Subsequently, gextravaganza took place.",blicketbash started before gextravaganza,gextravaganza started before blicketbash,blicketbash
-202,temporal,subsequently,before,2,,wugfest,gextravaganza,"wugfest had taken place. Subsequently, gextravaganza took place.",wugfest started before gextravaganza,gextravaganza started before wugfest,wugfest
-203,temporal,subsequently,before,3,,daxday,gextravaganza,"daxday had taken place. Subsequently, gextravaganza took place.",daxday started before gextravaganza,gextravaganza started before daxday,daxday
-204,temporal,subsequently,before,4,,wugfest,blicketbash,"wugfest had taken place. Subsequently, blicketbash took place.",wugfest started before blicketbash,blicketbash started before wugfest,wugfest
-205,temporal,subsequently,after,5,,wugfest,daxday,"wugfest had taken place. Subsequently, daxday took place.",wugfest started after daxday,daxday started after wugfest,wugfest
-206,temporal,subsequently,before,6,,daxday,fepfestival,"daxday had taken place. Subsequently, fepfestival took place.",daxday started before fepfestival,fepfestival started before daxday,daxday
-207,temporal,subsequently,before,7,,fepfestival,gextravaganza,"fepfestival had taken place. Subsequently, gextravaganza took place.",fepfestival started before gextravaganza,gextravaganza started before fepfestival,fepfestival
-208,temporal,subsequently,before,8,,wugfest,fepfestival,"wugfest had taken place. Subsequently, fepfestival took place.",wugfest started before fepfestival,fepfestival started before wugfest,wugfest
-209,temporal,subsequently,after,9,,daxday,blicketbash,"daxday had taken place. Subsequently, blicketbash took place.",daxday started after blicketbash,blicketbash started after daxday,daxday
-210,temporal,subsequently,after,10,,fepfestival,blicketbash,"fepfestival had taken place. Subsequently, blicketbash took place.",fepfestival started after blicketbash,blicketbash started after fepfestival,fepfestival
-211,temporal,then,after,1,,blicketbash,gextravaganza,"blicketbash had taken place. Then, gextravaganza took place.",blicketbash started after gextravaganza,gextravaganza started after blicketbash,blicketbash
-212,temporal,then,before,2,,wugfest,gextravaganza,"wugfest had taken place. Then, gextravaganza took place.",wugfest started before gextravaganza,gextravaganza started before wugfest,wugfest
-213,temporal,then,before,3,,wugfest,fepfestival,"wugfest had taken place. Then, fepfestival took place.",wugfest started before fepfestival,fepfestival started before wugfest,wugfest
-214,temporal,then,after,4,,daxday,gextravaganza,"daxday had taken place. Then, gextravaganza took place.",daxday started after gextravaganza,gextravaganza started after daxday,daxday
-215,temporal,then,after,5,,daxday,blicketbash,"daxday had taken place. Then, blicketbash took place.",daxday started after blicketbash,blicketbash started after daxday,daxday
-216,temporal,then,before,6,,wugfest,daxday,"wugfest had taken place. Then, daxday took place.",wugfest started before daxday,daxday started before wugfest,wugfest
-217,temporal,then,after,7,,daxday,fepfestival,"daxday had taken place. Then, fepfestival took place.",daxday started after fepfestival,fepfestival started after daxday,daxday
-218,temporal,then,before,8,,fepfestival,gextravaganza,"fepfestival had taken place. Then, gextravaganza took place.",fepfestival started before gextravaganza,gextravaganza started before fepfestival,fepfestival
-219,temporal,then,after,9,,fepfestival,blicketbash,"fepfestival had taken place. Then, blicketbash took place.",fepfestival started after blicketbash,blicketbash started after fepfestival,fepfestival
-220,temporal,then,after,10,,wugfest,blicketbash,"wugfest had taken place. Then, blicketbash took place.",wugfest started after blicketbash,blicketbash started after wugfest,wugfest
-221,temporal,thereafter,before,1,,wugfest,gextravaganza,"gextravaganza had taken place. Thereafter, wugfest took place.",wugfest started before gextravaganza,gextravaganza started before wugfest,gextravaganza
-222,temporal,thereafter,before,2,,blicketbash,gextravaganza,"gextravaganza had taken place. Thereafter, blicketbash took place.",blicketbash started before gextravaganza,gextravaganza started before blicketbash,gextravaganza
-223,temporal,thereafter,before,3,,fepfestival,gextravaganza,"gextravaganza had taken place. Thereafter, fepfestival took place.",fepfestival started before gextravaganza,gextravaganza started before fepfestival,gextravaganza
-224,temporal,thereafter,before,4,,daxday,gextravaganza,"gextravaganza had taken place. Thereafter, daxday took place.",daxday started before gextravaganza,gextravaganza started before daxday,gextravaganza
-225,temporal,thereafter,after,5,,fepfestival,blicketbash,"blicketbash had taken place. Thereafter, fepfestival took place.",fepfestival started after blicketbash,blicketbash started after fepfestival,blicketbash
-226,temporal,thereafter,after,6,,daxday,fepfestival,"fepfestival had taken place. Thereafter, daxday took place.",daxday started after fepfestival,fepfestival started after daxday,fepfestival
-227,temporal,thereafter,before,7,,wugfest,daxday,"daxday had taken place. Thereafter, wugfest took place.",wugfest started before daxday,daxday started before wugfest,daxday
-228,temporal,thereafter,after,8,,daxday,blicketbash,"blicketbash had taken place. Thereafter, daxday took place.",daxday started after blicketbash,blicketbash started after daxday,blicketbash
-229,temporal,thereafter,after,9,,wugfest,fepfestival,"fepfestival had taken place. Thereafter, wugfest took place.",wugfest started after fepfestival,fepfestival started after wugfest,fepfestival
-230,temporal,thereafter,after,10,,wugfest,blicketbash,"blicketbash had taken place. Thereafter, wugfest took place.",wugfest started after blicketbash,blicketbash started after wugfest,blicketbash
-231,temporal,therefore,after,1,,daxday,gextravaganza,"daxday had taken place. Therefore, gextravaganza took place.",daxday started after gextravaganza,gextravaganza started after daxday,daxday
-232,temporal,therefore,after,2,,wugfest,fepfestival,"wugfest had taken place. Therefore, fepfestival took place.",wugfest started after fepfestival,fepfestival started after wugfest,wugfest
-233,temporal,therefore,after,3,,daxday,fepfestival,"daxday had taken place. Therefore, fepfestival took place.",daxday started after fepfestival,fepfestival started after daxday,daxday
-234,temporal,therefore,before,4,,fepfestival,blicketbash,"fepfestival had taken place. Therefore, blicketbash took place.",fepfestival started before blicketbash,blicketbash started before fepfestival,fepfestival
-235,temporal,therefore,before,5,,daxday,blicketbash,"daxday had taken place. Therefore, blicketbash took place.",daxday started before blicketbash,blicketbash started before daxday,daxday
-236,temporal,therefore,after,6,,wugfest,blicketbash,"wugfest had taken place. Therefore, blicketbash took place.",wugfest started after blicketbash,blicketbash started after wugfest,wugfest
-237,temporal,therefore,before,7,,fepfestival,gextravaganza,"fepfestival had taken place. Therefore, gextravaganza took place.",fepfestival started before gextravaganza,gextravaganza started before fepfestival,fepfestival
-238,temporal,therefore,after,8,,blicketbash,gextravaganza,"blicketbash had taken place. Therefore, gextravaganza took place.",blicketbash started after gextravaganza,gextravaganza started after blicketbash,blicketbash
-239,temporal,therefore,before,9,,wugfest,daxday,"wugfest had taken place. Therefore, daxday took place.",wugfest started before daxday,daxday started before wugfest,wugfest
-240,temporal,therefore,before,10,,wugfest,gextravaganza,"wugfest had taken place. Therefore, gextravaganza took place.",wugfest started before gextravaganza,gextravaganza started before wugfest,wugfest
+1,temporal,after,before,1,,daxday,gextravaganza,"After gextravaganza took place, daxday happened.",daxday started before gextravaganza,gextravaganza started before daxday,gextravaganza
+2,temporal,after,after,2,,daxday,blicketbash,"After blicketbash happened, daxday occurred.",daxday started after blicketbash,blicketbash started after daxday,blicketbash
+3,temporal,after,after,3,,blicketbash,gextravaganza,"After gextravaganza occurred, blicketbash happened.",blicketbash started after gextravaganza,gextravaganza started after blicketbash,gextravaganza
+4,temporal,after,before,4,,daxday,fepfestival,"After fepfestival occurred, daxday took place.",daxday started before fepfestival,fepfestival started before daxday,fepfestival
+5,temporal,after,after,5,,wugfest,daxday,"After daxday happened, wugfest occurred.",wugfest started after daxday,daxday started after wugfest,daxday
+6,temporal,after,before,6,,wugfest,fepfestival,"After fepfestival occurred, wugfest took place.",wugfest started before fepfestival,fepfestival started before wugfest,fepfestival
+7,temporal,after,before,7,,fepfestival,blicketbash,fepfestival occurred after blicketbash took place.,fepfestival started before blicketbash,blicketbash started before fepfestival,blicketbash
+8,temporal,after,after,8,,wugfest,blicketbash,"After blicketbash took place, wugfest occurred.",wugfest started after blicketbash,blicketbash started after wugfest,blicketbash
+9,temporal,after,before,9,,wugfest,gextravaganza,wugfest happened after gextravaganza occurred.,wugfest started before gextravaganza,gextravaganza started before wugfest,gextravaganza
+10,temporal,after,before,10,,fepfestival,gextravaganza,"After gextravaganza happened, fepfestival took place.",fepfestival started before gextravaganza,gextravaganza started before fepfestival,gextravaganza
+11,temporal,afterwards,before,1,,fepfestival,blicketbash,"fepfestival took place. Afterwards, blicketbash occurred.",fepfestival started before blicketbash,blicketbash started before fepfestival,fepfestival
+12,temporal,afterwards,before,2,,wugfest,fepfestival,"wugfest occurred. Afterwards, fepfestival happened.",wugfest started before fepfestival,fepfestival started before wugfest,wugfest
+13,temporal,afterwards,after,3,,wugfest,blicketbash,"wugfest took place. Afterwards, blicketbash occurred.",wugfest started after blicketbash,blicketbash started after wugfest,wugfest
+14,temporal,afterwards,before,4,,daxday,gextravaganza,"daxday occurred. Afterwards, gextravaganza took place.",daxday started before gextravaganza,gextravaganza started before daxday,daxday
+15,temporal,afterwards,before,5,,fepfestival,gextravaganza,"fepfestival happened. Afterwards, gextravaganza occurred.",fepfestival started before gextravaganza,gextravaganza started before fepfestival,fepfestival
+16,temporal,afterwards,before,6,,wugfest,gextravaganza,"wugfest took place. Afterwards, gextravaganza occurred.",wugfest started before gextravaganza,gextravaganza started before wugfest,wugfest
+17,temporal,afterwards,after,7,,wugfest,daxday,"wugfest happened. Afterwards, daxday took place.",wugfest started after daxday,daxday started after wugfest,wugfest
+18,temporal,afterwards,before,8,,blicketbash,gextravaganza,"blicketbash took place. Afterwards, gextravaganza occurred.",blicketbash started before gextravaganza,gextravaganza started before blicketbash,blicketbash
+19,temporal,afterwards,before,9,,daxday,fepfestival,"daxday happened. Afterwards, fepfestival took place.",daxday started before fepfestival,fepfestival started before daxday,daxday
+20,temporal,afterwards,after,10,,daxday,blicketbash,"daxday happened. Afterwards, blicketbash occurred.",daxday started after blicketbash,blicketbash started after daxday,daxday
+21,temporal,as soon as,before,1,,wugfest,blicketbash,wugfest happened as soon as blicketbash occurred.,wugfest started before blicketbash,blicketbash started before wugfest,blicketbash
+22,temporal,as soon as,before,2,,wugfest,fepfestival,wugfest happened as soon as fepfestival occurred.,wugfest started before fepfestival,fepfestival started before wugfest,fepfestival
+23,temporal,as soon as,before,3,,blicketbash,gextravaganza,"As soon as gextravaganza took place, blicketbash occurred.",blicketbash started before gextravaganza,gextravaganza started before blicketbash,gextravaganza
+24,temporal,as soon as,before,4,,wugfest,gextravaganza,wugfest took place as soon as gextravaganza happened.,wugfest started before gextravaganza,gextravaganza started before wugfest,gextravaganza
+25,temporal,as soon as,after,5,,daxday,blicketbash,"As soon as blicketbash occurred, daxday happened.",daxday started after blicketbash,blicketbash started after daxday,blicketbash
+26,temporal,as soon as,before,6,,fepfestival,blicketbash,fepfestival happened as soon as blicketbash took place.,fepfestival started before blicketbash,blicketbash started before fepfestival,blicketbash
+27,temporal,as soon as,after,7,,daxday,gextravaganza,daxday took place as soon as gextravaganza occurred.,daxday started after gextravaganza,gextravaganza started after daxday,gextravaganza
+28,temporal,as soon as,after,8,,fepfestival,gextravaganza,fepfestival took place as soon as gextravaganza happened.,fepfestival started after gextravaganza,gextravaganza started after fepfestival,gextravaganza
+29,temporal,as soon as,after,9,,daxday,fepfestival,"As soon as fepfestival happened, daxday occurred.",daxday started after fepfestival,fepfestival started after daxday,fepfestival
+30,temporal,as soon as,after,10,,wugfest,daxday,"As soon as daxday took place, wugfest occurred.",wugfest started after daxday,daxday started after wugfest,daxday
+31,temporal,as a result,after,1,,wugfest,fepfestival,fepfestival happened as a result of wugfest.,wugfest started after fepfestival,fepfestival started after wugfest,wugfest
+32,temporal,as a result,after,2,,fepfestival,gextravaganza,"fepfestival took place. As a result, gextravaganza happened.",fepfestival started after gextravaganza,gextravaganza started after fepfestival,fepfestival
+33,temporal,as a result,before,3,,wugfest,blicketbash,"wugfest happened. As a result, blicketbash occurred.",wugfest started before blicketbash,blicketbash started before wugfest,wugfest
+34,temporal,as a result,before,4,,daxday,gextravaganza,gextravaganza took place as a result of daxday.,daxday started before gextravaganza,gextravaganza started before daxday,daxday
+35,temporal,as a result,before,5,,fepfestival,blicketbash,"fepfestival occurred. As a result, blicketbash happened.",fepfestival started before blicketbash,blicketbash started before fepfestival,fepfestival
+36,temporal,as a result,after,6,,wugfest,daxday,"wugfest took place. As a result, daxday occurred.",wugfest started after daxday,daxday started after wugfest,wugfest
+37,temporal,as a result,after,7,,daxday,blicketbash,"daxday occurred. As a result, blicketbash happened.",daxday started after blicketbash,blicketbash started after daxday,daxday
+38,temporal,as a result,after,8,,blicketbash,gextravaganza,"blicketbash happened. As a result, gextravaganza took place.",blicketbash started after gextravaganza,gextravaganza started after blicketbash,blicketbash
+39,temporal,as a result,after,9,,daxday,fepfestival,"daxday happened. As a result, fepfestival occurred.",daxday started after fepfestival,fepfestival started after daxday,daxday
+40,temporal,as a result,before,10,,wugfest,gextravaganza,gextravaganza took place as a result of wugfest.,wugfest started before gextravaganza,gextravaganza started before wugfest,wugfest
+41,temporal,because,after,1,,blicketbash,gextravaganza,"Because gextravaganza occurred, blicketbash took place.",blicketbash started after gextravaganza,gextravaganza started after blicketbash,gextravaganza
+42,temporal,because,before,2,,wugfest,fepfestival,"Because fepfestival took place, wugfest happened.",wugfest started before fepfestival,fepfestival started before wugfest,fepfestival
+43,temporal,because,before,3,,fepfestival,gextravaganza,"Because gextravaganza occurred, fepfestival took place.",fepfestival started before gextravaganza,gextravaganza started before fepfestival,gextravaganza
+44,temporal,because,before,4,,wugfest,daxday,"Because daxday took place, wugfest occurred.",wugfest started before daxday,daxday started before wugfest,daxday
+45,temporal,because,before,5,,fepfestival,blicketbash,fepfestival occurred because blicketbash took place.,fepfestival started before blicketbash,blicketbash started before fepfestival,blicketbash
+46,temporal,because,after,6,,wugfest,blicketbash,"Because blicketbash took place, wugfest happened.",wugfest started after blicketbash,blicketbash started after wugfest,blicketbash
+47,temporal,because,after,7,,daxday,fepfestival,"Because fepfestival took place, daxday occurred.",daxday started after fepfestival,fepfestival started after daxday,fepfestival
+48,temporal,because,after,8,,daxday,blicketbash,daxday happened because blicketbash occurred.,daxday started after blicketbash,blicketbash started after daxday,blicketbash
+49,temporal,because,after,9,,daxday,gextravaganza,"Because gextravaganza occurred, daxday took place.",daxday started after gextravaganza,gextravaganza started after daxday,gextravaganza
+50,temporal,because,before,10,,wugfest,gextravaganza,wugfest occurred because gextravaganza happened.,wugfest started before gextravaganza,gextravaganza started before wugfest,gextravaganza
+51,temporal,before,after,1,,blicketbash,gextravaganza,blicketbash occurred before gextravaganza.,blicketbash started after gextravaganza,gextravaganza started after blicketbash,blicketbash
+52,temporal,before,after,2,,fepfestival,blicketbash,"Before blicketbash happened, fepfestival took place.",fepfestival started after blicketbash,blicketbash started after fepfestival,fepfestival
+53,temporal,before,before,3,,fepfestival,gextravaganza,fepfestival occurred before gextravaganza.,fepfestival started before gextravaganza,gextravaganza started before fepfestival,fepfestival
+54,temporal,before,before,4,,daxday,gextravaganza,"Before gextravaganza happened, daxday occurred.",daxday started before gextravaganza,gextravaganza started before daxday,daxday
+55,temporal,before,before,5,,daxday,blicketbash,"Before blicketbash occurred, daxday took place.",daxday started before blicketbash,blicketbash started before daxday,daxday
+56,temporal,before,before,6,,wugfest,blicketbash,wugfest took place before blicketbash.,wugfest started before blicketbash,blicketbash started before wugfest,wugfest
+57,temporal,before,after,7,,wugfest,gextravaganza,"Before gextravaganza occurred, wugfest took place.",wugfest started after gextravaganza,gextravaganza started after wugfest,wugfest
+58,temporal,before,before,8,,wugfest,fepfestival,wugfest occurred before fepfestival.,wugfest started before fepfestival,fepfestival started before wugfest,wugfest
+59,temporal,before,after,9,,daxday,fepfestival,"Before fepfestival occurred, daxday happened.",daxday started after fepfestival,fepfestival started after daxday,daxday
+60,temporal,before,before,10,,wugfest,daxday,"Before daxday took place, wugfest occurred.",wugfest started before daxday,daxday started before wugfest,wugfest
+61,temporal,consequently,after,1,,daxday,blicketbash,"daxday happened. Consequently, blicketbash took place.",daxday started after blicketbash,blicketbash started after daxday,daxday
+62,temporal,consequently,before,2,,blicketbash,gextravaganza,"blicketbash occurred. Consequently, gextravaganza took place.",blicketbash started before gextravaganza,gextravaganza started before blicketbash,blicketbash
+63,temporal,consequently,before,3,,wugfest,blicketbash,"wugfest occurred. Consequently, blicketbash took place.",wugfest started before blicketbash,blicketbash started before wugfest,wugfest
+64,temporal,consequently,before,4,,fepfestival,blicketbash,"fepfestival took place. Consequently, blicketbash happened.",fepfestival started before blicketbash,blicketbash started before fepfestival,fepfestival
+65,temporal,consequently,before,5,,wugfest,daxday,"wugfest occurred. Consequently, daxday took place.",wugfest started before daxday,daxday started before wugfest,wugfest
+66,temporal,consequently,before,6,,fepfestival,gextravaganza,"fepfestival took place. Consequently, gextravaganza occurred.",fepfestival started before gextravaganza,gextravaganza started before fepfestival,fepfestival
+67,temporal,consequently,after,7,,daxday,gextravaganza,"daxday took place. Consequently, gextravaganza occurred.",daxday started after gextravaganza,gextravaganza started after daxday,daxday
+68,temporal,consequently,after,8,,wugfest,fepfestival,"wugfest took place. Consequently, fepfestival occurred.",wugfest started after fepfestival,fepfestival started after wugfest,wugfest
+69,temporal,consequently,after,9,,wugfest,gextravaganza,"wugfest took place. Consequently, gextravaganza happened.",wugfest started after gextravaganza,gextravaganza started after wugfest,wugfest
+70,temporal,consequently,after,10,,daxday,fepfestival,"daxday took place. Consequently, fepfestival happened.",daxday started after fepfestival,fepfestival started after daxday,daxday
+71,temporal,earlier,after,1,,daxday,fepfestival,"daxday took place. Earlier, fepfestival happened.",daxday started after fepfestival,fepfestival started after daxday,fepfestival
+72,temporal,earlier,after,2,,wugfest,blicketbash,"wugfest took place. Earlier, blicketbash occurred.",wugfest started after blicketbash,blicketbash started after wugfest,blicketbash
+73,temporal,earlier,before,3,,wugfest,fepfestival,"wugfest occurred. Earlier, fepfestival happened.",wugfest started before fepfestival,fepfestival started before wugfest,fepfestival
+74,temporal,earlier,before,4,,blicketbash,gextravaganza,"blicketbash occurred. Earlier, gextravaganza happened.",blicketbash started before gextravaganza,gextravaganza started before blicketbash,gextravaganza
+75,temporal,earlier,before,5,,daxday,blicketbash,"daxday occurred. Earlier, blicketbash happened.",daxday started before blicketbash,blicketbash started before daxday,blicketbash
+76,temporal,earlier,before,6,,daxday,gextravaganza,"daxday occurred. Earlier, gextravaganza took place.",daxday started before gextravaganza,gextravaganza started before daxday,gextravaganza
+77,temporal,earlier,after,7,,wugfest,gextravaganza,"wugfest happened. Earlier, gextravaganza occurred.",wugfest started after gextravaganza,gextravaganza started after wugfest,gextravaganza
+78,temporal,earlier,after,8,,fepfestival,gextravaganza,"fepfestival happened. Earlier, gextravaganza occurred.",fepfestival started after gextravaganza,gextravaganza started after fepfestival,gextravaganza
+79,temporal,earlier,after,9,,wugfest,daxday,"wugfest happened. Earlier, daxday occurred.",wugfest started after daxday,daxday started after wugfest,daxday
+80,temporal,earlier,before,10,,fepfestival,blicketbash,"fepfestival happened. Earlier, blicketbash occurred.",fepfestival started before blicketbash,blicketbash started before fepfestival,blicketbash
+81,temporal,even after,before,1,,daxday,fepfestival,daxday took place even after fepfestival occurred.,daxday started before fepfestival,fepfestival started before daxday,fepfestival
+82,temporal,even after,after,2,,wugfest,fepfestival,"Even after fepfestival happened, wugfest occurred.",wugfest started after fepfestival,fepfestival started after wugfest,fepfestival
+83,temporal,even after,before,3,,wugfest,gextravaganza,"Even after gextravaganza happened, wugfest took place.",wugfest started before gextravaganza,gextravaganza started before wugfest,gextravaganza
+84,temporal,even after,before,4,,wugfest,blicketbash,wugfest took place even after blicketbash happened.,wugfest started before blicketbash,blicketbash started before wugfest,blicketbash
+85,temporal,even after,after,5,,wugfest,daxday,"Even after daxday took place, wugfest happened.",wugfest started after daxday,daxday started after wugfest,daxday
+86,temporal,even after,before,6,,fepfestival,gextravaganza,fepfestival took place even after gextravaganza occurred.,fepfestival started before gextravaganza,gextravaganza started before fepfestival,gextravaganza
+87,temporal,even after,after,7,,fepfestival,blicketbash,fepfestival occurred even after blicketbash happened.,fepfestival started after blicketbash,blicketbash started after fepfestival,blicketbash
+88,temporal,even after,before,8,,blicketbash,gextravaganza,blicketbash happened even after gextravaganza took place.,blicketbash started before gextravaganza,gextravaganza started before blicketbash,gextravaganza
+89,temporal,even after,before,9,,daxday,blicketbash,"Even after blicketbash happened, daxday took place.",daxday started before blicketbash,blicketbash started before daxday,blicketbash
+90,temporal,even after,after,10,,daxday,gextravaganza,"Even after gextravaganza occurred, daxday took place.",daxday started after gextravaganza,gextravaganza started after daxday,gextravaganza
+91,temporal,eventually,before,1,,wugfest,blicketbash,"blicketbash occurred. Eventually, wugfest happened.",wugfest started before blicketbash,blicketbash started before wugfest,blicketbash
+92,temporal,eventually,before,2,,wugfest,daxday,"daxday occurred. Eventually, wugfest happened.",wugfest started before daxday,daxday started before wugfest,daxday
+93,temporal,eventually,after,3,,wugfest,fepfestival,"fepfestival occurred. Eventually, wugfest took place.",wugfest started after fepfestival,fepfestival started after wugfest,fepfestival
+94,temporal,eventually,after,4,,daxday,blicketbash,"blicketbash took place. Eventually, daxday occurred.",daxday started after blicketbash,blicketbash started after daxday,blicketbash
+95,temporal,eventually,after,5,,fepfestival,gextravaganza,"gextravaganza happened. Eventually, fepfestival took place.",fepfestival started after gextravaganza,gextravaganza started after fepfestival,gextravaganza
+96,temporal,eventually,after,6,,blicketbash,gextravaganza,"gextravaganza happened. Eventually, blicketbash took place.",blicketbash started after gextravaganza,gextravaganza started after blicketbash,gextravaganza
+97,temporal,eventually,before,7,,wugfest,gextravaganza,"gextravaganza took place. Eventually, wugfest happened.",wugfest started before gextravaganza,gextravaganza started before wugfest,gextravaganza
+98,temporal,eventually,before,8,,daxday,gextravaganza,"gextravaganza occurred. Eventually, daxday happened.",daxday started before gextravaganza,gextravaganza started before daxday,gextravaganza
+99,temporal,eventually,before,9,,fepfestival,blicketbash,"blicketbash happened. Eventually, fepfestival took place.",fepfestival started before blicketbash,blicketbash started before fepfestival,blicketbash
+100,temporal,eventually,after,10,,daxday,fepfestival,"fepfestival happened. Eventually, daxday occurred.",daxday started after fepfestival,fepfestival started after daxday,fepfestival
+101,temporal,even before,after,1,,daxday,fepfestival,"Even before daxday happened, fepfestival occurred.",daxday started after fepfestival,fepfestival started after daxday,fepfestival
+102,temporal,even before,before,2,,wugfest,blicketbash,blicketbash happened even before wugfest took place.,wugfest started before blicketbash,blicketbash started before wugfest,blicketbash
+103,temporal,even before,after,3,,fepfestival,gextravaganza,"Even before fepfestival took place, gextravaganza occurred.",fepfestival started after gextravaganza,gextravaganza started after fepfestival,gextravaganza
+104,temporal,even before,after,4,,wugfest,fepfestival,"Even before wugfest happened, fepfestival occurred.",wugfest started after fepfestival,fepfestival started after wugfest,fepfestival
+105,temporal,even before,before,5,,daxday,gextravaganza,"Even before daxday took place, gextravaganza occurred.",daxday started before gextravaganza,gextravaganza started before daxday,gextravaganza
+106,temporal,even before,after,6,,wugfest,gextravaganza,"Even before wugfest happened, gextravaganza took place.",wugfest started after gextravaganza,gextravaganza started after wugfest,gextravaganza
+107,temporal,even before,after,7,,wugfest,daxday,"Even before wugfest occurred, daxday took place.",wugfest started after daxday,daxday started after wugfest,daxday
+108,temporal,even before,before,8,,daxday,blicketbash,"Even before daxday took place, blicketbash happened.",daxday started before blicketbash,blicketbash started before daxday,blicketbash
+109,temporal,even before,after,9,,fepfestival,blicketbash,blicketbash happened even before fepfestival occurred.,fepfestival started after blicketbash,blicketbash started after fepfestival,blicketbash
+110,temporal,even before,after,10,,blicketbash,gextravaganza,gextravaganza happened even before blicketbash occurred.,blicketbash started after gextravaganza,gextravaganza started after blicketbash,gextravaganza
+111,temporal,even though,before,1,,wugfest,blicketbash,wugfest occurred even though blicketbash took place.,wugfest started before blicketbash,blicketbash started before wugfest,blicketbash
+112,temporal,even though,before,2,,wugfest,daxday,wugfest occurred even though daxday happened.,wugfest started before daxday,daxday started before wugfest,daxday
+113,temporal,even though,after,3,,fepfestival,blicketbash,"Even though blicketbash happened, fepfestival took place.",fepfestival started after blicketbash,blicketbash started after fepfestival,blicketbash
+114,temporal,even though,after,4,,wugfest,gextravaganza,"Even though gextravaganza took place, wugfest happened.",wugfest started after gextravaganza,gextravaganza started after wugfest,gextravaganza
+115,temporal,even though,before,5,,daxday,blicketbash,"Even though blicketbash occurred, daxday took place.",daxday started before blicketbash,blicketbash started before daxday,blicketbash
+116,temporal,even though,before,6,,daxday,gextravaganza,daxday happened even though gextravaganza took place.,daxday started before gextravaganza,gextravaganza started before daxday,gextravaganza
+117,temporal,even though,after,7,,blicketbash,gextravaganza,blicketbash happened even though gextravaganza occurred.,blicketbash started after gextravaganza,gextravaganza started after blicketbash,gextravaganza
+118,temporal,even though,before,8,,fepfestival,gextravaganza,fepfestival happened even though gextravaganza occurred.,fepfestival started before gextravaganza,gextravaganza started before fepfestival,gextravaganza
+119,temporal,even though,before,9,,wugfest,fepfestival,"Even though fepfestival happened, wugfest occurred.",wugfest started before fepfestival,fepfestival started before wugfest,fepfestival
+120,temporal,even though,before,10,,daxday,fepfestival,"Even though fepfestival took place, daxday happened.",daxday started before fepfestival,fepfestival started before daxday,fepfestival
+121,temporal,finally,after,1,,daxday,fepfestival,"daxday took place. Finally, fepfestival occurred.",daxday started after fepfestival,fepfestival started after daxday,daxday
+122,temporal,finally,before,2,,fepfestival,blicketbash,"fepfestival happened. Finally, blicketbash took place.",fepfestival started before blicketbash,blicketbash started before fepfestival,fepfestival
+123,temporal,finally,before,3,,wugfest,daxday,"wugfest took place. Finally, daxday occurred.",wugfest started before daxday,daxday started before wugfest,wugfest
+124,temporal,finally,after,4,,fepfestival,gextravaganza,"fepfestival happened. Finally, gextravaganza took place.",fepfestival started after gextravaganza,gextravaganza started after fepfestival,fepfestival
+125,temporal,finally,before,5,,wugfest,gextravaganza,"wugfest occurred. Finally, gextravaganza happened.",wugfest started before gextravaganza,gextravaganza started before wugfest,wugfest
+126,temporal,finally,after,6,,daxday,gextravaganza,"daxday occurred. Finally, gextravaganza happened.",daxday started after gextravaganza,gextravaganza started after daxday,daxday
+127,temporal,finally,after,7,,blicketbash,gextravaganza,"blicketbash took place. Finally, gextravaganza occurred.",blicketbash started after gextravaganza,gextravaganza started after blicketbash,blicketbash
+128,temporal,finally,before,8,,wugfest,fepfestival,"wugfest occurred. Finally, fepfestival happened.",wugfest started before fepfestival,fepfestival started before wugfest,wugfest
+129,temporal,finally,after,9,,wugfest,blicketbash,"wugfest happened. Finally, blicketbash occurred.",wugfest started after blicketbash,blicketbash started after wugfest,wugfest
+130,temporal,finally,after,10,,daxday,blicketbash,"daxday happened. Finally, blicketbash occurred.",daxday started after blicketbash,blicketbash started after daxday,daxday
+131,temporal,hence,before,1,,wugfest,fepfestival,"wugfest happened. Hence, fepfestival took place.",wugfest started before fepfestival,fepfestival started before wugfest,wugfest
+132,temporal,hence,after,2,,daxday,gextravaganza,"daxday happened. Hence, gextravaganza occurred.",daxday started after gextravaganza,gextravaganza started after daxday,daxday
+133,temporal,hence,before,3,,fepfestival,blicketbash,"fepfestival happened. Hence, blicketbash took place.",fepfestival started before blicketbash,blicketbash started before fepfestival,fepfestival
+134,temporal,hence,before,4,,fepfestival,gextravaganza,"fepfestival happened. Hence, gextravaganza occurred.",fepfestival started before gextravaganza,gextravaganza started before fepfestival,fepfestival
+135,temporal,hence,after,5,,wugfest,gextravaganza,"wugfest happened. Hence, gextravaganza took place.",wugfest started after gextravaganza,gextravaganza started after wugfest,wugfest
+136,temporal,hence,before,6,,daxday,blicketbash,"daxday occurred. Hence, blicketbash happened.",daxday started before blicketbash,blicketbash started before daxday,daxday
+137,temporal,hence,before,7,,wugfest,daxday,"wugfest happened. Hence, daxday took place.",wugfest started before daxday,daxday started before wugfest,wugfest
+138,temporal,hence,before,8,,daxday,fepfestival,"daxday took place. Hence, fepfestival occurred.",daxday started before fepfestival,fepfestival started before daxday,daxday
+139,temporal,hence,after,9,,wugfest,blicketbash,"wugfest took place. Hence, blicketbash happened.",wugfest started after blicketbash,blicketbash started after wugfest,wugfest
+140,temporal,hence,after,10,,blicketbash,gextravaganza,"blicketbash took place. Hence, gextravaganza occurred.",blicketbash started after gextravaganza,gextravaganza started after blicketbash,blicketbash
+141,temporal,later,after,1,,wugfest,fepfestival,"wugfest happened. Later, fepfestival occurred.",wugfest started after fepfestival,fepfestival started after wugfest,wugfest
+142,temporal,later,after,2,,daxday,fepfestival,"daxday occurred. Later, fepfestival happened.",daxday started after fepfestival,fepfestival started after daxday,daxday
+143,temporal,later,before,3,,wugfest,blicketbash,"wugfest occurred. Later, blicketbash happened.",wugfest started before blicketbash,blicketbash started before wugfest,wugfest
+144,temporal,later,before,4,,daxday,blicketbash,"daxday occurred. Later, blicketbash took place.",daxday started before blicketbash,blicketbash started before daxday,daxday
+145,temporal,later,after,5,,blicketbash,gextravaganza,"blicketbash took place. Later, gextravaganza occurred.",blicketbash started after gextravaganza,gextravaganza started after blicketbash,blicketbash
+146,temporal,later,before,6,,fepfestival,gextravaganza,"fepfestival happened. Later, gextravaganza took place.",fepfestival started before gextravaganza,gextravaganza started before fepfestival,fepfestival
+147,temporal,later,after,7,,wugfest,daxday,"wugfest happened. Later, daxday occurred.",wugfest started after daxday,daxday started after wugfest,wugfest
+148,temporal,later,before,8,,fepfestival,blicketbash,"fepfestival happened. Later, blicketbash took place.",fepfestival started before blicketbash,blicketbash started before fepfestival,fepfestival
+149,temporal,later,before,9,,daxday,gextravaganza,"daxday took place. Later, gextravaganza occurred.",daxday started before gextravaganza,gextravaganza started before daxday,daxday
+150,temporal,later,before,10,,wugfest,gextravaganza,"wugfest took place. Later, gextravaganza occurred.",wugfest started before gextravaganza,gextravaganza started before wugfest,wugfest
+151,temporal,next,before,1,,wugfest,fepfestival,"wugfest happened. Next, fepfestival took place.",wugfest started before fepfestival,fepfestival started before wugfest,wugfest
+152,temporal,next,before,2,,daxday,blicketbash,"daxday happened. Next, blicketbash took place.",daxday started before blicketbash,blicketbash started before daxday,daxday
+153,temporal,next,before,3,,wugfest,daxday,"wugfest happened. Next, daxday occurred.",wugfest started before daxday,daxday started before wugfest,wugfest
+154,temporal,next,after,4,,wugfest,blicketbash,"wugfest happened. Next, blicketbash occurred.",wugfest started after blicketbash,blicketbash started after wugfest,wugfest
+155,temporal,next,before,5,,wugfest,gextravaganza,"wugfest happened. Next, gextravaganza occurred.",wugfest started before gextravaganza,gextravaganza started before wugfest,wugfest
+156,temporal,next,before,6,,blicketbash,gextravaganza,"blicketbash occurred. Next, gextravaganza happened.",blicketbash started before gextravaganza,gextravaganza started before blicketbash,blicketbash
+157,temporal,next,after,7,,fepfestival,blicketbash,"fepfestival occurred. Next, blicketbash happened.",fepfestival started after blicketbash,blicketbash started after fepfestival,fepfestival
+158,temporal,next,before,8,,daxday,gextravaganza,"daxday happened. Next, gextravaganza took place.",daxday started before gextravaganza,gextravaganza started before daxday,daxday
+159,temporal,next,after,9,,fepfestival,gextravaganza,"fepfestival happened. Next, gextravaganza took place.",fepfestival started after gextravaganza,gextravaganza started after fepfestival,fepfestival
+160,temporal,next,before,10,,daxday,fepfestival,"daxday happened. Next, fepfestival occurred.",daxday started before fepfestival,fepfestival started before daxday,daxday
+161,temporal,once,before,1,,daxday,fepfestival,"Once fepfestival took place, daxday happened.",daxday started before fepfestival,fepfestival started before daxday,fepfestival
+162,temporal,once,after,2,,wugfest,gextravaganza,wugfest occurred once gextravaganza happened.,wugfest started after gextravaganza,gextravaganza started after wugfest,gextravaganza
+163,temporal,once,before,3,,fepfestival,gextravaganza,"Once gextravaganza occurred, fepfestival happened.",fepfestival started before gextravaganza,gextravaganza started before fepfestival,gextravaganza
+164,temporal,once,before,4,,daxday,blicketbash,daxday occurred once blicketbash took place.,daxday started before blicketbash,blicketbash started before daxday,blicketbash
+165,temporal,once,before,5,,daxday,gextravaganza,"Once gextravaganza occurred, daxday happened.",daxday started before gextravaganza,gextravaganza started before daxday,gextravaganza
+166,temporal,once,after,6,,wugfest,fepfestival,"Once fepfestival occurred, wugfest took place.",wugfest started after fepfestival,fepfestival started after wugfest,fepfestival
+167,temporal,once,after,7,,blicketbash,gextravaganza,blicketbash occurred once gextravaganza took place.,blicketbash started after gextravaganza,gextravaganza started after blicketbash,gextravaganza
+168,temporal,once,before,8,,fepfestival,blicketbash,"Once blicketbash happened, fepfestival occurred.",fepfestival started before blicketbash,blicketbash started before fepfestival,blicketbash
+169,temporal,once,before,9,,wugfest,blicketbash,wugfest happened once blicketbash occurred.,wugfest started before blicketbash,blicketbash started before wugfest,blicketbash
+170,temporal,once,after,10,,wugfest,daxday,"Once daxday happened, wugfest took place.",wugfest started after daxday,daxday started after wugfest,daxday
+171,temporal,previously,after,1,,wugfest,blicketbash,"wugfest occurred. Previously, blicketbash happened.",wugfest started after blicketbash,blicketbash started after wugfest,blicketbash
+172,temporal,previously,after,2,,daxday,gextravaganza,"daxday occurred. Previously, gextravaganza took place.",daxday started after gextravaganza,gextravaganza started after daxday,gextravaganza
+173,temporal,previously,before,3,,fepfestival,blicketbash,"fepfestival took place. Previously, blicketbash happened.",fepfestival started before blicketbash,blicketbash started before fepfestival,blicketbash
+174,temporal,previously,before,4,,daxday,fepfestival,"daxday occurred. Previously, fepfestival happened.",daxday started before fepfestival,fepfestival started before daxday,fepfestival
+175,temporal,previously,after,5,,blicketbash,gextravaganza,"blicketbash happened. Previously, gextravaganza took place.",blicketbash started after gextravaganza,gextravaganza started after blicketbash,gextravaganza
+176,temporal,previously,after,6,,wugfest,fepfestival,"wugfest happened. Previously, fepfestival took place.",wugfest started after fepfestival,fepfestival started after wugfest,fepfestival
+177,temporal,previously,after,7,,wugfest,daxday,"wugfest happened. Previously, daxday occurred.",wugfest started after daxday,daxday started after wugfest,daxday
+178,temporal,previously,after,8,,wugfest,gextravaganza,"wugfest occurred. Previously, gextravaganza took place.",wugfest started after gextravaganza,gextravaganza started after wugfest,gextravaganza
+179,temporal,previously,before,9,,fepfestival,gextravaganza,"fepfestival happened. Previously, gextravaganza took place.",fepfestival started before gextravaganza,gextravaganza started before fepfestival,gextravaganza
+180,temporal,previously,before,10,,daxday,blicketbash,"daxday occurred. Previously, blicketbash took place.",daxday started before blicketbash,blicketbash started before daxday,blicketbash
+181,temporal,since,before,1,,wugfest,fepfestival,wugfest took place since fepfestival occurred.,wugfest started before fepfestival,fepfestival started before wugfest,fepfestival
+182,temporal,since,after,2,,wugfest,daxday,"Since daxday took place, wugfest occurred.",wugfest started after daxday,daxday started after wugfest,daxday
+183,temporal,since,after,3,,wugfest,gextravaganza,"Since gextravaganza took place, wugfest occurred.",wugfest started after gextravaganza,gextravaganza started after wugfest,gextravaganza
+184,temporal,since,before,4,,fepfestival,blicketbash,"Since blicketbash happened, fepfestival occurred.",fepfestival started before blicketbash,blicketbash started before fepfestival,blicketbash
+185,temporal,since,before,5,,daxday,gextravaganza,"Since gextravaganza took place, daxday happened.",daxday started before gextravaganza,gextravaganza started before daxday,gextravaganza
+186,temporal,since,after,6,,daxday,fepfestival,"Since fepfestival occurred, daxday happened.",daxday started after fepfestival,fepfestival started after daxday,fepfestival
+187,temporal,since,after,7,,daxday,blicketbash,daxday occurred since blicketbash took place.,daxday started after blicketbash,blicketbash started after daxday,blicketbash
+188,temporal,since,after,8,,fepfestival,gextravaganza,fepfestival happened since gextravaganza occurred.,fepfestival started after gextravaganza,gextravaganza started after fepfestival,gextravaganza
+189,temporal,since,after,9,,wugfest,blicketbash,"Since blicketbash took place, wugfest happened.",wugfest started after blicketbash,blicketbash started after wugfest,blicketbash
+190,temporal,since,before,10,,blicketbash,gextravaganza,"Since gextravaganza took place, blicketbash occurred.",blicketbash started before gextravaganza,gextravaganza started before blicketbash,gextravaganza
+191,temporal,so,after,1,,wugfest,blicketbash,"wugfest took place. So, blicketbash occurred.",wugfest started after blicketbash,blicketbash started after wugfest,wugfest
+192,temporal,so,before,2,,daxday,blicketbash,"daxday occurred. So, blicketbash happened.",daxday started before blicketbash,blicketbash started before daxday,daxday
+193,temporal,so,before,3,,blicketbash,gextravaganza,"blicketbash happened. So, gextravaganza occurred.",blicketbash started before gextravaganza,gextravaganza started before blicketbash,blicketbash
+194,temporal,so,after,4,,wugfest,fepfestival,"wugfest took place. So, fepfestival happened.",wugfest started after fepfestival,fepfestival started after wugfest,wugfest
+195,temporal,so,after,5,,wugfest,gextravaganza,"wugfest took place. So, gextravaganza occurred.",wugfest started after gextravaganza,gextravaganza started after wugfest,wugfest
+196,temporal,so,before,6,,fepfestival,gextravaganza,"fepfestival took place. So, gextravaganza occurred.",fepfestival started before gextravaganza,gextravaganza started before fepfestival,fepfestival
+197,temporal,so,before,7,,fepfestival,blicketbash,"fepfestival happened. So, blicketbash occurred.",fepfestival started before blicketbash,blicketbash started before fepfestival,fepfestival
+198,temporal,so,before,8,,daxday,gextravaganza,"daxday occurred. So, gextravaganza took place.",daxday started before gextravaganza,gextravaganza started before daxday,daxday
+199,temporal,so,before,9,,daxday,fepfestival,"daxday happened. So, fepfestival took place.",daxday started before fepfestival,fepfestival started before daxday,daxday
+200,temporal,so,after,10,,wugfest,daxday,"wugfest occurred. So, daxday happened.",wugfest started after daxday,daxday started after wugfest,wugfest
+201,temporal,subsequently,after,1,,fepfestival,gextravaganza,"fepfestival occurred. Subsequently, gextravaganza took place.",fepfestival started after gextravaganza,gextravaganza started after fepfestival,fepfestival
+202,temporal,subsequently,before,2,,wugfest,gextravaganza,"wugfest took place. Subsequently, gextravaganza occurred.",wugfest started before gextravaganza,gextravaganza started before wugfest,wugfest
+203,temporal,subsequently,after,3,,wugfest,daxday,"wugfest happened. Subsequently, daxday occurred.",wugfest started after daxday,daxday started after wugfest,wugfest
+204,temporal,subsequently,before,4,,daxday,blicketbash,"daxday occurred. Subsequently, blicketbash took place.",daxday started before blicketbash,blicketbash started before daxday,daxday
+205,temporal,subsequently,before,5,,daxday,fepfestival,"daxday occurred. Subsequently, fepfestival happened.",daxday started before fepfestival,fepfestival started before daxday,daxday
+206,temporal,subsequently,after,6,,fepfestival,blicketbash,"fepfestival happened. Subsequently, blicketbash occurred.",fepfestival started after blicketbash,blicketbash started after fepfestival,fepfestival
+207,temporal,subsequently,after,7,,blicketbash,gextravaganza,"blicketbash occurred. Subsequently, gextravaganza happened.",blicketbash started after gextravaganza,gextravaganza started after blicketbash,blicketbash
+208,temporal,subsequently,before,8,,daxday,gextravaganza,"daxday happened. Subsequently, gextravaganza took place.",daxday started before gextravaganza,gextravaganza started before daxday,daxday
+209,temporal,subsequently,after,9,,wugfest,fepfestival,"wugfest happened. Subsequently, fepfestival took place.",wugfest started after fepfestival,fepfestival started after wugfest,wugfest
+210,temporal,subsequently,before,10,,wugfest,blicketbash,"wugfest occurred. Subsequently, blicketbash happened.",wugfest started before blicketbash,blicketbash started before wugfest,wugfest
+211,temporal,then,before,1,,daxday,fepfestival,"daxday occurred. Then, fepfestival happened.",daxday started before fepfestival,fepfestival started before daxday,daxday
+212,temporal,then,before,2,,fepfestival,gextravaganza,"fepfestival occurred. Then, gextravaganza took place.",fepfestival started before gextravaganza,gextravaganza started before fepfestival,fepfestival
+213,temporal,then,after,3,,daxday,gextravaganza,"daxday occurred. Then, gextravaganza happened.",daxday started after gextravaganza,gextravaganza started after daxday,daxday
+214,temporal,then,after,4,,daxday,blicketbash,"daxday occurred. Then, blicketbash happened.",daxday started after blicketbash,blicketbash started after daxday,daxday
+215,temporal,then,after,5,,wugfest,fepfestival,"wugfest took place. Then, fepfestival happened.",wugfest started after fepfestival,fepfestival started after wugfest,wugfest
+216,temporal,then,before,6,,blicketbash,gextravaganza,"blicketbash occurred. Then, gextravaganza happened.",blicketbash started before gextravaganza,gextravaganza started before blicketbash,blicketbash
+217,temporal,then,after,7,,wugfest,blicketbash,"wugfest occurred. Then, blicketbash happened.",wugfest started after blicketbash,blicketbash started after wugfest,wugfest
+218,temporal,then,after,8,,fepfestival,blicketbash,"fepfestival took place. Then, blicketbash happened.",fepfestival started after blicketbash,blicketbash started after fepfestival,fepfestival
+219,temporal,then,before,9,,wugfest,daxday,"wugfest took place. Then, daxday happened.",wugfest started before daxday,daxday started before wugfest,wugfest
+220,temporal,then,after,10,,wugfest,gextravaganza,"wugfest occurred. Then, gextravaganza took place.",wugfest started after gextravaganza,gextravaganza started after wugfest,wugfest
+221,temporal,thereafter,after,1,,wugfest,daxday,"daxday occurred. Thereafter, wugfest took place.",wugfest started after daxday,daxday started after wugfest,daxday
+222,temporal,thereafter,before,2,,daxday,gextravaganza,"gextravaganza occurred. Thereafter, daxday took place.",daxday started before gextravaganza,gextravaganza started before daxday,gextravaganza
+223,temporal,thereafter,before,3,,wugfest,blicketbash,"blicketbash took place. Thereafter, wugfest occurred.",wugfest started before blicketbash,blicketbash started before wugfest,blicketbash
+224,temporal,thereafter,before,4,,fepfestival,gextravaganza,"gextravaganza happened. Thereafter, fepfestival took place.",fepfestival started before gextravaganza,gextravaganza started before fepfestival,gextravaganza
+225,temporal,thereafter,before,5,,wugfest,fepfestival,"fepfestival happened. Thereafter, wugfest occurred.",wugfest started before fepfestival,fepfestival started before wugfest,fepfestival
+226,temporal,thereafter,after,6,,wugfest,gextravaganza,"gextravaganza took place. Thereafter, wugfest occurred.",wugfest started after gextravaganza,gextravaganza started after wugfest,gextravaganza
+227,temporal,thereafter,after,7,,blicketbash,gextravaganza,"gextravaganza took place. Thereafter, blicketbash occurred.",blicketbash started after gextravaganza,gextravaganza started after blicketbash,gextravaganza
+228,temporal,thereafter,before,8,,daxday,fepfestival,"fepfestival happened. Thereafter, daxday occurred.",daxday started before fepfestival,fepfestival started before daxday,fepfestival
+229,temporal,thereafter,after,9,,fepfestival,blicketbash,"blicketbash took place. Thereafter, fepfestival occurred.",fepfestival started after blicketbash,blicketbash started after fepfestival,blicketbash
+230,temporal,thereafter,before,10,,daxday,blicketbash,"blicketbash occurred. Thereafter, daxday happened.",daxday started before blicketbash,blicketbash started before daxday,blicketbash
+231,temporal,therefore,before,1,,daxday,gextravaganza,"daxday took place. Therefore, gextravaganza happened.",daxday started before gextravaganza,gextravaganza started before daxday,daxday
+232,temporal,therefore,before,2,,daxday,blicketbash,"daxday occurred. Therefore, blicketbash took place.",daxday started before blicketbash,blicketbash started before daxday,daxday
+233,temporal,therefore,after,3,,wugfest,daxday,"wugfest occurred. Therefore, daxday happened.",wugfest started after daxday,daxday started after wugfest,wugfest
+234,temporal,therefore,after,4,,wugfest,blicketbash,"wugfest occurred. Therefore, blicketbash took place.",wugfest started after blicketbash,blicketbash started after wugfest,wugfest
+235,temporal,therefore,before,5,,wugfest,gextravaganza,"wugfest occurred. Therefore, gextravaganza happened.",wugfest started before gextravaganza,gextravaganza started before wugfest,wugfest
+236,temporal,therefore,after,6,,daxday,fepfestival,"daxday occurred. Therefore, fepfestival happened.",daxday started after fepfestival,fepfestival started after daxday,daxday
+237,temporal,therefore,after,7,,wugfest,fepfestival,"wugfest happened. Therefore, fepfestival took place.",wugfest started after fepfestival,fepfestival started after wugfest,wugfest
+238,temporal,therefore,before,8,,blicketbash,gextravaganza,"blicketbash took place. Therefore, gextravaganza happened.",blicketbash started before gextravaganza,gextravaganza started before blicketbash,blicketbash
+239,temporal,therefore,after,9,,fepfestival,gextravaganza,"fepfestival took place. Therefore, gextravaganza occurred.",fepfestival started after gextravaganza,gextravaganza started after fepfestival,fepfestival
+240,temporal,therefore,after,10,,fepfestival,blicketbash,"fepfestival happened. Therefore, blicketbash took place.",fepfestival started after blicketbash,blicketbash started after fepfestival,fepfestival

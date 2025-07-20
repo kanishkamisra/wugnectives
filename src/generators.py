@@ -56,9 +56,12 @@ class TemporalPremise(Premise):
         super().__post_init__()
         self.inf = DualEntityInference(f"started {self.order}")
 
-    def generate_inference_pair(self, prefix="This means that") -> str:
+    def generate_inference_pair(self, prefix="This means that", occur_1="took place", occur_2="took place") -> str:
         inference1 = self.inf.generate(self.e1, self.e2, prefix)
         inference2 = self.inf.generate(self.e2, self.e1, prefix)
+
+        self.premise = self.premise.replace("[occur_1]", occur_1).replace("[occur_2]", occur_2)
+
         return self.premise, inference1, inference2
 
 
