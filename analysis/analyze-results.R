@@ -30,6 +30,10 @@ model_meta <- tribble(
     class = factor(class, levels = c("Llama-3-8B", "Qwen2.5", "OLMo-2"))
   )
 
+classification <- read_csv("~/Downloads/Connectives Project Unique Template - cleaner.csv")
+
+classification %>% count(connective, stimuli_type, `PDTB Category`)
+
 stimuli <- read_csv("data/stimuli-nonce/prompts.csv")
 
 chance_performance <- stimuli %>%
@@ -143,6 +147,12 @@ connective_wise %>%
   )
 
 plot_connective_wise <- function(st = "preference") {
+  if(st == "preference"){
+    chance_perf = 0.667
+  }
+  else{
+    chance_perf = 0.5
+  }
   connective_wise %>%
     filter(stimuli_type==st) %>%
     group_by(stimuli_type) %>%
@@ -163,7 +173,7 @@ plot_connective_wise <- function(st = "preference") {
     geom_jitter(height = 0.01, width =0.15, alpha = 0.6)+
     facet_wrap(~stimuli_type, scales = "free_x", ncol=1) +
     scale_size_manual(values = c(1.5,2,3,4)) +
-    geom_hline(yintercept = 0.5, linetype = "dashed") +
+    geom_hline(yintercept = chance_perf, linetype = "dashed") +
     scale_y_continuous(limits = c(-0.02,1.02), labels = scales::percent_format()) +
     # scale_x_log10(limits = c(0.5, 8), breaks = c(0.5,1,2,4,6,8), labels = c("1/2", "1", "2", "4", "6", "8")) +
     scale_color_brewer(palette = "Dark2", aesthetics = c("color", "fill")) +
@@ -256,7 +266,8 @@ instruct_base %>%
   scale_size_manual(values = c(1.5,2,3,4)) +
   scale_x_continuous(labels = scales::percent_format()) +
   scale_y_continuous(labels = scales::percent_format()) +
-  facet_wrap(~ stimuli_type) +
+  # facet_wrap(~ stimuli_type) +
+  facet_grid(class ~ stimuli_type) +
   theme_bw(base_size = 16) + 
   theme(
     panel.grid = element_blank(),

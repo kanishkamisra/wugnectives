@@ -2,6 +2,7 @@ import csv
 import itertools
 import pathlib
 import random
+import re
 
 import config
 import connectives
@@ -116,12 +117,15 @@ for connective, template in connectives.TEMPORAL_TEMPLATES.items():
         e1, e2 = event_pairs[i]
         sampled_template = random.sample(template, 1)[0]
 
-        occur_list = connectives.OCCUR_VERBS 
+        occur_list = connectives.OCCUR_VERBS
         occur_1, occur_2 = random.sample(occur_list, 2)
 
         order = orders[i]
         premise, inference1, inference2 = generators.TemporalPremise(
-            e1, e2, sampled_template, order, 
+            e1,
+            e2,
+            sampled_template,
+            order,
         ).generate_inference_pair("", occur_1=occur_1, occur_2=occur_2)
 
         label = config.TEMPORAL_RULES[connective]
