@@ -1,0 +1,1201 @@
+item_id,stimuli_type,connective,target,stimuli_instance,stimuli_instance_description,entity1,entity2,premise,style,counterfactual_index,disq_premise,label
+1,instantiation,for example,are,1,,wugs,daxes,"I hate wugs. For example, daxes are awful.",targeted,-1,"Are ""daxes"" an example of ""wugs""?",Yes
+1,instantiation,for example,are,1,,wugs,daxes,"I hate wugs. For example, daxes are awful.",converse,-1,"Are ""wugs"" being exemplified by ""daxes""?",Yes
+1,instantiation,for example,are,1,,wugs,daxes,"I hate wugs. For example, daxes are awful.",counterfactual,0,"Are ""daxes"" contrasted with ""wugs""?",No
+1,instantiation,for example,are,1,,wugs,daxes,"I hate wugs. For example, daxes are awful.",counterfactual,1,"Are ""daxes"" denied or contradicted with ""wugs""?",No
+1,instantiation,for example,are,1,,wugs,daxes,"I hate wugs. For example, daxes are awful.",counterfactual,2,"Are ""daxes"" the reason for ""wugs""?",No
+1,instantiation,for example,are,1,,wugs,daxes,"I hate wugs. For example, daxes are awful.",counterfactual,3,"Are ""daxes"" the result of ""wugs""?",No
+1,instantiation,for example,are,1,,wugs,daxes,"I hate wugs. For example, daxes are awful.",counterfactual,4,"Are ""daxes"" equivalent to ""wugs""?",No
+1,instantiation,for example,are,1,,wugs,daxes,"I hate wugs. For example, daxes are awful.",converse_counterfactual,0,"Are ""wugs"" contrasted with ""daxes""?",No
+1,instantiation,for example,are,1,,wugs,daxes,"I hate wugs. For example, daxes are awful.",converse_counterfactual,1,"Does ""wugs"" deny or contradict with ""daxes""?",No
+1,instantiation,for example,are,1,,wugs,daxes,"I hate wugs. For example, daxes are awful.",converse_counterfactual,2,"Are ""wugs"" the result of ""daxes""?",No
+1,instantiation,for example,are,1,,wugs,daxes,"I hate wugs. For example, daxes are awful.",converse_counterfactual,3,"Are ""wugs"" the reason for ""daxes""?",No
+1,instantiation,for example,are,1,,wugs,daxes,"I hate wugs. For example, daxes are awful.",converse_counterfactual,4,"Are ""wugs"" equivalent to ""daxes""?",No
+2,instantiation,for example,are,2,,wugs,feps,"I hate wugs. For example, feps are awful.",targeted,-1,"Are ""feps"" an example of ""wugs""?",Yes
+2,instantiation,for example,are,2,,wugs,feps,"I hate wugs. For example, feps are awful.",converse,-1,"Are ""wugs"" being exemplified by ""feps""?",Yes
+2,instantiation,for example,are,2,,wugs,feps,"I hate wugs. For example, feps are awful.",counterfactual,0,"Are ""feps"" contrasted with ""wugs""?",No
+2,instantiation,for example,are,2,,wugs,feps,"I hate wugs. For example, feps are awful.",counterfactual,1,"Are ""feps"" denied or contradicted with ""wugs""?",No
+2,instantiation,for example,are,2,,wugs,feps,"I hate wugs. For example, feps are awful.",counterfactual,2,"Are ""feps"" the reason for ""wugs""?",No
+2,instantiation,for example,are,2,,wugs,feps,"I hate wugs. For example, feps are awful.",counterfactual,3,"Are ""feps"" the result of ""wugs""?",No
+2,instantiation,for example,are,2,,wugs,feps,"I hate wugs. For example, feps are awful.",counterfactual,4,"Are ""feps"" equivalent to ""wugs""?",No
+2,instantiation,for example,are,2,,wugs,feps,"I hate wugs. For example, feps are awful.",converse_counterfactual,0,"Are ""wugs"" contrasted with ""feps""?",No
+2,instantiation,for example,are,2,,wugs,feps,"I hate wugs. For example, feps are awful.",converse_counterfactual,1,"Does ""wugs"" deny or contradict with ""feps""?",No
+2,instantiation,for example,are,2,,wugs,feps,"I hate wugs. For example, feps are awful.",converse_counterfactual,2,"Are ""wugs"" the result of ""feps""?",No
+2,instantiation,for example,are,2,,wugs,feps,"I hate wugs. For example, feps are awful.",converse_counterfactual,3,"Are ""wugs"" the reason for ""feps""?",No
+2,instantiation,for example,are,2,,wugs,feps,"I hate wugs. For example, feps are awful.",converse_counterfactual,4,"Are ""wugs"" equivalent to ""feps""?",No
+3,instantiation,for example,are,3,,wugs,blickets,"I hate wugs. For example, blickets are awful.",targeted,-1,"Are ""blickets"" an example of ""wugs""?",Yes
+3,instantiation,for example,are,3,,wugs,blickets,"I hate wugs. For example, blickets are awful.",converse,-1,"Are ""wugs"" being exemplified by ""blickets""?",Yes
+3,instantiation,for example,are,3,,wugs,blickets,"I hate wugs. For example, blickets are awful.",counterfactual,0,"Are ""blickets"" contrasted with ""wugs""?",No
+3,instantiation,for example,are,3,,wugs,blickets,"I hate wugs. For example, blickets are awful.",counterfactual,1,"Are ""blickets"" denied or contradicted with ""wugs""?",No
+3,instantiation,for example,are,3,,wugs,blickets,"I hate wugs. For example, blickets are awful.",counterfactual,2,"Are ""blickets"" the reason for ""wugs""?",No
+3,instantiation,for example,are,3,,wugs,blickets,"I hate wugs. For example, blickets are awful.",counterfactual,3,"Are ""blickets"" the result of ""wugs""?",No
+3,instantiation,for example,are,3,,wugs,blickets,"I hate wugs. For example, blickets are awful.",counterfactual,4,"Are ""blickets"" equivalent to ""wugs""?",No
+3,instantiation,for example,are,3,,wugs,blickets,"I hate wugs. For example, blickets are awful.",converse_counterfactual,0,"Are ""wugs"" contrasted with ""blickets""?",No
+3,instantiation,for example,are,3,,wugs,blickets,"I hate wugs. For example, blickets are awful.",converse_counterfactual,1,"Does ""wugs"" deny or contradict with ""blickets""?",No
+3,instantiation,for example,are,3,,wugs,blickets,"I hate wugs. For example, blickets are awful.",converse_counterfactual,2,"Are ""wugs"" the result of ""blickets""?",No
+3,instantiation,for example,are,3,,wugs,blickets,"I hate wugs. For example, blickets are awful.",converse_counterfactual,3,"Are ""wugs"" the reason for ""blickets""?",No
+3,instantiation,for example,are,3,,wugs,blickets,"I hate wugs. For example, blickets are awful.",converse_counterfactual,4,"Are ""wugs"" equivalent to ""blickets""?",No
+4,instantiation,for example,are,4,,wugs,geks,"I hate wugs. For example, geks are awful.",targeted,-1,"Are ""geks"" an example of ""wugs""?",Yes
+4,instantiation,for example,are,4,,wugs,geks,"I hate wugs. For example, geks are awful.",converse,-1,"Are ""wugs"" being exemplified by ""geks""?",Yes
+4,instantiation,for example,are,4,,wugs,geks,"I hate wugs. For example, geks are awful.",counterfactual,0,"Are ""geks"" contrasted with ""wugs""?",No
+4,instantiation,for example,are,4,,wugs,geks,"I hate wugs. For example, geks are awful.",counterfactual,1,"Are ""geks"" denied or contradicted with ""wugs""?",No
+4,instantiation,for example,are,4,,wugs,geks,"I hate wugs. For example, geks are awful.",counterfactual,2,"Are ""geks"" the reason for ""wugs""?",No
+4,instantiation,for example,are,4,,wugs,geks,"I hate wugs. For example, geks are awful.",counterfactual,3,"Are ""geks"" the result of ""wugs""?",No
+4,instantiation,for example,are,4,,wugs,geks,"I hate wugs. For example, geks are awful.",counterfactual,4,"Are ""geks"" equivalent to ""wugs""?",No
+4,instantiation,for example,are,4,,wugs,geks,"I hate wugs. For example, geks are awful.",converse_counterfactual,0,"Are ""wugs"" contrasted with ""geks""?",No
+4,instantiation,for example,are,4,,wugs,geks,"I hate wugs. For example, geks are awful.",converse_counterfactual,1,"Does ""wugs"" deny or contradict with ""geks""?",No
+4,instantiation,for example,are,4,,wugs,geks,"I hate wugs. For example, geks are awful.",converse_counterfactual,2,"Are ""wugs"" the result of ""geks""?",No
+4,instantiation,for example,are,4,,wugs,geks,"I hate wugs. For example, geks are awful.",converse_counterfactual,3,"Are ""wugs"" the reason for ""geks""?",No
+4,instantiation,for example,are,4,,wugs,geks,"I hate wugs. For example, geks are awful.",converse_counterfactual,4,"Are ""wugs"" equivalent to ""geks""?",No
+5,instantiation,for example,are,5,,daxes,feps,"I hate daxes. For example, feps are awful.",targeted,-1,"Are ""feps"" an example of ""daxes""?",Yes
+5,instantiation,for example,are,5,,daxes,feps,"I hate daxes. For example, feps are awful.",converse,-1,"Are ""daxes"" being exemplified by ""feps""?",Yes
+5,instantiation,for example,are,5,,daxes,feps,"I hate daxes. For example, feps are awful.",counterfactual,0,"Are ""feps"" contrasted with ""daxes""?",No
+5,instantiation,for example,are,5,,daxes,feps,"I hate daxes. For example, feps are awful.",counterfactual,1,"Are ""feps"" denied or contradicted with ""daxes""?",No
+5,instantiation,for example,are,5,,daxes,feps,"I hate daxes. For example, feps are awful.",counterfactual,2,"Are ""feps"" the reason for ""daxes""?",No
+5,instantiation,for example,are,5,,daxes,feps,"I hate daxes. For example, feps are awful.",counterfactual,3,"Are ""feps"" the result of ""daxes""?",No
+5,instantiation,for example,are,5,,daxes,feps,"I hate daxes. For example, feps are awful.",counterfactual,4,"Are ""feps"" equivalent to ""daxes""?",No
+5,instantiation,for example,are,5,,daxes,feps,"I hate daxes. For example, feps are awful.",converse_counterfactual,0,"Are ""daxes"" contrasted with ""feps""?",No
+5,instantiation,for example,are,5,,daxes,feps,"I hate daxes. For example, feps are awful.",converse_counterfactual,1,"Does ""daxes"" deny or contradict with ""feps""?",No
+5,instantiation,for example,are,5,,daxes,feps,"I hate daxes. For example, feps are awful.",converse_counterfactual,2,"Are ""daxes"" the result of ""feps""?",No
+5,instantiation,for example,are,5,,daxes,feps,"I hate daxes. For example, feps are awful.",converse_counterfactual,3,"Are ""daxes"" the reason for ""feps""?",No
+5,instantiation,for example,are,5,,daxes,feps,"I hate daxes. For example, feps are awful.",converse_counterfactual,4,"Are ""daxes"" equivalent to ""feps""?",No
+6,instantiation,for example,are,6,,daxes,blickets,"I like daxes. For example, blickets are nice.",targeted,-1,"Are ""blickets"" an example of ""daxes""?",Yes
+6,instantiation,for example,are,6,,daxes,blickets,"I like daxes. For example, blickets are nice.",converse,-1,"Are ""daxes"" being exemplified by ""blickets""?",Yes
+6,instantiation,for example,are,6,,daxes,blickets,"I like daxes. For example, blickets are nice.",counterfactual,0,"Are ""blickets"" contrasted with ""daxes""?",No
+6,instantiation,for example,are,6,,daxes,blickets,"I like daxes. For example, blickets are nice.",counterfactual,1,"Are ""blickets"" denied or contradicted with ""daxes""?",No
+6,instantiation,for example,are,6,,daxes,blickets,"I like daxes. For example, blickets are nice.",counterfactual,2,"Are ""blickets"" the reason for ""daxes""?",No
+6,instantiation,for example,are,6,,daxes,blickets,"I like daxes. For example, blickets are nice.",counterfactual,3,"Are ""blickets"" the result of ""daxes""?",No
+6,instantiation,for example,are,6,,daxes,blickets,"I like daxes. For example, blickets are nice.",counterfactual,4,"Are ""blickets"" equivalent to ""daxes""?",No
+6,instantiation,for example,are,6,,daxes,blickets,"I like daxes. For example, blickets are nice.",converse_counterfactual,0,"Are ""daxes"" contrasted with ""blickets""?",No
+6,instantiation,for example,are,6,,daxes,blickets,"I like daxes. For example, blickets are nice.",converse_counterfactual,1,"Does ""daxes"" deny or contradict with ""blickets""?",No
+6,instantiation,for example,are,6,,daxes,blickets,"I like daxes. For example, blickets are nice.",converse_counterfactual,2,"Are ""daxes"" the result of ""blickets""?",No
+6,instantiation,for example,are,6,,daxes,blickets,"I like daxes. For example, blickets are nice.",converse_counterfactual,3,"Are ""daxes"" the reason for ""blickets""?",No
+6,instantiation,for example,are,6,,daxes,blickets,"I like daxes. For example, blickets are nice.",converse_counterfactual,4,"Are ""daxes"" equivalent to ""blickets""?",No
+7,instantiation,for example,are,7,,daxes,geks,"I hate daxes. For example, geks are awful.",targeted,-1,"Are ""geks"" an example of ""daxes""?",Yes
+7,instantiation,for example,are,7,,daxes,geks,"I hate daxes. For example, geks are awful.",converse,-1,"Are ""daxes"" being exemplified by ""geks""?",Yes
+7,instantiation,for example,are,7,,daxes,geks,"I hate daxes. For example, geks are awful.",counterfactual,0,"Are ""geks"" contrasted with ""daxes""?",No
+7,instantiation,for example,are,7,,daxes,geks,"I hate daxes. For example, geks are awful.",counterfactual,1,"Are ""geks"" denied or contradicted with ""daxes""?",No
+7,instantiation,for example,are,7,,daxes,geks,"I hate daxes. For example, geks are awful.",counterfactual,2,"Are ""geks"" the reason for ""daxes""?",No
+7,instantiation,for example,are,7,,daxes,geks,"I hate daxes. For example, geks are awful.",counterfactual,3,"Are ""geks"" the result of ""daxes""?",No
+7,instantiation,for example,are,7,,daxes,geks,"I hate daxes. For example, geks are awful.",counterfactual,4,"Are ""geks"" equivalent to ""daxes""?",No
+7,instantiation,for example,are,7,,daxes,geks,"I hate daxes. For example, geks are awful.",converse_counterfactual,0,"Are ""daxes"" contrasted with ""geks""?",No
+7,instantiation,for example,are,7,,daxes,geks,"I hate daxes. For example, geks are awful.",converse_counterfactual,1,"Does ""daxes"" deny or contradict with ""geks""?",No
+7,instantiation,for example,are,7,,daxes,geks,"I hate daxes. For example, geks are awful.",converse_counterfactual,2,"Are ""daxes"" the result of ""geks""?",No
+7,instantiation,for example,are,7,,daxes,geks,"I hate daxes. For example, geks are awful.",converse_counterfactual,3,"Are ""daxes"" the reason for ""geks""?",No
+7,instantiation,for example,are,7,,daxes,geks,"I hate daxes. For example, geks are awful.",converse_counterfactual,4,"Are ""daxes"" equivalent to ""geks""?",No
+8,instantiation,for example,are,8,,feps,blickets,"I hate feps. For example, blickets are awful.",targeted,-1,"Are ""blickets"" an example of ""feps""?",Yes
+8,instantiation,for example,are,8,,feps,blickets,"I hate feps. For example, blickets are awful.",converse,-1,"Are ""feps"" being exemplified by ""blickets""?",Yes
+8,instantiation,for example,are,8,,feps,blickets,"I hate feps. For example, blickets are awful.",counterfactual,0,"Are ""blickets"" contrasted with ""feps""?",No
+8,instantiation,for example,are,8,,feps,blickets,"I hate feps. For example, blickets are awful.",counterfactual,1,"Are ""blickets"" denied or contradicted with ""feps""?",No
+8,instantiation,for example,are,8,,feps,blickets,"I hate feps. For example, blickets are awful.",counterfactual,2,"Are ""blickets"" the reason for ""feps""?",No
+8,instantiation,for example,are,8,,feps,blickets,"I hate feps. For example, blickets are awful.",counterfactual,3,"Are ""blickets"" the result of ""feps""?",No
+8,instantiation,for example,are,8,,feps,blickets,"I hate feps. For example, blickets are awful.",counterfactual,4,"Are ""blickets"" equivalent to ""feps""?",No
+8,instantiation,for example,are,8,,feps,blickets,"I hate feps. For example, blickets are awful.",converse_counterfactual,0,"Are ""feps"" contrasted with ""blickets""?",No
+8,instantiation,for example,are,8,,feps,blickets,"I hate feps. For example, blickets are awful.",converse_counterfactual,1,"Does ""feps"" deny or contradict with ""blickets""?",No
+8,instantiation,for example,are,8,,feps,blickets,"I hate feps. For example, blickets are awful.",converse_counterfactual,2,"Are ""feps"" the result of ""blickets""?",No
+8,instantiation,for example,are,8,,feps,blickets,"I hate feps. For example, blickets are awful.",converse_counterfactual,3,"Are ""feps"" the reason for ""blickets""?",No
+8,instantiation,for example,are,8,,feps,blickets,"I hate feps. For example, blickets are awful.",converse_counterfactual,4,"Are ""feps"" equivalent to ""blickets""?",No
+9,instantiation,for example,are,9,,feps,geks,"I hate feps. For example, geks are awful.",targeted,-1,"Are ""geks"" an example of ""feps""?",Yes
+9,instantiation,for example,are,9,,feps,geks,"I hate feps. For example, geks are awful.",converse,-1,"Are ""feps"" being exemplified by ""geks""?",Yes
+9,instantiation,for example,are,9,,feps,geks,"I hate feps. For example, geks are awful.",counterfactual,0,"Are ""geks"" contrasted with ""feps""?",No
+9,instantiation,for example,are,9,,feps,geks,"I hate feps. For example, geks are awful.",counterfactual,1,"Are ""geks"" denied or contradicted with ""feps""?",No
+9,instantiation,for example,are,9,,feps,geks,"I hate feps. For example, geks are awful.",counterfactual,2,"Are ""geks"" the reason for ""feps""?",No
+9,instantiation,for example,are,9,,feps,geks,"I hate feps. For example, geks are awful.",counterfactual,3,"Are ""geks"" the result of ""feps""?",No
+9,instantiation,for example,are,9,,feps,geks,"I hate feps. For example, geks are awful.",counterfactual,4,"Are ""geks"" equivalent to ""feps""?",No
+9,instantiation,for example,are,9,,feps,geks,"I hate feps. For example, geks are awful.",converse_counterfactual,0,"Are ""feps"" contrasted with ""geks""?",No
+9,instantiation,for example,are,9,,feps,geks,"I hate feps. For example, geks are awful.",converse_counterfactual,1,"Does ""feps"" deny or contradict with ""geks""?",No
+9,instantiation,for example,are,9,,feps,geks,"I hate feps. For example, geks are awful.",converse_counterfactual,2,"Are ""feps"" the result of ""geks""?",No
+9,instantiation,for example,are,9,,feps,geks,"I hate feps. For example, geks are awful.",converse_counterfactual,3,"Are ""feps"" the reason for ""geks""?",No
+9,instantiation,for example,are,9,,feps,geks,"I hate feps. For example, geks are awful.",converse_counterfactual,4,"Are ""feps"" equivalent to ""geks""?",No
+10,instantiation,for example,are,10,,blickets,geks,"I hate blickets. For example, geks are awful.",targeted,-1,"Are ""geks"" an example of ""blickets""?",Yes
+10,instantiation,for example,are,10,,blickets,geks,"I hate blickets. For example, geks are awful.",converse,-1,"Are ""blickets"" being exemplified by ""geks""?",Yes
+10,instantiation,for example,are,10,,blickets,geks,"I hate blickets. For example, geks are awful.",counterfactual,0,"Are ""geks"" contrasted with ""blickets""?",No
+10,instantiation,for example,are,10,,blickets,geks,"I hate blickets. For example, geks are awful.",counterfactual,1,"Are ""geks"" denied or contradicted with ""blickets""?",No
+10,instantiation,for example,are,10,,blickets,geks,"I hate blickets. For example, geks are awful.",counterfactual,2,"Are ""geks"" the reason for ""blickets""?",No
+10,instantiation,for example,are,10,,blickets,geks,"I hate blickets. For example, geks are awful.",counterfactual,3,"Are ""geks"" the result of ""blickets""?",No
+10,instantiation,for example,are,10,,blickets,geks,"I hate blickets. For example, geks are awful.",counterfactual,4,"Are ""geks"" equivalent to ""blickets""?",No
+10,instantiation,for example,are,10,,blickets,geks,"I hate blickets. For example, geks are awful.",converse_counterfactual,0,"Are ""blickets"" contrasted with ""geks""?",No
+10,instantiation,for example,are,10,,blickets,geks,"I hate blickets. For example, geks are awful.",converse_counterfactual,1,"Does ""blickets"" deny or contradict with ""geks""?",No
+10,instantiation,for example,are,10,,blickets,geks,"I hate blickets. For example, geks are awful.",converse_counterfactual,2,"Are ""blickets"" the result of ""geks""?",No
+10,instantiation,for example,are,10,,blickets,geks,"I hate blickets. For example, geks are awful.",converse_counterfactual,3,"Are ""blickets"" the reason for ""geks""?",No
+10,instantiation,for example,are,10,,blickets,geks,"I hate blickets. For example, geks are awful.",converse_counterfactual,4,"Are ""blickets"" equivalent to ""geks""?",No
+11,instantiation,for example,are,1,,wugs,daxes,"I like wugs. For example, daxes are nice.",targeted,-1,"Are ""daxes"" an example of ""wugs""?",Yes
+11,instantiation,for example,are,1,,wugs,daxes,"I like wugs. For example, daxes are nice.",converse,-1,"Are ""wugs"" being exemplified by ""daxes""?",Yes
+11,instantiation,for example,are,1,,wugs,daxes,"I like wugs. For example, daxes are nice.",counterfactual,0,"Are ""daxes"" contrasted with ""wugs""?",No
+11,instantiation,for example,are,1,,wugs,daxes,"I like wugs. For example, daxes are nice.",counterfactual,1,"Are ""daxes"" denied or contradicted with ""wugs""?",No
+11,instantiation,for example,are,1,,wugs,daxes,"I like wugs. For example, daxes are nice.",counterfactual,2,"Are ""daxes"" the reason for ""wugs""?",No
+11,instantiation,for example,are,1,,wugs,daxes,"I like wugs. For example, daxes are nice.",counterfactual,3,"Are ""daxes"" the result of ""wugs""?",No
+11,instantiation,for example,are,1,,wugs,daxes,"I like wugs. For example, daxes are nice.",counterfactual,4,"Are ""daxes"" equivalent to ""wugs""?",No
+11,instantiation,for example,are,1,,wugs,daxes,"I like wugs. For example, daxes are nice.",converse_counterfactual,0,"Are ""wugs"" contrasted with ""daxes""?",No
+11,instantiation,for example,are,1,,wugs,daxes,"I like wugs. For example, daxes are nice.",converse_counterfactual,1,"Does ""wugs"" deny or contradict with ""daxes""?",No
+11,instantiation,for example,are,1,,wugs,daxes,"I like wugs. For example, daxes are nice.",converse_counterfactual,2,"Are ""wugs"" the result of ""daxes""?",No
+11,instantiation,for example,are,1,,wugs,daxes,"I like wugs. For example, daxes are nice.",converse_counterfactual,3,"Are ""wugs"" the reason for ""daxes""?",No
+11,instantiation,for example,are,1,,wugs,daxes,"I like wugs. For example, daxes are nice.",converse_counterfactual,4,"Are ""wugs"" equivalent to ""daxes""?",No
+12,instantiation,for example,are,2,,wugs,feps,"I hate wugs. For example, feps are awful.",targeted,-1,"Are ""feps"" an example of ""wugs""?",Yes
+12,instantiation,for example,are,2,,wugs,feps,"I hate wugs. For example, feps are awful.",converse,-1,"Are ""wugs"" being exemplified by ""feps""?",Yes
+12,instantiation,for example,are,2,,wugs,feps,"I hate wugs. For example, feps are awful.",counterfactual,0,"Are ""feps"" contrasted with ""wugs""?",No
+12,instantiation,for example,are,2,,wugs,feps,"I hate wugs. For example, feps are awful.",counterfactual,1,"Are ""feps"" denied or contradicted with ""wugs""?",No
+12,instantiation,for example,are,2,,wugs,feps,"I hate wugs. For example, feps are awful.",counterfactual,2,"Are ""feps"" the reason for ""wugs""?",No
+12,instantiation,for example,are,2,,wugs,feps,"I hate wugs. For example, feps are awful.",counterfactual,3,"Are ""feps"" the result of ""wugs""?",No
+12,instantiation,for example,are,2,,wugs,feps,"I hate wugs. For example, feps are awful.",counterfactual,4,"Are ""feps"" equivalent to ""wugs""?",No
+12,instantiation,for example,are,2,,wugs,feps,"I hate wugs. For example, feps are awful.",converse_counterfactual,0,"Are ""wugs"" contrasted with ""feps""?",No
+12,instantiation,for example,are,2,,wugs,feps,"I hate wugs. For example, feps are awful.",converse_counterfactual,1,"Does ""wugs"" deny or contradict with ""feps""?",No
+12,instantiation,for example,are,2,,wugs,feps,"I hate wugs. For example, feps are awful.",converse_counterfactual,2,"Are ""wugs"" the result of ""feps""?",No
+12,instantiation,for example,are,2,,wugs,feps,"I hate wugs. For example, feps are awful.",converse_counterfactual,3,"Are ""wugs"" the reason for ""feps""?",No
+12,instantiation,for example,are,2,,wugs,feps,"I hate wugs. For example, feps are awful.",converse_counterfactual,4,"Are ""wugs"" equivalent to ""feps""?",No
+13,instantiation,for example,are,3,,wugs,blickets,"I like wugs. For example, blickets are nice.",targeted,-1,"Are ""blickets"" an example of ""wugs""?",Yes
+13,instantiation,for example,are,3,,wugs,blickets,"I like wugs. For example, blickets are nice.",converse,-1,"Are ""wugs"" being exemplified by ""blickets""?",Yes
+13,instantiation,for example,are,3,,wugs,blickets,"I like wugs. For example, blickets are nice.",counterfactual,0,"Are ""blickets"" contrasted with ""wugs""?",No
+13,instantiation,for example,are,3,,wugs,blickets,"I like wugs. For example, blickets are nice.",counterfactual,1,"Are ""blickets"" denied or contradicted with ""wugs""?",No
+13,instantiation,for example,are,3,,wugs,blickets,"I like wugs. For example, blickets are nice.",counterfactual,2,"Are ""blickets"" the reason for ""wugs""?",No
+13,instantiation,for example,are,3,,wugs,blickets,"I like wugs. For example, blickets are nice.",counterfactual,3,"Are ""blickets"" the result of ""wugs""?",No
+13,instantiation,for example,are,3,,wugs,blickets,"I like wugs. For example, blickets are nice.",counterfactual,4,"Are ""blickets"" equivalent to ""wugs""?",No
+13,instantiation,for example,are,3,,wugs,blickets,"I like wugs. For example, blickets are nice.",converse_counterfactual,0,"Are ""wugs"" contrasted with ""blickets""?",No
+13,instantiation,for example,are,3,,wugs,blickets,"I like wugs. For example, blickets are nice.",converse_counterfactual,1,"Does ""wugs"" deny or contradict with ""blickets""?",No
+13,instantiation,for example,are,3,,wugs,blickets,"I like wugs. For example, blickets are nice.",converse_counterfactual,2,"Are ""wugs"" the result of ""blickets""?",No
+13,instantiation,for example,are,3,,wugs,blickets,"I like wugs. For example, blickets are nice.",converse_counterfactual,3,"Are ""wugs"" the reason for ""blickets""?",No
+13,instantiation,for example,are,3,,wugs,blickets,"I like wugs. For example, blickets are nice.",converse_counterfactual,4,"Are ""wugs"" equivalent to ""blickets""?",No
+14,instantiation,for example,are,4,,wugs,geks,"I hate wugs. For example, geks are awful.",targeted,-1,"Are ""geks"" an example of ""wugs""?",Yes
+14,instantiation,for example,are,4,,wugs,geks,"I hate wugs. For example, geks are awful.",converse,-1,"Are ""wugs"" being exemplified by ""geks""?",Yes
+14,instantiation,for example,are,4,,wugs,geks,"I hate wugs. For example, geks are awful.",counterfactual,0,"Are ""geks"" contrasted with ""wugs""?",No
+14,instantiation,for example,are,4,,wugs,geks,"I hate wugs. For example, geks are awful.",counterfactual,1,"Are ""geks"" denied or contradicted with ""wugs""?",No
+14,instantiation,for example,are,4,,wugs,geks,"I hate wugs. For example, geks are awful.",counterfactual,2,"Are ""geks"" the reason for ""wugs""?",No
+14,instantiation,for example,are,4,,wugs,geks,"I hate wugs. For example, geks are awful.",counterfactual,3,"Are ""geks"" the result of ""wugs""?",No
+14,instantiation,for example,are,4,,wugs,geks,"I hate wugs. For example, geks are awful.",counterfactual,4,"Are ""geks"" equivalent to ""wugs""?",No
+14,instantiation,for example,are,4,,wugs,geks,"I hate wugs. For example, geks are awful.",converse_counterfactual,0,"Are ""wugs"" contrasted with ""geks""?",No
+14,instantiation,for example,are,4,,wugs,geks,"I hate wugs. For example, geks are awful.",converse_counterfactual,1,"Does ""wugs"" deny or contradict with ""geks""?",No
+14,instantiation,for example,are,4,,wugs,geks,"I hate wugs. For example, geks are awful.",converse_counterfactual,2,"Are ""wugs"" the result of ""geks""?",No
+14,instantiation,for example,are,4,,wugs,geks,"I hate wugs. For example, geks are awful.",converse_counterfactual,3,"Are ""wugs"" the reason for ""geks""?",No
+14,instantiation,for example,are,4,,wugs,geks,"I hate wugs. For example, geks are awful.",converse_counterfactual,4,"Are ""wugs"" equivalent to ""geks""?",No
+15,instantiation,for example,are,5,,daxes,feps,"I like daxes. For example, feps are nice.",targeted,-1,"Are ""feps"" an example of ""daxes""?",Yes
+15,instantiation,for example,are,5,,daxes,feps,"I like daxes. For example, feps are nice.",converse,-1,"Are ""daxes"" being exemplified by ""feps""?",Yes
+15,instantiation,for example,are,5,,daxes,feps,"I like daxes. For example, feps are nice.",counterfactual,0,"Are ""feps"" contrasted with ""daxes""?",No
+15,instantiation,for example,are,5,,daxes,feps,"I like daxes. For example, feps are nice.",counterfactual,1,"Are ""feps"" denied or contradicted with ""daxes""?",No
+15,instantiation,for example,are,5,,daxes,feps,"I like daxes. For example, feps are nice.",counterfactual,2,"Are ""feps"" the reason for ""daxes""?",No
+15,instantiation,for example,are,5,,daxes,feps,"I like daxes. For example, feps are nice.",counterfactual,3,"Are ""feps"" the result of ""daxes""?",No
+15,instantiation,for example,are,5,,daxes,feps,"I like daxes. For example, feps are nice.",counterfactual,4,"Are ""feps"" equivalent to ""daxes""?",No
+15,instantiation,for example,are,5,,daxes,feps,"I like daxes. For example, feps are nice.",converse_counterfactual,0,"Are ""daxes"" contrasted with ""feps""?",No
+15,instantiation,for example,are,5,,daxes,feps,"I like daxes. For example, feps are nice.",converse_counterfactual,1,"Does ""daxes"" deny or contradict with ""feps""?",No
+15,instantiation,for example,are,5,,daxes,feps,"I like daxes. For example, feps are nice.",converse_counterfactual,2,"Are ""daxes"" the result of ""feps""?",No
+15,instantiation,for example,are,5,,daxes,feps,"I like daxes. For example, feps are nice.",converse_counterfactual,3,"Are ""daxes"" the reason for ""feps""?",No
+15,instantiation,for example,are,5,,daxes,feps,"I like daxes. For example, feps are nice.",converse_counterfactual,4,"Are ""daxes"" equivalent to ""feps""?",No
+16,instantiation,for example,are,6,,daxes,blickets,"I hate daxes. For example, blickets are awful.",targeted,-1,"Are ""blickets"" an example of ""daxes""?",Yes
+16,instantiation,for example,are,6,,daxes,blickets,"I hate daxes. For example, blickets are awful.",converse,-1,"Are ""daxes"" being exemplified by ""blickets""?",Yes
+16,instantiation,for example,are,6,,daxes,blickets,"I hate daxes. For example, blickets are awful.",counterfactual,0,"Are ""blickets"" contrasted with ""daxes""?",No
+16,instantiation,for example,are,6,,daxes,blickets,"I hate daxes. For example, blickets are awful.",counterfactual,1,"Are ""blickets"" denied or contradicted with ""daxes""?",No
+16,instantiation,for example,are,6,,daxes,blickets,"I hate daxes. For example, blickets are awful.",counterfactual,2,"Are ""blickets"" the reason for ""daxes""?",No
+16,instantiation,for example,are,6,,daxes,blickets,"I hate daxes. For example, blickets are awful.",counterfactual,3,"Are ""blickets"" the result of ""daxes""?",No
+16,instantiation,for example,are,6,,daxes,blickets,"I hate daxes. For example, blickets are awful.",counterfactual,4,"Are ""blickets"" equivalent to ""daxes""?",No
+16,instantiation,for example,are,6,,daxes,blickets,"I hate daxes. For example, blickets are awful.",converse_counterfactual,0,"Are ""daxes"" contrasted with ""blickets""?",No
+16,instantiation,for example,are,6,,daxes,blickets,"I hate daxes. For example, blickets are awful.",converse_counterfactual,1,"Does ""daxes"" deny or contradict with ""blickets""?",No
+16,instantiation,for example,are,6,,daxes,blickets,"I hate daxes. For example, blickets are awful.",converse_counterfactual,2,"Are ""daxes"" the result of ""blickets""?",No
+16,instantiation,for example,are,6,,daxes,blickets,"I hate daxes. For example, blickets are awful.",converse_counterfactual,3,"Are ""daxes"" the reason for ""blickets""?",No
+16,instantiation,for example,are,6,,daxes,blickets,"I hate daxes. For example, blickets are awful.",converse_counterfactual,4,"Are ""daxes"" equivalent to ""blickets""?",No
+17,instantiation,for example,are,7,,daxes,geks,"I hate daxes. For example, geks are awful.",targeted,-1,"Are ""geks"" an example of ""daxes""?",Yes
+17,instantiation,for example,are,7,,daxes,geks,"I hate daxes. For example, geks are awful.",converse,-1,"Are ""daxes"" being exemplified by ""geks""?",Yes
+17,instantiation,for example,are,7,,daxes,geks,"I hate daxes. For example, geks are awful.",counterfactual,0,"Are ""geks"" contrasted with ""daxes""?",No
+17,instantiation,for example,are,7,,daxes,geks,"I hate daxes. For example, geks are awful.",counterfactual,1,"Are ""geks"" denied or contradicted with ""daxes""?",No
+17,instantiation,for example,are,7,,daxes,geks,"I hate daxes. For example, geks are awful.",counterfactual,2,"Are ""geks"" the reason for ""daxes""?",No
+17,instantiation,for example,are,7,,daxes,geks,"I hate daxes. For example, geks are awful.",counterfactual,3,"Are ""geks"" the result of ""daxes""?",No
+17,instantiation,for example,are,7,,daxes,geks,"I hate daxes. For example, geks are awful.",counterfactual,4,"Are ""geks"" equivalent to ""daxes""?",No
+17,instantiation,for example,are,7,,daxes,geks,"I hate daxes. For example, geks are awful.",converse_counterfactual,0,"Are ""daxes"" contrasted with ""geks""?",No
+17,instantiation,for example,are,7,,daxes,geks,"I hate daxes. For example, geks are awful.",converse_counterfactual,1,"Does ""daxes"" deny or contradict with ""geks""?",No
+17,instantiation,for example,are,7,,daxes,geks,"I hate daxes. For example, geks are awful.",converse_counterfactual,2,"Are ""daxes"" the result of ""geks""?",No
+17,instantiation,for example,are,7,,daxes,geks,"I hate daxes. For example, geks are awful.",converse_counterfactual,3,"Are ""daxes"" the reason for ""geks""?",No
+17,instantiation,for example,are,7,,daxes,geks,"I hate daxes. For example, geks are awful.",converse_counterfactual,4,"Are ""daxes"" equivalent to ""geks""?",No
+18,instantiation,for example,are,8,,feps,blickets,"I like feps. For example, blickets are nice.",targeted,-1,"Are ""blickets"" an example of ""feps""?",Yes
+18,instantiation,for example,are,8,,feps,blickets,"I like feps. For example, blickets are nice.",converse,-1,"Are ""feps"" being exemplified by ""blickets""?",Yes
+18,instantiation,for example,are,8,,feps,blickets,"I like feps. For example, blickets are nice.",counterfactual,0,"Are ""blickets"" contrasted with ""feps""?",No
+18,instantiation,for example,are,8,,feps,blickets,"I like feps. For example, blickets are nice.",counterfactual,1,"Are ""blickets"" denied or contradicted with ""feps""?",No
+18,instantiation,for example,are,8,,feps,blickets,"I like feps. For example, blickets are nice.",counterfactual,2,"Are ""blickets"" the reason for ""feps""?",No
+18,instantiation,for example,are,8,,feps,blickets,"I like feps. For example, blickets are nice.",counterfactual,3,"Are ""blickets"" the result of ""feps""?",No
+18,instantiation,for example,are,8,,feps,blickets,"I like feps. For example, blickets are nice.",counterfactual,4,"Are ""blickets"" equivalent to ""feps""?",No
+18,instantiation,for example,are,8,,feps,blickets,"I like feps. For example, blickets are nice.",converse_counterfactual,0,"Are ""feps"" contrasted with ""blickets""?",No
+18,instantiation,for example,are,8,,feps,blickets,"I like feps. For example, blickets are nice.",converse_counterfactual,1,"Does ""feps"" deny or contradict with ""blickets""?",No
+18,instantiation,for example,are,8,,feps,blickets,"I like feps. For example, blickets are nice.",converse_counterfactual,2,"Are ""feps"" the result of ""blickets""?",No
+18,instantiation,for example,are,8,,feps,blickets,"I like feps. For example, blickets are nice.",converse_counterfactual,3,"Are ""feps"" the reason for ""blickets""?",No
+18,instantiation,for example,are,8,,feps,blickets,"I like feps. For example, blickets are nice.",converse_counterfactual,4,"Are ""feps"" equivalent to ""blickets""?",No
+19,instantiation,for example,are,9,,feps,geks,"I like feps. For example, geks are nice.",targeted,-1,"Are ""geks"" an example of ""feps""?",Yes
+19,instantiation,for example,are,9,,feps,geks,"I like feps. For example, geks are nice.",converse,-1,"Are ""feps"" being exemplified by ""geks""?",Yes
+19,instantiation,for example,are,9,,feps,geks,"I like feps. For example, geks are nice.",counterfactual,0,"Are ""geks"" contrasted with ""feps""?",No
+19,instantiation,for example,are,9,,feps,geks,"I like feps. For example, geks are nice.",counterfactual,1,"Are ""geks"" denied or contradicted with ""feps""?",No
+19,instantiation,for example,are,9,,feps,geks,"I like feps. For example, geks are nice.",counterfactual,2,"Are ""geks"" the reason for ""feps""?",No
+19,instantiation,for example,are,9,,feps,geks,"I like feps. For example, geks are nice.",counterfactual,3,"Are ""geks"" the result of ""feps""?",No
+19,instantiation,for example,are,9,,feps,geks,"I like feps. For example, geks are nice.",counterfactual,4,"Are ""geks"" equivalent to ""feps""?",No
+19,instantiation,for example,are,9,,feps,geks,"I like feps. For example, geks are nice.",converse_counterfactual,0,"Are ""feps"" contrasted with ""geks""?",No
+19,instantiation,for example,are,9,,feps,geks,"I like feps. For example, geks are nice.",converse_counterfactual,1,"Does ""feps"" deny or contradict with ""geks""?",No
+19,instantiation,for example,are,9,,feps,geks,"I like feps. For example, geks are nice.",converse_counterfactual,2,"Are ""feps"" the result of ""geks""?",No
+19,instantiation,for example,are,9,,feps,geks,"I like feps. For example, geks are nice.",converse_counterfactual,3,"Are ""feps"" the reason for ""geks""?",No
+19,instantiation,for example,are,9,,feps,geks,"I like feps. For example, geks are nice.",converse_counterfactual,4,"Are ""feps"" equivalent to ""geks""?",No
+20,instantiation,for example,are,10,,blickets,geks,"I hate blickets. For example, geks are awful.",targeted,-1,"Are ""geks"" an example of ""blickets""?",Yes
+20,instantiation,for example,are,10,,blickets,geks,"I hate blickets. For example, geks are awful.",converse,-1,"Are ""blickets"" being exemplified by ""geks""?",Yes
+20,instantiation,for example,are,10,,blickets,geks,"I hate blickets. For example, geks are awful.",counterfactual,0,"Are ""geks"" contrasted with ""blickets""?",No
+20,instantiation,for example,are,10,,blickets,geks,"I hate blickets. For example, geks are awful.",counterfactual,1,"Are ""geks"" denied or contradicted with ""blickets""?",No
+20,instantiation,for example,are,10,,blickets,geks,"I hate blickets. For example, geks are awful.",counterfactual,2,"Are ""geks"" the reason for ""blickets""?",No
+20,instantiation,for example,are,10,,blickets,geks,"I hate blickets. For example, geks are awful.",counterfactual,3,"Are ""geks"" the result of ""blickets""?",No
+20,instantiation,for example,are,10,,blickets,geks,"I hate blickets. For example, geks are awful.",counterfactual,4,"Are ""geks"" equivalent to ""blickets""?",No
+20,instantiation,for example,are,10,,blickets,geks,"I hate blickets. For example, geks are awful.",converse_counterfactual,0,"Are ""blickets"" contrasted with ""geks""?",No
+20,instantiation,for example,are,10,,blickets,geks,"I hate blickets. For example, geks are awful.",converse_counterfactual,1,"Does ""blickets"" deny or contradict with ""geks""?",No
+20,instantiation,for example,are,10,,blickets,geks,"I hate blickets. For example, geks are awful.",converse_counterfactual,2,"Are ""blickets"" the result of ""geks""?",No
+20,instantiation,for example,are,10,,blickets,geks,"I hate blickets. For example, geks are awful.",converse_counterfactual,3,"Are ""blickets"" the reason for ""geks""?",No
+20,instantiation,for example,are,10,,blickets,geks,"I hate blickets. For example, geks are awful.",converse_counterfactual,4,"Are ""blickets"" equivalent to ""geks""?",No
+21,instantiation,for instance,are,1,,wugs,daxes,"I hate wugs. For instance, daxes are awful.",targeted,-1,"Are ""daxes"" an example of ""wugs""?",Yes
+21,instantiation,for instance,are,1,,wugs,daxes,"I hate wugs. For instance, daxes are awful.",converse,-1,"Are ""wugs"" being exemplified by ""daxes""?",Yes
+21,instantiation,for instance,are,1,,wugs,daxes,"I hate wugs. For instance, daxes are awful.",counterfactual,0,"Are ""daxes"" contrasted with ""wugs""?",No
+21,instantiation,for instance,are,1,,wugs,daxes,"I hate wugs. For instance, daxes are awful.",counterfactual,1,"Are ""daxes"" denied or contradicted with ""wugs""?",No
+21,instantiation,for instance,are,1,,wugs,daxes,"I hate wugs. For instance, daxes are awful.",counterfactual,2,"Are ""daxes"" the reason for ""wugs""?",No
+21,instantiation,for instance,are,1,,wugs,daxes,"I hate wugs. For instance, daxes are awful.",counterfactual,3,"Are ""daxes"" the result of ""wugs""?",No
+21,instantiation,for instance,are,1,,wugs,daxes,"I hate wugs. For instance, daxes are awful.",counterfactual,4,"Are ""daxes"" equivalent to ""wugs""?",No
+21,instantiation,for instance,are,1,,wugs,daxes,"I hate wugs. For instance, daxes are awful.",converse_counterfactual,0,"Are ""wugs"" contrasted with ""daxes""?",No
+21,instantiation,for instance,are,1,,wugs,daxes,"I hate wugs. For instance, daxes are awful.",converse_counterfactual,1,"Does ""wugs"" deny or contradict with ""daxes""?",No
+21,instantiation,for instance,are,1,,wugs,daxes,"I hate wugs. For instance, daxes are awful.",converse_counterfactual,2,"Are ""wugs"" the result of ""daxes""?",No
+21,instantiation,for instance,are,1,,wugs,daxes,"I hate wugs. For instance, daxes are awful.",converse_counterfactual,3,"Are ""wugs"" the reason for ""daxes""?",No
+21,instantiation,for instance,are,1,,wugs,daxes,"I hate wugs. For instance, daxes are awful.",converse_counterfactual,4,"Are ""wugs"" equivalent to ""daxes""?",No
+22,instantiation,for instance,are,2,,wugs,feps,"I hate wugs. For instance, feps are awful.",targeted,-1,"Are ""feps"" an example of ""wugs""?",Yes
+22,instantiation,for instance,are,2,,wugs,feps,"I hate wugs. For instance, feps are awful.",converse,-1,"Are ""wugs"" being exemplified by ""feps""?",Yes
+22,instantiation,for instance,are,2,,wugs,feps,"I hate wugs. For instance, feps are awful.",counterfactual,0,"Are ""feps"" contrasted with ""wugs""?",No
+22,instantiation,for instance,are,2,,wugs,feps,"I hate wugs. For instance, feps are awful.",counterfactual,1,"Are ""feps"" denied or contradicted with ""wugs""?",No
+22,instantiation,for instance,are,2,,wugs,feps,"I hate wugs. For instance, feps are awful.",counterfactual,2,"Are ""feps"" the reason for ""wugs""?",No
+22,instantiation,for instance,are,2,,wugs,feps,"I hate wugs. For instance, feps are awful.",counterfactual,3,"Are ""feps"" the result of ""wugs""?",No
+22,instantiation,for instance,are,2,,wugs,feps,"I hate wugs. For instance, feps are awful.",counterfactual,4,"Are ""feps"" equivalent to ""wugs""?",No
+22,instantiation,for instance,are,2,,wugs,feps,"I hate wugs. For instance, feps are awful.",converse_counterfactual,0,"Are ""wugs"" contrasted with ""feps""?",No
+22,instantiation,for instance,are,2,,wugs,feps,"I hate wugs. For instance, feps are awful.",converse_counterfactual,1,"Does ""wugs"" deny or contradict with ""feps""?",No
+22,instantiation,for instance,are,2,,wugs,feps,"I hate wugs. For instance, feps are awful.",converse_counterfactual,2,"Are ""wugs"" the result of ""feps""?",No
+22,instantiation,for instance,are,2,,wugs,feps,"I hate wugs. For instance, feps are awful.",converse_counterfactual,3,"Are ""wugs"" the reason for ""feps""?",No
+22,instantiation,for instance,are,2,,wugs,feps,"I hate wugs. For instance, feps are awful.",converse_counterfactual,4,"Are ""wugs"" equivalent to ""feps""?",No
+23,instantiation,for instance,are,3,,wugs,blickets,"I hate wugs. For instance, blickets are awful.",targeted,-1,"Are ""blickets"" an example of ""wugs""?",Yes
+23,instantiation,for instance,are,3,,wugs,blickets,"I hate wugs. For instance, blickets are awful.",converse,-1,"Are ""wugs"" being exemplified by ""blickets""?",Yes
+23,instantiation,for instance,are,3,,wugs,blickets,"I hate wugs. For instance, blickets are awful.",counterfactual,0,"Are ""blickets"" contrasted with ""wugs""?",No
+23,instantiation,for instance,are,3,,wugs,blickets,"I hate wugs. For instance, blickets are awful.",counterfactual,1,"Are ""blickets"" denied or contradicted with ""wugs""?",No
+23,instantiation,for instance,are,3,,wugs,blickets,"I hate wugs. For instance, blickets are awful.",counterfactual,2,"Are ""blickets"" the reason for ""wugs""?",No
+23,instantiation,for instance,are,3,,wugs,blickets,"I hate wugs. For instance, blickets are awful.",counterfactual,3,"Are ""blickets"" the result of ""wugs""?",No
+23,instantiation,for instance,are,3,,wugs,blickets,"I hate wugs. For instance, blickets are awful.",counterfactual,4,"Are ""blickets"" equivalent to ""wugs""?",No
+23,instantiation,for instance,are,3,,wugs,blickets,"I hate wugs. For instance, blickets are awful.",converse_counterfactual,0,"Are ""wugs"" contrasted with ""blickets""?",No
+23,instantiation,for instance,are,3,,wugs,blickets,"I hate wugs. For instance, blickets are awful.",converse_counterfactual,1,"Does ""wugs"" deny or contradict with ""blickets""?",No
+23,instantiation,for instance,are,3,,wugs,blickets,"I hate wugs. For instance, blickets are awful.",converse_counterfactual,2,"Are ""wugs"" the result of ""blickets""?",No
+23,instantiation,for instance,are,3,,wugs,blickets,"I hate wugs. For instance, blickets are awful.",converse_counterfactual,3,"Are ""wugs"" the reason for ""blickets""?",No
+23,instantiation,for instance,are,3,,wugs,blickets,"I hate wugs. For instance, blickets are awful.",converse_counterfactual,4,"Are ""wugs"" equivalent to ""blickets""?",No
+24,instantiation,for instance,are,4,,wugs,geks,"I hate wugs. For instance, geks are awful.",targeted,-1,"Are ""geks"" an example of ""wugs""?",Yes
+24,instantiation,for instance,are,4,,wugs,geks,"I hate wugs. For instance, geks are awful.",converse,-1,"Are ""wugs"" being exemplified by ""geks""?",Yes
+24,instantiation,for instance,are,4,,wugs,geks,"I hate wugs. For instance, geks are awful.",counterfactual,0,"Are ""geks"" contrasted with ""wugs""?",No
+24,instantiation,for instance,are,4,,wugs,geks,"I hate wugs. For instance, geks are awful.",counterfactual,1,"Are ""geks"" denied or contradicted with ""wugs""?",No
+24,instantiation,for instance,are,4,,wugs,geks,"I hate wugs. For instance, geks are awful.",counterfactual,2,"Are ""geks"" the reason for ""wugs""?",No
+24,instantiation,for instance,are,4,,wugs,geks,"I hate wugs. For instance, geks are awful.",counterfactual,3,"Are ""geks"" the result of ""wugs""?",No
+24,instantiation,for instance,are,4,,wugs,geks,"I hate wugs. For instance, geks are awful.",counterfactual,4,"Are ""geks"" equivalent to ""wugs""?",No
+24,instantiation,for instance,are,4,,wugs,geks,"I hate wugs. For instance, geks are awful.",converse_counterfactual,0,"Are ""wugs"" contrasted with ""geks""?",No
+24,instantiation,for instance,are,4,,wugs,geks,"I hate wugs. For instance, geks are awful.",converse_counterfactual,1,"Does ""wugs"" deny or contradict with ""geks""?",No
+24,instantiation,for instance,are,4,,wugs,geks,"I hate wugs. For instance, geks are awful.",converse_counterfactual,2,"Are ""wugs"" the result of ""geks""?",No
+24,instantiation,for instance,are,4,,wugs,geks,"I hate wugs. For instance, geks are awful.",converse_counterfactual,3,"Are ""wugs"" the reason for ""geks""?",No
+24,instantiation,for instance,are,4,,wugs,geks,"I hate wugs. For instance, geks are awful.",converse_counterfactual,4,"Are ""wugs"" equivalent to ""geks""?",No
+25,instantiation,for instance,are,5,,daxes,feps,"I like daxes. For instance, feps are nice.",targeted,-1,"Are ""feps"" an example of ""daxes""?",Yes
+25,instantiation,for instance,are,5,,daxes,feps,"I like daxes. For instance, feps are nice.",converse,-1,"Are ""daxes"" being exemplified by ""feps""?",Yes
+25,instantiation,for instance,are,5,,daxes,feps,"I like daxes. For instance, feps are nice.",counterfactual,0,"Are ""feps"" contrasted with ""daxes""?",No
+25,instantiation,for instance,are,5,,daxes,feps,"I like daxes. For instance, feps are nice.",counterfactual,1,"Are ""feps"" denied or contradicted with ""daxes""?",No
+25,instantiation,for instance,are,5,,daxes,feps,"I like daxes. For instance, feps are nice.",counterfactual,2,"Are ""feps"" the reason for ""daxes""?",No
+25,instantiation,for instance,are,5,,daxes,feps,"I like daxes. For instance, feps are nice.",counterfactual,3,"Are ""feps"" the result of ""daxes""?",No
+25,instantiation,for instance,are,5,,daxes,feps,"I like daxes. For instance, feps are nice.",counterfactual,4,"Are ""feps"" equivalent to ""daxes""?",No
+25,instantiation,for instance,are,5,,daxes,feps,"I like daxes. For instance, feps are nice.",converse_counterfactual,0,"Are ""daxes"" contrasted with ""feps""?",No
+25,instantiation,for instance,are,5,,daxes,feps,"I like daxes. For instance, feps are nice.",converse_counterfactual,1,"Does ""daxes"" deny or contradict with ""feps""?",No
+25,instantiation,for instance,are,5,,daxes,feps,"I like daxes. For instance, feps are nice.",converse_counterfactual,2,"Are ""daxes"" the result of ""feps""?",No
+25,instantiation,for instance,are,5,,daxes,feps,"I like daxes. For instance, feps are nice.",converse_counterfactual,3,"Are ""daxes"" the reason for ""feps""?",No
+25,instantiation,for instance,are,5,,daxes,feps,"I like daxes. For instance, feps are nice.",converse_counterfactual,4,"Are ""daxes"" equivalent to ""feps""?",No
+26,instantiation,for instance,are,6,,daxes,blickets,"I hate daxes. For instance, blickets are awful.",targeted,-1,"Are ""blickets"" an example of ""daxes""?",Yes
+26,instantiation,for instance,are,6,,daxes,blickets,"I hate daxes. For instance, blickets are awful.",converse,-1,"Are ""daxes"" being exemplified by ""blickets""?",Yes
+26,instantiation,for instance,are,6,,daxes,blickets,"I hate daxes. For instance, blickets are awful.",counterfactual,0,"Are ""blickets"" contrasted with ""daxes""?",No
+26,instantiation,for instance,are,6,,daxes,blickets,"I hate daxes. For instance, blickets are awful.",counterfactual,1,"Are ""blickets"" denied or contradicted with ""daxes""?",No
+26,instantiation,for instance,are,6,,daxes,blickets,"I hate daxes. For instance, blickets are awful.",counterfactual,2,"Are ""blickets"" the reason for ""daxes""?",No
+26,instantiation,for instance,are,6,,daxes,blickets,"I hate daxes. For instance, blickets are awful.",counterfactual,3,"Are ""blickets"" the result of ""daxes""?",No
+26,instantiation,for instance,are,6,,daxes,blickets,"I hate daxes. For instance, blickets are awful.",counterfactual,4,"Are ""blickets"" equivalent to ""daxes""?",No
+26,instantiation,for instance,are,6,,daxes,blickets,"I hate daxes. For instance, blickets are awful.",converse_counterfactual,0,"Are ""daxes"" contrasted with ""blickets""?",No
+26,instantiation,for instance,are,6,,daxes,blickets,"I hate daxes. For instance, blickets are awful.",converse_counterfactual,1,"Does ""daxes"" deny or contradict with ""blickets""?",No
+26,instantiation,for instance,are,6,,daxes,blickets,"I hate daxes. For instance, blickets are awful.",converse_counterfactual,2,"Are ""daxes"" the result of ""blickets""?",No
+26,instantiation,for instance,are,6,,daxes,blickets,"I hate daxes. For instance, blickets are awful.",converse_counterfactual,3,"Are ""daxes"" the reason for ""blickets""?",No
+26,instantiation,for instance,are,6,,daxes,blickets,"I hate daxes. For instance, blickets are awful.",converse_counterfactual,4,"Are ""daxes"" equivalent to ""blickets""?",No
+27,instantiation,for instance,are,7,,daxes,geks,"I hate daxes. For instance, geks are awful.",targeted,-1,"Are ""geks"" an example of ""daxes""?",Yes
+27,instantiation,for instance,are,7,,daxes,geks,"I hate daxes. For instance, geks are awful.",converse,-1,"Are ""daxes"" being exemplified by ""geks""?",Yes
+27,instantiation,for instance,are,7,,daxes,geks,"I hate daxes. For instance, geks are awful.",counterfactual,0,"Are ""geks"" contrasted with ""daxes""?",No
+27,instantiation,for instance,are,7,,daxes,geks,"I hate daxes. For instance, geks are awful.",counterfactual,1,"Are ""geks"" denied or contradicted with ""daxes""?",No
+27,instantiation,for instance,are,7,,daxes,geks,"I hate daxes. For instance, geks are awful.",counterfactual,2,"Are ""geks"" the reason for ""daxes""?",No
+27,instantiation,for instance,are,7,,daxes,geks,"I hate daxes. For instance, geks are awful.",counterfactual,3,"Are ""geks"" the result of ""daxes""?",No
+27,instantiation,for instance,are,7,,daxes,geks,"I hate daxes. For instance, geks are awful.",counterfactual,4,"Are ""geks"" equivalent to ""daxes""?",No
+27,instantiation,for instance,are,7,,daxes,geks,"I hate daxes. For instance, geks are awful.",converse_counterfactual,0,"Are ""daxes"" contrasted with ""geks""?",No
+27,instantiation,for instance,are,7,,daxes,geks,"I hate daxes. For instance, geks are awful.",converse_counterfactual,1,"Does ""daxes"" deny or contradict with ""geks""?",No
+27,instantiation,for instance,are,7,,daxes,geks,"I hate daxes. For instance, geks are awful.",converse_counterfactual,2,"Are ""daxes"" the result of ""geks""?",No
+27,instantiation,for instance,are,7,,daxes,geks,"I hate daxes. For instance, geks are awful.",converse_counterfactual,3,"Are ""daxes"" the reason for ""geks""?",No
+27,instantiation,for instance,are,7,,daxes,geks,"I hate daxes. For instance, geks are awful.",converse_counterfactual,4,"Are ""daxes"" equivalent to ""geks""?",No
+28,instantiation,for instance,are,8,,feps,blickets,"I hate feps. For instance, blickets are awful.",targeted,-1,"Are ""blickets"" an example of ""feps""?",Yes
+28,instantiation,for instance,are,8,,feps,blickets,"I hate feps. For instance, blickets are awful.",converse,-1,"Are ""feps"" being exemplified by ""blickets""?",Yes
+28,instantiation,for instance,are,8,,feps,blickets,"I hate feps. For instance, blickets are awful.",counterfactual,0,"Are ""blickets"" contrasted with ""feps""?",No
+28,instantiation,for instance,are,8,,feps,blickets,"I hate feps. For instance, blickets are awful.",counterfactual,1,"Are ""blickets"" denied or contradicted with ""feps""?",No
+28,instantiation,for instance,are,8,,feps,blickets,"I hate feps. For instance, blickets are awful.",counterfactual,2,"Are ""blickets"" the reason for ""feps""?",No
+28,instantiation,for instance,are,8,,feps,blickets,"I hate feps. For instance, blickets are awful.",counterfactual,3,"Are ""blickets"" the result of ""feps""?",No
+28,instantiation,for instance,are,8,,feps,blickets,"I hate feps. For instance, blickets are awful.",counterfactual,4,"Are ""blickets"" equivalent to ""feps""?",No
+28,instantiation,for instance,are,8,,feps,blickets,"I hate feps. For instance, blickets are awful.",converse_counterfactual,0,"Are ""feps"" contrasted with ""blickets""?",No
+28,instantiation,for instance,are,8,,feps,blickets,"I hate feps. For instance, blickets are awful.",converse_counterfactual,1,"Does ""feps"" deny or contradict with ""blickets""?",No
+28,instantiation,for instance,are,8,,feps,blickets,"I hate feps. For instance, blickets are awful.",converse_counterfactual,2,"Are ""feps"" the result of ""blickets""?",No
+28,instantiation,for instance,are,8,,feps,blickets,"I hate feps. For instance, blickets are awful.",converse_counterfactual,3,"Are ""feps"" the reason for ""blickets""?",No
+28,instantiation,for instance,are,8,,feps,blickets,"I hate feps. For instance, blickets are awful.",converse_counterfactual,4,"Are ""feps"" equivalent to ""blickets""?",No
+29,instantiation,for instance,are,9,,feps,geks,"I like feps. For instance, geks are nice.",targeted,-1,"Are ""geks"" an example of ""feps""?",Yes
+29,instantiation,for instance,are,9,,feps,geks,"I like feps. For instance, geks are nice.",converse,-1,"Are ""feps"" being exemplified by ""geks""?",Yes
+29,instantiation,for instance,are,9,,feps,geks,"I like feps. For instance, geks are nice.",counterfactual,0,"Are ""geks"" contrasted with ""feps""?",No
+29,instantiation,for instance,are,9,,feps,geks,"I like feps. For instance, geks are nice.",counterfactual,1,"Are ""geks"" denied or contradicted with ""feps""?",No
+29,instantiation,for instance,are,9,,feps,geks,"I like feps. For instance, geks are nice.",counterfactual,2,"Are ""geks"" the reason for ""feps""?",No
+29,instantiation,for instance,are,9,,feps,geks,"I like feps. For instance, geks are nice.",counterfactual,3,"Are ""geks"" the result of ""feps""?",No
+29,instantiation,for instance,are,9,,feps,geks,"I like feps. For instance, geks are nice.",counterfactual,4,"Are ""geks"" equivalent to ""feps""?",No
+29,instantiation,for instance,are,9,,feps,geks,"I like feps. For instance, geks are nice.",converse_counterfactual,0,"Are ""feps"" contrasted with ""geks""?",No
+29,instantiation,for instance,are,9,,feps,geks,"I like feps. For instance, geks are nice.",converse_counterfactual,1,"Does ""feps"" deny or contradict with ""geks""?",No
+29,instantiation,for instance,are,9,,feps,geks,"I like feps. For instance, geks are nice.",converse_counterfactual,2,"Are ""feps"" the result of ""geks""?",No
+29,instantiation,for instance,are,9,,feps,geks,"I like feps. For instance, geks are nice.",converse_counterfactual,3,"Are ""feps"" the reason for ""geks""?",No
+29,instantiation,for instance,are,9,,feps,geks,"I like feps. For instance, geks are nice.",converse_counterfactual,4,"Are ""feps"" equivalent to ""geks""?",No
+30,instantiation,for instance,are,10,,blickets,geks,"I hate blickets. For instance, geks are awful.",targeted,-1,"Are ""geks"" an example of ""blickets""?",Yes
+30,instantiation,for instance,are,10,,blickets,geks,"I hate blickets. For instance, geks are awful.",converse,-1,"Are ""blickets"" being exemplified by ""geks""?",Yes
+30,instantiation,for instance,are,10,,blickets,geks,"I hate blickets. For instance, geks are awful.",counterfactual,0,"Are ""geks"" contrasted with ""blickets""?",No
+30,instantiation,for instance,are,10,,blickets,geks,"I hate blickets. For instance, geks are awful.",counterfactual,1,"Are ""geks"" denied or contradicted with ""blickets""?",No
+30,instantiation,for instance,are,10,,blickets,geks,"I hate blickets. For instance, geks are awful.",counterfactual,2,"Are ""geks"" the reason for ""blickets""?",No
+30,instantiation,for instance,are,10,,blickets,geks,"I hate blickets. For instance, geks are awful.",counterfactual,3,"Are ""geks"" the result of ""blickets""?",No
+30,instantiation,for instance,are,10,,blickets,geks,"I hate blickets. For instance, geks are awful.",counterfactual,4,"Are ""geks"" equivalent to ""blickets""?",No
+30,instantiation,for instance,are,10,,blickets,geks,"I hate blickets. For instance, geks are awful.",converse_counterfactual,0,"Are ""blickets"" contrasted with ""geks""?",No
+30,instantiation,for instance,are,10,,blickets,geks,"I hate blickets. For instance, geks are awful.",converse_counterfactual,1,"Does ""blickets"" deny or contradict with ""geks""?",No
+30,instantiation,for instance,are,10,,blickets,geks,"I hate blickets. For instance, geks are awful.",converse_counterfactual,2,"Are ""blickets"" the result of ""geks""?",No
+30,instantiation,for instance,are,10,,blickets,geks,"I hate blickets. For instance, geks are awful.",converse_counterfactual,3,"Are ""blickets"" the reason for ""geks""?",No
+30,instantiation,for instance,are,10,,blickets,geks,"I hate blickets. For instance, geks are awful.",converse_counterfactual,4,"Are ""blickets"" equivalent to ""geks""?",No
+31,instantiation,for instance,are,1,,wugs,daxes,"I hate wugs. For instance, daxes are awful.",targeted,-1,"Are ""daxes"" an example of ""wugs""?",Yes
+31,instantiation,for instance,are,1,,wugs,daxes,"I hate wugs. For instance, daxes are awful.",converse,-1,"Are ""wugs"" being exemplified by ""daxes""?",Yes
+31,instantiation,for instance,are,1,,wugs,daxes,"I hate wugs. For instance, daxes are awful.",counterfactual,0,"Are ""daxes"" contrasted with ""wugs""?",No
+31,instantiation,for instance,are,1,,wugs,daxes,"I hate wugs. For instance, daxes are awful.",counterfactual,1,"Are ""daxes"" denied or contradicted with ""wugs""?",No
+31,instantiation,for instance,are,1,,wugs,daxes,"I hate wugs. For instance, daxes are awful.",counterfactual,2,"Are ""daxes"" the reason for ""wugs""?",No
+31,instantiation,for instance,are,1,,wugs,daxes,"I hate wugs. For instance, daxes are awful.",counterfactual,3,"Are ""daxes"" the result of ""wugs""?",No
+31,instantiation,for instance,are,1,,wugs,daxes,"I hate wugs. For instance, daxes are awful.",counterfactual,4,"Are ""daxes"" equivalent to ""wugs""?",No
+31,instantiation,for instance,are,1,,wugs,daxes,"I hate wugs. For instance, daxes are awful.",converse_counterfactual,0,"Are ""wugs"" contrasted with ""daxes""?",No
+31,instantiation,for instance,are,1,,wugs,daxes,"I hate wugs. For instance, daxes are awful.",converse_counterfactual,1,"Does ""wugs"" deny or contradict with ""daxes""?",No
+31,instantiation,for instance,are,1,,wugs,daxes,"I hate wugs. For instance, daxes are awful.",converse_counterfactual,2,"Are ""wugs"" the result of ""daxes""?",No
+31,instantiation,for instance,are,1,,wugs,daxes,"I hate wugs. For instance, daxes are awful.",converse_counterfactual,3,"Are ""wugs"" the reason for ""daxes""?",No
+31,instantiation,for instance,are,1,,wugs,daxes,"I hate wugs. For instance, daxes are awful.",converse_counterfactual,4,"Are ""wugs"" equivalent to ""daxes""?",No
+32,instantiation,for instance,are,2,,wugs,feps,"I hate wugs. For instance, feps are awful.",targeted,-1,"Are ""feps"" an example of ""wugs""?",Yes
+32,instantiation,for instance,are,2,,wugs,feps,"I hate wugs. For instance, feps are awful.",converse,-1,"Are ""wugs"" being exemplified by ""feps""?",Yes
+32,instantiation,for instance,are,2,,wugs,feps,"I hate wugs. For instance, feps are awful.",counterfactual,0,"Are ""feps"" contrasted with ""wugs""?",No
+32,instantiation,for instance,are,2,,wugs,feps,"I hate wugs. For instance, feps are awful.",counterfactual,1,"Are ""feps"" denied or contradicted with ""wugs""?",No
+32,instantiation,for instance,are,2,,wugs,feps,"I hate wugs. For instance, feps are awful.",counterfactual,2,"Are ""feps"" the reason for ""wugs""?",No
+32,instantiation,for instance,are,2,,wugs,feps,"I hate wugs. For instance, feps are awful.",counterfactual,3,"Are ""feps"" the result of ""wugs""?",No
+32,instantiation,for instance,are,2,,wugs,feps,"I hate wugs. For instance, feps are awful.",counterfactual,4,"Are ""feps"" equivalent to ""wugs""?",No
+32,instantiation,for instance,are,2,,wugs,feps,"I hate wugs. For instance, feps are awful.",converse_counterfactual,0,"Are ""wugs"" contrasted with ""feps""?",No
+32,instantiation,for instance,are,2,,wugs,feps,"I hate wugs. For instance, feps are awful.",converse_counterfactual,1,"Does ""wugs"" deny or contradict with ""feps""?",No
+32,instantiation,for instance,are,2,,wugs,feps,"I hate wugs. For instance, feps are awful.",converse_counterfactual,2,"Are ""wugs"" the result of ""feps""?",No
+32,instantiation,for instance,are,2,,wugs,feps,"I hate wugs. For instance, feps are awful.",converse_counterfactual,3,"Are ""wugs"" the reason for ""feps""?",No
+32,instantiation,for instance,are,2,,wugs,feps,"I hate wugs. For instance, feps are awful.",converse_counterfactual,4,"Are ""wugs"" equivalent to ""feps""?",No
+33,instantiation,for instance,are,3,,wugs,blickets,"I like wugs. For instance, blickets are nice.",targeted,-1,"Are ""blickets"" an example of ""wugs""?",Yes
+33,instantiation,for instance,are,3,,wugs,blickets,"I like wugs. For instance, blickets are nice.",converse,-1,"Are ""wugs"" being exemplified by ""blickets""?",Yes
+33,instantiation,for instance,are,3,,wugs,blickets,"I like wugs. For instance, blickets are nice.",counterfactual,0,"Are ""blickets"" contrasted with ""wugs""?",No
+33,instantiation,for instance,are,3,,wugs,blickets,"I like wugs. For instance, blickets are nice.",counterfactual,1,"Are ""blickets"" denied or contradicted with ""wugs""?",No
+33,instantiation,for instance,are,3,,wugs,blickets,"I like wugs. For instance, blickets are nice.",counterfactual,2,"Are ""blickets"" the reason for ""wugs""?",No
+33,instantiation,for instance,are,3,,wugs,blickets,"I like wugs. For instance, blickets are nice.",counterfactual,3,"Are ""blickets"" the result of ""wugs""?",No
+33,instantiation,for instance,are,3,,wugs,blickets,"I like wugs. For instance, blickets are nice.",counterfactual,4,"Are ""blickets"" equivalent to ""wugs""?",No
+33,instantiation,for instance,are,3,,wugs,blickets,"I like wugs. For instance, blickets are nice.",converse_counterfactual,0,"Are ""wugs"" contrasted with ""blickets""?",No
+33,instantiation,for instance,are,3,,wugs,blickets,"I like wugs. For instance, blickets are nice.",converse_counterfactual,1,"Does ""wugs"" deny or contradict with ""blickets""?",No
+33,instantiation,for instance,are,3,,wugs,blickets,"I like wugs. For instance, blickets are nice.",converse_counterfactual,2,"Are ""wugs"" the result of ""blickets""?",No
+33,instantiation,for instance,are,3,,wugs,blickets,"I like wugs. For instance, blickets are nice.",converse_counterfactual,3,"Are ""wugs"" the reason for ""blickets""?",No
+33,instantiation,for instance,are,3,,wugs,blickets,"I like wugs. For instance, blickets are nice.",converse_counterfactual,4,"Are ""wugs"" equivalent to ""blickets""?",No
+34,instantiation,for instance,are,4,,wugs,geks,"I like wugs. For instance, geks are nice.",targeted,-1,"Are ""geks"" an example of ""wugs""?",Yes
+34,instantiation,for instance,are,4,,wugs,geks,"I like wugs. For instance, geks are nice.",converse,-1,"Are ""wugs"" being exemplified by ""geks""?",Yes
+34,instantiation,for instance,are,4,,wugs,geks,"I like wugs. For instance, geks are nice.",counterfactual,0,"Are ""geks"" contrasted with ""wugs""?",No
+34,instantiation,for instance,are,4,,wugs,geks,"I like wugs. For instance, geks are nice.",counterfactual,1,"Are ""geks"" denied or contradicted with ""wugs""?",No
+34,instantiation,for instance,are,4,,wugs,geks,"I like wugs. For instance, geks are nice.",counterfactual,2,"Are ""geks"" the reason for ""wugs""?",No
+34,instantiation,for instance,are,4,,wugs,geks,"I like wugs. For instance, geks are nice.",counterfactual,3,"Are ""geks"" the result of ""wugs""?",No
+34,instantiation,for instance,are,4,,wugs,geks,"I like wugs. For instance, geks are nice.",counterfactual,4,"Are ""geks"" equivalent to ""wugs""?",No
+34,instantiation,for instance,are,4,,wugs,geks,"I like wugs. For instance, geks are nice.",converse_counterfactual,0,"Are ""wugs"" contrasted with ""geks""?",No
+34,instantiation,for instance,are,4,,wugs,geks,"I like wugs. For instance, geks are nice.",converse_counterfactual,1,"Does ""wugs"" deny or contradict with ""geks""?",No
+34,instantiation,for instance,are,4,,wugs,geks,"I like wugs. For instance, geks are nice.",converse_counterfactual,2,"Are ""wugs"" the result of ""geks""?",No
+34,instantiation,for instance,are,4,,wugs,geks,"I like wugs. For instance, geks are nice.",converse_counterfactual,3,"Are ""wugs"" the reason for ""geks""?",No
+34,instantiation,for instance,are,4,,wugs,geks,"I like wugs. For instance, geks are nice.",converse_counterfactual,4,"Are ""wugs"" equivalent to ""geks""?",No
+35,instantiation,for instance,are,5,,daxes,feps,"I hate daxes. For instance, feps are awful.",targeted,-1,"Are ""feps"" an example of ""daxes""?",Yes
+35,instantiation,for instance,are,5,,daxes,feps,"I hate daxes. For instance, feps are awful.",converse,-1,"Are ""daxes"" being exemplified by ""feps""?",Yes
+35,instantiation,for instance,are,5,,daxes,feps,"I hate daxes. For instance, feps are awful.",counterfactual,0,"Are ""feps"" contrasted with ""daxes""?",No
+35,instantiation,for instance,are,5,,daxes,feps,"I hate daxes. For instance, feps are awful.",counterfactual,1,"Are ""feps"" denied or contradicted with ""daxes""?",No
+35,instantiation,for instance,are,5,,daxes,feps,"I hate daxes. For instance, feps are awful.",counterfactual,2,"Are ""feps"" the reason for ""daxes""?",No
+35,instantiation,for instance,are,5,,daxes,feps,"I hate daxes. For instance, feps are awful.",counterfactual,3,"Are ""feps"" the result of ""daxes""?",No
+35,instantiation,for instance,are,5,,daxes,feps,"I hate daxes. For instance, feps are awful.",counterfactual,4,"Are ""feps"" equivalent to ""daxes""?",No
+35,instantiation,for instance,are,5,,daxes,feps,"I hate daxes. For instance, feps are awful.",converse_counterfactual,0,"Are ""daxes"" contrasted with ""feps""?",No
+35,instantiation,for instance,are,5,,daxes,feps,"I hate daxes. For instance, feps are awful.",converse_counterfactual,1,"Does ""daxes"" deny or contradict with ""feps""?",No
+35,instantiation,for instance,are,5,,daxes,feps,"I hate daxes. For instance, feps are awful.",converse_counterfactual,2,"Are ""daxes"" the result of ""feps""?",No
+35,instantiation,for instance,are,5,,daxes,feps,"I hate daxes. For instance, feps are awful.",converse_counterfactual,3,"Are ""daxes"" the reason for ""feps""?",No
+35,instantiation,for instance,are,5,,daxes,feps,"I hate daxes. For instance, feps are awful.",converse_counterfactual,4,"Are ""daxes"" equivalent to ""feps""?",No
+36,instantiation,for instance,are,6,,daxes,blickets,"I hate daxes. For instance, blickets are awful.",targeted,-1,"Are ""blickets"" an example of ""daxes""?",Yes
+36,instantiation,for instance,are,6,,daxes,blickets,"I hate daxes. For instance, blickets are awful.",converse,-1,"Are ""daxes"" being exemplified by ""blickets""?",Yes
+36,instantiation,for instance,are,6,,daxes,blickets,"I hate daxes. For instance, blickets are awful.",counterfactual,0,"Are ""blickets"" contrasted with ""daxes""?",No
+36,instantiation,for instance,are,6,,daxes,blickets,"I hate daxes. For instance, blickets are awful.",counterfactual,1,"Are ""blickets"" denied or contradicted with ""daxes""?",No
+36,instantiation,for instance,are,6,,daxes,blickets,"I hate daxes. For instance, blickets are awful.",counterfactual,2,"Are ""blickets"" the reason for ""daxes""?",No
+36,instantiation,for instance,are,6,,daxes,blickets,"I hate daxes. For instance, blickets are awful.",counterfactual,3,"Are ""blickets"" the result of ""daxes""?",No
+36,instantiation,for instance,are,6,,daxes,blickets,"I hate daxes. For instance, blickets are awful.",counterfactual,4,"Are ""blickets"" equivalent to ""daxes""?",No
+36,instantiation,for instance,are,6,,daxes,blickets,"I hate daxes. For instance, blickets are awful.",converse_counterfactual,0,"Are ""daxes"" contrasted with ""blickets""?",No
+36,instantiation,for instance,are,6,,daxes,blickets,"I hate daxes. For instance, blickets are awful.",converse_counterfactual,1,"Does ""daxes"" deny or contradict with ""blickets""?",No
+36,instantiation,for instance,are,6,,daxes,blickets,"I hate daxes. For instance, blickets are awful.",converse_counterfactual,2,"Are ""daxes"" the result of ""blickets""?",No
+36,instantiation,for instance,are,6,,daxes,blickets,"I hate daxes. For instance, blickets are awful.",converse_counterfactual,3,"Are ""daxes"" the reason for ""blickets""?",No
+36,instantiation,for instance,are,6,,daxes,blickets,"I hate daxes. For instance, blickets are awful.",converse_counterfactual,4,"Are ""daxes"" equivalent to ""blickets""?",No
+37,instantiation,for instance,are,7,,daxes,geks,"I like daxes. For instance, geks are nice.",targeted,-1,"Are ""geks"" an example of ""daxes""?",Yes
+37,instantiation,for instance,are,7,,daxes,geks,"I like daxes. For instance, geks are nice.",converse,-1,"Are ""daxes"" being exemplified by ""geks""?",Yes
+37,instantiation,for instance,are,7,,daxes,geks,"I like daxes. For instance, geks are nice.",counterfactual,0,"Are ""geks"" contrasted with ""daxes""?",No
+37,instantiation,for instance,are,7,,daxes,geks,"I like daxes. For instance, geks are nice.",counterfactual,1,"Are ""geks"" denied or contradicted with ""daxes""?",No
+37,instantiation,for instance,are,7,,daxes,geks,"I like daxes. For instance, geks are nice.",counterfactual,2,"Are ""geks"" the reason for ""daxes""?",No
+37,instantiation,for instance,are,7,,daxes,geks,"I like daxes. For instance, geks are nice.",counterfactual,3,"Are ""geks"" the result of ""daxes""?",No
+37,instantiation,for instance,are,7,,daxes,geks,"I like daxes. For instance, geks are nice.",counterfactual,4,"Are ""geks"" equivalent to ""daxes""?",No
+37,instantiation,for instance,are,7,,daxes,geks,"I like daxes. For instance, geks are nice.",converse_counterfactual,0,"Are ""daxes"" contrasted with ""geks""?",No
+37,instantiation,for instance,are,7,,daxes,geks,"I like daxes. For instance, geks are nice.",converse_counterfactual,1,"Does ""daxes"" deny or contradict with ""geks""?",No
+37,instantiation,for instance,are,7,,daxes,geks,"I like daxes. For instance, geks are nice.",converse_counterfactual,2,"Are ""daxes"" the result of ""geks""?",No
+37,instantiation,for instance,are,7,,daxes,geks,"I like daxes. For instance, geks are nice.",converse_counterfactual,3,"Are ""daxes"" the reason for ""geks""?",No
+37,instantiation,for instance,are,7,,daxes,geks,"I like daxes. For instance, geks are nice.",converse_counterfactual,4,"Are ""daxes"" equivalent to ""geks""?",No
+38,instantiation,for instance,are,8,,feps,blickets,"I like feps. For instance, blickets are nice.",targeted,-1,"Are ""blickets"" an example of ""feps""?",Yes
+38,instantiation,for instance,are,8,,feps,blickets,"I like feps. For instance, blickets are nice.",converse,-1,"Are ""feps"" being exemplified by ""blickets""?",Yes
+38,instantiation,for instance,are,8,,feps,blickets,"I like feps. For instance, blickets are nice.",counterfactual,0,"Are ""blickets"" contrasted with ""feps""?",No
+38,instantiation,for instance,are,8,,feps,blickets,"I like feps. For instance, blickets are nice.",counterfactual,1,"Are ""blickets"" denied or contradicted with ""feps""?",No
+38,instantiation,for instance,are,8,,feps,blickets,"I like feps. For instance, blickets are nice.",counterfactual,2,"Are ""blickets"" the reason for ""feps""?",No
+38,instantiation,for instance,are,8,,feps,blickets,"I like feps. For instance, blickets are nice.",counterfactual,3,"Are ""blickets"" the result of ""feps""?",No
+38,instantiation,for instance,are,8,,feps,blickets,"I like feps. For instance, blickets are nice.",counterfactual,4,"Are ""blickets"" equivalent to ""feps""?",No
+38,instantiation,for instance,are,8,,feps,blickets,"I like feps. For instance, blickets are nice.",converse_counterfactual,0,"Are ""feps"" contrasted with ""blickets""?",No
+38,instantiation,for instance,are,8,,feps,blickets,"I like feps. For instance, blickets are nice.",converse_counterfactual,1,"Does ""feps"" deny or contradict with ""blickets""?",No
+38,instantiation,for instance,are,8,,feps,blickets,"I like feps. For instance, blickets are nice.",converse_counterfactual,2,"Are ""feps"" the result of ""blickets""?",No
+38,instantiation,for instance,are,8,,feps,blickets,"I like feps. For instance, blickets are nice.",converse_counterfactual,3,"Are ""feps"" the reason for ""blickets""?",No
+38,instantiation,for instance,are,8,,feps,blickets,"I like feps. For instance, blickets are nice.",converse_counterfactual,4,"Are ""feps"" equivalent to ""blickets""?",No
+39,instantiation,for instance,are,9,,feps,geks,"I like feps. For instance, geks are nice.",targeted,-1,"Are ""geks"" an example of ""feps""?",Yes
+39,instantiation,for instance,are,9,,feps,geks,"I like feps. For instance, geks are nice.",converse,-1,"Are ""feps"" being exemplified by ""geks""?",Yes
+39,instantiation,for instance,are,9,,feps,geks,"I like feps. For instance, geks are nice.",counterfactual,0,"Are ""geks"" contrasted with ""feps""?",No
+39,instantiation,for instance,are,9,,feps,geks,"I like feps. For instance, geks are nice.",counterfactual,1,"Are ""geks"" denied or contradicted with ""feps""?",No
+39,instantiation,for instance,are,9,,feps,geks,"I like feps. For instance, geks are nice.",counterfactual,2,"Are ""geks"" the reason for ""feps""?",No
+39,instantiation,for instance,are,9,,feps,geks,"I like feps. For instance, geks are nice.",counterfactual,3,"Are ""geks"" the result of ""feps""?",No
+39,instantiation,for instance,are,9,,feps,geks,"I like feps. For instance, geks are nice.",counterfactual,4,"Are ""geks"" equivalent to ""feps""?",No
+39,instantiation,for instance,are,9,,feps,geks,"I like feps. For instance, geks are nice.",converse_counterfactual,0,"Are ""feps"" contrasted with ""geks""?",No
+39,instantiation,for instance,are,9,,feps,geks,"I like feps. For instance, geks are nice.",converse_counterfactual,1,"Does ""feps"" deny or contradict with ""geks""?",No
+39,instantiation,for instance,are,9,,feps,geks,"I like feps. For instance, geks are nice.",converse_counterfactual,2,"Are ""feps"" the result of ""geks""?",No
+39,instantiation,for instance,are,9,,feps,geks,"I like feps. For instance, geks are nice.",converse_counterfactual,3,"Are ""feps"" the reason for ""geks""?",No
+39,instantiation,for instance,are,9,,feps,geks,"I like feps. For instance, geks are nice.",converse_counterfactual,4,"Are ""feps"" equivalent to ""geks""?",No
+40,instantiation,for instance,are,10,,blickets,geks,"I hate blickets. For instance, geks are awful.",targeted,-1,"Are ""geks"" an example of ""blickets""?",Yes
+40,instantiation,for instance,are,10,,blickets,geks,"I hate blickets. For instance, geks are awful.",converse,-1,"Are ""blickets"" being exemplified by ""geks""?",Yes
+40,instantiation,for instance,are,10,,blickets,geks,"I hate blickets. For instance, geks are awful.",counterfactual,0,"Are ""geks"" contrasted with ""blickets""?",No
+40,instantiation,for instance,are,10,,blickets,geks,"I hate blickets. For instance, geks are awful.",counterfactual,1,"Are ""geks"" denied or contradicted with ""blickets""?",No
+40,instantiation,for instance,are,10,,blickets,geks,"I hate blickets. For instance, geks are awful.",counterfactual,2,"Are ""geks"" the reason for ""blickets""?",No
+40,instantiation,for instance,are,10,,blickets,geks,"I hate blickets. For instance, geks are awful.",counterfactual,3,"Are ""geks"" the result of ""blickets""?",No
+40,instantiation,for instance,are,10,,blickets,geks,"I hate blickets. For instance, geks are awful.",counterfactual,4,"Are ""geks"" equivalent to ""blickets""?",No
+40,instantiation,for instance,are,10,,blickets,geks,"I hate blickets. For instance, geks are awful.",converse_counterfactual,0,"Are ""blickets"" contrasted with ""geks""?",No
+40,instantiation,for instance,are,10,,blickets,geks,"I hate blickets. For instance, geks are awful.",converse_counterfactual,1,"Does ""blickets"" deny or contradict with ""geks""?",No
+40,instantiation,for instance,are,10,,blickets,geks,"I hate blickets. For instance, geks are awful.",converse_counterfactual,2,"Are ""blickets"" the result of ""geks""?",No
+40,instantiation,for instance,are,10,,blickets,geks,"I hate blickets. For instance, geks are awful.",converse_counterfactual,3,"Are ""blickets"" the reason for ""geks""?",No
+40,instantiation,for instance,are,10,,blickets,geks,"I hate blickets. For instance, geks are awful.",converse_counterfactual,4,"Are ""blickets"" equivalent to ""geks""?",No
+41,instantiation,in particular,are,1,,wugs,daxes,"I find wugs, in particular, daxes to be cute.",targeted,-1,"Are ""daxes"" an example of ""wugs""?",Yes
+41,instantiation,in particular,are,1,,wugs,daxes,"I find wugs, in particular, daxes to be cute.",converse,-1,"Are ""wugs"" being exemplified by ""daxes""?",Yes
+41,instantiation,in particular,are,1,,wugs,daxes,"I find wugs, in particular, daxes to be cute.",counterfactual,0,"Are ""daxes"" contrasted with ""wugs""?",No
+41,instantiation,in particular,are,1,,wugs,daxes,"I find wugs, in particular, daxes to be cute.",counterfactual,1,"Are ""daxes"" denied or contradicted with ""wugs""?",No
+41,instantiation,in particular,are,1,,wugs,daxes,"I find wugs, in particular, daxes to be cute.",counterfactual,2,"Are ""daxes"" the reason for ""wugs""?",No
+41,instantiation,in particular,are,1,,wugs,daxes,"I find wugs, in particular, daxes to be cute.",counterfactual,3,"Are ""daxes"" the result of ""wugs""?",No
+41,instantiation,in particular,are,1,,wugs,daxes,"I find wugs, in particular, daxes to be cute.",counterfactual,4,"Are ""daxes"" equivalent to ""wugs""?",No
+41,instantiation,in particular,are,1,,wugs,daxes,"I find wugs, in particular, daxes to be cute.",converse_counterfactual,0,"Are ""wugs"" contrasted with ""daxes""?",No
+41,instantiation,in particular,are,1,,wugs,daxes,"I find wugs, in particular, daxes to be cute.",converse_counterfactual,1,"Does ""wugs"" deny or contradict with ""daxes""?",No
+41,instantiation,in particular,are,1,,wugs,daxes,"I find wugs, in particular, daxes to be cute.",converse_counterfactual,2,"Are ""wugs"" the result of ""daxes""?",No
+41,instantiation,in particular,are,1,,wugs,daxes,"I find wugs, in particular, daxes to be cute.",converse_counterfactual,3,"Are ""wugs"" the reason for ""daxes""?",No
+41,instantiation,in particular,are,1,,wugs,daxes,"I find wugs, in particular, daxes to be cute.",converse_counterfactual,4,"Are ""wugs"" equivalent to ""daxes""?",No
+42,instantiation,in particular,are,2,,wugs,feps,"I find wugs, in particular, feps to be cute.",targeted,-1,"Are ""feps"" an example of ""wugs""?",Yes
+42,instantiation,in particular,are,2,,wugs,feps,"I find wugs, in particular, feps to be cute.",converse,-1,"Are ""wugs"" being exemplified by ""feps""?",Yes
+42,instantiation,in particular,are,2,,wugs,feps,"I find wugs, in particular, feps to be cute.",counterfactual,0,"Are ""feps"" contrasted with ""wugs""?",No
+42,instantiation,in particular,are,2,,wugs,feps,"I find wugs, in particular, feps to be cute.",counterfactual,1,"Are ""feps"" denied or contradicted with ""wugs""?",No
+42,instantiation,in particular,are,2,,wugs,feps,"I find wugs, in particular, feps to be cute.",counterfactual,2,"Are ""feps"" the reason for ""wugs""?",No
+42,instantiation,in particular,are,2,,wugs,feps,"I find wugs, in particular, feps to be cute.",counterfactual,3,"Are ""feps"" the result of ""wugs""?",No
+42,instantiation,in particular,are,2,,wugs,feps,"I find wugs, in particular, feps to be cute.",counterfactual,4,"Are ""feps"" equivalent to ""wugs""?",No
+42,instantiation,in particular,are,2,,wugs,feps,"I find wugs, in particular, feps to be cute.",converse_counterfactual,0,"Are ""wugs"" contrasted with ""feps""?",No
+42,instantiation,in particular,are,2,,wugs,feps,"I find wugs, in particular, feps to be cute.",converse_counterfactual,1,"Does ""wugs"" deny or contradict with ""feps""?",No
+42,instantiation,in particular,are,2,,wugs,feps,"I find wugs, in particular, feps to be cute.",converse_counterfactual,2,"Are ""wugs"" the result of ""feps""?",No
+42,instantiation,in particular,are,2,,wugs,feps,"I find wugs, in particular, feps to be cute.",converse_counterfactual,3,"Are ""wugs"" the reason for ""feps""?",No
+42,instantiation,in particular,are,2,,wugs,feps,"I find wugs, in particular, feps to be cute.",converse_counterfactual,4,"Are ""wugs"" equivalent to ""feps""?",No
+43,instantiation,in particular,are,3,,wugs,blickets,"I find wugs, in particular, blickets to be cute.",targeted,-1,"Are ""blickets"" an example of ""wugs""?",Yes
+43,instantiation,in particular,are,3,,wugs,blickets,"I find wugs, in particular, blickets to be cute.",converse,-1,"Are ""wugs"" being exemplified by ""blickets""?",Yes
+43,instantiation,in particular,are,3,,wugs,blickets,"I find wugs, in particular, blickets to be cute.",counterfactual,0,"Are ""blickets"" contrasted with ""wugs""?",No
+43,instantiation,in particular,are,3,,wugs,blickets,"I find wugs, in particular, blickets to be cute.",counterfactual,1,"Are ""blickets"" denied or contradicted with ""wugs""?",No
+43,instantiation,in particular,are,3,,wugs,blickets,"I find wugs, in particular, blickets to be cute.",counterfactual,2,"Are ""blickets"" the reason for ""wugs""?",No
+43,instantiation,in particular,are,3,,wugs,blickets,"I find wugs, in particular, blickets to be cute.",counterfactual,3,"Are ""blickets"" the result of ""wugs""?",No
+43,instantiation,in particular,are,3,,wugs,blickets,"I find wugs, in particular, blickets to be cute.",counterfactual,4,"Are ""blickets"" equivalent to ""wugs""?",No
+43,instantiation,in particular,are,3,,wugs,blickets,"I find wugs, in particular, blickets to be cute.",converse_counterfactual,0,"Are ""wugs"" contrasted with ""blickets""?",No
+43,instantiation,in particular,are,3,,wugs,blickets,"I find wugs, in particular, blickets to be cute.",converse_counterfactual,1,"Does ""wugs"" deny or contradict with ""blickets""?",No
+43,instantiation,in particular,are,3,,wugs,blickets,"I find wugs, in particular, blickets to be cute.",converse_counterfactual,2,"Are ""wugs"" the result of ""blickets""?",No
+43,instantiation,in particular,are,3,,wugs,blickets,"I find wugs, in particular, blickets to be cute.",converse_counterfactual,3,"Are ""wugs"" the reason for ""blickets""?",No
+43,instantiation,in particular,are,3,,wugs,blickets,"I find wugs, in particular, blickets to be cute.",converse_counterfactual,4,"Are ""wugs"" equivalent to ""blickets""?",No
+44,instantiation,in particular,are,4,,wugs,geks,"I find wugs, in particular, geks to be cute.",targeted,-1,"Are ""geks"" an example of ""wugs""?",Yes
+44,instantiation,in particular,are,4,,wugs,geks,"I find wugs, in particular, geks to be cute.",converse,-1,"Are ""wugs"" being exemplified by ""geks""?",Yes
+44,instantiation,in particular,are,4,,wugs,geks,"I find wugs, in particular, geks to be cute.",counterfactual,0,"Are ""geks"" contrasted with ""wugs""?",No
+44,instantiation,in particular,are,4,,wugs,geks,"I find wugs, in particular, geks to be cute.",counterfactual,1,"Are ""geks"" denied or contradicted with ""wugs""?",No
+44,instantiation,in particular,are,4,,wugs,geks,"I find wugs, in particular, geks to be cute.",counterfactual,2,"Are ""geks"" the reason for ""wugs""?",No
+44,instantiation,in particular,are,4,,wugs,geks,"I find wugs, in particular, geks to be cute.",counterfactual,3,"Are ""geks"" the result of ""wugs""?",No
+44,instantiation,in particular,are,4,,wugs,geks,"I find wugs, in particular, geks to be cute.",counterfactual,4,"Are ""geks"" equivalent to ""wugs""?",No
+44,instantiation,in particular,are,4,,wugs,geks,"I find wugs, in particular, geks to be cute.",converse_counterfactual,0,"Are ""wugs"" contrasted with ""geks""?",No
+44,instantiation,in particular,are,4,,wugs,geks,"I find wugs, in particular, geks to be cute.",converse_counterfactual,1,"Does ""wugs"" deny or contradict with ""geks""?",No
+44,instantiation,in particular,are,4,,wugs,geks,"I find wugs, in particular, geks to be cute.",converse_counterfactual,2,"Are ""wugs"" the result of ""geks""?",No
+44,instantiation,in particular,are,4,,wugs,geks,"I find wugs, in particular, geks to be cute.",converse_counterfactual,3,"Are ""wugs"" the reason for ""geks""?",No
+44,instantiation,in particular,are,4,,wugs,geks,"I find wugs, in particular, geks to be cute.",converse_counterfactual,4,"Are ""wugs"" equivalent to ""geks""?",No
+45,instantiation,in particular,are,5,,daxes,feps,"I find daxes, in particular, feps to be awful.",targeted,-1,"Are ""feps"" an example of ""daxes""?",Yes
+45,instantiation,in particular,are,5,,daxes,feps,"I find daxes, in particular, feps to be awful.",converse,-1,"Are ""daxes"" being exemplified by ""feps""?",Yes
+45,instantiation,in particular,are,5,,daxes,feps,"I find daxes, in particular, feps to be awful.",counterfactual,0,"Are ""feps"" contrasted with ""daxes""?",No
+45,instantiation,in particular,are,5,,daxes,feps,"I find daxes, in particular, feps to be awful.",counterfactual,1,"Are ""feps"" denied or contradicted with ""daxes""?",No
+45,instantiation,in particular,are,5,,daxes,feps,"I find daxes, in particular, feps to be awful.",counterfactual,2,"Are ""feps"" the reason for ""daxes""?",No
+45,instantiation,in particular,are,5,,daxes,feps,"I find daxes, in particular, feps to be awful.",counterfactual,3,"Are ""feps"" the result of ""daxes""?",No
+45,instantiation,in particular,are,5,,daxes,feps,"I find daxes, in particular, feps to be awful.",counterfactual,4,"Are ""feps"" equivalent to ""daxes""?",No
+45,instantiation,in particular,are,5,,daxes,feps,"I find daxes, in particular, feps to be awful.",converse_counterfactual,0,"Are ""daxes"" contrasted with ""feps""?",No
+45,instantiation,in particular,are,5,,daxes,feps,"I find daxes, in particular, feps to be awful.",converse_counterfactual,1,"Does ""daxes"" deny or contradict with ""feps""?",No
+45,instantiation,in particular,are,5,,daxes,feps,"I find daxes, in particular, feps to be awful.",converse_counterfactual,2,"Are ""daxes"" the result of ""feps""?",No
+45,instantiation,in particular,are,5,,daxes,feps,"I find daxes, in particular, feps to be awful.",converse_counterfactual,3,"Are ""daxes"" the reason for ""feps""?",No
+45,instantiation,in particular,are,5,,daxes,feps,"I find daxes, in particular, feps to be awful.",converse_counterfactual,4,"Are ""daxes"" equivalent to ""feps""?",No
+46,instantiation,in particular,are,6,,daxes,blickets,"I find daxes, in particular, blickets to be awful.",targeted,-1,"Are ""blickets"" an example of ""daxes""?",Yes
+46,instantiation,in particular,are,6,,daxes,blickets,"I find daxes, in particular, blickets to be awful.",converse,-1,"Are ""daxes"" being exemplified by ""blickets""?",Yes
+46,instantiation,in particular,are,6,,daxes,blickets,"I find daxes, in particular, blickets to be awful.",counterfactual,0,"Are ""blickets"" contrasted with ""daxes""?",No
+46,instantiation,in particular,are,6,,daxes,blickets,"I find daxes, in particular, blickets to be awful.",counterfactual,1,"Are ""blickets"" denied or contradicted with ""daxes""?",No
+46,instantiation,in particular,are,6,,daxes,blickets,"I find daxes, in particular, blickets to be awful.",counterfactual,2,"Are ""blickets"" the reason for ""daxes""?",No
+46,instantiation,in particular,are,6,,daxes,blickets,"I find daxes, in particular, blickets to be awful.",counterfactual,3,"Are ""blickets"" the result of ""daxes""?",No
+46,instantiation,in particular,are,6,,daxes,blickets,"I find daxes, in particular, blickets to be awful.",counterfactual,4,"Are ""blickets"" equivalent to ""daxes""?",No
+46,instantiation,in particular,are,6,,daxes,blickets,"I find daxes, in particular, blickets to be awful.",converse_counterfactual,0,"Are ""daxes"" contrasted with ""blickets""?",No
+46,instantiation,in particular,are,6,,daxes,blickets,"I find daxes, in particular, blickets to be awful.",converse_counterfactual,1,"Does ""daxes"" deny or contradict with ""blickets""?",No
+46,instantiation,in particular,are,6,,daxes,blickets,"I find daxes, in particular, blickets to be awful.",converse_counterfactual,2,"Are ""daxes"" the result of ""blickets""?",No
+46,instantiation,in particular,are,6,,daxes,blickets,"I find daxes, in particular, blickets to be awful.",converse_counterfactual,3,"Are ""daxes"" the reason for ""blickets""?",No
+46,instantiation,in particular,are,6,,daxes,blickets,"I find daxes, in particular, blickets to be awful.",converse_counterfactual,4,"Are ""daxes"" equivalent to ""blickets""?",No
+47,instantiation,in particular,are,7,,daxes,geks,"I find daxes, in particular, geks to be awful.",targeted,-1,"Are ""geks"" an example of ""daxes""?",Yes
+47,instantiation,in particular,are,7,,daxes,geks,"I find daxes, in particular, geks to be awful.",converse,-1,"Are ""daxes"" being exemplified by ""geks""?",Yes
+47,instantiation,in particular,are,7,,daxes,geks,"I find daxes, in particular, geks to be awful.",counterfactual,0,"Are ""geks"" contrasted with ""daxes""?",No
+47,instantiation,in particular,are,7,,daxes,geks,"I find daxes, in particular, geks to be awful.",counterfactual,1,"Are ""geks"" denied or contradicted with ""daxes""?",No
+47,instantiation,in particular,are,7,,daxes,geks,"I find daxes, in particular, geks to be awful.",counterfactual,2,"Are ""geks"" the reason for ""daxes""?",No
+47,instantiation,in particular,are,7,,daxes,geks,"I find daxes, in particular, geks to be awful.",counterfactual,3,"Are ""geks"" the result of ""daxes""?",No
+47,instantiation,in particular,are,7,,daxes,geks,"I find daxes, in particular, geks to be awful.",counterfactual,4,"Are ""geks"" equivalent to ""daxes""?",No
+47,instantiation,in particular,are,7,,daxes,geks,"I find daxes, in particular, geks to be awful.",converse_counterfactual,0,"Are ""daxes"" contrasted with ""geks""?",No
+47,instantiation,in particular,are,7,,daxes,geks,"I find daxes, in particular, geks to be awful.",converse_counterfactual,1,"Does ""daxes"" deny or contradict with ""geks""?",No
+47,instantiation,in particular,are,7,,daxes,geks,"I find daxes, in particular, geks to be awful.",converse_counterfactual,2,"Are ""daxes"" the result of ""geks""?",No
+47,instantiation,in particular,are,7,,daxes,geks,"I find daxes, in particular, geks to be awful.",converse_counterfactual,3,"Are ""daxes"" the reason for ""geks""?",No
+47,instantiation,in particular,are,7,,daxes,geks,"I find daxes, in particular, geks to be awful.",converse_counterfactual,4,"Are ""daxes"" equivalent to ""geks""?",No
+48,instantiation,in particular,are,8,,feps,blickets,"I find feps, in particular, blickets to be cute.",targeted,-1,"Are ""blickets"" an example of ""feps""?",Yes
+48,instantiation,in particular,are,8,,feps,blickets,"I find feps, in particular, blickets to be cute.",converse,-1,"Are ""feps"" being exemplified by ""blickets""?",Yes
+48,instantiation,in particular,are,8,,feps,blickets,"I find feps, in particular, blickets to be cute.",counterfactual,0,"Are ""blickets"" contrasted with ""feps""?",No
+48,instantiation,in particular,are,8,,feps,blickets,"I find feps, in particular, blickets to be cute.",counterfactual,1,"Are ""blickets"" denied or contradicted with ""feps""?",No
+48,instantiation,in particular,are,8,,feps,blickets,"I find feps, in particular, blickets to be cute.",counterfactual,2,"Are ""blickets"" the reason for ""feps""?",No
+48,instantiation,in particular,are,8,,feps,blickets,"I find feps, in particular, blickets to be cute.",counterfactual,3,"Are ""blickets"" the result of ""feps""?",No
+48,instantiation,in particular,are,8,,feps,blickets,"I find feps, in particular, blickets to be cute.",counterfactual,4,"Are ""blickets"" equivalent to ""feps""?",No
+48,instantiation,in particular,are,8,,feps,blickets,"I find feps, in particular, blickets to be cute.",converse_counterfactual,0,"Are ""feps"" contrasted with ""blickets""?",No
+48,instantiation,in particular,are,8,,feps,blickets,"I find feps, in particular, blickets to be cute.",converse_counterfactual,1,"Does ""feps"" deny or contradict with ""blickets""?",No
+48,instantiation,in particular,are,8,,feps,blickets,"I find feps, in particular, blickets to be cute.",converse_counterfactual,2,"Are ""feps"" the result of ""blickets""?",No
+48,instantiation,in particular,are,8,,feps,blickets,"I find feps, in particular, blickets to be cute.",converse_counterfactual,3,"Are ""feps"" the reason for ""blickets""?",No
+48,instantiation,in particular,are,8,,feps,blickets,"I find feps, in particular, blickets to be cute.",converse_counterfactual,4,"Are ""feps"" equivalent to ""blickets""?",No
+49,instantiation,in particular,are,9,,feps,geks,"I find feps, in particular, geks to be cute.",targeted,-1,"Are ""geks"" an example of ""feps""?",Yes
+49,instantiation,in particular,are,9,,feps,geks,"I find feps, in particular, geks to be cute.",converse,-1,"Are ""feps"" being exemplified by ""geks""?",Yes
+49,instantiation,in particular,are,9,,feps,geks,"I find feps, in particular, geks to be cute.",counterfactual,0,"Are ""geks"" contrasted with ""feps""?",No
+49,instantiation,in particular,are,9,,feps,geks,"I find feps, in particular, geks to be cute.",counterfactual,1,"Are ""geks"" denied or contradicted with ""feps""?",No
+49,instantiation,in particular,are,9,,feps,geks,"I find feps, in particular, geks to be cute.",counterfactual,2,"Are ""geks"" the reason for ""feps""?",No
+49,instantiation,in particular,are,9,,feps,geks,"I find feps, in particular, geks to be cute.",counterfactual,3,"Are ""geks"" the result of ""feps""?",No
+49,instantiation,in particular,are,9,,feps,geks,"I find feps, in particular, geks to be cute.",counterfactual,4,"Are ""geks"" equivalent to ""feps""?",No
+49,instantiation,in particular,are,9,,feps,geks,"I find feps, in particular, geks to be cute.",converse_counterfactual,0,"Are ""feps"" contrasted with ""geks""?",No
+49,instantiation,in particular,are,9,,feps,geks,"I find feps, in particular, geks to be cute.",converse_counterfactual,1,"Does ""feps"" deny or contradict with ""geks""?",No
+49,instantiation,in particular,are,9,,feps,geks,"I find feps, in particular, geks to be cute.",converse_counterfactual,2,"Are ""feps"" the result of ""geks""?",No
+49,instantiation,in particular,are,9,,feps,geks,"I find feps, in particular, geks to be cute.",converse_counterfactual,3,"Are ""feps"" the reason for ""geks""?",No
+49,instantiation,in particular,are,9,,feps,geks,"I find feps, in particular, geks to be cute.",converse_counterfactual,4,"Are ""feps"" equivalent to ""geks""?",No
+50,instantiation,in particular,are,10,,blickets,geks,"I find blickets, in particular, geks to be awful.",targeted,-1,"Are ""geks"" an example of ""blickets""?",Yes
+50,instantiation,in particular,are,10,,blickets,geks,"I find blickets, in particular, geks to be awful.",converse,-1,"Are ""blickets"" being exemplified by ""geks""?",Yes
+50,instantiation,in particular,are,10,,blickets,geks,"I find blickets, in particular, geks to be awful.",counterfactual,0,"Are ""geks"" contrasted with ""blickets""?",No
+50,instantiation,in particular,are,10,,blickets,geks,"I find blickets, in particular, geks to be awful.",counterfactual,1,"Are ""geks"" denied or contradicted with ""blickets""?",No
+50,instantiation,in particular,are,10,,blickets,geks,"I find blickets, in particular, geks to be awful.",counterfactual,2,"Are ""geks"" the reason for ""blickets""?",No
+50,instantiation,in particular,are,10,,blickets,geks,"I find blickets, in particular, geks to be awful.",counterfactual,3,"Are ""geks"" the result of ""blickets""?",No
+50,instantiation,in particular,are,10,,blickets,geks,"I find blickets, in particular, geks to be awful.",counterfactual,4,"Are ""geks"" equivalent to ""blickets""?",No
+50,instantiation,in particular,are,10,,blickets,geks,"I find blickets, in particular, geks to be awful.",converse_counterfactual,0,"Are ""blickets"" contrasted with ""geks""?",No
+50,instantiation,in particular,are,10,,blickets,geks,"I find blickets, in particular, geks to be awful.",converse_counterfactual,1,"Does ""blickets"" deny or contradict with ""geks""?",No
+50,instantiation,in particular,are,10,,blickets,geks,"I find blickets, in particular, geks to be awful.",converse_counterfactual,2,"Are ""blickets"" the result of ""geks""?",No
+50,instantiation,in particular,are,10,,blickets,geks,"I find blickets, in particular, geks to be awful.",converse_counterfactual,3,"Are ""blickets"" the reason for ""geks""?",No
+50,instantiation,in particular,are,10,,blickets,geks,"I find blickets, in particular, geks to be awful.",converse_counterfactual,4,"Are ""blickets"" equivalent to ""geks""?",No
+51,instantiation,in particular,are,1,,wugs,daxes,"I find wugs, in particular, daxes to be awful.",targeted,-1,"Are ""daxes"" an example of ""wugs""?",Yes
+51,instantiation,in particular,are,1,,wugs,daxes,"I find wugs, in particular, daxes to be awful.",converse,-1,"Are ""wugs"" being exemplified by ""daxes""?",Yes
+51,instantiation,in particular,are,1,,wugs,daxes,"I find wugs, in particular, daxes to be awful.",counterfactual,0,"Are ""daxes"" contrasted with ""wugs""?",No
+51,instantiation,in particular,are,1,,wugs,daxes,"I find wugs, in particular, daxes to be awful.",counterfactual,1,"Are ""daxes"" denied or contradicted with ""wugs""?",No
+51,instantiation,in particular,are,1,,wugs,daxes,"I find wugs, in particular, daxes to be awful.",counterfactual,2,"Are ""daxes"" the reason for ""wugs""?",No
+51,instantiation,in particular,are,1,,wugs,daxes,"I find wugs, in particular, daxes to be awful.",counterfactual,3,"Are ""daxes"" the result of ""wugs""?",No
+51,instantiation,in particular,are,1,,wugs,daxes,"I find wugs, in particular, daxes to be awful.",counterfactual,4,"Are ""daxes"" equivalent to ""wugs""?",No
+51,instantiation,in particular,are,1,,wugs,daxes,"I find wugs, in particular, daxes to be awful.",converse_counterfactual,0,"Are ""wugs"" contrasted with ""daxes""?",No
+51,instantiation,in particular,are,1,,wugs,daxes,"I find wugs, in particular, daxes to be awful.",converse_counterfactual,1,"Does ""wugs"" deny or contradict with ""daxes""?",No
+51,instantiation,in particular,are,1,,wugs,daxes,"I find wugs, in particular, daxes to be awful.",converse_counterfactual,2,"Are ""wugs"" the result of ""daxes""?",No
+51,instantiation,in particular,are,1,,wugs,daxes,"I find wugs, in particular, daxes to be awful.",converse_counterfactual,3,"Are ""wugs"" the reason for ""daxes""?",No
+51,instantiation,in particular,are,1,,wugs,daxes,"I find wugs, in particular, daxes to be awful.",converse_counterfactual,4,"Are ""wugs"" equivalent to ""daxes""?",No
+52,instantiation,in particular,are,2,,wugs,feps,"I find wugs, in particular, feps to be awful.",targeted,-1,"Are ""feps"" an example of ""wugs""?",Yes
+52,instantiation,in particular,are,2,,wugs,feps,"I find wugs, in particular, feps to be awful.",converse,-1,"Are ""wugs"" being exemplified by ""feps""?",Yes
+52,instantiation,in particular,are,2,,wugs,feps,"I find wugs, in particular, feps to be awful.",counterfactual,0,"Are ""feps"" contrasted with ""wugs""?",No
+52,instantiation,in particular,are,2,,wugs,feps,"I find wugs, in particular, feps to be awful.",counterfactual,1,"Are ""feps"" denied or contradicted with ""wugs""?",No
+52,instantiation,in particular,are,2,,wugs,feps,"I find wugs, in particular, feps to be awful.",counterfactual,2,"Are ""feps"" the reason for ""wugs""?",No
+52,instantiation,in particular,are,2,,wugs,feps,"I find wugs, in particular, feps to be awful.",counterfactual,3,"Are ""feps"" the result of ""wugs""?",No
+52,instantiation,in particular,are,2,,wugs,feps,"I find wugs, in particular, feps to be awful.",counterfactual,4,"Are ""feps"" equivalent to ""wugs""?",No
+52,instantiation,in particular,are,2,,wugs,feps,"I find wugs, in particular, feps to be awful.",converse_counterfactual,0,"Are ""wugs"" contrasted with ""feps""?",No
+52,instantiation,in particular,are,2,,wugs,feps,"I find wugs, in particular, feps to be awful.",converse_counterfactual,1,"Does ""wugs"" deny or contradict with ""feps""?",No
+52,instantiation,in particular,are,2,,wugs,feps,"I find wugs, in particular, feps to be awful.",converse_counterfactual,2,"Are ""wugs"" the result of ""feps""?",No
+52,instantiation,in particular,are,2,,wugs,feps,"I find wugs, in particular, feps to be awful.",converse_counterfactual,3,"Are ""wugs"" the reason for ""feps""?",No
+52,instantiation,in particular,are,2,,wugs,feps,"I find wugs, in particular, feps to be awful.",converse_counterfactual,4,"Are ""wugs"" equivalent to ""feps""?",No
+53,instantiation,in particular,are,3,,wugs,blickets,"I find wugs, in particular, blickets to be awful.",targeted,-1,"Are ""blickets"" an example of ""wugs""?",Yes
+53,instantiation,in particular,are,3,,wugs,blickets,"I find wugs, in particular, blickets to be awful.",converse,-1,"Are ""wugs"" being exemplified by ""blickets""?",Yes
+53,instantiation,in particular,are,3,,wugs,blickets,"I find wugs, in particular, blickets to be awful.",counterfactual,0,"Are ""blickets"" contrasted with ""wugs""?",No
+53,instantiation,in particular,are,3,,wugs,blickets,"I find wugs, in particular, blickets to be awful.",counterfactual,1,"Are ""blickets"" denied or contradicted with ""wugs""?",No
+53,instantiation,in particular,are,3,,wugs,blickets,"I find wugs, in particular, blickets to be awful.",counterfactual,2,"Are ""blickets"" the reason for ""wugs""?",No
+53,instantiation,in particular,are,3,,wugs,blickets,"I find wugs, in particular, blickets to be awful.",counterfactual,3,"Are ""blickets"" the result of ""wugs""?",No
+53,instantiation,in particular,are,3,,wugs,blickets,"I find wugs, in particular, blickets to be awful.",counterfactual,4,"Are ""blickets"" equivalent to ""wugs""?",No
+53,instantiation,in particular,are,3,,wugs,blickets,"I find wugs, in particular, blickets to be awful.",converse_counterfactual,0,"Are ""wugs"" contrasted with ""blickets""?",No
+53,instantiation,in particular,are,3,,wugs,blickets,"I find wugs, in particular, blickets to be awful.",converse_counterfactual,1,"Does ""wugs"" deny or contradict with ""blickets""?",No
+53,instantiation,in particular,are,3,,wugs,blickets,"I find wugs, in particular, blickets to be awful.",converse_counterfactual,2,"Are ""wugs"" the result of ""blickets""?",No
+53,instantiation,in particular,are,3,,wugs,blickets,"I find wugs, in particular, blickets to be awful.",converse_counterfactual,3,"Are ""wugs"" the reason for ""blickets""?",No
+53,instantiation,in particular,are,3,,wugs,blickets,"I find wugs, in particular, blickets to be awful.",converse_counterfactual,4,"Are ""wugs"" equivalent to ""blickets""?",No
+54,instantiation,in particular,are,4,,wugs,geks,"I find wugs, in particular, geks to be cute.",targeted,-1,"Are ""geks"" an example of ""wugs""?",Yes
+54,instantiation,in particular,are,4,,wugs,geks,"I find wugs, in particular, geks to be cute.",converse,-1,"Are ""wugs"" being exemplified by ""geks""?",Yes
+54,instantiation,in particular,are,4,,wugs,geks,"I find wugs, in particular, geks to be cute.",counterfactual,0,"Are ""geks"" contrasted with ""wugs""?",No
+54,instantiation,in particular,are,4,,wugs,geks,"I find wugs, in particular, geks to be cute.",counterfactual,1,"Are ""geks"" denied or contradicted with ""wugs""?",No
+54,instantiation,in particular,are,4,,wugs,geks,"I find wugs, in particular, geks to be cute.",counterfactual,2,"Are ""geks"" the reason for ""wugs""?",No
+54,instantiation,in particular,are,4,,wugs,geks,"I find wugs, in particular, geks to be cute.",counterfactual,3,"Are ""geks"" the result of ""wugs""?",No
+54,instantiation,in particular,are,4,,wugs,geks,"I find wugs, in particular, geks to be cute.",counterfactual,4,"Are ""geks"" equivalent to ""wugs""?",No
+54,instantiation,in particular,are,4,,wugs,geks,"I find wugs, in particular, geks to be cute.",converse_counterfactual,0,"Are ""wugs"" contrasted with ""geks""?",No
+54,instantiation,in particular,are,4,,wugs,geks,"I find wugs, in particular, geks to be cute.",converse_counterfactual,1,"Does ""wugs"" deny or contradict with ""geks""?",No
+54,instantiation,in particular,are,4,,wugs,geks,"I find wugs, in particular, geks to be cute.",converse_counterfactual,2,"Are ""wugs"" the result of ""geks""?",No
+54,instantiation,in particular,are,4,,wugs,geks,"I find wugs, in particular, geks to be cute.",converse_counterfactual,3,"Are ""wugs"" the reason for ""geks""?",No
+54,instantiation,in particular,are,4,,wugs,geks,"I find wugs, in particular, geks to be cute.",converse_counterfactual,4,"Are ""wugs"" equivalent to ""geks""?",No
+55,instantiation,in particular,are,5,,daxes,feps,"I find daxes, in particular, feps to be cute.",targeted,-1,"Are ""feps"" an example of ""daxes""?",Yes
+55,instantiation,in particular,are,5,,daxes,feps,"I find daxes, in particular, feps to be cute.",converse,-1,"Are ""daxes"" being exemplified by ""feps""?",Yes
+55,instantiation,in particular,are,5,,daxes,feps,"I find daxes, in particular, feps to be cute.",counterfactual,0,"Are ""feps"" contrasted with ""daxes""?",No
+55,instantiation,in particular,are,5,,daxes,feps,"I find daxes, in particular, feps to be cute.",counterfactual,1,"Are ""feps"" denied or contradicted with ""daxes""?",No
+55,instantiation,in particular,are,5,,daxes,feps,"I find daxes, in particular, feps to be cute.",counterfactual,2,"Are ""feps"" the reason for ""daxes""?",No
+55,instantiation,in particular,are,5,,daxes,feps,"I find daxes, in particular, feps to be cute.",counterfactual,3,"Are ""feps"" the result of ""daxes""?",No
+55,instantiation,in particular,are,5,,daxes,feps,"I find daxes, in particular, feps to be cute.",counterfactual,4,"Are ""feps"" equivalent to ""daxes""?",No
+55,instantiation,in particular,are,5,,daxes,feps,"I find daxes, in particular, feps to be cute.",converse_counterfactual,0,"Are ""daxes"" contrasted with ""feps""?",No
+55,instantiation,in particular,are,5,,daxes,feps,"I find daxes, in particular, feps to be cute.",converse_counterfactual,1,"Does ""daxes"" deny or contradict with ""feps""?",No
+55,instantiation,in particular,are,5,,daxes,feps,"I find daxes, in particular, feps to be cute.",converse_counterfactual,2,"Are ""daxes"" the result of ""feps""?",No
+55,instantiation,in particular,are,5,,daxes,feps,"I find daxes, in particular, feps to be cute.",converse_counterfactual,3,"Are ""daxes"" the reason for ""feps""?",No
+55,instantiation,in particular,are,5,,daxes,feps,"I find daxes, in particular, feps to be cute.",converse_counterfactual,4,"Are ""daxes"" equivalent to ""feps""?",No
+56,instantiation,in particular,are,6,,daxes,blickets,"I find daxes, in particular, blickets to be awful.",targeted,-1,"Are ""blickets"" an example of ""daxes""?",Yes
+56,instantiation,in particular,are,6,,daxes,blickets,"I find daxes, in particular, blickets to be awful.",converse,-1,"Are ""daxes"" being exemplified by ""blickets""?",Yes
+56,instantiation,in particular,are,6,,daxes,blickets,"I find daxes, in particular, blickets to be awful.",counterfactual,0,"Are ""blickets"" contrasted with ""daxes""?",No
+56,instantiation,in particular,are,6,,daxes,blickets,"I find daxes, in particular, blickets to be awful.",counterfactual,1,"Are ""blickets"" denied or contradicted with ""daxes""?",No
+56,instantiation,in particular,are,6,,daxes,blickets,"I find daxes, in particular, blickets to be awful.",counterfactual,2,"Are ""blickets"" the reason for ""daxes""?",No
+56,instantiation,in particular,are,6,,daxes,blickets,"I find daxes, in particular, blickets to be awful.",counterfactual,3,"Are ""blickets"" the result of ""daxes""?",No
+56,instantiation,in particular,are,6,,daxes,blickets,"I find daxes, in particular, blickets to be awful.",counterfactual,4,"Are ""blickets"" equivalent to ""daxes""?",No
+56,instantiation,in particular,are,6,,daxes,blickets,"I find daxes, in particular, blickets to be awful.",converse_counterfactual,0,"Are ""daxes"" contrasted with ""blickets""?",No
+56,instantiation,in particular,are,6,,daxes,blickets,"I find daxes, in particular, blickets to be awful.",converse_counterfactual,1,"Does ""daxes"" deny or contradict with ""blickets""?",No
+56,instantiation,in particular,are,6,,daxes,blickets,"I find daxes, in particular, blickets to be awful.",converse_counterfactual,2,"Are ""daxes"" the result of ""blickets""?",No
+56,instantiation,in particular,are,6,,daxes,blickets,"I find daxes, in particular, blickets to be awful.",converse_counterfactual,3,"Are ""daxes"" the reason for ""blickets""?",No
+56,instantiation,in particular,are,6,,daxes,blickets,"I find daxes, in particular, blickets to be awful.",converse_counterfactual,4,"Are ""daxes"" equivalent to ""blickets""?",No
+57,instantiation,in particular,are,7,,daxes,geks,"I find daxes, in particular, geks to be awful.",targeted,-1,"Are ""geks"" an example of ""daxes""?",Yes
+57,instantiation,in particular,are,7,,daxes,geks,"I find daxes, in particular, geks to be awful.",converse,-1,"Are ""daxes"" being exemplified by ""geks""?",Yes
+57,instantiation,in particular,are,7,,daxes,geks,"I find daxes, in particular, geks to be awful.",counterfactual,0,"Are ""geks"" contrasted with ""daxes""?",No
+57,instantiation,in particular,are,7,,daxes,geks,"I find daxes, in particular, geks to be awful.",counterfactual,1,"Are ""geks"" denied or contradicted with ""daxes""?",No
+57,instantiation,in particular,are,7,,daxes,geks,"I find daxes, in particular, geks to be awful.",counterfactual,2,"Are ""geks"" the reason for ""daxes""?",No
+57,instantiation,in particular,are,7,,daxes,geks,"I find daxes, in particular, geks to be awful.",counterfactual,3,"Are ""geks"" the result of ""daxes""?",No
+57,instantiation,in particular,are,7,,daxes,geks,"I find daxes, in particular, geks to be awful.",counterfactual,4,"Are ""geks"" equivalent to ""daxes""?",No
+57,instantiation,in particular,are,7,,daxes,geks,"I find daxes, in particular, geks to be awful.",converse_counterfactual,0,"Are ""daxes"" contrasted with ""geks""?",No
+57,instantiation,in particular,are,7,,daxes,geks,"I find daxes, in particular, geks to be awful.",converse_counterfactual,1,"Does ""daxes"" deny or contradict with ""geks""?",No
+57,instantiation,in particular,are,7,,daxes,geks,"I find daxes, in particular, geks to be awful.",converse_counterfactual,2,"Are ""daxes"" the result of ""geks""?",No
+57,instantiation,in particular,are,7,,daxes,geks,"I find daxes, in particular, geks to be awful.",converse_counterfactual,3,"Are ""daxes"" the reason for ""geks""?",No
+57,instantiation,in particular,are,7,,daxes,geks,"I find daxes, in particular, geks to be awful.",converse_counterfactual,4,"Are ""daxes"" equivalent to ""geks""?",No
+58,instantiation,in particular,are,8,,feps,blickets,"I find feps, in particular, blickets to be awful.",targeted,-1,"Are ""blickets"" an example of ""feps""?",Yes
+58,instantiation,in particular,are,8,,feps,blickets,"I find feps, in particular, blickets to be awful.",converse,-1,"Are ""feps"" being exemplified by ""blickets""?",Yes
+58,instantiation,in particular,are,8,,feps,blickets,"I find feps, in particular, blickets to be awful.",counterfactual,0,"Are ""blickets"" contrasted with ""feps""?",No
+58,instantiation,in particular,are,8,,feps,blickets,"I find feps, in particular, blickets to be awful.",counterfactual,1,"Are ""blickets"" denied or contradicted with ""feps""?",No
+58,instantiation,in particular,are,8,,feps,blickets,"I find feps, in particular, blickets to be awful.",counterfactual,2,"Are ""blickets"" the reason for ""feps""?",No
+58,instantiation,in particular,are,8,,feps,blickets,"I find feps, in particular, blickets to be awful.",counterfactual,3,"Are ""blickets"" the result of ""feps""?",No
+58,instantiation,in particular,are,8,,feps,blickets,"I find feps, in particular, blickets to be awful.",counterfactual,4,"Are ""blickets"" equivalent to ""feps""?",No
+58,instantiation,in particular,are,8,,feps,blickets,"I find feps, in particular, blickets to be awful.",converse_counterfactual,0,"Are ""feps"" contrasted with ""blickets""?",No
+58,instantiation,in particular,are,8,,feps,blickets,"I find feps, in particular, blickets to be awful.",converse_counterfactual,1,"Does ""feps"" deny or contradict with ""blickets""?",No
+58,instantiation,in particular,are,8,,feps,blickets,"I find feps, in particular, blickets to be awful.",converse_counterfactual,2,"Are ""feps"" the result of ""blickets""?",No
+58,instantiation,in particular,are,8,,feps,blickets,"I find feps, in particular, blickets to be awful.",converse_counterfactual,3,"Are ""feps"" the reason for ""blickets""?",No
+58,instantiation,in particular,are,8,,feps,blickets,"I find feps, in particular, blickets to be awful.",converse_counterfactual,4,"Are ""feps"" equivalent to ""blickets""?",No
+59,instantiation,in particular,are,9,,feps,geks,"I find feps, in particular, geks to be awful.",targeted,-1,"Are ""geks"" an example of ""feps""?",Yes
+59,instantiation,in particular,are,9,,feps,geks,"I find feps, in particular, geks to be awful.",converse,-1,"Are ""feps"" being exemplified by ""geks""?",Yes
+59,instantiation,in particular,are,9,,feps,geks,"I find feps, in particular, geks to be awful.",counterfactual,0,"Are ""geks"" contrasted with ""feps""?",No
+59,instantiation,in particular,are,9,,feps,geks,"I find feps, in particular, geks to be awful.",counterfactual,1,"Are ""geks"" denied or contradicted with ""feps""?",No
+59,instantiation,in particular,are,9,,feps,geks,"I find feps, in particular, geks to be awful.",counterfactual,2,"Are ""geks"" the reason for ""feps""?",No
+59,instantiation,in particular,are,9,,feps,geks,"I find feps, in particular, geks to be awful.",counterfactual,3,"Are ""geks"" the result of ""feps""?",No
+59,instantiation,in particular,are,9,,feps,geks,"I find feps, in particular, geks to be awful.",counterfactual,4,"Are ""geks"" equivalent to ""feps""?",No
+59,instantiation,in particular,are,9,,feps,geks,"I find feps, in particular, geks to be awful.",converse_counterfactual,0,"Are ""feps"" contrasted with ""geks""?",No
+59,instantiation,in particular,are,9,,feps,geks,"I find feps, in particular, geks to be awful.",converse_counterfactual,1,"Does ""feps"" deny or contradict with ""geks""?",No
+59,instantiation,in particular,are,9,,feps,geks,"I find feps, in particular, geks to be awful.",converse_counterfactual,2,"Are ""feps"" the result of ""geks""?",No
+59,instantiation,in particular,are,9,,feps,geks,"I find feps, in particular, geks to be awful.",converse_counterfactual,3,"Are ""feps"" the reason for ""geks""?",No
+59,instantiation,in particular,are,9,,feps,geks,"I find feps, in particular, geks to be awful.",converse_counterfactual,4,"Are ""feps"" equivalent to ""geks""?",No
+60,instantiation,in particular,are,10,,blickets,geks,"I find blickets, in particular, geks to be cute.",targeted,-1,"Are ""geks"" an example of ""blickets""?",Yes
+60,instantiation,in particular,are,10,,blickets,geks,"I find blickets, in particular, geks to be cute.",converse,-1,"Are ""blickets"" being exemplified by ""geks""?",Yes
+60,instantiation,in particular,are,10,,blickets,geks,"I find blickets, in particular, geks to be cute.",counterfactual,0,"Are ""geks"" contrasted with ""blickets""?",No
+60,instantiation,in particular,are,10,,blickets,geks,"I find blickets, in particular, geks to be cute.",counterfactual,1,"Are ""geks"" denied or contradicted with ""blickets""?",No
+60,instantiation,in particular,are,10,,blickets,geks,"I find blickets, in particular, geks to be cute.",counterfactual,2,"Are ""geks"" the reason for ""blickets""?",No
+60,instantiation,in particular,are,10,,blickets,geks,"I find blickets, in particular, geks to be cute.",counterfactual,3,"Are ""geks"" the result of ""blickets""?",No
+60,instantiation,in particular,are,10,,blickets,geks,"I find blickets, in particular, geks to be cute.",counterfactual,4,"Are ""geks"" equivalent to ""blickets""?",No
+60,instantiation,in particular,are,10,,blickets,geks,"I find blickets, in particular, geks to be cute.",converse_counterfactual,0,"Are ""blickets"" contrasted with ""geks""?",No
+60,instantiation,in particular,are,10,,blickets,geks,"I find blickets, in particular, geks to be cute.",converse_counterfactual,1,"Does ""blickets"" deny or contradict with ""geks""?",No
+60,instantiation,in particular,are,10,,blickets,geks,"I find blickets, in particular, geks to be cute.",converse_counterfactual,2,"Are ""blickets"" the result of ""geks""?",No
+60,instantiation,in particular,are,10,,blickets,geks,"I find blickets, in particular, geks to be cute.",converse_counterfactual,3,"Are ""blickets"" the reason for ""geks""?",No
+60,instantiation,in particular,are,10,,blickets,geks,"I find blickets, in particular, geks to be cute.",converse_counterfactual,4,"Are ""blickets"" equivalent to ""geks""?",No
+61,instantiation,specifically,are,1,,wugs,daxes,"I find wugs, specifically, daxes to be cute.",targeted,-1,"Are ""daxes"" an example of ""wugs""?",Yes
+61,instantiation,specifically,are,1,,wugs,daxes,"I find wugs, specifically, daxes to be cute.",converse,-1,"Are ""wugs"" being exemplified by ""daxes""?",Yes
+61,instantiation,specifically,are,1,,wugs,daxes,"I find wugs, specifically, daxes to be cute.",counterfactual,0,"Are ""daxes"" contrasted with ""wugs""?",No
+61,instantiation,specifically,are,1,,wugs,daxes,"I find wugs, specifically, daxes to be cute.",counterfactual,1,"Are ""daxes"" denied or contradicted with ""wugs""?",No
+61,instantiation,specifically,are,1,,wugs,daxes,"I find wugs, specifically, daxes to be cute.",counterfactual,2,"Are ""daxes"" the reason for ""wugs""?",No
+61,instantiation,specifically,are,1,,wugs,daxes,"I find wugs, specifically, daxes to be cute.",counterfactual,3,"Are ""daxes"" the result of ""wugs""?",No
+61,instantiation,specifically,are,1,,wugs,daxes,"I find wugs, specifically, daxes to be cute.",counterfactual,4,"Are ""daxes"" equivalent to ""wugs""?",No
+61,instantiation,specifically,are,1,,wugs,daxes,"I find wugs, specifically, daxes to be cute.",converse_counterfactual,0,"Are ""wugs"" contrasted with ""daxes""?",No
+61,instantiation,specifically,are,1,,wugs,daxes,"I find wugs, specifically, daxes to be cute.",converse_counterfactual,1,"Does ""wugs"" deny or contradict with ""daxes""?",No
+61,instantiation,specifically,are,1,,wugs,daxes,"I find wugs, specifically, daxes to be cute.",converse_counterfactual,2,"Are ""wugs"" the result of ""daxes""?",No
+61,instantiation,specifically,are,1,,wugs,daxes,"I find wugs, specifically, daxes to be cute.",converse_counterfactual,3,"Are ""wugs"" the reason for ""daxes""?",No
+61,instantiation,specifically,are,1,,wugs,daxes,"I find wugs, specifically, daxes to be cute.",converse_counterfactual,4,"Are ""wugs"" equivalent to ""daxes""?",No
+62,instantiation,specifically,are,2,,wugs,feps,"I find wugs, specifically, feps to be cute.",targeted,-1,"Are ""feps"" an example of ""wugs""?",Yes
+62,instantiation,specifically,are,2,,wugs,feps,"I find wugs, specifically, feps to be cute.",converse,-1,"Are ""wugs"" being exemplified by ""feps""?",Yes
+62,instantiation,specifically,are,2,,wugs,feps,"I find wugs, specifically, feps to be cute.",counterfactual,0,"Are ""feps"" contrasted with ""wugs""?",No
+62,instantiation,specifically,are,2,,wugs,feps,"I find wugs, specifically, feps to be cute.",counterfactual,1,"Are ""feps"" denied or contradicted with ""wugs""?",No
+62,instantiation,specifically,are,2,,wugs,feps,"I find wugs, specifically, feps to be cute.",counterfactual,2,"Are ""feps"" the reason for ""wugs""?",No
+62,instantiation,specifically,are,2,,wugs,feps,"I find wugs, specifically, feps to be cute.",counterfactual,3,"Are ""feps"" the result of ""wugs""?",No
+62,instantiation,specifically,are,2,,wugs,feps,"I find wugs, specifically, feps to be cute.",counterfactual,4,"Are ""feps"" equivalent to ""wugs""?",No
+62,instantiation,specifically,are,2,,wugs,feps,"I find wugs, specifically, feps to be cute.",converse_counterfactual,0,"Are ""wugs"" contrasted with ""feps""?",No
+62,instantiation,specifically,are,2,,wugs,feps,"I find wugs, specifically, feps to be cute.",converse_counterfactual,1,"Does ""wugs"" deny or contradict with ""feps""?",No
+62,instantiation,specifically,are,2,,wugs,feps,"I find wugs, specifically, feps to be cute.",converse_counterfactual,2,"Are ""wugs"" the result of ""feps""?",No
+62,instantiation,specifically,are,2,,wugs,feps,"I find wugs, specifically, feps to be cute.",converse_counterfactual,3,"Are ""wugs"" the reason for ""feps""?",No
+62,instantiation,specifically,are,2,,wugs,feps,"I find wugs, specifically, feps to be cute.",converse_counterfactual,4,"Are ""wugs"" equivalent to ""feps""?",No
+63,instantiation,specifically,are,3,,wugs,blickets,"I find wugs, specifically, blickets to be cute.",targeted,-1,"Are ""blickets"" an example of ""wugs""?",Yes
+63,instantiation,specifically,are,3,,wugs,blickets,"I find wugs, specifically, blickets to be cute.",converse,-1,"Are ""wugs"" being exemplified by ""blickets""?",Yes
+63,instantiation,specifically,are,3,,wugs,blickets,"I find wugs, specifically, blickets to be cute.",counterfactual,0,"Are ""blickets"" contrasted with ""wugs""?",No
+63,instantiation,specifically,are,3,,wugs,blickets,"I find wugs, specifically, blickets to be cute.",counterfactual,1,"Are ""blickets"" denied or contradicted with ""wugs""?",No
+63,instantiation,specifically,are,3,,wugs,blickets,"I find wugs, specifically, blickets to be cute.",counterfactual,2,"Are ""blickets"" the reason for ""wugs""?",No
+63,instantiation,specifically,are,3,,wugs,blickets,"I find wugs, specifically, blickets to be cute.",counterfactual,3,"Are ""blickets"" the result of ""wugs""?",No
+63,instantiation,specifically,are,3,,wugs,blickets,"I find wugs, specifically, blickets to be cute.",counterfactual,4,"Are ""blickets"" equivalent to ""wugs""?",No
+63,instantiation,specifically,are,3,,wugs,blickets,"I find wugs, specifically, blickets to be cute.",converse_counterfactual,0,"Are ""wugs"" contrasted with ""blickets""?",No
+63,instantiation,specifically,are,3,,wugs,blickets,"I find wugs, specifically, blickets to be cute.",converse_counterfactual,1,"Does ""wugs"" deny or contradict with ""blickets""?",No
+63,instantiation,specifically,are,3,,wugs,blickets,"I find wugs, specifically, blickets to be cute.",converse_counterfactual,2,"Are ""wugs"" the result of ""blickets""?",No
+63,instantiation,specifically,are,3,,wugs,blickets,"I find wugs, specifically, blickets to be cute.",converse_counterfactual,3,"Are ""wugs"" the reason for ""blickets""?",No
+63,instantiation,specifically,are,3,,wugs,blickets,"I find wugs, specifically, blickets to be cute.",converse_counterfactual,4,"Are ""wugs"" equivalent to ""blickets""?",No
+64,instantiation,specifically,are,4,,wugs,geks,"I find wugs, specifically, geks to be awful.",targeted,-1,"Are ""geks"" an example of ""wugs""?",Yes
+64,instantiation,specifically,are,4,,wugs,geks,"I find wugs, specifically, geks to be awful.",converse,-1,"Are ""wugs"" being exemplified by ""geks""?",Yes
+64,instantiation,specifically,are,4,,wugs,geks,"I find wugs, specifically, geks to be awful.",counterfactual,0,"Are ""geks"" contrasted with ""wugs""?",No
+64,instantiation,specifically,are,4,,wugs,geks,"I find wugs, specifically, geks to be awful.",counterfactual,1,"Are ""geks"" denied or contradicted with ""wugs""?",No
+64,instantiation,specifically,are,4,,wugs,geks,"I find wugs, specifically, geks to be awful.",counterfactual,2,"Are ""geks"" the reason for ""wugs""?",No
+64,instantiation,specifically,are,4,,wugs,geks,"I find wugs, specifically, geks to be awful.",counterfactual,3,"Are ""geks"" the result of ""wugs""?",No
+64,instantiation,specifically,are,4,,wugs,geks,"I find wugs, specifically, geks to be awful.",counterfactual,4,"Are ""geks"" equivalent to ""wugs""?",No
+64,instantiation,specifically,are,4,,wugs,geks,"I find wugs, specifically, geks to be awful.",converse_counterfactual,0,"Are ""wugs"" contrasted with ""geks""?",No
+64,instantiation,specifically,are,4,,wugs,geks,"I find wugs, specifically, geks to be awful.",converse_counterfactual,1,"Does ""wugs"" deny or contradict with ""geks""?",No
+64,instantiation,specifically,are,4,,wugs,geks,"I find wugs, specifically, geks to be awful.",converse_counterfactual,2,"Are ""wugs"" the result of ""geks""?",No
+64,instantiation,specifically,are,4,,wugs,geks,"I find wugs, specifically, geks to be awful.",converse_counterfactual,3,"Are ""wugs"" the reason for ""geks""?",No
+64,instantiation,specifically,are,4,,wugs,geks,"I find wugs, specifically, geks to be awful.",converse_counterfactual,4,"Are ""wugs"" equivalent to ""geks""?",No
+65,instantiation,specifically,are,5,,daxes,feps,"I find daxes, specifically, feps to be awful.",targeted,-1,"Are ""feps"" an example of ""daxes""?",Yes
+65,instantiation,specifically,are,5,,daxes,feps,"I find daxes, specifically, feps to be awful.",converse,-1,"Are ""daxes"" being exemplified by ""feps""?",Yes
+65,instantiation,specifically,are,5,,daxes,feps,"I find daxes, specifically, feps to be awful.",counterfactual,0,"Are ""feps"" contrasted with ""daxes""?",No
+65,instantiation,specifically,are,5,,daxes,feps,"I find daxes, specifically, feps to be awful.",counterfactual,1,"Are ""feps"" denied or contradicted with ""daxes""?",No
+65,instantiation,specifically,are,5,,daxes,feps,"I find daxes, specifically, feps to be awful.",counterfactual,2,"Are ""feps"" the reason for ""daxes""?",No
+65,instantiation,specifically,are,5,,daxes,feps,"I find daxes, specifically, feps to be awful.",counterfactual,3,"Are ""feps"" the result of ""daxes""?",No
+65,instantiation,specifically,are,5,,daxes,feps,"I find daxes, specifically, feps to be awful.",counterfactual,4,"Are ""feps"" equivalent to ""daxes""?",No
+65,instantiation,specifically,are,5,,daxes,feps,"I find daxes, specifically, feps to be awful.",converse_counterfactual,0,"Are ""daxes"" contrasted with ""feps""?",No
+65,instantiation,specifically,are,5,,daxes,feps,"I find daxes, specifically, feps to be awful.",converse_counterfactual,1,"Does ""daxes"" deny or contradict with ""feps""?",No
+65,instantiation,specifically,are,5,,daxes,feps,"I find daxes, specifically, feps to be awful.",converse_counterfactual,2,"Are ""daxes"" the result of ""feps""?",No
+65,instantiation,specifically,are,5,,daxes,feps,"I find daxes, specifically, feps to be awful.",converse_counterfactual,3,"Are ""daxes"" the reason for ""feps""?",No
+65,instantiation,specifically,are,5,,daxes,feps,"I find daxes, specifically, feps to be awful.",converse_counterfactual,4,"Are ""daxes"" equivalent to ""feps""?",No
+66,instantiation,specifically,are,6,,daxes,blickets,"I find daxes, specifically, blickets to be cute.",targeted,-1,"Are ""blickets"" an example of ""daxes""?",Yes
+66,instantiation,specifically,are,6,,daxes,blickets,"I find daxes, specifically, blickets to be cute.",converse,-1,"Are ""daxes"" being exemplified by ""blickets""?",Yes
+66,instantiation,specifically,are,6,,daxes,blickets,"I find daxes, specifically, blickets to be cute.",counterfactual,0,"Are ""blickets"" contrasted with ""daxes""?",No
+66,instantiation,specifically,are,6,,daxes,blickets,"I find daxes, specifically, blickets to be cute.",counterfactual,1,"Are ""blickets"" denied or contradicted with ""daxes""?",No
+66,instantiation,specifically,are,6,,daxes,blickets,"I find daxes, specifically, blickets to be cute.",counterfactual,2,"Are ""blickets"" the reason for ""daxes""?",No
+66,instantiation,specifically,are,6,,daxes,blickets,"I find daxes, specifically, blickets to be cute.",counterfactual,3,"Are ""blickets"" the result of ""daxes""?",No
+66,instantiation,specifically,are,6,,daxes,blickets,"I find daxes, specifically, blickets to be cute.",counterfactual,4,"Are ""blickets"" equivalent to ""daxes""?",No
+66,instantiation,specifically,are,6,,daxes,blickets,"I find daxes, specifically, blickets to be cute.",converse_counterfactual,0,"Are ""daxes"" contrasted with ""blickets""?",No
+66,instantiation,specifically,are,6,,daxes,blickets,"I find daxes, specifically, blickets to be cute.",converse_counterfactual,1,"Does ""daxes"" deny or contradict with ""blickets""?",No
+66,instantiation,specifically,are,6,,daxes,blickets,"I find daxes, specifically, blickets to be cute.",converse_counterfactual,2,"Are ""daxes"" the result of ""blickets""?",No
+66,instantiation,specifically,are,6,,daxes,blickets,"I find daxes, specifically, blickets to be cute.",converse_counterfactual,3,"Are ""daxes"" the reason for ""blickets""?",No
+66,instantiation,specifically,are,6,,daxes,blickets,"I find daxes, specifically, blickets to be cute.",converse_counterfactual,4,"Are ""daxes"" equivalent to ""blickets""?",No
+67,instantiation,specifically,are,7,,daxes,geks,"I find daxes, specifically, geks to be awful.",targeted,-1,"Are ""geks"" an example of ""daxes""?",Yes
+67,instantiation,specifically,are,7,,daxes,geks,"I find daxes, specifically, geks to be awful.",converse,-1,"Are ""daxes"" being exemplified by ""geks""?",Yes
+67,instantiation,specifically,are,7,,daxes,geks,"I find daxes, specifically, geks to be awful.",counterfactual,0,"Are ""geks"" contrasted with ""daxes""?",No
+67,instantiation,specifically,are,7,,daxes,geks,"I find daxes, specifically, geks to be awful.",counterfactual,1,"Are ""geks"" denied or contradicted with ""daxes""?",No
+67,instantiation,specifically,are,7,,daxes,geks,"I find daxes, specifically, geks to be awful.",counterfactual,2,"Are ""geks"" the reason for ""daxes""?",No
+67,instantiation,specifically,are,7,,daxes,geks,"I find daxes, specifically, geks to be awful.",counterfactual,3,"Are ""geks"" the result of ""daxes""?",No
+67,instantiation,specifically,are,7,,daxes,geks,"I find daxes, specifically, geks to be awful.",counterfactual,4,"Are ""geks"" equivalent to ""daxes""?",No
+67,instantiation,specifically,are,7,,daxes,geks,"I find daxes, specifically, geks to be awful.",converse_counterfactual,0,"Are ""daxes"" contrasted with ""geks""?",No
+67,instantiation,specifically,are,7,,daxes,geks,"I find daxes, specifically, geks to be awful.",converse_counterfactual,1,"Does ""daxes"" deny or contradict with ""geks""?",No
+67,instantiation,specifically,are,7,,daxes,geks,"I find daxes, specifically, geks to be awful.",converse_counterfactual,2,"Are ""daxes"" the result of ""geks""?",No
+67,instantiation,specifically,are,7,,daxes,geks,"I find daxes, specifically, geks to be awful.",converse_counterfactual,3,"Are ""daxes"" the reason for ""geks""?",No
+67,instantiation,specifically,are,7,,daxes,geks,"I find daxes, specifically, geks to be awful.",converse_counterfactual,4,"Are ""daxes"" equivalent to ""geks""?",No
+68,instantiation,specifically,are,8,,feps,blickets,"I find feps, specifically, blickets to be awful.",targeted,-1,"Are ""blickets"" an example of ""feps""?",Yes
+68,instantiation,specifically,are,8,,feps,blickets,"I find feps, specifically, blickets to be awful.",converse,-1,"Are ""feps"" being exemplified by ""blickets""?",Yes
+68,instantiation,specifically,are,8,,feps,blickets,"I find feps, specifically, blickets to be awful.",counterfactual,0,"Are ""blickets"" contrasted with ""feps""?",No
+68,instantiation,specifically,are,8,,feps,blickets,"I find feps, specifically, blickets to be awful.",counterfactual,1,"Are ""blickets"" denied or contradicted with ""feps""?",No
+68,instantiation,specifically,are,8,,feps,blickets,"I find feps, specifically, blickets to be awful.",counterfactual,2,"Are ""blickets"" the reason for ""feps""?",No
+68,instantiation,specifically,are,8,,feps,blickets,"I find feps, specifically, blickets to be awful.",counterfactual,3,"Are ""blickets"" the result of ""feps""?",No
+68,instantiation,specifically,are,8,,feps,blickets,"I find feps, specifically, blickets to be awful.",counterfactual,4,"Are ""blickets"" equivalent to ""feps""?",No
+68,instantiation,specifically,are,8,,feps,blickets,"I find feps, specifically, blickets to be awful.",converse_counterfactual,0,"Are ""feps"" contrasted with ""blickets""?",No
+68,instantiation,specifically,are,8,,feps,blickets,"I find feps, specifically, blickets to be awful.",converse_counterfactual,1,"Does ""feps"" deny or contradict with ""blickets""?",No
+68,instantiation,specifically,are,8,,feps,blickets,"I find feps, specifically, blickets to be awful.",converse_counterfactual,2,"Are ""feps"" the result of ""blickets""?",No
+68,instantiation,specifically,are,8,,feps,blickets,"I find feps, specifically, blickets to be awful.",converse_counterfactual,3,"Are ""feps"" the reason for ""blickets""?",No
+68,instantiation,specifically,are,8,,feps,blickets,"I find feps, specifically, blickets to be awful.",converse_counterfactual,4,"Are ""feps"" equivalent to ""blickets""?",No
+69,instantiation,specifically,are,9,,feps,geks,"I find feps, specifically, geks to be awful.",targeted,-1,"Are ""geks"" an example of ""feps""?",Yes
+69,instantiation,specifically,are,9,,feps,geks,"I find feps, specifically, geks to be awful.",converse,-1,"Are ""feps"" being exemplified by ""geks""?",Yes
+69,instantiation,specifically,are,9,,feps,geks,"I find feps, specifically, geks to be awful.",counterfactual,0,"Are ""geks"" contrasted with ""feps""?",No
+69,instantiation,specifically,are,9,,feps,geks,"I find feps, specifically, geks to be awful.",counterfactual,1,"Are ""geks"" denied or contradicted with ""feps""?",No
+69,instantiation,specifically,are,9,,feps,geks,"I find feps, specifically, geks to be awful.",counterfactual,2,"Are ""geks"" the reason for ""feps""?",No
+69,instantiation,specifically,are,9,,feps,geks,"I find feps, specifically, geks to be awful.",counterfactual,3,"Are ""geks"" the result of ""feps""?",No
+69,instantiation,specifically,are,9,,feps,geks,"I find feps, specifically, geks to be awful.",counterfactual,4,"Are ""geks"" equivalent to ""feps""?",No
+69,instantiation,specifically,are,9,,feps,geks,"I find feps, specifically, geks to be awful.",converse_counterfactual,0,"Are ""feps"" contrasted with ""geks""?",No
+69,instantiation,specifically,are,9,,feps,geks,"I find feps, specifically, geks to be awful.",converse_counterfactual,1,"Does ""feps"" deny or contradict with ""geks""?",No
+69,instantiation,specifically,are,9,,feps,geks,"I find feps, specifically, geks to be awful.",converse_counterfactual,2,"Are ""feps"" the result of ""geks""?",No
+69,instantiation,specifically,are,9,,feps,geks,"I find feps, specifically, geks to be awful.",converse_counterfactual,3,"Are ""feps"" the reason for ""geks""?",No
+69,instantiation,specifically,are,9,,feps,geks,"I find feps, specifically, geks to be awful.",converse_counterfactual,4,"Are ""feps"" equivalent to ""geks""?",No
+70,instantiation,specifically,are,10,,blickets,geks,"I find blickets, specifically, geks to be cute.",targeted,-1,"Are ""geks"" an example of ""blickets""?",Yes
+70,instantiation,specifically,are,10,,blickets,geks,"I find blickets, specifically, geks to be cute.",converse,-1,"Are ""blickets"" being exemplified by ""geks""?",Yes
+70,instantiation,specifically,are,10,,blickets,geks,"I find blickets, specifically, geks to be cute.",counterfactual,0,"Are ""geks"" contrasted with ""blickets""?",No
+70,instantiation,specifically,are,10,,blickets,geks,"I find blickets, specifically, geks to be cute.",counterfactual,1,"Are ""geks"" denied or contradicted with ""blickets""?",No
+70,instantiation,specifically,are,10,,blickets,geks,"I find blickets, specifically, geks to be cute.",counterfactual,2,"Are ""geks"" the reason for ""blickets""?",No
+70,instantiation,specifically,are,10,,blickets,geks,"I find blickets, specifically, geks to be cute.",counterfactual,3,"Are ""geks"" the result of ""blickets""?",No
+70,instantiation,specifically,are,10,,blickets,geks,"I find blickets, specifically, geks to be cute.",counterfactual,4,"Are ""geks"" equivalent to ""blickets""?",No
+70,instantiation,specifically,are,10,,blickets,geks,"I find blickets, specifically, geks to be cute.",converse_counterfactual,0,"Are ""blickets"" contrasted with ""geks""?",No
+70,instantiation,specifically,are,10,,blickets,geks,"I find blickets, specifically, geks to be cute.",converse_counterfactual,1,"Does ""blickets"" deny or contradict with ""geks""?",No
+70,instantiation,specifically,are,10,,blickets,geks,"I find blickets, specifically, geks to be cute.",converse_counterfactual,2,"Are ""blickets"" the result of ""geks""?",No
+70,instantiation,specifically,are,10,,blickets,geks,"I find blickets, specifically, geks to be cute.",converse_counterfactual,3,"Are ""blickets"" the reason for ""geks""?",No
+70,instantiation,specifically,are,10,,blickets,geks,"I find blickets, specifically, geks to be cute.",converse_counterfactual,4,"Are ""blickets"" equivalent to ""geks""?",No
+71,instantiation,specifically,are,1,,wugs,daxes,"I find wugs, specifically, daxes to be awful.",targeted,-1,"Are ""daxes"" an example of ""wugs""?",Yes
+71,instantiation,specifically,are,1,,wugs,daxes,"I find wugs, specifically, daxes to be awful.",converse,-1,"Are ""wugs"" being exemplified by ""daxes""?",Yes
+71,instantiation,specifically,are,1,,wugs,daxes,"I find wugs, specifically, daxes to be awful.",counterfactual,0,"Are ""daxes"" contrasted with ""wugs""?",No
+71,instantiation,specifically,are,1,,wugs,daxes,"I find wugs, specifically, daxes to be awful.",counterfactual,1,"Are ""daxes"" denied or contradicted with ""wugs""?",No
+71,instantiation,specifically,are,1,,wugs,daxes,"I find wugs, specifically, daxes to be awful.",counterfactual,2,"Are ""daxes"" the reason for ""wugs""?",No
+71,instantiation,specifically,are,1,,wugs,daxes,"I find wugs, specifically, daxes to be awful.",counterfactual,3,"Are ""daxes"" the result of ""wugs""?",No
+71,instantiation,specifically,are,1,,wugs,daxes,"I find wugs, specifically, daxes to be awful.",counterfactual,4,"Are ""daxes"" equivalent to ""wugs""?",No
+71,instantiation,specifically,are,1,,wugs,daxes,"I find wugs, specifically, daxes to be awful.",converse_counterfactual,0,"Are ""wugs"" contrasted with ""daxes""?",No
+71,instantiation,specifically,are,1,,wugs,daxes,"I find wugs, specifically, daxes to be awful.",converse_counterfactual,1,"Does ""wugs"" deny or contradict with ""daxes""?",No
+71,instantiation,specifically,are,1,,wugs,daxes,"I find wugs, specifically, daxes to be awful.",converse_counterfactual,2,"Are ""wugs"" the result of ""daxes""?",No
+71,instantiation,specifically,are,1,,wugs,daxes,"I find wugs, specifically, daxes to be awful.",converse_counterfactual,3,"Are ""wugs"" the reason for ""daxes""?",No
+71,instantiation,specifically,are,1,,wugs,daxes,"I find wugs, specifically, daxes to be awful.",converse_counterfactual,4,"Are ""wugs"" equivalent to ""daxes""?",No
+72,instantiation,specifically,are,2,,wugs,feps,"I find wugs, specifically, feps to be awful.",targeted,-1,"Are ""feps"" an example of ""wugs""?",Yes
+72,instantiation,specifically,are,2,,wugs,feps,"I find wugs, specifically, feps to be awful.",converse,-1,"Are ""wugs"" being exemplified by ""feps""?",Yes
+72,instantiation,specifically,are,2,,wugs,feps,"I find wugs, specifically, feps to be awful.",counterfactual,0,"Are ""feps"" contrasted with ""wugs""?",No
+72,instantiation,specifically,are,2,,wugs,feps,"I find wugs, specifically, feps to be awful.",counterfactual,1,"Are ""feps"" denied or contradicted with ""wugs""?",No
+72,instantiation,specifically,are,2,,wugs,feps,"I find wugs, specifically, feps to be awful.",counterfactual,2,"Are ""feps"" the reason for ""wugs""?",No
+72,instantiation,specifically,are,2,,wugs,feps,"I find wugs, specifically, feps to be awful.",counterfactual,3,"Are ""feps"" the result of ""wugs""?",No
+72,instantiation,specifically,are,2,,wugs,feps,"I find wugs, specifically, feps to be awful.",counterfactual,4,"Are ""feps"" equivalent to ""wugs""?",No
+72,instantiation,specifically,are,2,,wugs,feps,"I find wugs, specifically, feps to be awful.",converse_counterfactual,0,"Are ""wugs"" contrasted with ""feps""?",No
+72,instantiation,specifically,are,2,,wugs,feps,"I find wugs, specifically, feps to be awful.",converse_counterfactual,1,"Does ""wugs"" deny or contradict with ""feps""?",No
+72,instantiation,specifically,are,2,,wugs,feps,"I find wugs, specifically, feps to be awful.",converse_counterfactual,2,"Are ""wugs"" the result of ""feps""?",No
+72,instantiation,specifically,are,2,,wugs,feps,"I find wugs, specifically, feps to be awful.",converse_counterfactual,3,"Are ""wugs"" the reason for ""feps""?",No
+72,instantiation,specifically,are,2,,wugs,feps,"I find wugs, specifically, feps to be awful.",converse_counterfactual,4,"Are ""wugs"" equivalent to ""feps""?",No
+73,instantiation,specifically,are,3,,wugs,blickets,"I find wugs, specifically, blickets to be cute.",targeted,-1,"Are ""blickets"" an example of ""wugs""?",Yes
+73,instantiation,specifically,are,3,,wugs,blickets,"I find wugs, specifically, blickets to be cute.",converse,-1,"Are ""wugs"" being exemplified by ""blickets""?",Yes
+73,instantiation,specifically,are,3,,wugs,blickets,"I find wugs, specifically, blickets to be cute.",counterfactual,0,"Are ""blickets"" contrasted with ""wugs""?",No
+73,instantiation,specifically,are,3,,wugs,blickets,"I find wugs, specifically, blickets to be cute.",counterfactual,1,"Are ""blickets"" denied or contradicted with ""wugs""?",No
+73,instantiation,specifically,are,3,,wugs,blickets,"I find wugs, specifically, blickets to be cute.",counterfactual,2,"Are ""blickets"" the reason for ""wugs""?",No
+73,instantiation,specifically,are,3,,wugs,blickets,"I find wugs, specifically, blickets to be cute.",counterfactual,3,"Are ""blickets"" the result of ""wugs""?",No
+73,instantiation,specifically,are,3,,wugs,blickets,"I find wugs, specifically, blickets to be cute.",counterfactual,4,"Are ""blickets"" equivalent to ""wugs""?",No
+73,instantiation,specifically,are,3,,wugs,blickets,"I find wugs, specifically, blickets to be cute.",converse_counterfactual,0,"Are ""wugs"" contrasted with ""blickets""?",No
+73,instantiation,specifically,are,3,,wugs,blickets,"I find wugs, specifically, blickets to be cute.",converse_counterfactual,1,"Does ""wugs"" deny or contradict with ""blickets""?",No
+73,instantiation,specifically,are,3,,wugs,blickets,"I find wugs, specifically, blickets to be cute.",converse_counterfactual,2,"Are ""wugs"" the result of ""blickets""?",No
+73,instantiation,specifically,are,3,,wugs,blickets,"I find wugs, specifically, blickets to be cute.",converse_counterfactual,3,"Are ""wugs"" the reason for ""blickets""?",No
+73,instantiation,specifically,are,3,,wugs,blickets,"I find wugs, specifically, blickets to be cute.",converse_counterfactual,4,"Are ""wugs"" equivalent to ""blickets""?",No
+74,instantiation,specifically,are,4,,wugs,geks,"I find wugs, specifically, geks to be cute.",targeted,-1,"Are ""geks"" an example of ""wugs""?",Yes
+74,instantiation,specifically,are,4,,wugs,geks,"I find wugs, specifically, geks to be cute.",converse,-1,"Are ""wugs"" being exemplified by ""geks""?",Yes
+74,instantiation,specifically,are,4,,wugs,geks,"I find wugs, specifically, geks to be cute.",counterfactual,0,"Are ""geks"" contrasted with ""wugs""?",No
+74,instantiation,specifically,are,4,,wugs,geks,"I find wugs, specifically, geks to be cute.",counterfactual,1,"Are ""geks"" denied or contradicted with ""wugs""?",No
+74,instantiation,specifically,are,4,,wugs,geks,"I find wugs, specifically, geks to be cute.",counterfactual,2,"Are ""geks"" the reason for ""wugs""?",No
+74,instantiation,specifically,are,4,,wugs,geks,"I find wugs, specifically, geks to be cute.",counterfactual,3,"Are ""geks"" the result of ""wugs""?",No
+74,instantiation,specifically,are,4,,wugs,geks,"I find wugs, specifically, geks to be cute.",counterfactual,4,"Are ""geks"" equivalent to ""wugs""?",No
+74,instantiation,specifically,are,4,,wugs,geks,"I find wugs, specifically, geks to be cute.",converse_counterfactual,0,"Are ""wugs"" contrasted with ""geks""?",No
+74,instantiation,specifically,are,4,,wugs,geks,"I find wugs, specifically, geks to be cute.",converse_counterfactual,1,"Does ""wugs"" deny or contradict with ""geks""?",No
+74,instantiation,specifically,are,4,,wugs,geks,"I find wugs, specifically, geks to be cute.",converse_counterfactual,2,"Are ""wugs"" the result of ""geks""?",No
+74,instantiation,specifically,are,4,,wugs,geks,"I find wugs, specifically, geks to be cute.",converse_counterfactual,3,"Are ""wugs"" the reason for ""geks""?",No
+74,instantiation,specifically,are,4,,wugs,geks,"I find wugs, specifically, geks to be cute.",converse_counterfactual,4,"Are ""wugs"" equivalent to ""geks""?",No
+75,instantiation,specifically,are,5,,daxes,feps,"I find daxes, specifically, feps to be cute.",targeted,-1,"Are ""feps"" an example of ""daxes""?",Yes
+75,instantiation,specifically,are,5,,daxes,feps,"I find daxes, specifically, feps to be cute.",converse,-1,"Are ""daxes"" being exemplified by ""feps""?",Yes
+75,instantiation,specifically,are,5,,daxes,feps,"I find daxes, specifically, feps to be cute.",counterfactual,0,"Are ""feps"" contrasted with ""daxes""?",No
+75,instantiation,specifically,are,5,,daxes,feps,"I find daxes, specifically, feps to be cute.",counterfactual,1,"Are ""feps"" denied or contradicted with ""daxes""?",No
+75,instantiation,specifically,are,5,,daxes,feps,"I find daxes, specifically, feps to be cute.",counterfactual,2,"Are ""feps"" the reason for ""daxes""?",No
+75,instantiation,specifically,are,5,,daxes,feps,"I find daxes, specifically, feps to be cute.",counterfactual,3,"Are ""feps"" the result of ""daxes""?",No
+75,instantiation,specifically,are,5,,daxes,feps,"I find daxes, specifically, feps to be cute.",counterfactual,4,"Are ""feps"" equivalent to ""daxes""?",No
+75,instantiation,specifically,are,5,,daxes,feps,"I find daxes, specifically, feps to be cute.",converse_counterfactual,0,"Are ""daxes"" contrasted with ""feps""?",No
+75,instantiation,specifically,are,5,,daxes,feps,"I find daxes, specifically, feps to be cute.",converse_counterfactual,1,"Does ""daxes"" deny or contradict with ""feps""?",No
+75,instantiation,specifically,are,5,,daxes,feps,"I find daxes, specifically, feps to be cute.",converse_counterfactual,2,"Are ""daxes"" the result of ""feps""?",No
+75,instantiation,specifically,are,5,,daxes,feps,"I find daxes, specifically, feps to be cute.",converse_counterfactual,3,"Are ""daxes"" the reason for ""feps""?",No
+75,instantiation,specifically,are,5,,daxes,feps,"I find daxes, specifically, feps to be cute.",converse_counterfactual,4,"Are ""daxes"" equivalent to ""feps""?",No
+76,instantiation,specifically,are,6,,daxes,blickets,"I find daxes, specifically, blickets to be cute.",targeted,-1,"Are ""blickets"" an example of ""daxes""?",Yes
+76,instantiation,specifically,are,6,,daxes,blickets,"I find daxes, specifically, blickets to be cute.",converse,-1,"Are ""daxes"" being exemplified by ""blickets""?",Yes
+76,instantiation,specifically,are,6,,daxes,blickets,"I find daxes, specifically, blickets to be cute.",counterfactual,0,"Are ""blickets"" contrasted with ""daxes""?",No
+76,instantiation,specifically,are,6,,daxes,blickets,"I find daxes, specifically, blickets to be cute.",counterfactual,1,"Are ""blickets"" denied or contradicted with ""daxes""?",No
+76,instantiation,specifically,are,6,,daxes,blickets,"I find daxes, specifically, blickets to be cute.",counterfactual,2,"Are ""blickets"" the reason for ""daxes""?",No
+76,instantiation,specifically,are,6,,daxes,blickets,"I find daxes, specifically, blickets to be cute.",counterfactual,3,"Are ""blickets"" the result of ""daxes""?",No
+76,instantiation,specifically,are,6,,daxes,blickets,"I find daxes, specifically, blickets to be cute.",counterfactual,4,"Are ""blickets"" equivalent to ""daxes""?",No
+76,instantiation,specifically,are,6,,daxes,blickets,"I find daxes, specifically, blickets to be cute.",converse_counterfactual,0,"Are ""daxes"" contrasted with ""blickets""?",No
+76,instantiation,specifically,are,6,,daxes,blickets,"I find daxes, specifically, blickets to be cute.",converse_counterfactual,1,"Does ""daxes"" deny or contradict with ""blickets""?",No
+76,instantiation,specifically,are,6,,daxes,blickets,"I find daxes, specifically, blickets to be cute.",converse_counterfactual,2,"Are ""daxes"" the result of ""blickets""?",No
+76,instantiation,specifically,are,6,,daxes,blickets,"I find daxes, specifically, blickets to be cute.",converse_counterfactual,3,"Are ""daxes"" the reason for ""blickets""?",No
+76,instantiation,specifically,are,6,,daxes,blickets,"I find daxes, specifically, blickets to be cute.",converse_counterfactual,4,"Are ""daxes"" equivalent to ""blickets""?",No
+77,instantiation,specifically,are,7,,daxes,geks,"I find daxes, specifically, geks to be awful.",targeted,-1,"Are ""geks"" an example of ""daxes""?",Yes
+77,instantiation,specifically,are,7,,daxes,geks,"I find daxes, specifically, geks to be awful.",converse,-1,"Are ""daxes"" being exemplified by ""geks""?",Yes
+77,instantiation,specifically,are,7,,daxes,geks,"I find daxes, specifically, geks to be awful.",counterfactual,0,"Are ""geks"" contrasted with ""daxes""?",No
+77,instantiation,specifically,are,7,,daxes,geks,"I find daxes, specifically, geks to be awful.",counterfactual,1,"Are ""geks"" denied or contradicted with ""daxes""?",No
+77,instantiation,specifically,are,7,,daxes,geks,"I find daxes, specifically, geks to be awful.",counterfactual,2,"Are ""geks"" the reason for ""daxes""?",No
+77,instantiation,specifically,are,7,,daxes,geks,"I find daxes, specifically, geks to be awful.",counterfactual,3,"Are ""geks"" the result of ""daxes""?",No
+77,instantiation,specifically,are,7,,daxes,geks,"I find daxes, specifically, geks to be awful.",counterfactual,4,"Are ""geks"" equivalent to ""daxes""?",No
+77,instantiation,specifically,are,7,,daxes,geks,"I find daxes, specifically, geks to be awful.",converse_counterfactual,0,"Are ""daxes"" contrasted with ""geks""?",No
+77,instantiation,specifically,are,7,,daxes,geks,"I find daxes, specifically, geks to be awful.",converse_counterfactual,1,"Does ""daxes"" deny or contradict with ""geks""?",No
+77,instantiation,specifically,are,7,,daxes,geks,"I find daxes, specifically, geks to be awful.",converse_counterfactual,2,"Are ""daxes"" the result of ""geks""?",No
+77,instantiation,specifically,are,7,,daxes,geks,"I find daxes, specifically, geks to be awful.",converse_counterfactual,3,"Are ""daxes"" the reason for ""geks""?",No
+77,instantiation,specifically,are,7,,daxes,geks,"I find daxes, specifically, geks to be awful.",converse_counterfactual,4,"Are ""daxes"" equivalent to ""geks""?",No
+78,instantiation,specifically,are,8,,feps,blickets,"I find feps, specifically, blickets to be cute.",targeted,-1,"Are ""blickets"" an example of ""feps""?",Yes
+78,instantiation,specifically,are,8,,feps,blickets,"I find feps, specifically, blickets to be cute.",converse,-1,"Are ""feps"" being exemplified by ""blickets""?",Yes
+78,instantiation,specifically,are,8,,feps,blickets,"I find feps, specifically, blickets to be cute.",counterfactual,0,"Are ""blickets"" contrasted with ""feps""?",No
+78,instantiation,specifically,are,8,,feps,blickets,"I find feps, specifically, blickets to be cute.",counterfactual,1,"Are ""blickets"" denied or contradicted with ""feps""?",No
+78,instantiation,specifically,are,8,,feps,blickets,"I find feps, specifically, blickets to be cute.",counterfactual,2,"Are ""blickets"" the reason for ""feps""?",No
+78,instantiation,specifically,are,8,,feps,blickets,"I find feps, specifically, blickets to be cute.",counterfactual,3,"Are ""blickets"" the result of ""feps""?",No
+78,instantiation,specifically,are,8,,feps,blickets,"I find feps, specifically, blickets to be cute.",counterfactual,4,"Are ""blickets"" equivalent to ""feps""?",No
+78,instantiation,specifically,are,8,,feps,blickets,"I find feps, specifically, blickets to be cute.",converse_counterfactual,0,"Are ""feps"" contrasted with ""blickets""?",No
+78,instantiation,specifically,are,8,,feps,blickets,"I find feps, specifically, blickets to be cute.",converse_counterfactual,1,"Does ""feps"" deny or contradict with ""blickets""?",No
+78,instantiation,specifically,are,8,,feps,blickets,"I find feps, specifically, blickets to be cute.",converse_counterfactual,2,"Are ""feps"" the result of ""blickets""?",No
+78,instantiation,specifically,are,8,,feps,blickets,"I find feps, specifically, blickets to be cute.",converse_counterfactual,3,"Are ""feps"" the reason for ""blickets""?",No
+78,instantiation,specifically,are,8,,feps,blickets,"I find feps, specifically, blickets to be cute.",converse_counterfactual,4,"Are ""feps"" equivalent to ""blickets""?",No
+79,instantiation,specifically,are,9,,feps,geks,"I find feps, specifically, geks to be awful.",targeted,-1,"Are ""geks"" an example of ""feps""?",Yes
+79,instantiation,specifically,are,9,,feps,geks,"I find feps, specifically, geks to be awful.",converse,-1,"Are ""feps"" being exemplified by ""geks""?",Yes
+79,instantiation,specifically,are,9,,feps,geks,"I find feps, specifically, geks to be awful.",counterfactual,0,"Are ""geks"" contrasted with ""feps""?",No
+79,instantiation,specifically,are,9,,feps,geks,"I find feps, specifically, geks to be awful.",counterfactual,1,"Are ""geks"" denied or contradicted with ""feps""?",No
+79,instantiation,specifically,are,9,,feps,geks,"I find feps, specifically, geks to be awful.",counterfactual,2,"Are ""geks"" the reason for ""feps""?",No
+79,instantiation,specifically,are,9,,feps,geks,"I find feps, specifically, geks to be awful.",counterfactual,3,"Are ""geks"" the result of ""feps""?",No
+79,instantiation,specifically,are,9,,feps,geks,"I find feps, specifically, geks to be awful.",counterfactual,4,"Are ""geks"" equivalent to ""feps""?",No
+79,instantiation,specifically,are,9,,feps,geks,"I find feps, specifically, geks to be awful.",converse_counterfactual,0,"Are ""feps"" contrasted with ""geks""?",No
+79,instantiation,specifically,are,9,,feps,geks,"I find feps, specifically, geks to be awful.",converse_counterfactual,1,"Does ""feps"" deny or contradict with ""geks""?",No
+79,instantiation,specifically,are,9,,feps,geks,"I find feps, specifically, geks to be awful.",converse_counterfactual,2,"Are ""feps"" the result of ""geks""?",No
+79,instantiation,specifically,are,9,,feps,geks,"I find feps, specifically, geks to be awful.",converse_counterfactual,3,"Are ""feps"" the reason for ""geks""?",No
+79,instantiation,specifically,are,9,,feps,geks,"I find feps, specifically, geks to be awful.",converse_counterfactual,4,"Are ""feps"" equivalent to ""geks""?",No
+80,instantiation,specifically,are,10,,blickets,geks,"I find blickets, specifically, geks to be cute.",targeted,-1,"Are ""geks"" an example of ""blickets""?",Yes
+80,instantiation,specifically,are,10,,blickets,geks,"I find blickets, specifically, geks to be cute.",converse,-1,"Are ""blickets"" being exemplified by ""geks""?",Yes
+80,instantiation,specifically,are,10,,blickets,geks,"I find blickets, specifically, geks to be cute.",counterfactual,0,"Are ""geks"" contrasted with ""blickets""?",No
+80,instantiation,specifically,are,10,,blickets,geks,"I find blickets, specifically, geks to be cute.",counterfactual,1,"Are ""geks"" denied or contradicted with ""blickets""?",No
+80,instantiation,specifically,are,10,,blickets,geks,"I find blickets, specifically, geks to be cute.",counterfactual,2,"Are ""geks"" the reason for ""blickets""?",No
+80,instantiation,specifically,are,10,,blickets,geks,"I find blickets, specifically, geks to be cute.",counterfactual,3,"Are ""geks"" the result of ""blickets""?",No
+80,instantiation,specifically,are,10,,blickets,geks,"I find blickets, specifically, geks to be cute.",counterfactual,4,"Are ""geks"" equivalent to ""blickets""?",No
+80,instantiation,specifically,are,10,,blickets,geks,"I find blickets, specifically, geks to be cute.",converse_counterfactual,0,"Are ""blickets"" contrasted with ""geks""?",No
+80,instantiation,specifically,are,10,,blickets,geks,"I find blickets, specifically, geks to be cute.",converse_counterfactual,1,"Does ""blickets"" deny or contradict with ""geks""?",No
+80,instantiation,specifically,are,10,,blickets,geks,"I find blickets, specifically, geks to be cute.",converse_counterfactual,2,"Are ""blickets"" the result of ""geks""?",No
+80,instantiation,specifically,are,10,,blickets,geks,"I find blickets, specifically, geks to be cute.",converse_counterfactual,3,"Are ""blickets"" the reason for ""geks""?",No
+80,instantiation,specifically,are,10,,blickets,geks,"I find blickets, specifically, geks to be cute.",converse_counterfactual,4,"Are ""blickets"" equivalent to ""geks""?",No
+81,instantiation,such as,are,1,,wugs,daxes,"I find wugs such as daxes, to be awful.",targeted,-1,"Are ""daxes"" an example of ""wugs""?",Yes
+81,instantiation,such as,are,1,,wugs,daxes,"I find wugs such as daxes, to be awful.",converse,-1,"Are ""wugs"" being exemplified by ""daxes""?",Yes
+81,instantiation,such as,are,1,,wugs,daxes,"I find wugs such as daxes, to be awful.",counterfactual,0,"Are ""daxes"" contrasted with ""wugs""?",No
+81,instantiation,such as,are,1,,wugs,daxes,"I find wugs such as daxes, to be awful.",counterfactual,1,"Are ""daxes"" denied or contradicted with ""wugs""?",No
+81,instantiation,such as,are,1,,wugs,daxes,"I find wugs such as daxes, to be awful.",counterfactual,2,"Are ""daxes"" the reason for ""wugs""?",No
+81,instantiation,such as,are,1,,wugs,daxes,"I find wugs such as daxes, to be awful.",counterfactual,3,"Are ""daxes"" the result of ""wugs""?",No
+81,instantiation,such as,are,1,,wugs,daxes,"I find wugs such as daxes, to be awful.",counterfactual,4,"Are ""daxes"" equivalent to ""wugs""?",No
+81,instantiation,such as,are,1,,wugs,daxes,"I find wugs such as daxes, to be awful.",converse_counterfactual,0,"Are ""wugs"" contrasted with ""daxes""?",No
+81,instantiation,such as,are,1,,wugs,daxes,"I find wugs such as daxes, to be awful.",converse_counterfactual,1,"Does ""wugs"" deny or contradict with ""daxes""?",No
+81,instantiation,such as,are,1,,wugs,daxes,"I find wugs such as daxes, to be awful.",converse_counterfactual,2,"Are ""wugs"" the result of ""daxes""?",No
+81,instantiation,such as,are,1,,wugs,daxes,"I find wugs such as daxes, to be awful.",converse_counterfactual,3,"Are ""wugs"" the reason for ""daxes""?",No
+81,instantiation,such as,are,1,,wugs,daxes,"I find wugs such as daxes, to be awful.",converse_counterfactual,4,"Are ""wugs"" equivalent to ""daxes""?",No
+82,instantiation,such as,are,2,,wugs,feps,"I find wugs such as feps, to be awful.",targeted,-1,"Are ""feps"" an example of ""wugs""?",Yes
+82,instantiation,such as,are,2,,wugs,feps,"I find wugs such as feps, to be awful.",converse,-1,"Are ""wugs"" being exemplified by ""feps""?",Yes
+82,instantiation,such as,are,2,,wugs,feps,"I find wugs such as feps, to be awful.",counterfactual,0,"Are ""feps"" contrasted with ""wugs""?",No
+82,instantiation,such as,are,2,,wugs,feps,"I find wugs such as feps, to be awful.",counterfactual,1,"Are ""feps"" denied or contradicted with ""wugs""?",No
+82,instantiation,such as,are,2,,wugs,feps,"I find wugs such as feps, to be awful.",counterfactual,2,"Are ""feps"" the reason for ""wugs""?",No
+82,instantiation,such as,are,2,,wugs,feps,"I find wugs such as feps, to be awful.",counterfactual,3,"Are ""feps"" the result of ""wugs""?",No
+82,instantiation,such as,are,2,,wugs,feps,"I find wugs such as feps, to be awful.",counterfactual,4,"Are ""feps"" equivalent to ""wugs""?",No
+82,instantiation,such as,are,2,,wugs,feps,"I find wugs such as feps, to be awful.",converse_counterfactual,0,"Are ""wugs"" contrasted with ""feps""?",No
+82,instantiation,such as,are,2,,wugs,feps,"I find wugs such as feps, to be awful.",converse_counterfactual,1,"Does ""wugs"" deny or contradict with ""feps""?",No
+82,instantiation,such as,are,2,,wugs,feps,"I find wugs such as feps, to be awful.",converse_counterfactual,2,"Are ""wugs"" the result of ""feps""?",No
+82,instantiation,such as,are,2,,wugs,feps,"I find wugs such as feps, to be awful.",converse_counterfactual,3,"Are ""wugs"" the reason for ""feps""?",No
+82,instantiation,such as,are,2,,wugs,feps,"I find wugs such as feps, to be awful.",converse_counterfactual,4,"Are ""wugs"" equivalent to ""feps""?",No
+83,instantiation,such as,are,3,,wugs,blickets,"I find wugs such as blickets, to be cute.",targeted,-1,"Are ""blickets"" an example of ""wugs""?",Yes
+83,instantiation,such as,are,3,,wugs,blickets,"I find wugs such as blickets, to be cute.",converse,-1,"Are ""wugs"" being exemplified by ""blickets""?",Yes
+83,instantiation,such as,are,3,,wugs,blickets,"I find wugs such as blickets, to be cute.",counterfactual,0,"Are ""blickets"" contrasted with ""wugs""?",No
+83,instantiation,such as,are,3,,wugs,blickets,"I find wugs such as blickets, to be cute.",counterfactual,1,"Are ""blickets"" denied or contradicted with ""wugs""?",No
+83,instantiation,such as,are,3,,wugs,blickets,"I find wugs such as blickets, to be cute.",counterfactual,2,"Are ""blickets"" the reason for ""wugs""?",No
+83,instantiation,such as,are,3,,wugs,blickets,"I find wugs such as blickets, to be cute.",counterfactual,3,"Are ""blickets"" the result of ""wugs""?",No
+83,instantiation,such as,are,3,,wugs,blickets,"I find wugs such as blickets, to be cute.",counterfactual,4,"Are ""blickets"" equivalent to ""wugs""?",No
+83,instantiation,such as,are,3,,wugs,blickets,"I find wugs such as blickets, to be cute.",converse_counterfactual,0,"Are ""wugs"" contrasted with ""blickets""?",No
+83,instantiation,such as,are,3,,wugs,blickets,"I find wugs such as blickets, to be cute.",converse_counterfactual,1,"Does ""wugs"" deny or contradict with ""blickets""?",No
+83,instantiation,such as,are,3,,wugs,blickets,"I find wugs such as blickets, to be cute.",converse_counterfactual,2,"Are ""wugs"" the result of ""blickets""?",No
+83,instantiation,such as,are,3,,wugs,blickets,"I find wugs such as blickets, to be cute.",converse_counterfactual,3,"Are ""wugs"" the reason for ""blickets""?",No
+83,instantiation,such as,are,3,,wugs,blickets,"I find wugs such as blickets, to be cute.",converse_counterfactual,4,"Are ""wugs"" equivalent to ""blickets""?",No
+84,instantiation,such as,are,4,,wugs,geks,"I find wugs such as geks, to be awful.",targeted,-1,"Are ""geks"" an example of ""wugs""?",Yes
+84,instantiation,such as,are,4,,wugs,geks,"I find wugs such as geks, to be awful.",converse,-1,"Are ""wugs"" being exemplified by ""geks""?",Yes
+84,instantiation,such as,are,4,,wugs,geks,"I find wugs such as geks, to be awful.",counterfactual,0,"Are ""geks"" contrasted with ""wugs""?",No
+84,instantiation,such as,are,4,,wugs,geks,"I find wugs such as geks, to be awful.",counterfactual,1,"Are ""geks"" denied or contradicted with ""wugs""?",No
+84,instantiation,such as,are,4,,wugs,geks,"I find wugs such as geks, to be awful.",counterfactual,2,"Are ""geks"" the reason for ""wugs""?",No
+84,instantiation,such as,are,4,,wugs,geks,"I find wugs such as geks, to be awful.",counterfactual,3,"Are ""geks"" the result of ""wugs""?",No
+84,instantiation,such as,are,4,,wugs,geks,"I find wugs such as geks, to be awful.",counterfactual,4,"Are ""geks"" equivalent to ""wugs""?",No
+84,instantiation,such as,are,4,,wugs,geks,"I find wugs such as geks, to be awful.",converse_counterfactual,0,"Are ""wugs"" contrasted with ""geks""?",No
+84,instantiation,such as,are,4,,wugs,geks,"I find wugs such as geks, to be awful.",converse_counterfactual,1,"Does ""wugs"" deny or contradict with ""geks""?",No
+84,instantiation,such as,are,4,,wugs,geks,"I find wugs such as geks, to be awful.",converse_counterfactual,2,"Are ""wugs"" the result of ""geks""?",No
+84,instantiation,such as,are,4,,wugs,geks,"I find wugs such as geks, to be awful.",converse_counterfactual,3,"Are ""wugs"" the reason for ""geks""?",No
+84,instantiation,such as,are,4,,wugs,geks,"I find wugs such as geks, to be awful.",converse_counterfactual,4,"Are ""wugs"" equivalent to ""geks""?",No
+85,instantiation,such as,are,5,,daxes,feps,"I find daxes such as feps, to be awful.",targeted,-1,"Are ""feps"" an example of ""daxes""?",Yes
+85,instantiation,such as,are,5,,daxes,feps,"I find daxes such as feps, to be awful.",converse,-1,"Are ""daxes"" being exemplified by ""feps""?",Yes
+85,instantiation,such as,are,5,,daxes,feps,"I find daxes such as feps, to be awful.",counterfactual,0,"Are ""feps"" contrasted with ""daxes""?",No
+85,instantiation,such as,are,5,,daxes,feps,"I find daxes such as feps, to be awful.",counterfactual,1,"Are ""feps"" denied or contradicted with ""daxes""?",No
+85,instantiation,such as,are,5,,daxes,feps,"I find daxes such as feps, to be awful.",counterfactual,2,"Are ""feps"" the reason for ""daxes""?",No
+85,instantiation,such as,are,5,,daxes,feps,"I find daxes such as feps, to be awful.",counterfactual,3,"Are ""feps"" the result of ""daxes""?",No
+85,instantiation,such as,are,5,,daxes,feps,"I find daxes such as feps, to be awful.",counterfactual,4,"Are ""feps"" equivalent to ""daxes""?",No
+85,instantiation,such as,are,5,,daxes,feps,"I find daxes such as feps, to be awful.",converse_counterfactual,0,"Are ""daxes"" contrasted with ""feps""?",No
+85,instantiation,such as,are,5,,daxes,feps,"I find daxes such as feps, to be awful.",converse_counterfactual,1,"Does ""daxes"" deny or contradict with ""feps""?",No
+85,instantiation,such as,are,5,,daxes,feps,"I find daxes such as feps, to be awful.",converse_counterfactual,2,"Are ""daxes"" the result of ""feps""?",No
+85,instantiation,such as,are,5,,daxes,feps,"I find daxes such as feps, to be awful.",converse_counterfactual,3,"Are ""daxes"" the reason for ""feps""?",No
+85,instantiation,such as,are,5,,daxes,feps,"I find daxes such as feps, to be awful.",converse_counterfactual,4,"Are ""daxes"" equivalent to ""feps""?",No
+86,instantiation,such as,are,6,,daxes,blickets,"I find daxes such as blickets, to be cute.",targeted,-1,"Are ""blickets"" an example of ""daxes""?",Yes
+86,instantiation,such as,are,6,,daxes,blickets,"I find daxes such as blickets, to be cute.",converse,-1,"Are ""daxes"" being exemplified by ""blickets""?",Yes
+86,instantiation,such as,are,6,,daxes,blickets,"I find daxes such as blickets, to be cute.",counterfactual,0,"Are ""blickets"" contrasted with ""daxes""?",No
+86,instantiation,such as,are,6,,daxes,blickets,"I find daxes such as blickets, to be cute.",counterfactual,1,"Are ""blickets"" denied or contradicted with ""daxes""?",No
+86,instantiation,such as,are,6,,daxes,blickets,"I find daxes such as blickets, to be cute.",counterfactual,2,"Are ""blickets"" the reason for ""daxes""?",No
+86,instantiation,such as,are,6,,daxes,blickets,"I find daxes such as blickets, to be cute.",counterfactual,3,"Are ""blickets"" the result of ""daxes""?",No
+86,instantiation,such as,are,6,,daxes,blickets,"I find daxes such as blickets, to be cute.",counterfactual,4,"Are ""blickets"" equivalent to ""daxes""?",No
+86,instantiation,such as,are,6,,daxes,blickets,"I find daxes such as blickets, to be cute.",converse_counterfactual,0,"Are ""daxes"" contrasted with ""blickets""?",No
+86,instantiation,such as,are,6,,daxes,blickets,"I find daxes such as blickets, to be cute.",converse_counterfactual,1,"Does ""daxes"" deny or contradict with ""blickets""?",No
+86,instantiation,such as,are,6,,daxes,blickets,"I find daxes such as blickets, to be cute.",converse_counterfactual,2,"Are ""daxes"" the result of ""blickets""?",No
+86,instantiation,such as,are,6,,daxes,blickets,"I find daxes such as blickets, to be cute.",converse_counterfactual,3,"Are ""daxes"" the reason for ""blickets""?",No
+86,instantiation,such as,are,6,,daxes,blickets,"I find daxes such as blickets, to be cute.",converse_counterfactual,4,"Are ""daxes"" equivalent to ""blickets""?",No
+87,instantiation,such as,are,7,,daxes,geks,"I find daxes such as geks, to be cute.",targeted,-1,"Are ""geks"" an example of ""daxes""?",Yes
+87,instantiation,such as,are,7,,daxes,geks,"I find daxes such as geks, to be cute.",converse,-1,"Are ""daxes"" being exemplified by ""geks""?",Yes
+87,instantiation,such as,are,7,,daxes,geks,"I find daxes such as geks, to be cute.",counterfactual,0,"Are ""geks"" contrasted with ""daxes""?",No
+87,instantiation,such as,are,7,,daxes,geks,"I find daxes such as geks, to be cute.",counterfactual,1,"Are ""geks"" denied or contradicted with ""daxes""?",No
+87,instantiation,such as,are,7,,daxes,geks,"I find daxes such as geks, to be cute.",counterfactual,2,"Are ""geks"" the reason for ""daxes""?",No
+87,instantiation,such as,are,7,,daxes,geks,"I find daxes such as geks, to be cute.",counterfactual,3,"Are ""geks"" the result of ""daxes""?",No
+87,instantiation,such as,are,7,,daxes,geks,"I find daxes such as geks, to be cute.",counterfactual,4,"Are ""geks"" equivalent to ""daxes""?",No
+87,instantiation,such as,are,7,,daxes,geks,"I find daxes such as geks, to be cute.",converse_counterfactual,0,"Are ""daxes"" contrasted with ""geks""?",No
+87,instantiation,such as,are,7,,daxes,geks,"I find daxes such as geks, to be cute.",converse_counterfactual,1,"Does ""daxes"" deny or contradict with ""geks""?",No
+87,instantiation,such as,are,7,,daxes,geks,"I find daxes such as geks, to be cute.",converse_counterfactual,2,"Are ""daxes"" the result of ""geks""?",No
+87,instantiation,such as,are,7,,daxes,geks,"I find daxes such as geks, to be cute.",converse_counterfactual,3,"Are ""daxes"" the reason for ""geks""?",No
+87,instantiation,such as,are,7,,daxes,geks,"I find daxes such as geks, to be cute.",converse_counterfactual,4,"Are ""daxes"" equivalent to ""geks""?",No
+88,instantiation,such as,are,8,,feps,blickets,"I find feps such as blickets, to be awful.",targeted,-1,"Are ""blickets"" an example of ""feps""?",Yes
+88,instantiation,such as,are,8,,feps,blickets,"I find feps such as blickets, to be awful.",converse,-1,"Are ""feps"" being exemplified by ""blickets""?",Yes
+88,instantiation,such as,are,8,,feps,blickets,"I find feps such as blickets, to be awful.",counterfactual,0,"Are ""blickets"" contrasted with ""feps""?",No
+88,instantiation,such as,are,8,,feps,blickets,"I find feps such as blickets, to be awful.",counterfactual,1,"Are ""blickets"" denied or contradicted with ""feps""?",No
+88,instantiation,such as,are,8,,feps,blickets,"I find feps such as blickets, to be awful.",counterfactual,2,"Are ""blickets"" the reason for ""feps""?",No
+88,instantiation,such as,are,8,,feps,blickets,"I find feps such as blickets, to be awful.",counterfactual,3,"Are ""blickets"" the result of ""feps""?",No
+88,instantiation,such as,are,8,,feps,blickets,"I find feps such as blickets, to be awful.",counterfactual,4,"Are ""blickets"" equivalent to ""feps""?",No
+88,instantiation,such as,are,8,,feps,blickets,"I find feps such as blickets, to be awful.",converse_counterfactual,0,"Are ""feps"" contrasted with ""blickets""?",No
+88,instantiation,such as,are,8,,feps,blickets,"I find feps such as blickets, to be awful.",converse_counterfactual,1,"Does ""feps"" deny or contradict with ""blickets""?",No
+88,instantiation,such as,are,8,,feps,blickets,"I find feps such as blickets, to be awful.",converse_counterfactual,2,"Are ""feps"" the result of ""blickets""?",No
+88,instantiation,such as,are,8,,feps,blickets,"I find feps such as blickets, to be awful.",converse_counterfactual,3,"Are ""feps"" the reason for ""blickets""?",No
+88,instantiation,such as,are,8,,feps,blickets,"I find feps such as blickets, to be awful.",converse_counterfactual,4,"Are ""feps"" equivalent to ""blickets""?",No
+89,instantiation,such as,are,9,,feps,geks,"I find feps such as geks, to be cute.",targeted,-1,"Are ""geks"" an example of ""feps""?",Yes
+89,instantiation,such as,are,9,,feps,geks,"I find feps such as geks, to be cute.",converse,-1,"Are ""feps"" being exemplified by ""geks""?",Yes
+89,instantiation,such as,are,9,,feps,geks,"I find feps such as geks, to be cute.",counterfactual,0,"Are ""geks"" contrasted with ""feps""?",No
+89,instantiation,such as,are,9,,feps,geks,"I find feps such as geks, to be cute.",counterfactual,1,"Are ""geks"" denied or contradicted with ""feps""?",No
+89,instantiation,such as,are,9,,feps,geks,"I find feps such as geks, to be cute.",counterfactual,2,"Are ""geks"" the reason for ""feps""?",No
+89,instantiation,such as,are,9,,feps,geks,"I find feps such as geks, to be cute.",counterfactual,3,"Are ""geks"" the result of ""feps""?",No
+89,instantiation,such as,are,9,,feps,geks,"I find feps such as geks, to be cute.",counterfactual,4,"Are ""geks"" equivalent to ""feps""?",No
+89,instantiation,such as,are,9,,feps,geks,"I find feps such as geks, to be cute.",converse_counterfactual,0,"Are ""feps"" contrasted with ""geks""?",No
+89,instantiation,such as,are,9,,feps,geks,"I find feps such as geks, to be cute.",converse_counterfactual,1,"Does ""feps"" deny or contradict with ""geks""?",No
+89,instantiation,such as,are,9,,feps,geks,"I find feps such as geks, to be cute.",converse_counterfactual,2,"Are ""feps"" the result of ""geks""?",No
+89,instantiation,such as,are,9,,feps,geks,"I find feps such as geks, to be cute.",converse_counterfactual,3,"Are ""feps"" the reason for ""geks""?",No
+89,instantiation,such as,are,9,,feps,geks,"I find feps such as geks, to be cute.",converse_counterfactual,4,"Are ""feps"" equivalent to ""geks""?",No
+90,instantiation,such as,are,10,,blickets,geks,"I find blickets such as geks, to be cute.",targeted,-1,"Are ""geks"" an example of ""blickets""?",Yes
+90,instantiation,such as,are,10,,blickets,geks,"I find blickets such as geks, to be cute.",converse,-1,"Are ""blickets"" being exemplified by ""geks""?",Yes
+90,instantiation,such as,are,10,,blickets,geks,"I find blickets such as geks, to be cute.",counterfactual,0,"Are ""geks"" contrasted with ""blickets""?",No
+90,instantiation,such as,are,10,,blickets,geks,"I find blickets such as geks, to be cute.",counterfactual,1,"Are ""geks"" denied or contradicted with ""blickets""?",No
+90,instantiation,such as,are,10,,blickets,geks,"I find blickets such as geks, to be cute.",counterfactual,2,"Are ""geks"" the reason for ""blickets""?",No
+90,instantiation,such as,are,10,,blickets,geks,"I find blickets such as geks, to be cute.",counterfactual,3,"Are ""geks"" the result of ""blickets""?",No
+90,instantiation,such as,are,10,,blickets,geks,"I find blickets such as geks, to be cute.",counterfactual,4,"Are ""geks"" equivalent to ""blickets""?",No
+90,instantiation,such as,are,10,,blickets,geks,"I find blickets such as geks, to be cute.",converse_counterfactual,0,"Are ""blickets"" contrasted with ""geks""?",No
+90,instantiation,such as,are,10,,blickets,geks,"I find blickets such as geks, to be cute.",converse_counterfactual,1,"Does ""blickets"" deny or contradict with ""geks""?",No
+90,instantiation,such as,are,10,,blickets,geks,"I find blickets such as geks, to be cute.",converse_counterfactual,2,"Are ""blickets"" the result of ""geks""?",No
+90,instantiation,such as,are,10,,blickets,geks,"I find blickets such as geks, to be cute.",converse_counterfactual,3,"Are ""blickets"" the reason for ""geks""?",No
+90,instantiation,such as,are,10,,blickets,geks,"I find blickets such as geks, to be cute.",converse_counterfactual,4,"Are ""blickets"" equivalent to ""geks""?",No
+91,instantiation,such as,are,1,,wugs,daxes,"I find wugs such as daxes, to be cute.",targeted,-1,"Are ""daxes"" an example of ""wugs""?",Yes
+91,instantiation,such as,are,1,,wugs,daxes,"I find wugs such as daxes, to be cute.",converse,-1,"Are ""wugs"" being exemplified by ""daxes""?",Yes
+91,instantiation,such as,are,1,,wugs,daxes,"I find wugs such as daxes, to be cute.",counterfactual,0,"Are ""daxes"" contrasted with ""wugs""?",No
+91,instantiation,such as,are,1,,wugs,daxes,"I find wugs such as daxes, to be cute.",counterfactual,1,"Are ""daxes"" denied or contradicted with ""wugs""?",No
+91,instantiation,such as,are,1,,wugs,daxes,"I find wugs such as daxes, to be cute.",counterfactual,2,"Are ""daxes"" the reason for ""wugs""?",No
+91,instantiation,such as,are,1,,wugs,daxes,"I find wugs such as daxes, to be cute.",counterfactual,3,"Are ""daxes"" the result of ""wugs""?",No
+91,instantiation,such as,are,1,,wugs,daxes,"I find wugs such as daxes, to be cute.",counterfactual,4,"Are ""daxes"" equivalent to ""wugs""?",No
+91,instantiation,such as,are,1,,wugs,daxes,"I find wugs such as daxes, to be cute.",converse_counterfactual,0,"Are ""wugs"" contrasted with ""daxes""?",No
+91,instantiation,such as,are,1,,wugs,daxes,"I find wugs such as daxes, to be cute.",converse_counterfactual,1,"Does ""wugs"" deny or contradict with ""daxes""?",No
+91,instantiation,such as,are,1,,wugs,daxes,"I find wugs such as daxes, to be cute.",converse_counterfactual,2,"Are ""wugs"" the result of ""daxes""?",No
+91,instantiation,such as,are,1,,wugs,daxes,"I find wugs such as daxes, to be cute.",converse_counterfactual,3,"Are ""wugs"" the reason for ""daxes""?",No
+91,instantiation,such as,are,1,,wugs,daxes,"I find wugs such as daxes, to be cute.",converse_counterfactual,4,"Are ""wugs"" equivalent to ""daxes""?",No
+92,instantiation,such as,are,2,,wugs,feps,"I find wugs such as feps, to be cute.",targeted,-1,"Are ""feps"" an example of ""wugs""?",Yes
+92,instantiation,such as,are,2,,wugs,feps,"I find wugs such as feps, to be cute.",converse,-1,"Are ""wugs"" being exemplified by ""feps""?",Yes
+92,instantiation,such as,are,2,,wugs,feps,"I find wugs such as feps, to be cute.",counterfactual,0,"Are ""feps"" contrasted with ""wugs""?",No
+92,instantiation,such as,are,2,,wugs,feps,"I find wugs such as feps, to be cute.",counterfactual,1,"Are ""feps"" denied or contradicted with ""wugs""?",No
+92,instantiation,such as,are,2,,wugs,feps,"I find wugs such as feps, to be cute.",counterfactual,2,"Are ""feps"" the reason for ""wugs""?",No
+92,instantiation,such as,are,2,,wugs,feps,"I find wugs such as feps, to be cute.",counterfactual,3,"Are ""feps"" the result of ""wugs""?",No
+92,instantiation,such as,are,2,,wugs,feps,"I find wugs such as feps, to be cute.",counterfactual,4,"Are ""feps"" equivalent to ""wugs""?",No
+92,instantiation,such as,are,2,,wugs,feps,"I find wugs such as feps, to be cute.",converse_counterfactual,0,"Are ""wugs"" contrasted with ""feps""?",No
+92,instantiation,such as,are,2,,wugs,feps,"I find wugs such as feps, to be cute.",converse_counterfactual,1,"Does ""wugs"" deny or contradict with ""feps""?",No
+92,instantiation,such as,are,2,,wugs,feps,"I find wugs such as feps, to be cute.",converse_counterfactual,2,"Are ""wugs"" the result of ""feps""?",No
+92,instantiation,such as,are,2,,wugs,feps,"I find wugs such as feps, to be cute.",converse_counterfactual,3,"Are ""wugs"" the reason for ""feps""?",No
+92,instantiation,such as,are,2,,wugs,feps,"I find wugs such as feps, to be cute.",converse_counterfactual,4,"Are ""wugs"" equivalent to ""feps""?",No
+93,instantiation,such as,are,3,,wugs,blickets,"I find wugs such as blickets, to be cute.",targeted,-1,"Are ""blickets"" an example of ""wugs""?",Yes
+93,instantiation,such as,are,3,,wugs,blickets,"I find wugs such as blickets, to be cute.",converse,-1,"Are ""wugs"" being exemplified by ""blickets""?",Yes
+93,instantiation,such as,are,3,,wugs,blickets,"I find wugs such as blickets, to be cute.",counterfactual,0,"Are ""blickets"" contrasted with ""wugs""?",No
+93,instantiation,such as,are,3,,wugs,blickets,"I find wugs such as blickets, to be cute.",counterfactual,1,"Are ""blickets"" denied or contradicted with ""wugs""?",No
+93,instantiation,such as,are,3,,wugs,blickets,"I find wugs such as blickets, to be cute.",counterfactual,2,"Are ""blickets"" the reason for ""wugs""?",No
+93,instantiation,such as,are,3,,wugs,blickets,"I find wugs such as blickets, to be cute.",counterfactual,3,"Are ""blickets"" the result of ""wugs""?",No
+93,instantiation,such as,are,3,,wugs,blickets,"I find wugs such as blickets, to be cute.",counterfactual,4,"Are ""blickets"" equivalent to ""wugs""?",No
+93,instantiation,such as,are,3,,wugs,blickets,"I find wugs such as blickets, to be cute.",converse_counterfactual,0,"Are ""wugs"" contrasted with ""blickets""?",No
+93,instantiation,such as,are,3,,wugs,blickets,"I find wugs such as blickets, to be cute.",converse_counterfactual,1,"Does ""wugs"" deny or contradict with ""blickets""?",No
+93,instantiation,such as,are,3,,wugs,blickets,"I find wugs such as blickets, to be cute.",converse_counterfactual,2,"Are ""wugs"" the result of ""blickets""?",No
+93,instantiation,such as,are,3,,wugs,blickets,"I find wugs such as blickets, to be cute.",converse_counterfactual,3,"Are ""wugs"" the reason for ""blickets""?",No
+93,instantiation,such as,are,3,,wugs,blickets,"I find wugs such as blickets, to be cute.",converse_counterfactual,4,"Are ""wugs"" equivalent to ""blickets""?",No
+94,instantiation,such as,are,4,,wugs,geks,"I find wugs such as geks, to be awful.",targeted,-1,"Are ""geks"" an example of ""wugs""?",Yes
+94,instantiation,such as,are,4,,wugs,geks,"I find wugs such as geks, to be awful.",converse,-1,"Are ""wugs"" being exemplified by ""geks""?",Yes
+94,instantiation,such as,are,4,,wugs,geks,"I find wugs such as geks, to be awful.",counterfactual,0,"Are ""geks"" contrasted with ""wugs""?",No
+94,instantiation,such as,are,4,,wugs,geks,"I find wugs such as geks, to be awful.",counterfactual,1,"Are ""geks"" denied or contradicted with ""wugs""?",No
+94,instantiation,such as,are,4,,wugs,geks,"I find wugs such as geks, to be awful.",counterfactual,2,"Are ""geks"" the reason for ""wugs""?",No
+94,instantiation,such as,are,4,,wugs,geks,"I find wugs such as geks, to be awful.",counterfactual,3,"Are ""geks"" the result of ""wugs""?",No
+94,instantiation,such as,are,4,,wugs,geks,"I find wugs such as geks, to be awful.",counterfactual,4,"Are ""geks"" equivalent to ""wugs""?",No
+94,instantiation,such as,are,4,,wugs,geks,"I find wugs such as geks, to be awful.",converse_counterfactual,0,"Are ""wugs"" contrasted with ""geks""?",No
+94,instantiation,such as,are,4,,wugs,geks,"I find wugs such as geks, to be awful.",converse_counterfactual,1,"Does ""wugs"" deny or contradict with ""geks""?",No
+94,instantiation,such as,are,4,,wugs,geks,"I find wugs such as geks, to be awful.",converse_counterfactual,2,"Are ""wugs"" the result of ""geks""?",No
+94,instantiation,such as,are,4,,wugs,geks,"I find wugs such as geks, to be awful.",converse_counterfactual,3,"Are ""wugs"" the reason for ""geks""?",No
+94,instantiation,such as,are,4,,wugs,geks,"I find wugs such as geks, to be awful.",converse_counterfactual,4,"Are ""wugs"" equivalent to ""geks""?",No
+95,instantiation,such as,are,5,,daxes,feps,"I find daxes such as feps, to be cute.",targeted,-1,"Are ""feps"" an example of ""daxes""?",Yes
+95,instantiation,such as,are,5,,daxes,feps,"I find daxes such as feps, to be cute.",converse,-1,"Are ""daxes"" being exemplified by ""feps""?",Yes
+95,instantiation,such as,are,5,,daxes,feps,"I find daxes such as feps, to be cute.",counterfactual,0,"Are ""feps"" contrasted with ""daxes""?",No
+95,instantiation,such as,are,5,,daxes,feps,"I find daxes such as feps, to be cute.",counterfactual,1,"Are ""feps"" denied or contradicted with ""daxes""?",No
+95,instantiation,such as,are,5,,daxes,feps,"I find daxes such as feps, to be cute.",counterfactual,2,"Are ""feps"" the reason for ""daxes""?",No
+95,instantiation,such as,are,5,,daxes,feps,"I find daxes such as feps, to be cute.",counterfactual,3,"Are ""feps"" the result of ""daxes""?",No
+95,instantiation,such as,are,5,,daxes,feps,"I find daxes such as feps, to be cute.",counterfactual,4,"Are ""feps"" equivalent to ""daxes""?",No
+95,instantiation,such as,are,5,,daxes,feps,"I find daxes such as feps, to be cute.",converse_counterfactual,0,"Are ""daxes"" contrasted with ""feps""?",No
+95,instantiation,such as,are,5,,daxes,feps,"I find daxes such as feps, to be cute.",converse_counterfactual,1,"Does ""daxes"" deny or contradict with ""feps""?",No
+95,instantiation,such as,are,5,,daxes,feps,"I find daxes such as feps, to be cute.",converse_counterfactual,2,"Are ""daxes"" the result of ""feps""?",No
+95,instantiation,such as,are,5,,daxes,feps,"I find daxes such as feps, to be cute.",converse_counterfactual,3,"Are ""daxes"" the reason for ""feps""?",No
+95,instantiation,such as,are,5,,daxes,feps,"I find daxes such as feps, to be cute.",converse_counterfactual,4,"Are ""daxes"" equivalent to ""feps""?",No
+96,instantiation,such as,are,6,,daxes,blickets,"I find daxes such as blickets, to be awful.",targeted,-1,"Are ""blickets"" an example of ""daxes""?",Yes
+96,instantiation,such as,are,6,,daxes,blickets,"I find daxes such as blickets, to be awful.",converse,-1,"Are ""daxes"" being exemplified by ""blickets""?",Yes
+96,instantiation,such as,are,6,,daxes,blickets,"I find daxes such as blickets, to be awful.",counterfactual,0,"Are ""blickets"" contrasted with ""daxes""?",No
+96,instantiation,such as,are,6,,daxes,blickets,"I find daxes such as blickets, to be awful.",counterfactual,1,"Are ""blickets"" denied or contradicted with ""daxes""?",No
+96,instantiation,such as,are,6,,daxes,blickets,"I find daxes such as blickets, to be awful.",counterfactual,2,"Are ""blickets"" the reason for ""daxes""?",No
+96,instantiation,such as,are,6,,daxes,blickets,"I find daxes such as blickets, to be awful.",counterfactual,3,"Are ""blickets"" the result of ""daxes""?",No
+96,instantiation,such as,are,6,,daxes,blickets,"I find daxes such as blickets, to be awful.",counterfactual,4,"Are ""blickets"" equivalent to ""daxes""?",No
+96,instantiation,such as,are,6,,daxes,blickets,"I find daxes such as blickets, to be awful.",converse_counterfactual,0,"Are ""daxes"" contrasted with ""blickets""?",No
+96,instantiation,such as,are,6,,daxes,blickets,"I find daxes such as blickets, to be awful.",converse_counterfactual,1,"Does ""daxes"" deny or contradict with ""blickets""?",No
+96,instantiation,such as,are,6,,daxes,blickets,"I find daxes such as blickets, to be awful.",converse_counterfactual,2,"Are ""daxes"" the result of ""blickets""?",No
+96,instantiation,such as,are,6,,daxes,blickets,"I find daxes such as blickets, to be awful.",converse_counterfactual,3,"Are ""daxes"" the reason for ""blickets""?",No
+96,instantiation,such as,are,6,,daxes,blickets,"I find daxes such as blickets, to be awful.",converse_counterfactual,4,"Are ""daxes"" equivalent to ""blickets""?",No
+97,instantiation,such as,are,7,,daxes,geks,"I find daxes such as geks, to be awful.",targeted,-1,"Are ""geks"" an example of ""daxes""?",Yes
+97,instantiation,such as,are,7,,daxes,geks,"I find daxes such as geks, to be awful.",converse,-1,"Are ""daxes"" being exemplified by ""geks""?",Yes
+97,instantiation,such as,are,7,,daxes,geks,"I find daxes such as geks, to be awful.",counterfactual,0,"Are ""geks"" contrasted with ""daxes""?",No
+97,instantiation,such as,are,7,,daxes,geks,"I find daxes such as geks, to be awful.",counterfactual,1,"Are ""geks"" denied or contradicted with ""daxes""?",No
+97,instantiation,such as,are,7,,daxes,geks,"I find daxes such as geks, to be awful.",counterfactual,2,"Are ""geks"" the reason for ""daxes""?",No
+97,instantiation,such as,are,7,,daxes,geks,"I find daxes such as geks, to be awful.",counterfactual,3,"Are ""geks"" the result of ""daxes""?",No
+97,instantiation,such as,are,7,,daxes,geks,"I find daxes such as geks, to be awful.",counterfactual,4,"Are ""geks"" equivalent to ""daxes""?",No
+97,instantiation,such as,are,7,,daxes,geks,"I find daxes such as geks, to be awful.",converse_counterfactual,0,"Are ""daxes"" contrasted with ""geks""?",No
+97,instantiation,such as,are,7,,daxes,geks,"I find daxes such as geks, to be awful.",converse_counterfactual,1,"Does ""daxes"" deny or contradict with ""geks""?",No
+97,instantiation,such as,are,7,,daxes,geks,"I find daxes such as geks, to be awful.",converse_counterfactual,2,"Are ""daxes"" the result of ""geks""?",No
+97,instantiation,such as,are,7,,daxes,geks,"I find daxes such as geks, to be awful.",converse_counterfactual,3,"Are ""daxes"" the reason for ""geks""?",No
+97,instantiation,such as,are,7,,daxes,geks,"I find daxes such as geks, to be awful.",converse_counterfactual,4,"Are ""daxes"" equivalent to ""geks""?",No
+98,instantiation,such as,are,8,,feps,blickets,"I find feps such as blickets, to be awful.",targeted,-1,"Are ""blickets"" an example of ""feps""?",Yes
+98,instantiation,such as,are,8,,feps,blickets,"I find feps such as blickets, to be awful.",converse,-1,"Are ""feps"" being exemplified by ""blickets""?",Yes
+98,instantiation,such as,are,8,,feps,blickets,"I find feps such as blickets, to be awful.",counterfactual,0,"Are ""blickets"" contrasted with ""feps""?",No
+98,instantiation,such as,are,8,,feps,blickets,"I find feps such as blickets, to be awful.",counterfactual,1,"Are ""blickets"" denied or contradicted with ""feps""?",No
+98,instantiation,such as,are,8,,feps,blickets,"I find feps such as blickets, to be awful.",counterfactual,2,"Are ""blickets"" the reason for ""feps""?",No
+98,instantiation,such as,are,8,,feps,blickets,"I find feps such as blickets, to be awful.",counterfactual,3,"Are ""blickets"" the result of ""feps""?",No
+98,instantiation,such as,are,8,,feps,blickets,"I find feps such as blickets, to be awful.",counterfactual,4,"Are ""blickets"" equivalent to ""feps""?",No
+98,instantiation,such as,are,8,,feps,blickets,"I find feps such as blickets, to be awful.",converse_counterfactual,0,"Are ""feps"" contrasted with ""blickets""?",No
+98,instantiation,such as,are,8,,feps,blickets,"I find feps such as blickets, to be awful.",converse_counterfactual,1,"Does ""feps"" deny or contradict with ""blickets""?",No
+98,instantiation,such as,are,8,,feps,blickets,"I find feps such as blickets, to be awful.",converse_counterfactual,2,"Are ""feps"" the result of ""blickets""?",No
+98,instantiation,such as,are,8,,feps,blickets,"I find feps such as blickets, to be awful.",converse_counterfactual,3,"Are ""feps"" the reason for ""blickets""?",No
+98,instantiation,such as,are,8,,feps,blickets,"I find feps such as blickets, to be awful.",converse_counterfactual,4,"Are ""feps"" equivalent to ""blickets""?",No
+99,instantiation,such as,are,9,,feps,geks,"I find feps such as geks, to be cute.",targeted,-1,"Are ""geks"" an example of ""feps""?",Yes
+99,instantiation,such as,are,9,,feps,geks,"I find feps such as geks, to be cute.",converse,-1,"Are ""feps"" being exemplified by ""geks""?",Yes
+99,instantiation,such as,are,9,,feps,geks,"I find feps such as geks, to be cute.",counterfactual,0,"Are ""geks"" contrasted with ""feps""?",No
+99,instantiation,such as,are,9,,feps,geks,"I find feps such as geks, to be cute.",counterfactual,1,"Are ""geks"" denied or contradicted with ""feps""?",No
+99,instantiation,such as,are,9,,feps,geks,"I find feps such as geks, to be cute.",counterfactual,2,"Are ""geks"" the reason for ""feps""?",No
+99,instantiation,such as,are,9,,feps,geks,"I find feps such as geks, to be cute.",counterfactual,3,"Are ""geks"" the result of ""feps""?",No
+99,instantiation,such as,are,9,,feps,geks,"I find feps such as geks, to be cute.",counterfactual,4,"Are ""geks"" equivalent to ""feps""?",No
+99,instantiation,such as,are,9,,feps,geks,"I find feps such as geks, to be cute.",converse_counterfactual,0,"Are ""feps"" contrasted with ""geks""?",No
+99,instantiation,such as,are,9,,feps,geks,"I find feps such as geks, to be cute.",converse_counterfactual,1,"Does ""feps"" deny or contradict with ""geks""?",No
+99,instantiation,such as,are,9,,feps,geks,"I find feps such as geks, to be cute.",converse_counterfactual,2,"Are ""feps"" the result of ""geks""?",No
+99,instantiation,such as,are,9,,feps,geks,"I find feps such as geks, to be cute.",converse_counterfactual,3,"Are ""feps"" the reason for ""geks""?",No
+99,instantiation,such as,are,9,,feps,geks,"I find feps such as geks, to be cute.",converse_counterfactual,4,"Are ""feps"" equivalent to ""geks""?",No
+100,instantiation,such as,are,10,,blickets,geks,"I find blickets such as geks, to be cute.",targeted,-1,"Are ""geks"" an example of ""blickets""?",Yes
+100,instantiation,such as,are,10,,blickets,geks,"I find blickets such as geks, to be cute.",converse,-1,"Are ""blickets"" being exemplified by ""geks""?",Yes
+100,instantiation,such as,are,10,,blickets,geks,"I find blickets such as geks, to be cute.",counterfactual,0,"Are ""geks"" contrasted with ""blickets""?",No
+100,instantiation,such as,are,10,,blickets,geks,"I find blickets such as geks, to be cute.",counterfactual,1,"Are ""geks"" denied or contradicted with ""blickets""?",No
+100,instantiation,such as,are,10,,blickets,geks,"I find blickets such as geks, to be cute.",counterfactual,2,"Are ""geks"" the reason for ""blickets""?",No
+100,instantiation,such as,are,10,,blickets,geks,"I find blickets such as geks, to be cute.",counterfactual,3,"Are ""geks"" the result of ""blickets""?",No
+100,instantiation,such as,are,10,,blickets,geks,"I find blickets such as geks, to be cute.",counterfactual,4,"Are ""geks"" equivalent to ""blickets""?",No
+100,instantiation,such as,are,10,,blickets,geks,"I find blickets such as geks, to be cute.",converse_counterfactual,0,"Are ""blickets"" contrasted with ""geks""?",No
+100,instantiation,such as,are,10,,blickets,geks,"I find blickets such as geks, to be cute.",converse_counterfactual,1,"Does ""blickets"" deny or contradict with ""geks""?",No
+100,instantiation,such as,are,10,,blickets,geks,"I find blickets such as geks, to be cute.",converse_counterfactual,2,"Are ""blickets"" the result of ""geks""?",No
+100,instantiation,such as,are,10,,blickets,geks,"I find blickets such as geks, to be cute.",converse_counterfactual,3,"Are ""blickets"" the reason for ""geks""?",No
+100,instantiation,such as,are,10,,blickets,geks,"I find blickets such as geks, to be cute.",converse_counterfactual,4,"Are ""blickets"" equivalent to ""geks""?",No

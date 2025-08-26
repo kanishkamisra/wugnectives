@@ -141,3 +141,24 @@ prompt_templates = {
     "temporal": TEMPORAL_QUESTIONS,
 }
 
+
+DISQ_QUESTIONS = [
+    Template(f'$name said, "$premise" $question {yn}'),
+    Template(f'$name said, "$premise" From this, $question {yn}'),
+    Template(
+        f'$name said, "$premise" If you heard this, what would you think? $question {yn}'
+    ),
+    Template(
+        f'$name said, "$premise" If you heard $name, what would you think? $question {yn}'
+    ),
+    
+    Template(
+        f'$name said, "$premise" If you heard $name, and were asked what they meant, what would you say? $question {yn}'
+    ),
+
+    Template(f'$name said, "$premise" Help me understand what $name meant. $question {yn}'),
+    Template(f'$name said, "$premise" Clarify what $name meant. $question {yn}'),
+    Template(f'$name said, "$premise" Analyze what was meant. $question {yn}'),
+    Template(f'$name said, "$premise" I\'m confused by this. $question {yn}'),
+
+]
