@@ -43,6 +43,10 @@ def write_stimuli(
         writer.writerow(header)
         writer.writerows(dataset)
 
+temporal_cause_conns = ["as a result", "because", "consequently", "hence", "since", "so", "then", "therefore", ]
+temporal_deny_conns = ["even though"]
+
+
 
 def nonce_stim_to_disq(path, family):
     with open(path) as f:
@@ -98,24 +102,29 @@ def nonce_stim_to_disq(path, family):
                     label = "No"
                     count = counterfactual_index
                     counterfactual_index += 1
+                
+                skip_casual = (family == "temporal") and (connective in temporal_cause_conns) and (("reason" in question) or ("result" in question))
+                skip_denier = (family == "temporal") and (connective in temporal_deny_conns) and ("contradict" in question)
+                skip = skip_casual or skip_denier
 
-                dataset.append(
-                    (
-                        item_id,
-                        stimuli_type,
-                        connective,
-                        target,
-                        stimuli_instance,
-                        stimuli_instance_description,
-                        entity1,
-                        entity2,
-                        premise,
-                        style,
-                        count,
-                        question,
-                        label
+                if not skip:
+                    dataset.append(
+                        (
+                            item_id,
+                            stimuli_type,
+                            connective,
+                            target,
+                            stimuli_instance,
+                            stimuli_instance_description,
+                            entity1,
+                            entity2,
+                            premise,
+                            style,
+                            count,
+                            question,
+                            label
+                        )
                     )
-                )
 
         return dataset
 
