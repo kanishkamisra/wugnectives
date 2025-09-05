@@ -107,13 +107,14 @@ connective_wise <- results %>%
   group_by(model, stimuli_type, connective, prompt_template) %>%
   summarize(
     accuracy = mean(prediction == label)
-  ) %>% 
+  ) %>%
   ungroup() %>%
   group_by(model, stimuli_type, connective) %>%
+  filter(accuracy == max(accuracy)) %>%
   summarize(
-    n = n(),
-    sd = sd(accuracy),
-    cb = qt(0.05/2, n-1, lower.tail = FALSE) * sd/sqrt(n),
+    # n = n(),
+    # sd = sd(accuracy),
+    # cb = qt(0.05/2, n-1, lower.tail = FALSE) * sd/sqrt(n),
     mean = mean(accuracy)
   ) %>%
   inner_join(model_meta) %>%
@@ -170,7 +171,9 @@ plot_connective_wise <- function(st = "preference") {
     ) %>%
     ungroup() %>%
     ggplot(aes(connective, mean, size = size, color = class, shape = instruct)) +
-    geom_jitter(height = 0.01, width =0.15, alpha = 0.6)+
+    # geom_jitter(height = 0.01, width =0.15, alpha = 0.6)+
+    geom_point() +
+    # geom_line(aes(group = model), linewidth = 0.75) +
     facet_wrap(~stimuli_type, scales = "free_x", ncol=1) +
     scale_size_manual(values = c(1.5,2,3,4)) +
     geom_hline(yintercept = chance_perf, linetype = "dashed") +
@@ -195,6 +198,42 @@ temp_plot = plot_connective_wise("temporal")
 ((pref_plot + inst_plot) / temp_plot) + plot_layout(guides = "collect") & theme(legend.position="top")
 
 
+# temporal deep dive
+
+connective_wise %>%
+  filter(stimuli_type=="temporal", class == "Qwen2.5") %>%
+  group_by(stimuli_type) %>%
+  mutate(
+    connective = factor(connective),
+    connective = fct_reorder(connective, mean),
+    params = params/1e9,
+    size = case_when(
+      params < 1 ~ "< 1B",
+      params >= 1 & params < 5 ~ "1B-5B",
+      params >= 5 & params < 10 ~ "5B-10B",
+      params >= 10 ~ "> 10B"
+    ),
+    size = factor(size, c("< 1B", "1B-5B", "5B-10B", "> 10B"))
+  ) %>%
+  ungroup() %>%
+  ggplot(aes(connective, mean, size = size, color = class, shape = instruct)) +
+  # geom_jitter(height = 0.01, width =0.15, alpha = 0.6)+
+  geom_point() +
+  geom_line(aes(group = model), linewidth = 0.75) +
+  # facet_wrap(~class, scales = "free_x") +
+  facet_wrap(~size) +
+  scale_size_manual(values = c(1.5,2,3,4)) +
+  geom_hline(yintercept = 0.5, linetype = "dashed") +
+  scale_y_continuous(limits = c(-0.02,1.02), labels = scales::percent_format()) +
+  # scale_x_log10(limits = c(0.5, 8), breaks = c(0.5,1,2,4,6,8), labels = c("1/2", "1", "2", "4", "6", "8")) +
+  scale_color_brewer(palette = "Dark2", aesthetics = c("color", "fill")) +
+  theme_bw(base_size = 15) +
+  theme(
+    legend.position = "top",
+    panel.grid = element_blank(),
+    axis.text = element_text(color = "black"),
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)
+  )
 
 connective_wise %>%
   ggplot(aes(params/1e9, mean, color = class, fill = class, shape = instruct, linetype = instruct)) +

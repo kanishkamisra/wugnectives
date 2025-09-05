@@ -17,8 +17,8 @@ NAMES = [
     "Cameron",
     "Erica",
     "Megan",
-    "Kyle",
-    "Jessy",
+    "David",
+    "Jessica",
     "Daniel",
 ]
 
