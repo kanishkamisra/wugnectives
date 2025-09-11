@@ -12,7 +12,6 @@ from tqdm import tqdm
 
 OPTIONS = ["Yes", "No", "yes", "no"]
 
-
 def chat_template(sentence, tok, response_prompt=None):
     """
     A function that applies the model's chat template to simulate
