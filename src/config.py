@@ -32,6 +32,18 @@ PREFERENCE_RULES = {
     "thus": {"love": "Yes", "hate": "No"},
 }
 
+EXTRA_PREFERENCE_RULES = {
+    "although": {"love": "No"},
+    "as much as": {"love": "No"},
+    "but": {"love": "No"},
+    "even though": {"love": "No"},
+    "however": {"love": "No"},
+    "nevertheless": {"love": "No"},
+    "though": {"love": "No"},
+    "while": {"love": "No"},
+    "yet": {"love": "No"} 
+}
+
 TEMPORAL_RULES = {
     "e2": [
         "after",

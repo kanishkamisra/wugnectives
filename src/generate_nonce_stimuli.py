@@ -186,8 +186,9 @@ for connective, template in connectives.INSTANTIATION_TEMPLATES.items():
 
             item_id += 1
 
+
 PATH = "data/stimuli-nonce"
 pathlib.Path(PATH).mkdir(parents=True, exist_ok=True)
 # write_stimuli(pref_dataset, f"{PATH}/preference_stimuli.csv")
-write_stimuli(temporal_dataset, f"{PATH}/temporal_stimuli.csv")
+# write_stimuli(temporal_dataset, f"{PATH}/temporal_stimuli.csv")
 # write_stimuli(inst_dataset, f"{PATH}/instantiation_stimuli.csv")
