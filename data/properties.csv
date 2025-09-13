@@ -4,8 +4,8 @@ property_id,property,inference_phrase,number,entity_addition,type
 3,fruits,are fruits,pl,start,objects
 4,string instruments,are string instruments,pl,start,objects
 5,insects,are insects,pl,start,objects
-6,snowy winters,has snowy winters,sg,start,locations
+6,college towns,is a college town,sg,start,locations
 7,living near mountains,has mountains nearby,sg,start,locations
 8,warm weather,has warm weather,sg,start,locations
 9,coastal cities,is a coastal city,sg,start,locations
-10,tall buildings,has tall buildings,sg,start,locations
+10,islands,is an island,sg,start,locations

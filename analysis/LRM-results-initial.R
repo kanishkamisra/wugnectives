@@ -1,28 +1,49 @@
 library(tidyverse)
 
-results <- read_csv("~/Downloads/Qwen_QwQ-32B_reason.csv") %>%
+results <- read_csv("data/results/nonce/Qwen_QwQ-32B_reason.csv") %>%
   mutate(
-    answer = case_when(
-      str_detect(answer, "Yes") ~ "Yes",
-      str_detect(answer, "No") ~ "No"
-    )
+    # answer = case_when(
+    #   str_detect(answer, "Yes") ~ "Yes",
+    #   str_detect(answer, "No") ~ "No",
+    # )
+    answer = str_extract(answer, "(?<=\\{)(.*)(?=\\})")
   )
 
 stimuli <- read_csv("data/stimuli-nonce/prompts.csv")
 
-stimuli %>%
-  inner_join(results) %>%
-  group_by(stimuli_type, connective) %>%
+
+bind_cols(
+  stimuli,
+  results %>% select(-idx)
+) %>%
+  filter(stimuli_type == "temporal") %>%
+  filter(answer != label) %>% View()
+
+bind_cols(
+  stimuli,
+  results %>% select(-idx)
+) %>% 
+  group_by(stimuli_type, connective, prompt_template) %>%
   summarize(
-    acc = mean(label == answer)
+    accuracy = mean(answer == label)
+  ) %>% 
+  ungroup() %>%
+  group_by(connective, stimuli_type) %>%
+  summarize(
+    n = n(),
+    sd = sd(accuracy),
+    cb = qt(0.05/2, n-1, lower.tail = FALSE) * sd/sqrt(n),
+    mean = mean(accuracy)
   ) %>%
   ungroup() %>%
+  filter(stimuli_type == "preference") %>%
   mutate(
     connective = factor(connective),
-    connective = fct_reorder(connective, acc)
+    connective = fct_reorder(connective, mean)
   ) %>%
-  ggplot(aes(connective, acc)) +
+  ggplot(aes(connective, mean)) +
   geom_point() +
+  facet_wrap(~stimuli_type, scales="free") +
   theme_bw(base_size = 16) +
   theme(
     legend.position = "top",
