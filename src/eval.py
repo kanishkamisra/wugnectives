@@ -115,7 +115,7 @@ def main(args):
         return predictions
 
     # load the model
-    lm = scorer.IncrementalLMScorer(model, device=args.device, trust_remote_code=True)
+    lm = scorer.IncrementalLMScorer(model, device=args.device, trust_remote_code=True, use_auth_token=True)
 
     eval = utils.read_csv_dict(eval_path)
 
@@ -177,7 +177,7 @@ def main(args):
         
 
     pathlib.Path(results_dir).mkdir(parents=True, exist_ok=True)
-    utils.write_csv(results, f"{results_dir}/{model_name}.csv", header=["idx", "prob", "label"])
+    utils.write_csv(results, f"{results_dir}/{args.out_prefix}{model_name}.csv", header=["idx", "prob", "label"])
 
 
 if __name__ == "__main__":
@@ -190,6 +190,8 @@ if __name__ == "__main__":
     parser.add_argument("--batch_size", type=int, default=8)
     parser.add_argument("--instruct", action="store_true")
     parser.add_argument("--device", type=str, default="cuda:0")
+
+    parser.add_argument("--out_prefix", type=str, default="")
 
     args = parser.parse_args()
 

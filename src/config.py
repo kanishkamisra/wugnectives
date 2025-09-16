@@ -41,7 +41,9 @@ EXTRA_PREFERENCE_RULES = {
     "nevertheless": {"love": "No"},
     "though": {"love": "No"},
     "while": {"love": "No"},
-    "yet": {"love": "No"} 
+    "yet": {"love": "No"},
+    "despite that": {"love": "No"},
+
 }
 
 TEMPORAL_RULES = {
