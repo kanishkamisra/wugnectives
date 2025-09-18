@@ -55,6 +55,7 @@ def flip_label(label: str):
 random.seed(42)
 
 pref_dataset = []
+changed = []
 alt_inference_pref_dataset = []
 template = defaultdict(set)
 
@@ -127,6 +128,10 @@ for connective, templates in connectives.PREFERENCE_TEMPLATES.items():
                 )
             )
 
+            if prop["property"] == "equatorial climates":
+                changed.append(pref_dataset[-1])
+                changed.append(alt_inference_pref_dataset[-1])
+
             item_id += 1
             x += 1
 
@@ -135,4 +140,7 @@ pref_dataset.extend(alt_inference_pref_dataset)
 PATH = "data/stimuli-nonce"
 pathlib.Path(PATH).mkdir(parents=True, exist_ok=True)
 write_stimuli(pref_dataset, f"{PATH}/preference_stimuli.csv")
+
+write_stimuli(changed, f"{PATH}/changed_preference_stimuli.csv")
+
 

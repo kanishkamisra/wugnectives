@@ -13,8 +13,8 @@ item_id,stimuli_type,connective,target,stimuli_instance,stimuli_instance_descrip
 12,preference,although,hate,6,college towns,Fepopolis,Gektopia,"I prefer Fepopolis to Gektopia, although I hate college towns.",Fepopolis is a college town,Gektopia is a college town,Yes
 13,preference,although,love,7,living near mountains,Fepopolis,Blicketland,"I prefer Fepopolis to Blicketland, although I love living near mountains.",Fepopolis has mountains nearby,Blicketland has mountains nearby,No
 14,preference,although,hate,7,living near mountains,Fepopolis,Blicketland,"Although I prefer Fepopolis to Blicketland, I hate living near mountains.",Fepopolis has mountains nearby,Blicketland has mountains nearby,Yes
-15,preference,although,love,8,warm weather,Wugsville,Daxburgh,"Although I love warm weather, I prefer Wugsville to Daxburgh.",Wugsville has warm weather,Daxburgh has warm weather,No
-16,preference,although,hate,8,warm weather,Wugsville,Daxburgh,"Although I hate warm weather, I prefer Wugsville to Daxburgh.",Wugsville has warm weather,Daxburgh has warm weather,Yes
+15,preference,although,love,8,equatorial climates,Wugsville,Daxburgh,"Although I love equatorial climates, I prefer Wugsville to Daxburgh.",Wugsville has an equatorial climate,Daxburgh has an equatorial climate,No
+16,preference,although,hate,8,equatorial climates,Wugsville,Daxburgh,"Although I hate equatorial climates, I prefer Wugsville to Daxburgh.",Wugsville has an equatorial climate,Daxburgh has an equatorial climate,Yes
 17,preference,although,love,9,coastal cities,Daxburgh,Gektopia,"Although I love coastal cities, I prefer Daxburgh to Gektopia.",Daxburgh is a coastal city,Gektopia is a coastal city,No
 18,preference,although,hate,9,coastal cities,Daxburgh,Gektopia,"I prefer Daxburgh to Gektopia, although I hate coastal cities.",Daxburgh is a coastal city,Gektopia is a coastal city,Yes
 19,preference,although,love,10,islands,Blicketland,Gektopia,"I prefer Blicketland to Gektopia, although I love islands.",Blicketland is an island,Gektopia is an island,No
@@ -33,8 +33,8 @@ item_id,stimuli_type,connective,target,stimuli_instance,stimuli_instance_descrip
 32,preference,as,hate,6,college towns,Daxburgh,Fepopolis,"I prefer Daxburgh to Fepopolis, as I hate college towns.",Daxburgh is a college town,Fepopolis is a college town,No
 33,preference,as,love,7,living near mountains,Wugsville,Daxburgh,"I prefer Wugsville to Daxburgh, as I love living near mountains.",Wugsville has mountains nearby,Daxburgh has mountains nearby,Yes
 34,preference,as,hate,7,living near mountains,Wugsville,Daxburgh,"I prefer Wugsville to Daxburgh, as I hate living near mountains.",Wugsville has mountains nearby,Daxburgh has mountains nearby,No
-35,preference,as,love,8,warm weather,Daxburgh,Gektopia,"I prefer Daxburgh to Gektopia, as I love warm weather.",Daxburgh has warm weather,Gektopia has warm weather,Yes
-36,preference,as,hate,8,warm weather,Daxburgh,Gektopia,"I prefer Daxburgh to Gektopia, as I hate warm weather.",Daxburgh has warm weather,Gektopia has warm weather,No
+35,preference,as,love,8,equatorial climates,Daxburgh,Gektopia,"I prefer Daxburgh to Gektopia, as I love equatorial climates.",Daxburgh has an equatorial climate,Gektopia has an equatorial climate,Yes
+36,preference,as,hate,8,equatorial climates,Daxburgh,Gektopia,"I prefer Daxburgh to Gektopia, as I hate equatorial climates.",Daxburgh has an equatorial climate,Gektopia has an equatorial climate,No
 37,preference,as,love,9,coastal cities,Wugsville,Fepopolis,"I prefer Wugsville to Fepopolis, as I love coastal cities.",Wugsville is a coastal city,Fepopolis is a coastal city,Yes
 38,preference,as,hate,9,coastal cities,Wugsville,Fepopolis,"I prefer Wugsville to Fepopolis, as I hate coastal cities.",Wugsville is a coastal city,Fepopolis is a coastal city,No
 39,preference,as,love,10,islands,Fepopolis,Gektopia,"I prefer Fepopolis to Gektopia, as I love islands.",Fepopolis is an island,Gektopia is an island,Yes
@@ -53,8 +53,8 @@ item_id,stimuli_type,connective,target,stimuli_instance,stimuli_instance_descrip
 52,preference,as a result,hate,6,college towns,Wugsville,Blicketland,"I hate college towns. As a result, I prefer Wugsville to Blicketland.",Wugsville is a college town,Blicketland is a college town,No
 53,preference,as a result,love,7,living near mountains,Daxburgh,Gektopia,"I love living near mountains. As a result, I prefer Daxburgh to Gektopia.",Daxburgh has mountains nearby,Gektopia has mountains nearby,Yes
 54,preference,as a result,hate,7,living near mountains,Daxburgh,Gektopia,"I hate living near mountains. As a result, I prefer Daxburgh to Gektopia.",Daxburgh has mountains nearby,Gektopia has mountains nearby,No
-55,preference,as a result,love,8,warm weather,Blicketland,Gektopia,"I love warm weather. As a result, I prefer Blicketland to Gektopia.",Blicketland has warm weather,Gektopia has warm weather,Yes
-56,preference,as a result,hate,8,warm weather,Blicketland,Gektopia,"I hate warm weather. As a result, I prefer Blicketland to Gektopia.",Blicketland has warm weather,Gektopia has warm weather,No
+55,preference,as a result,love,8,equatorial climates,Blicketland,Gektopia,"I love equatorial climates. As a result, I prefer Blicketland to Gektopia.",Blicketland has an equatorial climate,Gektopia has an equatorial climate,Yes
+56,preference,as a result,hate,8,equatorial climates,Blicketland,Gektopia,"I hate equatorial climates. As a result, I prefer Blicketland to Gektopia.",Blicketland has an equatorial climate,Gektopia has an equatorial climate,No
 57,preference,as a result,love,9,coastal cities,Wugsville,Gektopia,"I love coastal cities. As a result, I prefer Wugsville to Gektopia.",Wugsville is a coastal city,Gektopia is a coastal city,Yes
 58,preference,as a result,hate,9,coastal cities,Wugsville,Gektopia,"I hate coastal cities. As a result, I prefer Wugsville to Gektopia.",Wugsville is a coastal city,Gektopia is a coastal city,No
 59,preference,as a result,love,10,islands,Wugsville,Daxburgh,"I love islands. As a result, I prefer Wugsville to Daxburgh.",Wugsville is an island,Daxburgh is an island,Yes
@@ -73,8 +73,8 @@ item_id,stimuli_type,connective,target,stimuli_instance,stimuli_instance_descrip
 72,preference,as much as,hate,6,college towns,Daxburgh,Fepopolis,"As much as I hate college towns, I prefer Daxburgh to Fepopolis.",Daxburgh is a college town,Fepopolis is a college town,Yes
 73,preference,as much as,love,7,living near mountains,Daxburgh,Blicketland,"As much as I love living near mountains, I prefer Daxburgh to Blicketland.",Daxburgh has mountains nearby,Blicketland has mountains nearby,No
 74,preference,as much as,hate,7,living near mountains,Daxburgh,Blicketland,"As much as I hate living near mountains, I prefer Daxburgh to Blicketland.",Daxburgh has mountains nearby,Blicketland has mountains nearby,Yes
-75,preference,as much as,love,8,warm weather,Wugsville,Fepopolis,"As much as I love warm weather, I prefer Wugsville to Fepopolis.",Wugsville has warm weather,Fepopolis has warm weather,No
-76,preference,as much as,hate,8,warm weather,Wugsville,Fepopolis,"As much as I hate warm weather, I prefer Wugsville to Fepopolis.",Wugsville has warm weather,Fepopolis has warm weather,Yes
+75,preference,as much as,love,8,equatorial climates,Wugsville,Fepopolis,"As much as I love equatorial climates, I prefer Wugsville to Fepopolis.",Wugsville has an equatorial climate,Fepopolis has an equatorial climate,No
+76,preference,as much as,hate,8,equatorial climates,Wugsville,Fepopolis,"As much as I hate equatorial climates, I prefer Wugsville to Fepopolis.",Wugsville has an equatorial climate,Fepopolis has an equatorial climate,Yes
 77,preference,as much as,love,9,coastal cities,Wugsville,Daxburgh,"As much as I love coastal cities, I prefer Wugsville to Daxburgh.",Wugsville is a coastal city,Daxburgh is a coastal city,No
 78,preference,as much as,hate,9,coastal cities,Wugsville,Daxburgh,"As much as I hate coastal cities, I prefer Wugsville to Daxburgh.",Wugsville is a coastal city,Daxburgh is a coastal city,Yes
 79,preference,as much as,love,10,islands,Fepopolis,Gektopia,"As much as I love islands, I prefer Fepopolis to Gektopia.",Fepopolis is an island,Gektopia is an island,No
@@ -93,8 +93,8 @@ item_id,stimuli_type,connective,target,stimuli_instance,stimuli_instance_descrip
 92,preference,because,hate,6,college towns,Daxburgh,Fepopolis,I prefer Daxburgh to Fepopolis because I hate college towns.,Daxburgh is a college town,Fepopolis is a college town,No
 93,preference,because,love,7,living near mountains,Fepopolis,Gektopia,I prefer Fepopolis to Gektopia because I love living near mountains.,Fepopolis has mountains nearby,Gektopia has mountains nearby,Yes
 94,preference,because,hate,7,living near mountains,Fepopolis,Gektopia,I prefer Fepopolis to Gektopia because I hate living near mountains.,Fepopolis has mountains nearby,Gektopia has mountains nearby,No
-95,preference,because,love,8,warm weather,Blicketland,Gektopia,I prefer Blicketland to Gektopia because I love warm weather.,Blicketland has warm weather,Gektopia has warm weather,Yes
-96,preference,because,hate,8,warm weather,Blicketland,Gektopia,I prefer Blicketland to Gektopia because I hate warm weather.,Blicketland has warm weather,Gektopia has warm weather,No
+95,preference,because,love,8,equatorial climates,Blicketland,Gektopia,I prefer Blicketland to Gektopia because I love equatorial climates.,Blicketland has an equatorial climate,Gektopia has an equatorial climate,Yes
+96,preference,because,hate,8,equatorial climates,Blicketland,Gektopia,I prefer Blicketland to Gektopia because I hate equatorial climates.,Blicketland has an equatorial climate,Gektopia has an equatorial climate,No
 97,preference,because,love,9,coastal cities,Fepopolis,Blicketland,I prefer Fepopolis to Blicketland because I love coastal cities.,Fepopolis is a coastal city,Blicketland is a coastal city,Yes
 98,preference,because,hate,9,coastal cities,Fepopolis,Blicketland,I prefer Fepopolis to Blicketland because I hate coastal cities.,Fepopolis is a coastal city,Blicketland is a coastal city,No
 99,preference,because,love,10,islands,Wugsville,Blicketland,I prefer Wugsville to Blicketland because I love islands.,Wugsville is an island,Blicketland is an island,Yes
@@ -113,8 +113,8 @@ item_id,stimuli_type,connective,target,stimuli_instance,stimuli_instance_descrip
 112,preference,but,hate,6,college towns,Fepopolis,Gektopia,"I prefer Fepopolis to Gektopia. But, I hate college towns.",Fepopolis is a college town,Gektopia is a college town,Yes
 113,preference,but,love,7,living near mountains,Daxburgh,Gektopia,"I prefer Daxburgh to Gektopia. But, I love living near mountains.",Daxburgh has mountains nearby,Gektopia has mountains nearby,No
 114,preference,but,hate,7,living near mountains,Daxburgh,Gektopia,"I prefer Daxburgh to Gektopia. But, I hate living near mountains.",Daxburgh has mountains nearby,Gektopia has mountains nearby,Yes
-115,preference,but,love,8,warm weather,Wugsville,Gektopia,"I love warm weather. But, I prefer Wugsville to Gektopia.",Wugsville has warm weather,Gektopia has warm weather,No
-116,preference,but,hate,8,warm weather,Wugsville,Gektopia,"I prefer Wugsville to Gektopia. But, I hate warm weather.",Wugsville has warm weather,Gektopia has warm weather,Yes
+115,preference,but,love,8,equatorial climates,Wugsville,Gektopia,"I love equatorial climates. But, I prefer Wugsville to Gektopia.",Wugsville has an equatorial climate,Gektopia has an equatorial climate,No
+116,preference,but,hate,8,equatorial climates,Wugsville,Gektopia,"I prefer Wugsville to Gektopia. But, I hate equatorial climates.",Wugsville has an equatorial climate,Gektopia has an equatorial climate,Yes
 117,preference,but,love,9,coastal cities,Fepopolis,Blicketland,"I love coastal cities. But, I prefer Fepopolis to Blicketland.",Fepopolis is a coastal city,Blicketland is a coastal city,No
 118,preference,but,hate,9,coastal cities,Fepopolis,Blicketland,"I prefer Fepopolis to Blicketland. But, I hate coastal cities.",Fepopolis is a coastal city,Blicketland is a coastal city,Yes
 119,preference,but,love,10,islands,Blicketland,Gektopia,"I love islands. But, I prefer Blicketland to Gektopia.",Blicketland is an island,Gektopia is an island,No
@@ -133,8 +133,8 @@ item_id,stimuli_type,connective,target,stimuli_instance,stimuli_instance_descrip
 132,preference,even though,hate,6,college towns,Daxburgh,Gektopia,"I hate college towns, even though I prefer Daxburgh to Gektopia.",Daxburgh is a college town,Gektopia is a college town,Yes
 133,preference,even though,love,7,living near mountains,Fepopolis,Gektopia,"Even though I prefer Fepopolis to Gektopia, I love living near mountains.",Fepopolis has mountains nearby,Gektopia has mountains nearby,No
 134,preference,even though,hate,7,living near mountains,Fepopolis,Gektopia,"I prefer Fepopolis to Gektopia, even though I hate living near mountains.",Fepopolis has mountains nearby,Gektopia has mountains nearby,Yes
-135,preference,even though,love,8,warm weather,Wugsville,Blicketland,"I prefer Wugsville to Blicketland, even though I love warm weather.",Wugsville has warm weather,Blicketland has warm weather,No
-136,preference,even though,hate,8,warm weather,Wugsville,Blicketland,"I hate warm weather, even though I prefer Wugsville to Blicketland.",Wugsville has warm weather,Blicketland has warm weather,Yes
+135,preference,even though,love,8,equatorial climates,Wugsville,Blicketland,"I prefer Wugsville to Blicketland, even though I love equatorial climates.",Wugsville has an equatorial climate,Blicketland has an equatorial climate,No
+136,preference,even though,hate,8,equatorial climates,Wugsville,Blicketland,"I hate equatorial climates, even though I prefer Wugsville to Blicketland.",Wugsville has an equatorial climate,Blicketland has an equatorial climate,Yes
 137,preference,even though,love,9,coastal cities,Wugsville,Gektopia,"I prefer Wugsville to Gektopia, even though I love coastal cities.",Wugsville is a coastal city,Gektopia is a coastal city,No
 138,preference,even though,hate,9,coastal cities,Wugsville,Gektopia,"I prefer Wugsville to Gektopia, even though I hate coastal cities.",Wugsville is a coastal city,Gektopia is a coastal city,Yes
 139,preference,even though,love,10,islands,Wugsville,Fepopolis,"Even though I love islands, I prefer Wugsville to Fepopolis.",Wugsville is an island,Fepopolis is an island,No
@@ -153,8 +153,8 @@ item_id,stimuli_type,connective,target,stimuli_instance,stimuli_instance_descrip
 152,preference,for,hate,6,college towns,Blicketland,Gektopia,"I prefer Blicketland to Gektopia, for I hate college towns.",Blicketland is a college town,Gektopia is a college town,No
 153,preference,for,love,7,living near mountains,Daxburgh,Fepopolis,"I prefer Daxburgh to Fepopolis, for I love living near mountains.",Daxburgh has mountains nearby,Fepopolis has mountains nearby,Yes
 154,preference,for,hate,7,living near mountains,Daxburgh,Fepopolis,"I prefer Daxburgh to Fepopolis, for I hate living near mountains.",Daxburgh has mountains nearby,Fepopolis has mountains nearby,No
-155,preference,for,love,8,warm weather,Wugsville,Gektopia,"I prefer Wugsville to Gektopia, for I love warm weather.",Wugsville has warm weather,Gektopia has warm weather,Yes
-156,preference,for,hate,8,warm weather,Wugsville,Gektopia,"I prefer Wugsville to Gektopia, for I hate warm weather.",Wugsville has warm weather,Gektopia has warm weather,No
+155,preference,for,love,8,equatorial climates,Wugsville,Gektopia,"I prefer Wugsville to Gektopia, for I love equatorial climates.",Wugsville has an equatorial climate,Gektopia has an equatorial climate,Yes
+156,preference,for,hate,8,equatorial climates,Wugsville,Gektopia,"I prefer Wugsville to Gektopia, for I hate equatorial climates.",Wugsville has an equatorial climate,Gektopia has an equatorial climate,No
 157,preference,for,love,9,coastal cities,Wugsville,Fepopolis,"I prefer Wugsville to Fepopolis, for I love coastal cities.",Wugsville is a coastal city,Fepopolis is a coastal city,Yes
 158,preference,for,hate,9,coastal cities,Wugsville,Fepopolis,"I prefer Wugsville to Fepopolis, for I hate coastal cities.",Wugsville is a coastal city,Fepopolis is a coastal city,No
 159,preference,for,love,10,islands,Daxburgh,Gektopia,"I prefer Daxburgh to Gektopia, for I love islands.",Daxburgh is an island,Gektopia is an island,Yes
@@ -173,8 +173,8 @@ item_id,stimuli_type,connective,target,stimuli_instance,stimuli_instance_descrip
 172,preference,for example,hate,6,college towns,Wugsville,Blicketland,"I hate college towns. For example, I prefer Wugsville to Blicketland.",Wugsville is a college town,Blicketland is a college town,No
 173,preference,for example,love,7,living near mountains,Fepopolis,Blicketland,"I love living near mountains. For example, I prefer Fepopolis to Blicketland.",Fepopolis has mountains nearby,Blicketland has mountains nearby,Yes
 174,preference,for example,hate,7,living near mountains,Fepopolis,Blicketland,"I hate living near mountains. For example, I prefer Fepopolis to Blicketland.",Fepopolis has mountains nearby,Blicketland has mountains nearby,No
-175,preference,for example,love,8,warm weather,Wugsville,Fepopolis,"I love warm weather. For example, I prefer Wugsville to Fepopolis.",Wugsville has warm weather,Fepopolis has warm weather,Yes
-176,preference,for example,hate,8,warm weather,Wugsville,Fepopolis,"I hate warm weather. For example, I prefer Wugsville to Fepopolis.",Wugsville has warm weather,Fepopolis has warm weather,No
+175,preference,for example,love,8,equatorial climates,Wugsville,Fepopolis,"I love equatorial climates. For example, I prefer Wugsville to Fepopolis.",Wugsville has an equatorial climate,Fepopolis has an equatorial climate,Yes
+176,preference,for example,hate,8,equatorial climates,Wugsville,Fepopolis,"I hate equatorial climates. For example, I prefer Wugsville to Fepopolis.",Wugsville has an equatorial climate,Fepopolis has an equatorial climate,No
 177,preference,for example,love,9,coastal cities,Daxburgh,Fepopolis,"I love coastal cities. For example, I prefer Daxburgh to Fepopolis.",Daxburgh is a coastal city,Fepopolis is a coastal city,Yes
 178,preference,for example,hate,9,coastal cities,Daxburgh,Fepopolis,"I hate coastal cities. For example, I prefer Daxburgh to Fepopolis.",Daxburgh is a coastal city,Fepopolis is a coastal city,No
 179,preference,for example,love,10,islands,Fepopolis,Gektopia,"I love islands. For example, I prefer Fepopolis to Gektopia.",Fepopolis is an island,Gektopia is an island,Yes
@@ -193,8 +193,8 @@ item_id,stimuli_type,connective,target,stimuli_instance,stimuli_instance_descrip
 192,preference,for instance,hate,6,college towns,Blicketland,Gektopia,"I hate college towns. For instance, I prefer Blicketland to Gektopia.",Blicketland is a college town,Gektopia is a college town,No
 193,preference,for instance,love,7,living near mountains,Fepopolis,Gektopia,"I love living near mountains. For instance, I prefer Fepopolis to Gektopia.",Fepopolis has mountains nearby,Gektopia has mountains nearby,Yes
 194,preference,for instance,hate,7,living near mountains,Fepopolis,Gektopia,"I hate living near mountains. For instance, I prefer Fepopolis to Gektopia.",Fepopolis has mountains nearby,Gektopia has mountains nearby,No
-195,preference,for instance,love,8,warm weather,Wugsville,Daxburgh,"I love warm weather. For instance, I prefer Wugsville to Daxburgh.",Wugsville has warm weather,Daxburgh has warm weather,Yes
-196,preference,for instance,hate,8,warm weather,Wugsville,Daxburgh,"I hate warm weather. For instance, I prefer Wugsville to Daxburgh.",Wugsville has warm weather,Daxburgh has warm weather,No
+195,preference,for instance,love,8,equatorial climates,Wugsville,Daxburgh,"I love equatorial climates. For instance, I prefer Wugsville to Daxburgh.",Wugsville has an equatorial climate,Daxburgh has an equatorial climate,Yes
+196,preference,for instance,hate,8,equatorial climates,Wugsville,Daxburgh,"I hate equatorial climates. For instance, I prefer Wugsville to Daxburgh.",Wugsville has an equatorial climate,Daxburgh has an equatorial climate,No
 197,preference,for instance,love,9,coastal cities,Wugsville,Blicketland,"I love coastal cities. For instance, I prefer Wugsville to Blicketland.",Wugsville is a coastal city,Blicketland is a coastal city,Yes
 198,preference,for instance,hate,9,coastal cities,Wugsville,Blicketland,"I hate coastal cities. For instance, I prefer Wugsville to Blicketland.",Wugsville is a coastal city,Blicketland is a coastal city,No
 199,preference,for instance,love,10,islands,Daxburgh,Gektopia,"I love islands. For instance, I prefer Daxburgh to Gektopia.",Daxburgh is an island,Gektopia is an island,Yes
@@ -213,8 +213,8 @@ item_id,stimuli_type,connective,target,stimuli_instance,stimuli_instance_descrip
 212,preference,however,hate,6,college towns,Wugsville,Daxburgh,"I hate college towns. However, I prefer Wugsville to Daxburgh.",Wugsville is a college town,Daxburgh is a college town,Yes
 213,preference,however,love,7,living near mountains,Blicketland,Gektopia,"I prefer Blicketland to Gektopia. However, I love living near mountains.",Blicketland has mountains nearby,Gektopia has mountains nearby,No
 214,preference,however,hate,7,living near mountains,Blicketland,Gektopia,"I hate living near mountains. However, I prefer Blicketland to Gektopia.",Blicketland has mountains nearby,Gektopia has mountains nearby,Yes
-215,preference,however,love,8,warm weather,Daxburgh,Fepopolis,"I prefer Daxburgh to Fepopolis. However, I love warm weather.",Daxburgh has warm weather,Fepopolis has warm weather,No
-216,preference,however,hate,8,warm weather,Daxburgh,Fepopolis,"I hate warm weather. However, I prefer Daxburgh to Fepopolis.",Daxburgh has warm weather,Fepopolis has warm weather,Yes
+215,preference,however,love,8,equatorial climates,Daxburgh,Fepopolis,"I prefer Daxburgh to Fepopolis. However, I love equatorial climates.",Daxburgh has an equatorial climate,Fepopolis has an equatorial climate,No
+216,preference,however,hate,8,equatorial climates,Daxburgh,Fepopolis,"I hate equatorial climates. However, I prefer Daxburgh to Fepopolis.",Daxburgh has an equatorial climate,Fepopolis has an equatorial climate,Yes
 217,preference,however,love,9,coastal cities,Daxburgh,Blicketland,"I prefer Daxburgh to Blicketland. However, I love coastal cities.",Daxburgh is a coastal city,Blicketland is a coastal city,No
 218,preference,however,hate,9,coastal cities,Daxburgh,Blicketland,"I hate coastal cities. However, I prefer Daxburgh to Blicketland.",Daxburgh is a coastal city,Blicketland is a coastal city,Yes
 219,preference,however,love,10,islands,Daxburgh,Gektopia,"I prefer Daxburgh to Gektopia. However, I love islands.",Daxburgh is an island,Gektopia is an island,No
@@ -233,8 +233,8 @@ item_id,stimuli_type,connective,target,stimuli_instance,stimuli_instance_descrip
 232,preference,nevertheless,hate,6,college towns,Wugsville,Gektopia,"I hate college towns, nevertheless, I prefer Wugsville to Gektopia.",Wugsville is a college town,Gektopia is a college town,Yes
 233,preference,nevertheless,love,7,living near mountains,Daxburgh,Blicketland,"I love living near mountains, nevertheless, I prefer Daxburgh to Blicketland.",Daxburgh has mountains nearby,Blicketland has mountains nearby,No
 234,preference,nevertheless,hate,7,living near mountains,Daxburgh,Blicketland,"I hate living near mountains, nevertheless, I prefer Daxburgh to Blicketland.",Daxburgh has mountains nearby,Blicketland has mountains nearby,Yes
-235,preference,nevertheless,love,8,warm weather,Blicketland,Gektopia,"I love warm weather, nevertheless, I prefer Blicketland to Gektopia.",Blicketland has warm weather,Gektopia has warm weather,No
-236,preference,nevertheless,hate,8,warm weather,Blicketland,Gektopia,"I hate warm weather, nevertheless, I prefer Blicketland to Gektopia.",Blicketland has warm weather,Gektopia has warm weather,Yes
+235,preference,nevertheless,love,8,equatorial climates,Blicketland,Gektopia,"I love equatorial climates, nevertheless, I prefer Blicketland to Gektopia.",Blicketland has an equatorial climate,Gektopia has an equatorial climate,No
+236,preference,nevertheless,hate,8,equatorial climates,Blicketland,Gektopia,"I hate equatorial climates, nevertheless, I prefer Blicketland to Gektopia.",Blicketland has an equatorial climate,Gektopia has an equatorial climate,Yes
 237,preference,nevertheless,love,9,coastal cities,Fepopolis,Gektopia,"I prefer Fepopolis to Gektopia, nevertheless, I love coastal cities.",Fepopolis is a coastal city,Gektopia is a coastal city,No
 238,preference,nevertheless,hate,9,coastal cities,Fepopolis,Gektopia,"I hate coastal cities, nevertheless, I prefer Fepopolis to Gektopia.",Fepopolis is a coastal city,Gektopia is a coastal city,Yes
 239,preference,nevertheless,love,10,islands,Daxburgh,Fepopolis,"I prefer Daxburgh to Fepopolis, nevertheless, I love islands.",Daxburgh is an island,Fepopolis is an island,No
@@ -253,8 +253,8 @@ item_id,stimuli_type,connective,target,stimuli_instance,stimuli_instance_descrip
 252,preference,since,hate,6,college towns,Daxburgh,Fepopolis,"I prefer Daxburgh to Fepopolis, since I hate college towns.",Daxburgh is a college town,Fepopolis is a college town,No
 253,preference,since,love,7,living near mountains,Fepopolis,Blicketland,"I prefer Fepopolis to Blicketland, since I love living near mountains.",Fepopolis has mountains nearby,Blicketland has mountains nearby,Yes
 254,preference,since,hate,7,living near mountains,Fepopolis,Blicketland,"I prefer Fepopolis to Blicketland, since I hate living near mountains.",Fepopolis has mountains nearby,Blicketland has mountains nearby,No
-255,preference,since,love,8,warm weather,Wugsville,Gektopia,"Since I love warm weather, I prefer Wugsville to Gektopia.",Wugsville has warm weather,Gektopia has warm weather,Yes
-256,preference,since,hate,8,warm weather,Wugsville,Gektopia,"I prefer Wugsville to Gektopia, since I hate warm weather.",Wugsville has warm weather,Gektopia has warm weather,No
+255,preference,since,love,8,equatorial climates,Wugsville,Gektopia,"Since I love equatorial climates, I prefer Wugsville to Gektopia.",Wugsville has an equatorial climate,Gektopia has an equatorial climate,Yes
+256,preference,since,hate,8,equatorial climates,Wugsville,Gektopia,"I prefer Wugsville to Gektopia, since I hate equatorial climates.",Wugsville has an equatorial climate,Gektopia has an equatorial climate,No
 257,preference,since,love,9,coastal cities,Blicketland,Gektopia,"Since I love coastal cities, I prefer Blicketland to Gektopia.",Blicketland is a coastal city,Gektopia is a coastal city,Yes
 258,preference,since,hate,9,coastal cities,Blicketland,Gektopia,"Since I hate coastal cities, I prefer Blicketland to Gektopia.",Blicketland is a coastal city,Gektopia is a coastal city,No
 259,preference,since,love,10,islands,Wugsville,Daxburgh,"Since I love islands, I prefer Wugsville to Daxburgh.",Wugsville is an island,Daxburgh is an island,Yes
@@ -273,8 +273,8 @@ item_id,stimuli_type,connective,target,stimuli_instance,stimuli_instance_descrip
 272,preference,so,hate,6,college towns,Blicketland,Gektopia,"I hate college towns. So, I prefer Blicketland to Gektopia.",Blicketland is a college town,Gektopia is a college town,No
 273,preference,so,love,7,living near mountains,Wugsville,Blicketland,"I love living near mountains. So, I prefer Wugsville to Blicketland.",Wugsville has mountains nearby,Blicketland has mountains nearby,Yes
 274,preference,so,hate,7,living near mountains,Wugsville,Blicketland,"I hate living near mountains. So, I prefer Wugsville to Blicketland.",Wugsville has mountains nearby,Blicketland has mountains nearby,No
-275,preference,so,love,8,warm weather,Wugsville,Gektopia,"I love warm weather. So, I prefer Wugsville to Gektopia.",Wugsville has warm weather,Gektopia has warm weather,Yes
-276,preference,so,hate,8,warm weather,Wugsville,Gektopia,"I hate warm weather. So, I prefer Wugsville to Gektopia.",Wugsville has warm weather,Gektopia has warm weather,No
+275,preference,so,love,8,equatorial climates,Wugsville,Gektopia,"I love equatorial climates. So, I prefer Wugsville to Gektopia.",Wugsville has an equatorial climate,Gektopia has an equatorial climate,Yes
+276,preference,so,hate,8,equatorial climates,Wugsville,Gektopia,"I hate equatorial climates. So, I prefer Wugsville to Gektopia.",Wugsville has an equatorial climate,Gektopia has an equatorial climate,No
 277,preference,so,love,9,coastal cities,Fepopolis,Blicketland,"I love coastal cities. So, I prefer Fepopolis to Blicketland.",Fepopolis is a coastal city,Blicketland is a coastal city,Yes
 278,preference,so,hate,9,coastal cities,Fepopolis,Blicketland,"I hate coastal cities. So, I prefer Fepopolis to Blicketland.",Fepopolis is a coastal city,Blicketland is a coastal city,No
 279,preference,so,love,10,islands,Fepopolis,Gektopia,"I love islands. So, I prefer Fepopolis to Gektopia.",Fepopolis is an island,Gektopia is an island,Yes
@@ -293,8 +293,8 @@ item_id,stimuli_type,connective,target,stimuli_instance,stimuli_instance_descrip
 292,preference,therefore,hate,6,college towns,Daxburgh,Gektopia,"I hate college towns. Therefore, I prefer Daxburgh to Gektopia.",Daxburgh is a college town,Gektopia is a college town,No
 293,preference,therefore,love,7,living near mountains,Fepopolis,Gektopia,"I love living near mountains. Therefore, I prefer Fepopolis to Gektopia.",Fepopolis has mountains nearby,Gektopia has mountains nearby,Yes
 294,preference,therefore,hate,7,living near mountains,Fepopolis,Gektopia,"I hate living near mountains. Therefore, I prefer Fepopolis to Gektopia.",Fepopolis has mountains nearby,Gektopia has mountains nearby,No
-295,preference,therefore,love,8,warm weather,Daxburgh,Fepopolis,"I love warm weather. Therefore, I prefer Daxburgh to Fepopolis.",Daxburgh has warm weather,Fepopolis has warm weather,Yes
-296,preference,therefore,hate,8,warm weather,Daxburgh,Fepopolis,"I hate warm weather. Therefore, I prefer Daxburgh to Fepopolis.",Daxburgh has warm weather,Fepopolis has warm weather,No
+295,preference,therefore,love,8,equatorial climates,Daxburgh,Fepopolis,"I love equatorial climates. Therefore, I prefer Daxburgh to Fepopolis.",Daxburgh has an equatorial climate,Fepopolis has an equatorial climate,Yes
+296,preference,therefore,hate,8,equatorial climates,Daxburgh,Fepopolis,"I hate equatorial climates. Therefore, I prefer Daxburgh to Fepopolis.",Daxburgh has an equatorial climate,Fepopolis has an equatorial climate,No
 297,preference,therefore,love,9,coastal cities,Wugsville,Gektopia,"I love coastal cities. Therefore, I prefer Wugsville to Gektopia.",Wugsville is a coastal city,Gektopia is a coastal city,Yes
 298,preference,therefore,hate,9,coastal cities,Wugsville,Gektopia,"I hate coastal cities. Therefore, I prefer Wugsville to Gektopia.",Wugsville is a coastal city,Gektopia is a coastal city,No
 299,preference,therefore,love,10,islands,Fepopolis,Blicketland,"I love islands. Therefore, I prefer Fepopolis to Blicketland.",Fepopolis is an island,Blicketland is an island,Yes
@@ -313,8 +313,8 @@ item_id,stimuli_type,connective,target,stimuli_instance,stimuli_instance_descrip
 312,preference,though,hate,6,college towns,Blicketland,Gektopia,"I prefer Blicketland to Gektopia, though I hate college towns.",Blicketland is a college town,Gektopia is a college town,Yes
 313,preference,though,love,7,living near mountains,Daxburgh,Gektopia,"Though I love living near mountains, I prefer Daxburgh to Gektopia.",Daxburgh has mountains nearby,Gektopia has mountains nearby,No
 314,preference,though,hate,7,living near mountains,Daxburgh,Gektopia,"Though I prefer Daxburgh to Gektopia, I hate living near mountains.",Daxburgh has mountains nearby,Gektopia has mountains nearby,Yes
-315,preference,though,love,8,warm weather,Wugsville,Fepopolis,"I prefer Wugsville to Fepopolis, though I love warm weather.",Wugsville has warm weather,Fepopolis has warm weather,No
-316,preference,though,hate,8,warm weather,Wugsville,Fepopolis,"I prefer Wugsville to Fepopolis, though I hate warm weather.",Wugsville has warm weather,Fepopolis has warm weather,Yes
+315,preference,though,love,8,equatorial climates,Wugsville,Fepopolis,"I prefer Wugsville to Fepopolis, though I love equatorial climates.",Wugsville has an equatorial climate,Fepopolis has an equatorial climate,No
+316,preference,though,hate,8,equatorial climates,Wugsville,Fepopolis,"I prefer Wugsville to Fepopolis, though I hate equatorial climates.",Wugsville has an equatorial climate,Fepopolis has an equatorial climate,Yes
 317,preference,though,love,9,coastal cities,Wugsville,Gektopia,"Though I prefer Wugsville to Gektopia, I love coastal cities.",Wugsville is a coastal city,Gektopia is a coastal city,No
 318,preference,though,hate,9,coastal cities,Wugsville,Gektopia,"I hate coastal cities, though I prefer Wugsville to Gektopia.",Wugsville is a coastal city,Gektopia is a coastal city,Yes
 319,preference,though,love,10,islands,Daxburgh,Blicketland,"I love islands, though I prefer Daxburgh to Blicketland.",Daxburgh is an island,Blicketland is an island,No
@@ -333,8 +333,8 @@ item_id,stimuli_type,connective,target,stimuli_instance,stimuli_instance_descrip
 332,preference,thus,hate,6,college towns,Wugsville,Blicketland,"I hate college towns. Thus, I prefer Wugsville to Blicketland.",Wugsville is a college town,Blicketland is a college town,No
 333,preference,thus,love,7,living near mountains,Blicketland,Gektopia,"I love living near mountains. Thus, I prefer Blicketland to Gektopia.",Blicketland has mountains nearby,Gektopia has mountains nearby,Yes
 334,preference,thus,hate,7,living near mountains,Blicketland,Gektopia,"I hate living near mountains. Thus, I prefer Blicketland to Gektopia.",Blicketland has mountains nearby,Gektopia has mountains nearby,No
-335,preference,thus,love,8,warm weather,Daxburgh,Gektopia,"I love warm weather. Thus, I prefer Daxburgh to Gektopia.",Daxburgh has warm weather,Gektopia has warm weather,Yes
-336,preference,thus,hate,8,warm weather,Daxburgh,Gektopia,"I hate warm weather. Thus, I prefer Daxburgh to Gektopia.",Daxburgh has warm weather,Gektopia has warm weather,No
+335,preference,thus,love,8,equatorial climates,Daxburgh,Gektopia,"I love equatorial climates. Thus, I prefer Daxburgh to Gektopia.",Daxburgh has an equatorial climate,Gektopia has an equatorial climate,Yes
+336,preference,thus,hate,8,equatorial climates,Daxburgh,Gektopia,"I hate equatorial climates. Thus, I prefer Daxburgh to Gektopia.",Daxburgh has an equatorial climate,Gektopia has an equatorial climate,No
 337,preference,thus,love,9,coastal cities,Fepopolis,Gektopia,"I love coastal cities. Thus, I prefer Fepopolis to Gektopia.",Fepopolis is a coastal city,Gektopia is a coastal city,Yes
 338,preference,thus,hate,9,coastal cities,Fepopolis,Gektopia,"I hate coastal cities. Thus, I prefer Fepopolis to Gektopia.",Fepopolis is a coastal city,Gektopia is a coastal city,No
 339,preference,thus,love,10,islands,Daxburgh,Blicketland,"I love islands. Thus, I prefer Daxburgh to Blicketland.",Daxburgh is an island,Blicketland is an island,Yes
@@ -353,8 +353,8 @@ item_id,stimuli_type,connective,target,stimuli_instance,stimuli_instance_descrip
 352,preference,while,hate,6,college towns,Fepopolis,Gektopia,"While I hate college towns, I prefer Fepopolis to Gektopia.",Fepopolis is a college town,Gektopia is a college town,Yes
 353,preference,while,love,7,living near mountains,Wugsville,Blicketland,"While I prefer Wugsville to Blicketland, I love living near mountains.",Wugsville has mountains nearby,Blicketland has mountains nearby,No
 354,preference,while,hate,7,living near mountains,Wugsville,Blicketland,"While I hate living near mountains, I prefer Wugsville to Blicketland.",Wugsville has mountains nearby,Blicketland has mountains nearby,Yes
-355,preference,while,love,8,warm weather,Blicketland,Gektopia,"While I prefer Blicketland to Gektopia, I love warm weather.",Blicketland has warm weather,Gektopia has warm weather,No
-356,preference,while,hate,8,warm weather,Blicketland,Gektopia,"While I prefer Blicketland to Gektopia, I hate warm weather.",Blicketland has warm weather,Gektopia has warm weather,Yes
+355,preference,while,love,8,equatorial climates,Blicketland,Gektopia,"While I prefer Blicketland to Gektopia, I love equatorial climates.",Blicketland has an equatorial climate,Gektopia has an equatorial climate,No
+356,preference,while,hate,8,equatorial climates,Blicketland,Gektopia,"While I prefer Blicketland to Gektopia, I hate equatorial climates.",Blicketland has an equatorial climate,Gektopia has an equatorial climate,Yes
 357,preference,while,love,9,coastal cities,Daxburgh,Fepopolis,"While I prefer Daxburgh to Fepopolis, I love coastal cities.",Daxburgh is a coastal city,Fepopolis is a coastal city,No
 358,preference,while,hate,9,coastal cities,Daxburgh,Fepopolis,"While I prefer Daxburgh to Fepopolis, I hate coastal cities.",Daxburgh is a coastal city,Fepopolis is a coastal city,Yes
 359,preference,while,love,10,islands,Daxburgh,Blicketland,"While I prefer Daxburgh to Blicketland, I love islands.",Daxburgh is an island,Blicketland is an island,No
@@ -373,8 +373,8 @@ item_id,stimuli_type,connective,target,stimuli_instance,stimuli_instance_descrip
 372,preference,yet,hate,6,college towns,Daxburgh,Gektopia,"I hate college towns, yet I prefer Daxburgh to Gektopia.",Daxburgh is a college town,Gektopia is a college town,Yes
 373,preference,yet,love,7,living near mountains,Fepopolis,Gektopia,"I love living near mountains, yet I prefer Fepopolis to Gektopia.",Fepopolis has mountains nearby,Gektopia has mountains nearby,No
 374,preference,yet,hate,7,living near mountains,Fepopolis,Gektopia,"I hate living near mountains, yet I prefer Fepopolis to Gektopia.",Fepopolis has mountains nearby,Gektopia has mountains nearby,Yes
-375,preference,yet,love,8,warm weather,Wugsville,Blicketland,"I love warm weather, yet I prefer Wugsville to Blicketland.",Wugsville has warm weather,Blicketland has warm weather,No
-376,preference,yet,hate,8,warm weather,Wugsville,Blicketland,"I hate warm weather, yet I prefer Wugsville to Blicketland.",Wugsville has warm weather,Blicketland has warm weather,Yes
+375,preference,yet,love,8,equatorial climates,Wugsville,Blicketland,"I love equatorial climates, yet I prefer Wugsville to Blicketland.",Wugsville has an equatorial climate,Blicketland has an equatorial climate,No
+376,preference,yet,hate,8,equatorial climates,Wugsville,Blicketland,"I hate equatorial climates, yet I prefer Wugsville to Blicketland.",Wugsville has an equatorial climate,Blicketland has an equatorial climate,Yes
 377,preference,yet,love,9,coastal cities,Wugsville,Fepopolis,"I love coastal cities, yet I prefer Wugsville to Fepopolis.",Wugsville is a coastal city,Fepopolis is a coastal city,No
 378,preference,yet,hate,9,coastal cities,Wugsville,Fepopolis,"I hate coastal cities, yet I prefer Wugsville to Fepopolis.",Wugsville is a coastal city,Fepopolis is a coastal city,Yes
 379,preference,yet,love,10,islands,Daxburgh,Blicketland,"I love islands, yet I prefer Daxburgh to Blicketland.",Daxburgh is an island,Blicketland is an island,No
@@ -393,8 +393,8 @@ item_id,stimuli_type,connective,target,stimuli_instance,stimuli_instance_descrip
 392,preference,despite that,hate,6,college towns,Daxburgh,Gektopia,"I hate college towns. Despite that, I prefer Daxburgh to Gektopia.",Daxburgh is a college town,Gektopia is a college town,Yes
 393,preference,despite that,love,7,living near mountains,Fepopolis,Gektopia,"I love living near mountains. Despite that, I prefer Fepopolis to Gektopia.",Fepopolis has mountains nearby,Gektopia has mountains nearby,No
 394,preference,despite that,hate,7,living near mountains,Fepopolis,Gektopia,"I hate living near mountains. Despite that, I prefer Fepopolis to Gektopia.",Fepopolis has mountains nearby,Gektopia has mountains nearby,Yes
-395,preference,despite that,love,8,warm weather,Wugsville,Daxburgh,"I love warm weather. Despite that, I prefer Wugsville to Daxburgh.",Wugsville has warm weather,Daxburgh has warm weather,No
-396,preference,despite that,hate,8,warm weather,Wugsville,Daxburgh,"I hate warm weather. Despite that, I prefer Wugsville to Daxburgh.",Wugsville has warm weather,Daxburgh has warm weather,Yes
+395,preference,despite that,love,8,equatorial climates,Wugsville,Daxburgh,"I love equatorial climates. Despite that, I prefer Wugsville to Daxburgh.",Wugsville has an equatorial climate,Daxburgh has an equatorial climate,No
+396,preference,despite that,hate,8,equatorial climates,Wugsville,Daxburgh,"I hate equatorial climates. Despite that, I prefer Wugsville to Daxburgh.",Wugsville has an equatorial climate,Daxburgh has an equatorial climate,Yes
 397,preference,despite that,love,9,coastal cities,Wugsville,Fepopolis,"I love coastal cities. Despite that, I prefer Wugsville to Fepopolis.",Wugsville is a coastal city,Fepopolis is a coastal city,No
 398,preference,despite that,hate,9,coastal cities,Wugsville,Fepopolis,"I hate coastal cities. Despite that, I prefer Wugsville to Fepopolis.",Wugsville is a coastal city,Fepopolis is a coastal city,Yes
 399,preference,despite that,love,10,islands,Fepopolis,Blicketland,"I love islands. Despite that, I prefer Fepopolis to Blicketland.",Fepopolis is an island,Blicketland is an island,No
@@ -413,8 +413,8 @@ item_id,stimuli_type,connective,target,stimuli_instance,stimuli_instance_descrip
 12,preference,although,hate,6,college towns,Fepopolis,Gektopia,"I prefer Fepopolis to Gektopia, although I hate college towns.",Gektopia is a college town,Fepopolis is a college town,No
 13,preference,although,love,7,living near mountains,Fepopolis,Blicketland,"I prefer Fepopolis to Blicketland, although I love living near mountains.",Blicketland has mountains nearby,Fepopolis has mountains nearby,Yes
 14,preference,although,hate,7,living near mountains,Fepopolis,Blicketland,"Although I prefer Fepopolis to Blicketland, I hate living near mountains.",Blicketland has mountains nearby,Fepopolis has mountains nearby,No
-15,preference,although,love,8,warm weather,Wugsville,Daxburgh,"Although I love warm weather, I prefer Wugsville to Daxburgh.",Daxburgh has warm weather,Wugsville has warm weather,Yes
-16,preference,although,hate,8,warm weather,Wugsville,Daxburgh,"Although I hate warm weather, I prefer Wugsville to Daxburgh.",Daxburgh has warm weather,Wugsville has warm weather,No
+15,preference,although,love,8,equatorial climates,Wugsville,Daxburgh,"Although I love equatorial climates, I prefer Wugsville to Daxburgh.",Daxburgh has an equatorial climate,Wugsville has an equatorial climate,Yes
+16,preference,although,hate,8,equatorial climates,Wugsville,Daxburgh,"Although I hate equatorial climates, I prefer Wugsville to Daxburgh.",Daxburgh has an equatorial climate,Wugsville has an equatorial climate,No
 17,preference,although,love,9,coastal cities,Daxburgh,Gektopia,"Although I love coastal cities, I prefer Daxburgh to Gektopia.",Gektopia is a coastal city,Daxburgh is a coastal city,Yes
 18,preference,although,hate,9,coastal cities,Daxburgh,Gektopia,"I prefer Daxburgh to Gektopia, although I hate coastal cities.",Gektopia is a coastal city,Daxburgh is a coastal city,No
 19,preference,although,love,10,islands,Blicketland,Gektopia,"I prefer Blicketland to Gektopia, although I love islands.",Gektopia is an island,Blicketland is an island,Yes
@@ -433,8 +433,8 @@ item_id,stimuli_type,connective,target,stimuli_instance,stimuli_instance_descrip
 32,preference,as,hate,6,college towns,Daxburgh,Fepopolis,"I prefer Daxburgh to Fepopolis, as I hate college towns.",Fepopolis is a college town,Daxburgh is a college town,Yes
 33,preference,as,love,7,living near mountains,Wugsville,Daxburgh,"I prefer Wugsville to Daxburgh, as I love living near mountains.",Daxburgh has mountains nearby,Wugsville has mountains nearby,No
 34,preference,as,hate,7,living near mountains,Wugsville,Daxburgh,"I prefer Wugsville to Daxburgh, as I hate living near mountains.",Daxburgh has mountains nearby,Wugsville has mountains nearby,Yes
-35,preference,as,love,8,warm weather,Daxburgh,Gektopia,"I prefer Daxburgh to Gektopia, as I love warm weather.",Gektopia has warm weather,Daxburgh has warm weather,No
-36,preference,as,hate,8,warm weather,Daxburgh,Gektopia,"I prefer Daxburgh to Gektopia, as I hate warm weather.",Gektopia has warm weather,Daxburgh has warm weather,Yes
+35,preference,as,love,8,equatorial climates,Daxburgh,Gektopia,"I prefer Daxburgh to Gektopia, as I love equatorial climates.",Gektopia has an equatorial climate,Daxburgh has an equatorial climate,No
+36,preference,as,hate,8,equatorial climates,Daxburgh,Gektopia,"I prefer Daxburgh to Gektopia, as I hate equatorial climates.",Gektopia has an equatorial climate,Daxburgh has an equatorial climate,Yes
 37,preference,as,love,9,coastal cities,Wugsville,Fepopolis,"I prefer Wugsville to Fepopolis, as I love coastal cities.",Fepopolis is a coastal city,Wugsville is a coastal city,No
 38,preference,as,hate,9,coastal cities,Wugsville,Fepopolis,"I prefer Wugsville to Fepopolis, as I hate coastal cities.",Fepopolis is a coastal city,Wugsville is a coastal city,Yes
 39,preference,as,love,10,islands,Fepopolis,Gektopia,"I prefer Fepopolis to Gektopia, as I love islands.",Gektopia is an island,Fepopolis is an island,No
@@ -453,8 +453,8 @@ item_id,stimuli_type,connective,target,stimuli_instance,stimuli_instance_descrip
 52,preference,as a result,hate,6,college towns,Wugsville,Blicketland,"I hate college towns. As a result, I prefer Wugsville to Blicketland.",Blicketland is a college town,Wugsville is a college town,Yes
 53,preference,as a result,love,7,living near mountains,Daxburgh,Gektopia,"I love living near mountains. As a result, I prefer Daxburgh to Gektopia.",Gektopia has mountains nearby,Daxburgh has mountains nearby,No
 54,preference,as a result,hate,7,living near mountains,Daxburgh,Gektopia,"I hate living near mountains. As a result, I prefer Daxburgh to Gektopia.",Gektopia has mountains nearby,Daxburgh has mountains nearby,Yes
-55,preference,as a result,love,8,warm weather,Blicketland,Gektopia,"I love warm weather. As a result, I prefer Blicketland to Gektopia.",Gektopia has warm weather,Blicketland has warm weather,No
-56,preference,as a result,hate,8,warm weather,Blicketland,Gektopia,"I hate warm weather. As a result, I prefer Blicketland to Gektopia.",Gektopia has warm weather,Blicketland has warm weather,Yes
+55,preference,as a result,love,8,equatorial climates,Blicketland,Gektopia,"I love equatorial climates. As a result, I prefer Blicketland to Gektopia.",Gektopia has an equatorial climate,Blicketland has an equatorial climate,No
+56,preference,as a result,hate,8,equatorial climates,Blicketland,Gektopia,"I hate equatorial climates. As a result, I prefer Blicketland to Gektopia.",Gektopia has an equatorial climate,Blicketland has an equatorial climate,Yes
 57,preference,as a result,love,9,coastal cities,Wugsville,Gektopia,"I love coastal cities. As a result, I prefer Wugsville to Gektopia.",Gektopia is a coastal city,Wugsville is a coastal city,No
 58,preference,as a result,hate,9,coastal cities,Wugsville,Gektopia,"I hate coastal cities. As a result, I prefer Wugsville to Gektopia.",Gektopia is a coastal city,Wugsville is a coastal city,Yes
 59,preference,as a result,love,10,islands,Wugsville,Daxburgh,"I love islands. As a result, I prefer Wugsville to Daxburgh.",Daxburgh is an island,Wugsville is an island,No
@@ -473,8 +473,8 @@ item_id,stimuli_type,connective,target,stimuli_instance,stimuli_instance_descrip
 72,preference,as much as,hate,6,college towns,Daxburgh,Fepopolis,"As much as I hate college towns, I prefer Daxburgh to Fepopolis.",Fepopolis is a college town,Daxburgh is a college town,No
 73,preference,as much as,love,7,living near mountains,Daxburgh,Blicketland,"As much as I love living near mountains, I prefer Daxburgh to Blicketland.",Blicketland has mountains nearby,Daxburgh has mountains nearby,Yes
 74,preference,as much as,hate,7,living near mountains,Daxburgh,Blicketland,"As much as I hate living near mountains, I prefer Daxburgh to Blicketland.",Blicketland has mountains nearby,Daxburgh has mountains nearby,No
-75,preference,as much as,love,8,warm weather,Wugsville,Fepopolis,"As much as I love warm weather, I prefer Wugsville to Fepopolis.",Fepopolis has warm weather,Wugsville has warm weather,Yes
-76,preference,as much as,hate,8,warm weather,Wugsville,Fepopolis,"As much as I hate warm weather, I prefer Wugsville to Fepopolis.",Fepopolis has warm weather,Wugsville has warm weather,No
+75,preference,as much as,love,8,equatorial climates,Wugsville,Fepopolis,"As much as I love equatorial climates, I prefer Wugsville to Fepopolis.",Fepopolis has an equatorial climate,Wugsville has an equatorial climate,Yes
+76,preference,as much as,hate,8,equatorial climates,Wugsville,Fepopolis,"As much as I hate equatorial climates, I prefer Wugsville to Fepopolis.",Fepopolis has an equatorial climate,Wugsville has an equatorial climate,No
 77,preference,as much as,love,9,coastal cities,Wugsville,Daxburgh,"As much as I love coastal cities, I prefer Wugsville to Daxburgh.",Daxburgh is a coastal city,Wugsville is a coastal city,Yes
 78,preference,as much as,hate,9,coastal cities,Wugsville,Daxburgh,"As much as I hate coastal cities, I prefer Wugsville to Daxburgh.",Daxburgh is a coastal city,Wugsville is a coastal city,No
 79,preference,as much as,love,10,islands,Fepopolis,Gektopia,"As much as I love islands, I prefer Fepopolis to Gektopia.",Gektopia is an island,Fepopolis is an island,Yes
@@ -493,8 +493,8 @@ item_id,stimuli_type,connective,target,stimuli_instance,stimuli_instance_descrip
 92,preference,because,hate,6,college towns,Daxburgh,Fepopolis,I prefer Daxburgh to Fepopolis because I hate college towns.,Fepopolis is a college town,Daxburgh is a college town,Yes
 93,preference,because,love,7,living near mountains,Fepopolis,Gektopia,I prefer Fepopolis to Gektopia because I love living near mountains.,Gektopia has mountains nearby,Fepopolis has mountains nearby,No
 94,preference,because,hate,7,living near mountains,Fepopolis,Gektopia,I prefer Fepopolis to Gektopia because I hate living near mountains.,Gektopia has mountains nearby,Fepopolis has mountains nearby,Yes
-95,preference,because,love,8,warm weather,Blicketland,Gektopia,I prefer Blicketland to Gektopia because I love warm weather.,Gektopia has warm weather,Blicketland has warm weather,No
-96,preference,because,hate,8,warm weather,Blicketland,Gektopia,I prefer Blicketland to Gektopia because I hate warm weather.,Gektopia has warm weather,Blicketland has warm weather,Yes
+95,preference,because,love,8,equatorial climates,Blicketland,Gektopia,I prefer Blicketland to Gektopia because I love equatorial climates.,Gektopia has an equatorial climate,Blicketland has an equatorial climate,No
+96,preference,because,hate,8,equatorial climates,Blicketland,Gektopia,I prefer Blicketland to Gektopia because I hate equatorial climates.,Gektopia has an equatorial climate,Blicketland has an equatorial climate,Yes
 97,preference,because,love,9,coastal cities,Fepopolis,Blicketland,I prefer Fepopolis to Blicketland because I love coastal cities.,Blicketland is a coastal city,Fepopolis is a coastal city,No
 98,preference,because,hate,9,coastal cities,Fepopolis,Blicketland,I prefer Fepopolis to Blicketland because I hate coastal cities.,Blicketland is a coastal city,Fepopolis is a coastal city,Yes
 99,preference,because,love,10,islands,Wugsville,Blicketland,I prefer Wugsville to Blicketland because I love islands.,Blicketland is an island,Wugsville is an island,No
@@ -513,8 +513,8 @@ item_id,stimuli_type,connective,target,stimuli_instance,stimuli_instance_descrip
 112,preference,but,hate,6,college towns,Fepopolis,Gektopia,"I prefer Fepopolis to Gektopia. But, I hate college towns.",Gektopia is a college town,Fepopolis is a college town,No
 113,preference,but,love,7,living near mountains,Daxburgh,Gektopia,"I prefer Daxburgh to Gektopia. But, I love living near mountains.",Gektopia has mountains nearby,Daxburgh has mountains nearby,Yes
 114,preference,but,hate,7,living near mountains,Daxburgh,Gektopia,"I prefer Daxburgh to Gektopia. But, I hate living near mountains.",Gektopia has mountains nearby,Daxburgh has mountains nearby,No
-115,preference,but,love,8,warm weather,Wugsville,Gektopia,"I love warm weather. But, I prefer Wugsville to Gektopia.",Gektopia has warm weather,Wugsville has warm weather,Yes
-116,preference,but,hate,8,warm weather,Wugsville,Gektopia,"I prefer Wugsville to Gektopia. But, I hate warm weather.",Gektopia has warm weather,Wugsville has warm weather,No
+115,preference,but,love,8,equatorial climates,Wugsville,Gektopia,"I love equatorial climates. But, I prefer Wugsville to Gektopia.",Gektopia has an equatorial climate,Wugsville has an equatorial climate,Yes
+116,preference,but,hate,8,equatorial climates,Wugsville,Gektopia,"I prefer Wugsville to Gektopia. But, I hate equatorial climates.",Gektopia has an equatorial climate,Wugsville has an equatorial climate,No
 117,preference,but,love,9,coastal cities,Fepopolis,Blicketland,"I love coastal cities. But, I prefer Fepopolis to Blicketland.",Blicketland is a coastal city,Fepopolis is a coastal city,Yes
 118,preference,but,hate,9,coastal cities,Fepopolis,Blicketland,"I prefer Fepopolis to Blicketland. But, I hate coastal cities.",Blicketland is a coastal city,Fepopolis is a coastal city,No
 119,preference,but,love,10,islands,Blicketland,Gektopia,"I love islands. But, I prefer Blicketland to Gektopia.",Gektopia is an island,Blicketland is an island,Yes
@@ -533,8 +533,8 @@ item_id,stimuli_type,connective,target,stimuli_instance,stimuli_instance_descrip
 132,preference,even though,hate,6,college towns,Daxburgh,Gektopia,"I hate college towns, even though I prefer Daxburgh to Gektopia.",Gektopia is a college town,Daxburgh is a college town,No
 133,preference,even though,love,7,living near mountains,Fepopolis,Gektopia,"Even though I prefer Fepopolis to Gektopia, I love living near mountains.",Gektopia has mountains nearby,Fepopolis has mountains nearby,Yes
 134,preference,even though,hate,7,living near mountains,Fepopolis,Gektopia,"I prefer Fepopolis to Gektopia, even though I hate living near mountains.",Gektopia has mountains nearby,Fepopolis has mountains nearby,No
-135,preference,even though,love,8,warm weather,Wugsville,Blicketland,"I prefer Wugsville to Blicketland, even though I love warm weather.",Blicketland has warm weather,Wugsville has warm weather,Yes
-136,preference,even though,hate,8,warm weather,Wugsville,Blicketland,"I hate warm weather, even though I prefer Wugsville to Blicketland.",Blicketland has warm weather,Wugsville has warm weather,No
+135,preference,even though,love,8,equatorial climates,Wugsville,Blicketland,"I prefer Wugsville to Blicketland, even though I love equatorial climates.",Blicketland has an equatorial climate,Wugsville has an equatorial climate,Yes
+136,preference,even though,hate,8,equatorial climates,Wugsville,Blicketland,"I hate equatorial climates, even though I prefer Wugsville to Blicketland.",Blicketland has an equatorial climate,Wugsville has an equatorial climate,No
 137,preference,even though,love,9,coastal cities,Wugsville,Gektopia,"I prefer Wugsville to Gektopia, even though I love coastal cities.",Gektopia is a coastal city,Wugsville is a coastal city,Yes
 138,preference,even though,hate,9,coastal cities,Wugsville,Gektopia,"I prefer Wugsville to Gektopia, even though I hate coastal cities.",Gektopia is a coastal city,Wugsville is a coastal city,No
 139,preference,even though,love,10,islands,Wugsville,Fepopolis,"Even though I love islands, I prefer Wugsville to Fepopolis.",Fepopolis is an island,Wugsville is an island,Yes
@@ -553,8 +553,8 @@ item_id,stimuli_type,connective,target,stimuli_instance,stimuli_instance_descrip
 152,preference,for,hate,6,college towns,Blicketland,Gektopia,"I prefer Blicketland to Gektopia, for I hate college towns.",Gektopia is a college town,Blicketland is a college town,Yes
 153,preference,for,love,7,living near mountains,Daxburgh,Fepopolis,"I prefer Daxburgh to Fepopolis, for I love living near mountains.",Fepopolis has mountains nearby,Daxburgh has mountains nearby,No
 154,preference,for,hate,7,living near mountains,Daxburgh,Fepopolis,"I prefer Daxburgh to Fepopolis, for I hate living near mountains.",Fepopolis has mountains nearby,Daxburgh has mountains nearby,Yes
-155,preference,for,love,8,warm weather,Wugsville,Gektopia,"I prefer Wugsville to Gektopia, for I love warm weather.",Gektopia has warm weather,Wugsville has warm weather,No
-156,preference,for,hate,8,warm weather,Wugsville,Gektopia,"I prefer Wugsville to Gektopia, for I hate warm weather.",Gektopia has warm weather,Wugsville has warm weather,Yes
+155,preference,for,love,8,equatorial climates,Wugsville,Gektopia,"I prefer Wugsville to Gektopia, for I love equatorial climates.",Gektopia has an equatorial climate,Wugsville has an equatorial climate,No
+156,preference,for,hate,8,equatorial climates,Wugsville,Gektopia,"I prefer Wugsville to Gektopia, for I hate equatorial climates.",Gektopia has an equatorial climate,Wugsville has an equatorial climate,Yes
 157,preference,for,love,9,coastal cities,Wugsville,Fepopolis,"I prefer Wugsville to Fepopolis, for I love coastal cities.",Fepopolis is a coastal city,Wugsville is a coastal city,No
 158,preference,for,hate,9,coastal cities,Wugsville,Fepopolis,"I prefer Wugsville to Fepopolis, for I hate coastal cities.",Fepopolis is a coastal city,Wugsville is a coastal city,Yes
 159,preference,for,love,10,islands,Daxburgh,Gektopia,"I prefer Daxburgh to Gektopia, for I love islands.",Gektopia is an island,Daxburgh is an island,No
@@ -573,8 +573,8 @@ item_id,stimuli_type,connective,target,stimuli_instance,stimuli_instance_descrip
 172,preference,for example,hate,6,college towns,Wugsville,Blicketland,"I hate college towns. For example, I prefer Wugsville to Blicketland.",Blicketland is a college town,Wugsville is a college town,Yes
 173,preference,for example,love,7,living near mountains,Fepopolis,Blicketland,"I love living near mountains. For example, I prefer Fepopolis to Blicketland.",Blicketland has mountains nearby,Fepopolis has mountains nearby,No
 174,preference,for example,hate,7,living near mountains,Fepopolis,Blicketland,"I hate living near mountains. For example, I prefer Fepopolis to Blicketland.",Blicketland has mountains nearby,Fepopolis has mountains nearby,Yes
-175,preference,for example,love,8,warm weather,Wugsville,Fepopolis,"I love warm weather. For example, I prefer Wugsville to Fepopolis.",Fepopolis has warm weather,Wugsville has warm weather,No
-176,preference,for example,hate,8,warm weather,Wugsville,Fepopolis,"I hate warm weather. For example, I prefer Wugsville to Fepopolis.",Fepopolis has warm weather,Wugsville has warm weather,Yes
+175,preference,for example,love,8,equatorial climates,Wugsville,Fepopolis,"I love equatorial climates. For example, I prefer Wugsville to Fepopolis.",Fepopolis has an equatorial climate,Wugsville has an equatorial climate,No
+176,preference,for example,hate,8,equatorial climates,Wugsville,Fepopolis,"I hate equatorial climates. For example, I prefer Wugsville to Fepopolis.",Fepopolis has an equatorial climate,Wugsville has an equatorial climate,Yes
 177,preference,for example,love,9,coastal cities,Daxburgh,Fepopolis,"I love coastal cities. For example, I prefer Daxburgh to Fepopolis.",Fepopolis is a coastal city,Daxburgh is a coastal city,No
 178,preference,for example,hate,9,coastal cities,Daxburgh,Fepopolis,"I hate coastal cities. For example, I prefer Daxburgh to Fepopolis.",Fepopolis is a coastal city,Daxburgh is a coastal city,Yes
 179,preference,for example,love,10,islands,Fepopolis,Gektopia,"I love islands. For example, I prefer Fepopolis to Gektopia.",Gektopia is an island,Fepopolis is an island,No
@@ -593,8 +593,8 @@ item_id,stimuli_type,connective,target,stimuli_instance,stimuli_instance_descrip
 192,preference,for instance,hate,6,college towns,Blicketland,Gektopia,"I hate college towns. For instance, I prefer Blicketland to Gektopia.",Gektopia is a college town,Blicketland is a college town,Yes
 193,preference,for instance,love,7,living near mountains,Fepopolis,Gektopia,"I love living near mountains. For instance, I prefer Fepopolis to Gektopia.",Gektopia has mountains nearby,Fepopolis has mountains nearby,No
 194,preference,for instance,hate,7,living near mountains,Fepopolis,Gektopia,"I hate living near mountains. For instance, I prefer Fepopolis to Gektopia.",Gektopia has mountains nearby,Fepopolis has mountains nearby,Yes
-195,preference,for instance,love,8,warm weather,Wugsville,Daxburgh,"I love warm weather. For instance, I prefer Wugsville to Daxburgh.",Daxburgh has warm weather,Wugsville has warm weather,No
-196,preference,for instance,hate,8,warm weather,Wugsville,Daxburgh,"I hate warm weather. For instance, I prefer Wugsville to Daxburgh.",Daxburgh has warm weather,Wugsville has warm weather,Yes
+195,preference,for instance,love,8,equatorial climates,Wugsville,Daxburgh,"I love equatorial climates. For instance, I prefer Wugsville to Daxburgh.",Daxburgh has an equatorial climate,Wugsville has an equatorial climate,No
+196,preference,for instance,hate,8,equatorial climates,Wugsville,Daxburgh,"I hate equatorial climates. For instance, I prefer Wugsville to Daxburgh.",Daxburgh has an equatorial climate,Wugsville has an equatorial climate,Yes
 197,preference,for instance,love,9,coastal cities,Wugsville,Blicketland,"I love coastal cities. For instance, I prefer Wugsville to Blicketland.",Blicketland is a coastal city,Wugsville is a coastal city,No
 198,preference,for instance,hate,9,coastal cities,Wugsville,Blicketland,"I hate coastal cities. For instance, I prefer Wugsville to Blicketland.",Blicketland is a coastal city,Wugsville is a coastal city,Yes
 199,preference,for instance,love,10,islands,Daxburgh,Gektopia,"I love islands. For instance, I prefer Daxburgh to Gektopia.",Gektopia is an island,Daxburgh is an island,No
@@ -613,8 +613,8 @@ item_id,stimuli_type,connective,target,stimuli_instance,stimuli_instance_descrip
 212,preference,however,hate,6,college towns,Wugsville,Daxburgh,"I hate college towns. However, I prefer Wugsville to Daxburgh.",Daxburgh is a college town,Wugsville is a college town,No
 213,preference,however,love,7,living near mountains,Blicketland,Gektopia,"I prefer Blicketland to Gektopia. However, I love living near mountains.",Gektopia has mountains nearby,Blicketland has mountains nearby,Yes
 214,preference,however,hate,7,living near mountains,Blicketland,Gektopia,"I hate living near mountains. However, I prefer Blicketland to Gektopia.",Gektopia has mountains nearby,Blicketland has mountains nearby,No
-215,preference,however,love,8,warm weather,Daxburgh,Fepopolis,"I prefer Daxburgh to Fepopolis. However, I love warm weather.",Fepopolis has warm weather,Daxburgh has warm weather,Yes
-216,preference,however,hate,8,warm weather,Daxburgh,Fepopolis,"I hate warm weather. However, I prefer Daxburgh to Fepopolis.",Fepopolis has warm weather,Daxburgh has warm weather,No
+215,preference,however,love,8,equatorial climates,Daxburgh,Fepopolis,"I prefer Daxburgh to Fepopolis. However, I love equatorial climates.",Fepopolis has an equatorial climate,Daxburgh has an equatorial climate,Yes
+216,preference,however,hate,8,equatorial climates,Daxburgh,Fepopolis,"I hate equatorial climates. However, I prefer Daxburgh to Fepopolis.",Fepopolis has an equatorial climate,Daxburgh has an equatorial climate,No
 217,preference,however,love,9,coastal cities,Daxburgh,Blicketland,"I prefer Daxburgh to Blicketland. However, I love coastal cities.",Blicketland is a coastal city,Daxburgh is a coastal city,Yes
 218,preference,however,hate,9,coastal cities,Daxburgh,Blicketland,"I hate coastal cities. However, I prefer Daxburgh to Blicketland.",Blicketland is a coastal city,Daxburgh is a coastal city,No
 219,preference,however,love,10,islands,Daxburgh,Gektopia,"I prefer Daxburgh to Gektopia. However, I love islands.",Gektopia is an island,Daxburgh is an island,Yes
@@ -633,8 +633,8 @@ item_id,stimuli_type,connective,target,stimuli_instance,stimuli_instance_descrip
 232,preference,nevertheless,hate,6,college towns,Wugsville,Gektopia,"I hate college towns, nevertheless, I prefer Wugsville to Gektopia.",Gektopia is a college town,Wugsville is a college town,No
 233,preference,nevertheless,love,7,living near mountains,Daxburgh,Blicketland,"I love living near mountains, nevertheless, I prefer Daxburgh to Blicketland.",Blicketland has mountains nearby,Daxburgh has mountains nearby,Yes
 234,preference,nevertheless,hate,7,living near mountains,Daxburgh,Blicketland,"I hate living near mountains, nevertheless, I prefer Daxburgh to Blicketland.",Blicketland has mountains nearby,Daxburgh has mountains nearby,No
-235,preference,nevertheless,love,8,warm weather,Blicketland,Gektopia,"I love warm weather, nevertheless, I prefer Blicketland to Gektopia.",Gektopia has warm weather,Blicketland has warm weather,Yes
-236,preference,nevertheless,hate,8,warm weather,Blicketland,Gektopia,"I hate warm weather, nevertheless, I prefer Blicketland to Gektopia.",Gektopia has warm weather,Blicketland has warm weather,No
+235,preference,nevertheless,love,8,equatorial climates,Blicketland,Gektopia,"I love equatorial climates, nevertheless, I prefer Blicketland to Gektopia.",Gektopia has an equatorial climate,Blicketland has an equatorial climate,Yes
+236,preference,nevertheless,hate,8,equatorial climates,Blicketland,Gektopia,"I hate equatorial climates, nevertheless, I prefer Blicketland to Gektopia.",Gektopia has an equatorial climate,Blicketland has an equatorial climate,No
 237,preference,nevertheless,love,9,coastal cities,Fepopolis,Gektopia,"I prefer Fepopolis to Gektopia, nevertheless, I love coastal cities.",Gektopia is a coastal city,Fepopolis is a coastal city,Yes
 238,preference,nevertheless,hate,9,coastal cities,Fepopolis,Gektopia,"I hate coastal cities, nevertheless, I prefer Fepopolis to Gektopia.",Gektopia is a coastal city,Fepopolis is a coastal city,No
 239,preference,nevertheless,love,10,islands,Daxburgh,Fepopolis,"I prefer Daxburgh to Fepopolis, nevertheless, I love islands.",Fepopolis is an island,Daxburgh is an island,Yes
@@ -653,8 +653,8 @@ item_id,stimuli_type,connective,target,stimuli_instance,stimuli_instance_descrip
 252,preference,since,hate,6,college towns,Daxburgh,Fepopolis,"I prefer Daxburgh to Fepopolis, since I hate college towns.",Fepopolis is a college town,Daxburgh is a college town,Yes
 253,preference,since,love,7,living near mountains,Fepopolis,Blicketland,"I prefer Fepopolis to Blicketland, since I love living near mountains.",Blicketland has mountains nearby,Fepopolis has mountains nearby,No
 254,preference,since,hate,7,living near mountains,Fepopolis,Blicketland,"I prefer Fepopolis to Blicketland, since I hate living near mountains.",Blicketland has mountains nearby,Fepopolis has mountains nearby,Yes
-255,preference,since,love,8,warm weather,Wugsville,Gektopia,"Since I love warm weather, I prefer Wugsville to Gektopia.",Gektopia has warm weather,Wugsville has warm weather,No
-256,preference,since,hate,8,warm weather,Wugsville,Gektopia,"I prefer Wugsville to Gektopia, since I hate warm weather.",Gektopia has warm weather,Wugsville has warm weather,Yes
+255,preference,since,love,8,equatorial climates,Wugsville,Gektopia,"Since I love equatorial climates, I prefer Wugsville to Gektopia.",Gektopia has an equatorial climate,Wugsville has an equatorial climate,No
+256,preference,since,hate,8,equatorial climates,Wugsville,Gektopia,"I prefer Wugsville to Gektopia, since I hate equatorial climates.",Gektopia has an equatorial climate,Wugsville has an equatorial climate,Yes
 257,preference,since,love,9,coastal cities,Blicketland,Gektopia,"Since I love coastal cities, I prefer Blicketland to Gektopia.",Gektopia is a coastal city,Blicketland is a coastal city,No
 258,preference,since,hate,9,coastal cities,Blicketland,Gektopia,"Since I hate coastal cities, I prefer Blicketland to Gektopia.",Gektopia is a coastal city,Blicketland is a coastal city,Yes
 259,preference,since,love,10,islands,Wugsville,Daxburgh,"Since I love islands, I prefer Wugsville to Daxburgh.",Daxburgh is an island,Wugsville is an island,No
@@ -673,8 +673,8 @@ item_id,stimuli_type,connective,target,stimuli_instance,stimuli_instance_descrip
 272,preference,so,hate,6,college towns,Blicketland,Gektopia,"I hate college towns. So, I prefer Blicketland to Gektopia.",Gektopia is a college town,Blicketland is a college town,Yes
 273,preference,so,love,7,living near mountains,Wugsville,Blicketland,"I love living near mountains. So, I prefer Wugsville to Blicketland.",Blicketland has mountains nearby,Wugsville has mountains nearby,No
 274,preference,so,hate,7,living near mountains,Wugsville,Blicketland,"I hate living near mountains. So, I prefer Wugsville to Blicketland.",Blicketland has mountains nearby,Wugsville has mountains nearby,Yes
-275,preference,so,love,8,warm weather,Wugsville,Gektopia,"I love warm weather. So, I prefer Wugsville to Gektopia.",Gektopia has warm weather,Wugsville has warm weather,No
-276,preference,so,hate,8,warm weather,Wugsville,Gektopia,"I hate warm weather. So, I prefer Wugsville to Gektopia.",Gektopia has warm weather,Wugsville has warm weather,Yes
+275,preference,so,love,8,equatorial climates,Wugsville,Gektopia,"I love equatorial climates. So, I prefer Wugsville to Gektopia.",Gektopia has an equatorial climate,Wugsville has an equatorial climate,No
+276,preference,so,hate,8,equatorial climates,Wugsville,Gektopia,"I hate equatorial climates. So, I prefer Wugsville to Gektopia.",Gektopia has an equatorial climate,Wugsville has an equatorial climate,Yes
 277,preference,so,love,9,coastal cities,Fepopolis,Blicketland,"I love coastal cities. So, I prefer Fepopolis to Blicketland.",Blicketland is a coastal city,Fepopolis is a coastal city,No
 278,preference,so,hate,9,coastal cities,Fepopolis,Blicketland,"I hate coastal cities. So, I prefer Fepopolis to Blicketland.",Blicketland is a coastal city,Fepopolis is a coastal city,Yes
 279,preference,so,love,10,islands,Fepopolis,Gektopia,"I love islands. So, I prefer Fepopolis to Gektopia.",Gektopia is an island,Fepopolis is an island,No
@@ -693,8 +693,8 @@ item_id,stimuli_type,connective,target,stimuli_instance,stimuli_instance_descrip
 292,preference,therefore,hate,6,college towns,Daxburgh,Gektopia,"I hate college towns. Therefore, I prefer Daxburgh to Gektopia.",Gektopia is a college town,Daxburgh is a college town,Yes
 293,preference,therefore,love,7,living near mountains,Fepopolis,Gektopia,"I love living near mountains. Therefore, I prefer Fepopolis to Gektopia.",Gektopia has mountains nearby,Fepopolis has mountains nearby,No
 294,preference,therefore,hate,7,living near mountains,Fepopolis,Gektopia,"I hate living near mountains. Therefore, I prefer Fepopolis to Gektopia.",Gektopia has mountains nearby,Fepopolis has mountains nearby,Yes
-295,preference,therefore,love,8,warm weather,Daxburgh,Fepopolis,"I love warm weather. Therefore, I prefer Daxburgh to Fepopolis.",Fepopolis has warm weather,Daxburgh has warm weather,No
-296,preference,therefore,hate,8,warm weather,Daxburgh,Fepopolis,"I hate warm weather. Therefore, I prefer Daxburgh to Fepopolis.",Fepopolis has warm weather,Daxburgh has warm weather,Yes
+295,preference,therefore,love,8,equatorial climates,Daxburgh,Fepopolis,"I love equatorial climates. Therefore, I prefer Daxburgh to Fepopolis.",Fepopolis has an equatorial climate,Daxburgh has an equatorial climate,No
+296,preference,therefore,hate,8,equatorial climates,Daxburgh,Fepopolis,"I hate equatorial climates. Therefore, I prefer Daxburgh to Fepopolis.",Fepopolis has an equatorial climate,Daxburgh has an equatorial climate,Yes
 297,preference,therefore,love,9,coastal cities,Wugsville,Gektopia,"I love coastal cities. Therefore, I prefer Wugsville to Gektopia.",Gektopia is a coastal city,Wugsville is a coastal city,No
 298,preference,therefore,hate,9,coastal cities,Wugsville,Gektopia,"I hate coastal cities. Therefore, I prefer Wugsville to Gektopia.",Gektopia is a coastal city,Wugsville is a coastal city,Yes
 299,preference,therefore,love,10,islands,Fepopolis,Blicketland,"I love islands. Therefore, I prefer Fepopolis to Blicketland.",Blicketland is an island,Fepopolis is an island,No
@@ -713,8 +713,8 @@ item_id,stimuli_type,connective,target,stimuli_instance,stimuli_instance_descrip
 312,preference,though,hate,6,college towns,Blicketland,Gektopia,"I prefer Blicketland to Gektopia, though I hate college towns.",Gektopia is a college town,Blicketland is a college town,No
 313,preference,though,love,7,living near mountains,Daxburgh,Gektopia,"Though I love living near mountains, I prefer Daxburgh to Gektopia.",Gektopia has mountains nearby,Daxburgh has mountains nearby,Yes
 314,preference,though,hate,7,living near mountains,Daxburgh,Gektopia,"Though I prefer Daxburgh to Gektopia, I hate living near mountains.",Gektopia has mountains nearby,Daxburgh has mountains nearby,No
-315,preference,though,love,8,warm weather,Wugsville,Fepopolis,"I prefer Wugsville to Fepopolis, though I love warm weather.",Fepopolis has warm weather,Wugsville has warm weather,Yes
-316,preference,though,hate,8,warm weather,Wugsville,Fepopolis,"I prefer Wugsville to Fepopolis, though I hate warm weather.",Fepopolis has warm weather,Wugsville has warm weather,No
+315,preference,though,love,8,equatorial climates,Wugsville,Fepopolis,"I prefer Wugsville to Fepopolis, though I love equatorial climates.",Fepopolis has an equatorial climate,Wugsville has an equatorial climate,Yes
+316,preference,though,hate,8,equatorial climates,Wugsville,Fepopolis,"I prefer Wugsville to Fepopolis, though I hate equatorial climates.",Fepopolis has an equatorial climate,Wugsville has an equatorial climate,No
 317,preference,though,love,9,coastal cities,Wugsville,Gektopia,"Though I prefer Wugsville to Gektopia, I love coastal cities.",Gektopia is a coastal city,Wugsville is a coastal city,Yes
 318,preference,though,hate,9,coastal cities,Wugsville,Gektopia,"I hate coastal cities, though I prefer Wugsville to Gektopia.",Gektopia is a coastal city,Wugsville is a coastal city,No
 319,preference,though,love,10,islands,Daxburgh,Blicketland,"I love islands, though I prefer Daxburgh to Blicketland.",Blicketland is an island,Daxburgh is an island,Yes
@@ -733,8 +733,8 @@ item_id,stimuli_type,connective,target,stimuli_instance,stimuli_instance_descrip
 332,preference,thus,hate,6,college towns,Wugsville,Blicketland,"I hate college towns. Thus, I prefer Wugsville to Blicketland.",Blicketland is a college town,Wugsville is a college town,Yes
 333,preference,thus,love,7,living near mountains,Blicketland,Gektopia,"I love living near mountains. Thus, I prefer Blicketland to Gektopia.",Gektopia has mountains nearby,Blicketland has mountains nearby,No
 334,preference,thus,hate,7,living near mountains,Blicketland,Gektopia,"I hate living near mountains. Thus, I prefer Blicketland to Gektopia.",Gektopia has mountains nearby,Blicketland has mountains nearby,Yes
-335,preference,thus,love,8,warm weather,Daxburgh,Gektopia,"I love warm weather. Thus, I prefer Daxburgh to Gektopia.",Gektopia has warm weather,Daxburgh has warm weather,No
-336,preference,thus,hate,8,warm weather,Daxburgh,Gektopia,"I hate warm weather. Thus, I prefer Daxburgh to Gektopia.",Gektopia has warm weather,Daxburgh has warm weather,Yes
+335,preference,thus,love,8,equatorial climates,Daxburgh,Gektopia,"I love equatorial climates. Thus, I prefer Daxburgh to Gektopia.",Gektopia has an equatorial climate,Daxburgh has an equatorial climate,No
+336,preference,thus,hate,8,equatorial climates,Daxburgh,Gektopia,"I hate equatorial climates. Thus, I prefer Daxburgh to Gektopia.",Gektopia has an equatorial climate,Daxburgh has an equatorial climate,Yes
 337,preference,thus,love,9,coastal cities,Fepopolis,Gektopia,"I love coastal cities. Thus, I prefer Fepopolis to Gektopia.",Gektopia is a coastal city,Fepopolis is a coastal city,No
 338,preference,thus,hate,9,coastal cities,Fepopolis,Gektopia,"I hate coastal cities. Thus, I prefer Fepopolis to Gektopia.",Gektopia is a coastal city,Fepopolis is a coastal city,Yes
 339,preference,thus,love,10,islands,Daxburgh,Blicketland,"I love islands. Thus, I prefer Daxburgh to Blicketland.",Blicketland is an island,Daxburgh is an island,No
@@ -753,8 +753,8 @@ item_id,stimuli_type,connective,target,stimuli_instance,stimuli_instance_descrip
 352,preference,while,hate,6,college towns,Fepopolis,Gektopia,"While I hate college towns, I prefer Fepopolis to Gektopia.",Gektopia is a college town,Fepopolis is a college town,No
 353,preference,while,love,7,living near mountains,Wugsville,Blicketland,"While I prefer Wugsville to Blicketland, I love living near mountains.",Blicketland has mountains nearby,Wugsville has mountains nearby,Yes
 354,preference,while,hate,7,living near mountains,Wugsville,Blicketland,"While I hate living near mountains, I prefer Wugsville to Blicketland.",Blicketland has mountains nearby,Wugsville has mountains nearby,No
-355,preference,while,love,8,warm weather,Blicketland,Gektopia,"While I prefer Blicketland to Gektopia, I love warm weather.",Gektopia has warm weather,Blicketland has warm weather,Yes
-356,preference,while,hate,8,warm weather,Blicketland,Gektopia,"While I prefer Blicketland to Gektopia, I hate warm weather.",Gektopia has warm weather,Blicketland has warm weather,No
+355,preference,while,love,8,equatorial climates,Blicketland,Gektopia,"While I prefer Blicketland to Gektopia, I love equatorial climates.",Gektopia has an equatorial climate,Blicketland has an equatorial climate,Yes
+356,preference,while,hate,8,equatorial climates,Blicketland,Gektopia,"While I prefer Blicketland to Gektopia, I hate equatorial climates.",Gektopia has an equatorial climate,Blicketland has an equatorial climate,No
 357,preference,while,love,9,coastal cities,Daxburgh,Fepopolis,"While I prefer Daxburgh to Fepopolis, I love coastal cities.",Fepopolis is a coastal city,Daxburgh is a coastal city,Yes
 358,preference,while,hate,9,coastal cities,Daxburgh,Fepopolis,"While I prefer Daxburgh to Fepopolis, I hate coastal cities.",Fepopolis is a coastal city,Daxburgh is a coastal city,No
 359,preference,while,love,10,islands,Daxburgh,Blicketland,"While I prefer Daxburgh to Blicketland, I love islands.",Blicketland is an island,Daxburgh is an island,Yes
@@ -773,8 +773,8 @@ item_id,stimuli_type,connective,target,stimuli_instance,stimuli_instance_descrip
 372,preference,yet,hate,6,college towns,Daxburgh,Gektopia,"I hate college towns, yet I prefer Daxburgh to Gektopia.",Gektopia is a college town,Daxburgh is a college town,No
 373,preference,yet,love,7,living near mountains,Fepopolis,Gektopia,"I love living near mountains, yet I prefer Fepopolis to Gektopia.",Gektopia has mountains nearby,Fepopolis has mountains nearby,Yes
 374,preference,yet,hate,7,living near mountains,Fepopolis,Gektopia,"I hate living near mountains, yet I prefer Fepopolis to Gektopia.",Gektopia has mountains nearby,Fepopolis has mountains nearby,No
-375,preference,yet,love,8,warm weather,Wugsville,Blicketland,"I love warm weather, yet I prefer Wugsville to Blicketland.",Blicketland has warm weather,Wugsville has warm weather,Yes
-376,preference,yet,hate,8,warm weather,Wugsville,Blicketland,"I hate warm weather, yet I prefer Wugsville to Blicketland.",Blicketland has warm weather,Wugsville has warm weather,No
+375,preference,yet,love,8,equatorial climates,Wugsville,Blicketland,"I love equatorial climates, yet I prefer Wugsville to Blicketland.",Blicketland has an equatorial climate,Wugsville has an equatorial climate,Yes
+376,preference,yet,hate,8,equatorial climates,Wugsville,Blicketland,"I hate equatorial climates, yet I prefer Wugsville to Blicketland.",Blicketland has an equatorial climate,Wugsville has an equatorial climate,No
 377,preference,yet,love,9,coastal cities,Wugsville,Fepopolis,"I love coastal cities, yet I prefer Wugsville to Fepopolis.",Fepopolis is a coastal city,Wugsville is a coastal city,Yes
 378,preference,yet,hate,9,coastal cities,Wugsville,Fepopolis,"I hate coastal cities, yet I prefer Wugsville to Fepopolis.",Fepopolis is a coastal city,Wugsville is a coastal city,No
 379,preference,yet,love,10,islands,Daxburgh,Blicketland,"I love islands, yet I prefer Daxburgh to Blicketland.",Blicketland is an island,Daxburgh is an island,Yes
@@ -793,8 +793,8 @@ item_id,stimuli_type,connective,target,stimuli_instance,stimuli_instance_descrip
 392,preference,despite that,hate,6,college towns,Daxburgh,Gektopia,"I hate college towns. Despite that, I prefer Daxburgh to Gektopia.",Gektopia is a college town,Daxburgh is a college town,No
 393,preference,despite that,love,7,living near mountains,Fepopolis,Gektopia,"I love living near mountains. Despite that, I prefer Fepopolis to Gektopia.",Gektopia has mountains nearby,Fepopolis has mountains nearby,Yes
 394,preference,despite that,hate,7,living near mountains,Fepopolis,Gektopia,"I hate living near mountains. Despite that, I prefer Fepopolis to Gektopia.",Gektopia has mountains nearby,Fepopolis has mountains nearby,No
-395,preference,despite that,love,8,warm weather,Wugsville,Daxburgh,"I love warm weather. Despite that, I prefer Wugsville to Daxburgh.",Daxburgh has warm weather,Wugsville has warm weather,Yes
-396,preference,despite that,hate,8,warm weather,Wugsville,Daxburgh,"I hate warm weather. Despite that, I prefer Wugsville to Daxburgh.",Daxburgh has warm weather,Wugsville has warm weather,No
+395,preference,despite that,love,8,equatorial climates,Wugsville,Daxburgh,"I love equatorial climates. Despite that, I prefer Wugsville to Daxburgh.",Daxburgh has an equatorial climate,Wugsville has an equatorial climate,Yes
+396,preference,despite that,hate,8,equatorial climates,Wugsville,Daxburgh,"I hate equatorial climates. Despite that, I prefer Wugsville to Daxburgh.",Daxburgh has an equatorial climate,Wugsville has an equatorial climate,No
 397,preference,despite that,love,9,coastal cities,Wugsville,Fepopolis,"I love coastal cities. Despite that, I prefer Wugsville to Fepopolis.",Fepopolis is a coastal city,Wugsville is a coastal city,Yes
 398,preference,despite that,hate,9,coastal cities,Wugsville,Fepopolis,"I hate coastal cities. Despite that, I prefer Wugsville to Fepopolis.",Fepopolis is a coastal city,Wugsville is a coastal city,No
 399,preference,despite that,love,10,islands,Fepopolis,Blicketland,"I love islands. Despite that, I prefer Fepopolis to Blicketland.",Blicketland is an island,Fepopolis is an island,Yes

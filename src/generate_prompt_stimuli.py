@@ -38,6 +38,10 @@ def main(args):
         stimuli_types = {
             "preference": f"{stimuli_dir}/preference_stimuli.csv",
         }
+    elif args.category == "changed_preference":
+        stimuli_types = {
+            "preference": f"{stimuli_dir}/changed_preference_stimuli.csv",
+        }
     elif args.category == "temporal":
         stimuli_types = {
             "temporal": f"{stimuli_dir}/temporal_stimuli.csv",
