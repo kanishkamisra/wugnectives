@@ -57,7 +57,8 @@ def main(args):
             names = [str(eval_path) for eval_path in pathlib.Path(eval_path).glob("*.csv")]
         else:
             all_eval = [utils.read_csv_dict(eval_path)]
-            names = [str(eval_path)]
+            # names = [str(eval_path)]
+            names = [""]
 
 
 
