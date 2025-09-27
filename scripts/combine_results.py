@@ -26,9 +26,12 @@ def is_def_entailed(row):
     return False
 
 
-def write_csv(dict_list, path):
+def write_csv(dict_list, path, header):
     with open(path, "w", newline="") as csvfile:
         fieldnames = dict_list[0].keys()  # Assuming all dictionaries have the same keys
+        if header:
+            fieldnames = header
+
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
 
         # Write the header
@@ -52,20 +55,25 @@ def main(model):
     changed_pref_path = "data/results/nonce/pref_changed_" + model + ".csv"
 
     pref_prompt_path = "data/stimuli-nonce/pref_prompts.csv" 
-    all_prompt_path = "data/stimuli-nonce/all_prompts.csv"
-    entail_prompt_path = "data/stimuli-nonce/entailed_prompts.csv"
 
     old_pref_len = 3600
+    inst_len = 1200
+
+    with open(path, newline='') as data:
+        datareader = list(csv.DictReader(data))
+
+        inst = [row for i, row in enumerate(datareader) if i >= old_pref_len and i < (old_pref_len + inst_len)]
 
 
     with open(path, newline='') as data:
         datareader = list(csv.DictReader(data))
 
-        non_pref = datareader[old_pref_len:]
+        temp = [row for i, row in enumerate(datareader) if i >= (old_pref_len + inst_len)]
+    
+    inst_entail = [True] * len(inst)
+    temp_entail = [True] * len(temp)
 
-    non_pref_entail = [True] * len(non_pref)
-
-
+    
     with open(pref_path) as pref_data:
         with open(changed_pref_path) as eq_pref_data:
             with open(pref_prompt_path) as all_prompt:
@@ -74,29 +82,33 @@ def main(model):
                 promptreader = csv.DictReader(all_prompt)
             
                 pref_entail = []
-                all_pref = []
+                pref = []
 
                 for row, prompt in zip(prefdata_reader, list(promptreader)):
                     item = row
                     if prompt["stimuli_instance_description"] == "equatorial climates":
                         item = dict(next(eqprefdata_reader))
-                    all_pref.append((item))
+                    pref.append((item))
 
                     pref_entail.append(is_def_entailed(prompt))
 
+    all = []
+    all.extend(temp)
+    all.extend(inst)
+    all.extend(pref)    
 
     all_entails = []
-    all_entails.extend(non_pref_entail)
+    all_entails.extend(temp_entail)
+    all_entails.extend(inst_entail)
     all_entails.extend(pref_entail)
 
-    all_prompts = []
-    all_prompts.extend(non_pref)
-    all_prompts.extend(all_pref)
-
-    for e, row in zip(all_entails, all_prompts):
+    for e, row in zip(all_entails, all):
         row["entailed"] = e
 
-    write_csv(all_prompts, f"data/results/all/{model}.csv")
+    for idx, row in enumerate(all):
+        row["idx"] = idx
+
+    write_csv(all, f"data/results/all/{model}.csv")
 
 
 
@@ -107,7 +119,6 @@ def stitch_lrm():
     pref_path = "data/results/nonce/" + model + "_pref_answers.csv"
     temp_path = "data/results/nonce/" + model + "_temp_answers.csv"
     changed_pref_path = "data/results/nonce/" + model + "_pref_changed_answers.csv"
-
 
     with open(temp_path, newline='') as data:
         temp = list(csv.DictReader(data))
@@ -140,12 +151,10 @@ def stitch_lrm():
                     if is_def_entailed(prompt) is None: 
                         print(prompt["connective"], prompt["target"], prompt["label"])
 
-
-
     all = []
     all.extend(temp)
     all.extend(inst)
-    all.extend(pref)
+    all.extend(pref)    
 
     all_entails = []
     all_entails.extend(temp_entail)
@@ -155,8 +164,15 @@ def stitch_lrm():
 
     for e, row in zip(all_entails, all):
         row["entailed"] = e
-    
-    write_csv(all, f"data/results/all/{model}.csv")
+
+    for idx, row in enumerate(all):
+        row["idx"] = idx
+
+    for row in all:
+        row["prob"] = int(row["response"] == row["label"])
+        del row["response"]
+
+    write_csv(all, f"data/results/all/{model}.csv", header=["idx", "prob", "label","entailed"])
 
 
 

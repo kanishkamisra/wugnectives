@@ -74,4 +74,7 @@ all_prompts = []
 all_prompts.extend(no_pref_prompts)
 all_prompts.extend(pref_prompts)
 
+for idx, row in enumerate(all_prompts):
+    row["idx"] = idx
+
 write_csv(all_prompts, "data/stimuli-nonce/all_prompts.csv")
