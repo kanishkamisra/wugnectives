@@ -169,8 +169,9 @@ def stitch_lrm():
         row["idx"] = idx
 
     for row in all:
-        row["prob"] = int(row["response"] == row["label"])
-        del row["response"]
+        row["prob"] = 1
+        row["label"] = row["response"]
+        del row ["response"]
 
     write_csv(all, f"data/results/all/{model}.csv", header=["idx", "prob", "label","entailed"])
 
