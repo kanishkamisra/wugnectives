@@ -59,7 +59,7 @@ dolma_freqs %>%
               distinct(connective) %>% mutate(selected = TRUE)) %>%
   View()
 
-results <- fs::dir_ls("data/results", regexp = "*.csv", recurse = TRUE) %>%
+results <- fs::dir_ls("data/results/nonce/", regexp = "*.csv", recurse = TRUE) %>%
   map_df(read_csv, .id = "model") %>%
   mutate(
     model = str_remove(model, "data/results/nonce/"),
@@ -149,7 +149,7 @@ connective_wise %>%
 
 plot_connective_wise <- function(st = "preference") {
   if(st == "preference"){
-    chance_perf = 0.667
+    chance_perf = 0.5
   }
   else{
     chance_perf = 0.5
