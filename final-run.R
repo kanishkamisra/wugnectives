@@ -42,8 +42,17 @@ senses <- read_csv("data/stimuli-nonce/senses.csv")
 stimuli <- read_csv("data/stimuli-nonce/all_prompts.csv") %>%
   mutate(
     unique_item = row_number()
+  ) %>%
+  inner_join(senses) %>%
+  mutate(
+    sense = case_when(
+      connective == "even before" ~ "Temporal.Asynchronous.Precedence",
+      TRUE ~ sense
+    )
   )
 stimuli_old <- read_csv("data/stimuli-nonce/prompts.csv")
+
+temporal_positions <- read_csv("data/stimuli-nonce/temporal-position-annotations.csv")
 
 chance_performance <- stimuli %>%
   filter(prompt_template == "prompt_1") %>%
@@ -264,7 +273,6 @@ ggsave("plots/param-overall.pdf", height = 3.9, width = 12.40, dpi = 300, device
 
 
 results %>%
-  inner_join(senses) %>%
   group_by(model, stimuli_type, connective, sense, prompt_template) %>%
   summarize(
     n = n(),
@@ -299,7 +307,7 @@ results %>%
     axis.text.x = element_text(angle = 30, vjust =0.7, hjust = 0.5)
   ) +
   labs(
-    x = "Parameters (in Billion)",
+    x = "Connective",
     y = "Accuracy",
     color = "Model Family",
     fill = "Model Family",
@@ -365,7 +373,7 @@ results %>%
     axis.text.x = element_text(angle = 30, vjust =0.7, hjust = 0.5)
   ) +
   labs(
-    x = "Parameters (in Billion)",
+    x = "Connective",
     y = "Accuracy",
     color = "Model Family",
     fill = "Model Family",
@@ -374,6 +382,213 @@ results %>%
   )
 
 ggsave("plots/preference-breakdown.pdf", height = 7.13, width = 8.85, dpi = 300, device = cairo_pdf)
+
+
+# temporal <- results %>%
+#   inner_join(senses) %>% 
+#   filter(stimuli_type == "temporal") %>%
+#   mutate(
+#     entity = case_when(
+#       label == entity1 ~ "1",
+#       label == entity2 ~ "2"
+#     )
+#   )
+
+temporal <- results %>%
+  inner_join(senses) %>% 
+  filter(stimuli_type == "temporal") %>%
+  inner_join(temporal_positions) %>%
+  filter(model == "lrm") %>%
+  select(-model)
+
+results %>%
+  inner_join(senses) %>% 
+  filter(stimuli_type == "temporal") %>%
+  inner_join(temporal_positions) %>%
+  mutate(
+    choose_first = prediction == first
+  ) %>%
+  group_by(model, connective, prompt_template) %>%
+  summarize(
+    choose_first = mean(choose_first)
+  ) %>%
+  ungroup() %>%
+  group_by(model) %>%
+  summarize(
+    n = n(),
+    sd = sd(choose_first),
+    cb = qt(0.05/2, n-1, lower.tail = FALSE) * sd/sqrt(n),
+    choose_first = mean(choose_first)
+  ) %>%
+  ungroup() %>%
+  inner_join(model_meta) %>%
+  ggplot(aes(params/1e9, choose_first,  color = class, fill = class, shape = training_mode)) +
+  geom_point(size = 3) +
+  geom_hline(yintercept = 0.5, linetype = "dashed") +
+  scale_y_continuous(limits = c(0, 1))
+
+
+temporal %>%
+  count(entity2 == first)
+
+temporal %>%
+  mutate(prediction = entity2, model = "ccf") %>%
+  mutate(
+    choose_first = prediction == first
+  ) %>%
+  group_by(model, connective, prompt_template) %>%
+  summarize(
+    choose_first = mean(choose_first)
+  ) %>%
+  ungroup() %>%
+  group_by(model) %>%
+  summarize(
+    n = n(),
+    sd = sd(choose_first),
+    cb = qt(0.05/2, n-1, lower.tail = FALSE) * sd/sqrt(n),
+    choose_first = mean(choose_first)
+  )
+
+
+
+heuristics <- bind_rows(
+  temporal %>% 
+    mutate(prediction = first, model = "Choose First"),
+  temporal %>%
+    mutate(prediction = second, model = "Choose Recent")
+)
+
+heuristic_result <- heuristics %>%
+  group_by(model, sense) %>%
+  summarize(
+    acc = mean(prediction == label)
+  ) %>%
+  select(heuristic = model, sense, mean = acc) %>%
+  mutate(
+    connective = case_when(
+      sense == "Comparison.Concession.Arg1-as-denier" ~ "Comparison\nConcession (Arg1)",
+      sense == "Comparison.Concession.Arg2-as-denier" ~ "Comparison\nConcession (Arg2)",
+      sense == "Contingency.Cause.Reason" ~ "Contingency\nCause (Reason)",
+      sense == "Contingency.Cause.Result" ~ "Contingency\nCause (Result)",
+      sense == "Expansion.Instantiation.Arg2-as-instance" ~ "Instantiation",
+      sense == "Temporal.Asynchronous.Precedence" ~ "Temporal\n(Precedence)",
+      sense == "Temporal.Asynchronous.Succession" ~ "Temporal\n(Succession)",
+      TRUE ~ sense
+    ),
+    connective = factor(
+      connective, 
+      levels = c("Instantiation", "Comparison\nConcession (Arg1)", "Comparison\nConcession (Arg2)", 
+                 "Contingency\nCause (Reason)", "Contingency\nCause (Result)", "Temporal\n(Precedence)", 
+                 "Temporal\n(Succession)")
+    )
+  ) %>%
+  filter(connective %in% c("Temporal\n(Precedence)", 
+                           "Temporal\n(Succession)"))
+  
+
+sense_wise %>%
+  group_by(stimuli_type) %>%
+  mutate(
+    connective = factor(sense),
+    params = params/1e9,
+  ) %>%
+  ungroup() %>%
+  mutate(
+    connective = case_when(
+      connective == "Comparison.Concession.Arg1-as-denier" ~ "Comparison\nConcession (Arg1)",
+      connective == "Comparison.Concession.Arg2-as-denier" ~ "Comparison\nConcession (Arg2)",
+      connective == "Contingency.Cause.Reason" ~ "Contingency\nCause (Reason)",
+      connective == "Contingency.Cause.Result" ~ "Contingency\nCause (Result)",
+      connective == "Expansion.Instantiation.Arg2-as-instance" ~ "Instantiation",
+      connective == "Temporal.Asynchronous.Precedence" ~ "Temporal\n(Precedence)",
+      connective == "Temporal.Asynchronous.Succession" ~ "Temporal\n(Succession)",
+      TRUE ~ connective
+    ),
+    connective = factor(
+      connective, 
+      levels = c("Instantiation", "Comparison\nConcession (Arg1)", "Comparison\nConcession (Arg2)", 
+                 "Contingency\nCause (Reason)", "Contingency\nCause (Result)", "Temporal\n(Precedence)", 
+                 "Temporal\n(Succession)")
+    )
+  ) %>%
+  filter(connective %in% c("Temporal\n(Precedence)", 
+                           "Temporal\n(Succession)")) %>%
+  ggplot(aes(params, mean, color = class, fill = class, shape = training_mode, linetype = training_mode)) +
+  geom_point(size = 2) +
+  geom_line(linewidth = 0.6) +
+  facet_wrap(~connective, scales = "free_x", nrow=1) +
+  geom_hline(yintercept = 0.5, linetype = "dashed") +
+  geom_hline(data = heuristic_result, aes(yintercept = mean), linetype = "dotted") +
+  scale_y_continuous(labels = scales::percent_format(), limits = c(0, 1.02)) +
+  scale_x_log10(limits = c(0.5, 16), breaks = c(0.5,1,2,4,8,16), labels = c("1/2", "1", "2", "4", "8", "16")) +
+  scale_color_manual(aesthetics = c("color", "fill"), values = c("#1f78b4", "#e6ab02", "#66a61e", "#e7298a")) +
+  theme_bw(base_size = 16, base_family = "Times") +
+  theme(
+    # legend.position = "top",
+    # panel.grid = element_blank(),
+    axis.text = element_text(color = "black")
+  ) +
+  labs(
+    x = "Parameters (in Billion)",
+    y = "Accuracy (95% CI)",
+    color = "Model Family",
+    fill = "Model Family",
+    shape = "Training Type",
+    linetype = "Training Type"
+  )
+
+# temporal %>%
+#   filter(str_detect(sense, "Precedence")) %>%
+#   mutate(
+#     choice = case_when(
+#       label == second ~ "second",
+#       TRUE ~ "first"
+#     )
+#   ) %>%
+#   count(connective, choice)
+
+
+thresholds <- heuristics %>%
+  # filter(connective == "even though") %>%
+  filter(sense == "Temporal.Asynchronous.Succession") %>%
+  group_by(model, sense, connective) %>%
+  summarize(
+    acc = mean(prediction == label)
+  ) %>%
+  ungroup() %>%
+  group_by(sense, connective) %>%
+  slice_max(acc, n = 1, with_ties = FALSE) %>%
+  ungroup() %>%
+  rename(heuristic = model)
+
+
+results %>%
+  inner_join(senses) %>%
+  group_by(model, stimuli_type, connective, sense, prompt_template) %>%
+  summarize(
+    n = n(),
+    accuracy = mean(prediction == label)
+  ) %>%
+  ungroup() %>%
+  group_by(model, stimuli_type, sense, connective) %>%
+  # filter(accuracy == max(accuracy)) %>%
+  summarize(
+    n = n(),
+    sd = sd(accuracy),
+    cb = qt(0.05/2, n-1, lower.tail = FALSE) * sd/sqrt(n),
+    mean = mean(accuracy)
+  ) %>%
+  ungroup() %>%
+  inner_join(thresholds) %>%
+  filter(acc != 1) %>%
+  mutate(
+    above = mean > acc
+  ) %>%
+  group_by(connective) %>%
+  summarize(
+    above = mean(above)
+  )
+
 
 
 results %>%
@@ -422,7 +637,7 @@ results %>%
   geom_point(size = 2, position = position_jitter(width = 0.15, seed =1024)) +
   geom_hline(yintercept = 0.5, linetype = "dashed") +
   facet_wrap(~sense, scales="free_x",nrow=2) +
-  scale_y_continuous(labels = scales::percent_format(), limits = c(0, 1.02)) +
+  scale_y_continuous(labels = scales::percent_format(), limits = c(-0.3, 1.05)) +
   scale_color_manual(aesthetics = c("color", "fill"), values = c("#1f78b4", "#e6ab02", "#66a61e", "#e7298a")) +
   theme_bw(base_size = 16, base_family = "Times") +
   theme(
