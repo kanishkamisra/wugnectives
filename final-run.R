@@ -1,4 +1,5 @@
 library(tidyverse)
+library(ggrepel)
 
 model_meta <- tribble(
   ~model, ~short, ~class, ~instruct, ~params,
@@ -547,6 +548,13 @@ sense_wise %>%
 #   ) %>%
 #   count(connective, choice)
 
+# temporal %>% 
+#   count(sense)
+
+results %>%
+  inner_join(senses) %>% 
+  filter(stimuli_type == "temporal") %>% count(sense)
+
 
 thresholds <- heuristics %>%
   # filter(connective == "even though") %>%
@@ -589,7 +597,7 @@ results %>%
     above = mean(above)
   )
 
-
+# Accuracy on succession for models that beat the baseline
 
 results %>%
   inner_join(senses) %>%
@@ -656,6 +664,78 @@ results %>%
   )
 
 ggsave("plots/temporal-breakdown.pdf", height = 6.99, width = 7.82, dpi = 300, device = cairo_pdf)
+
+# even though vs. rest of succession for top 5 models
+
+# get top 5 models on succession (overall)
+best_succ_models <- results %>%
+  filter(str_detect(sense, "Succession")) %>% 
+  group_by(model) %>%
+  summarize(
+    accuracy = mean(prediction == label)
+  ) %>%
+  ungroup() %>%
+  arrange(-accuracy) %>%
+  slice(1:5) %>%
+  pull(model)
+
+# jitter <- position_jitterdodge(jitter.width = 0.4, dodge.width = 0, seed = 1024)
+jitter = NA
+
+results %>%
+  filter(str_detect(sense, "Succession")) %>%
+  mutate(
+    condition = case_when(
+      connective == "even though" ~ "Even though",
+      TRUE ~ "Rest of Succession"
+    ),
+    condition = factor(condition, levels = c("Rest of Succession", "Even though"))
+  ) %>%
+  group_by(model, condition, prompt_template) %>%
+  summarize(
+    accuracy = mean(label == prediction)
+  ) %>%
+  ungroup() %>%
+  filter(model %in% best_succ_models) %>%
+  group_by(model, condition) %>%
+  summarize(
+    n = n(),
+    sd = sd(accuracy),
+    cb = qt(0.05/2, n-1, lower.tail = FALSE) * sd/sqrt(n),
+    mean = mean(accuracy)
+  ) %>%
+  ungroup() %>%
+  inner_join(model_meta) %>%
+  mutate(
+    label = case_when(
+      condition == "Even though" ~ short,
+      TRUE ~ NA_character_
+    )
+  ) %>%
+  ggplot(aes(condition, mean, group = short, color = short, fill = short, shape = short)) +
+  geom_point(size = 2) +
+  geom_ribbon(aes(ymin = mean-cb, ymax = mean+cb), alpha = 0.2, color = NA) +
+  geom_line() +
+  # geom_text_repel(
+  #   aes(label = short)
+  # ) +
+  geom_label_repel(aes(label = label), fill = "white", seed = 1024, nudge_x = 0.1) +
+  # scale_color_manual(values = c("#e6ab02", "#66a61e"), aesthetics = c("fill", "color")) +
+  scale_y_continuous(labels = scales::percent_format()) +
+  scale_shape_manual(values = c(21,22,23,24,25)) +
+  theme_bw(base_size = 16, base_family = "Times") +
+  theme(
+    panel.grid = element_blank(),
+    legend.position = "",
+    axis.text = element_text(color = "black"),
+    legend.title = element_blank()
+  ) +
+  labs(
+    x = "Condition",
+    y = "Accuracy (95% CI)",
+  )
+
+ggsave("plots/eventhough-succession.pdf", height = 3.31, width=4.05, dpi = 300, device=cairo_pdf)
 
 
 stimuli %>%
