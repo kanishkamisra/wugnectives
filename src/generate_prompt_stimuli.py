@@ -52,6 +52,11 @@ def main(args):
             "temporal": f"{stimuli_dir}/temporal_stimuli.csv",
             "instantiation": f"{stimuli_dir}/instantiation_stimuli.csv",
         }
+    elif args.category == "grounded":
+        stimuli_types = {
+            "preference": f"{stimuli_dir}/preference_stimuli_grounded.csv",
+            "instantiation": f"{stimuli_dir}/instantiation_stimuli_grounded.csv",
+        }
     else: 
         raise ValueError("category must be 'preference', 'temporal', or 'instantiation'. Received: ", args.category)
 

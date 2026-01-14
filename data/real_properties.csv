@@ -1,0 +1,11 @@
+property_id,property,has_property,not_property
+1,leafy vegetables,kale;spinach;lettuce;arugula;cabbage,asparagus;cucumbers;tomatos;bell peppers;onions
+2,mammals,dogs;cats;sheep;cows;pigs,lizards;frogs;snakes;turtles;toads
+3,fruits,grapes;apples;mangos;pears;strawberries,kale;spinach;lettuce;arugula;cabbage
+4,string instruments,violins;violas;cellos;double basses;guitars,trumpets;trombones;clarinets;flutes;saxaphones
+5,insects,flies;beetles;grasshoppers;cicadas;ants,mice;bat;gerbils;dogs;cats
+6,college towns,"Lubbock, Texas,;Ann Arbor, Michigan,;Oxford, England,;Cambridge, England,","London, England,;Dallas, Texas,;Detroit, Michigan,;Liverpool, England,"
+7,living near mountains,"Salt Lake City, Utah,;Telluride, Colorado,;Tucson, Arizona,;Jackson Hole, Wyoming,;Palm Springs, California,","Dallas, Texas,;Chicago, Illinois,;Jacksonville, Florida,;New Orleans, Louisiana,;Houston, Texas,"
+8,equatorial climates,"Singapore;Singapore;Singapore","Toronto, Canada,;Oslo, Norway;Moscow, Russia,"
+9,coastal cities,Miami;Cancun;Boston;Lisbon;Mumbai,Dallas;Mexico City;Reno;Pittsburgh;Madrid;Delhi
+10,islands,Galveston;Puerto Rico;Sicily;Japan;Hawaii,Oklahoma;Nevada;Brazil;South Korea;Spain

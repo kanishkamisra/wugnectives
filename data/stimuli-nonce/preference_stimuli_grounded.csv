@@ -1,0 +1,801 @@
+item_id,stimuli_type,connective,target,stimuli_instance,stimuli_instance_description,entity1,entity2,premise,inference1,inference2,label
+20000,preference,although,love,1,leafy vegetables,cucumbers,arugula,"Although I prefer cucumbers to arugula, I love leafy vegetables.",cucumbers are leafy vegetables,arugula are leafy vegetables,No
+20001,preference,although,love,1,leafy vegetables,tomatos,lettuce,"Although I love leafy vegetables, I prefer tomatos to lettuce.",tomatos are leafy vegetables,lettuce are leafy vegetables,No
+20002,preference,although,hate,1,leafy vegetables,kale,tomatos,"Although I prefer kale to tomatos, I hate leafy vegetables.",kale are leafy vegetables,tomatos are leafy vegetables,Yes
+20003,preference,although,hate,1,leafy vegetables,cabbage,cucumbers,"Although I hate leafy vegetables, I prefer cabbage to cucumbers.",cabbage are leafy vegetables,cucumbers are leafy vegetables,Yes
+20004,preference,although,love,2,mammals,lizards,sheep,"Although I prefer lizards to sheep, I love mammals.",lizards are mammals,sheep are mammals,No
+20005,preference,although,love,2,mammals,lizards,dogs,"Although I prefer lizards to dogs, I love mammals.",lizards are mammals,dogs are mammals,No
+20006,preference,although,hate,2,mammals,cows,lizards,"Although I hate mammals, I prefer cows to lizards.",cows are mammals,lizards are mammals,Yes
+20007,preference,although,hate,2,mammals,dogs,toads,"Although I prefer dogs to toads, I hate mammals.",dogs are mammals,toads are mammals,Yes
+20008,preference,although,love,3,fruits,spinach,strawberries,"Although I love fruits, I prefer spinach to strawberries.",spinach are fruits,strawberries are fruits,No
+20009,preference,although,love,3,fruits,spinach,mangos,"Although I love fruits, I prefer spinach to mangos.",spinach are fruits,mangos are fruits,No
+20010,preference,although,hate,3,fruits,mangos,lettuce,"I prefer mangos to lettuce, although I hate fruits.",mangos are fruits,lettuce are fruits,Yes
+20011,preference,although,hate,3,fruits,pears,arugula,"Although I prefer pears to arugula, I hate fruits.",pears are fruits,arugula are fruits,Yes
+20012,preference,although,love,4,string instruments,flutes,cellos,"Although I prefer flutes to cellos, I love string instruments.",flutes are string instruments,cellos are string instruments,No
+20013,preference,although,love,4,string instruments,clarinets,cellos,"I prefer clarinets to cellos, although I love string instruments.",clarinets are string instruments,cellos are string instruments,No
+20014,preference,although,hate,4,string instruments,guitars,clarinets,"I prefer guitars to clarinets, although I hate string instruments.",guitars are string instruments,clarinets are string instruments,Yes
+20015,preference,although,hate,4,string instruments,double basses,flutes,"I prefer double basses to flutes, although I hate string instruments.",double basses are string instruments,flutes are string instruments,Yes
+20016,preference,although,love,5,insects,cats,grasshoppers,"Although I prefer cats to grasshoppers, I love insects.",cats are insects,grasshoppers are insects,No
+20017,preference,although,love,5,insects,cats,beetles,"Although I love insects, I prefer cats to beetles.",cats are insects,beetles are insects,No
+20018,preference,although,hate,5,insects,ants,cats,"I prefer ants to cats, although I hate insects.",ants are insects,cats are insects,Yes
+20019,preference,although,hate,5,insects,beetles,mice,"Although I prefer beetles to mice, I hate insects.",beetles are insects,mice are insects,Yes
+20020,preference,although,love,6,college towns,"Liverpool, England,","Oxford, England,","Although I love college towns, I prefer Liverpool, England, to Oxford, England.","Liverpool, England, is a college town","Oxford, England, is a college town",No
+20021,preference,although,love,6,college towns,"London, England,","Ann Arbor, Michigan,","Although I love college towns, I prefer London, England, to Ann Arbor, Michigan.","London, England, is a college town","Ann Arbor, Michigan, is a college town",No
+20022,preference,although,hate,6,college towns,"Oxford, England,","Dallas, Texas,","I prefer Oxford, England, to Dallas, Texas,, although I hate college towns.","Oxford, England, is a college town","Dallas, Texas, is a college town",Yes
+20023,preference,although,hate,6,college towns,"Ann Arbor, Michigan,","Dallas, Texas,","I prefer Ann Arbor, Michigan, to Dallas, Texas,, although I hate college towns.","Ann Arbor, Michigan, is a college town","Dallas, Texas, is a college town",Yes
+20024,preference,although,love,7,living near mountains,"Jacksonville, Florida,","Tucson, Arizona,","Although I prefer Jacksonville, Florida, to Tucson, Arizona,, I love living near mountains.","Jacksonville, Florida, has mountains nearby","Tucson, Arizona, has mountains nearby",No
+20025,preference,although,love,7,living near mountains,"Houston, Texas,","Palm Springs, California,","Although I prefer Houston, Texas, to Palm Springs, California,, I love living near mountains.","Houston, Texas, has mountains nearby","Palm Springs, California, has mountains nearby",No
+20026,preference,although,hate,7,living near mountains,"Jackson Hole, Wyoming,","New Orleans, Louisiana,","I prefer Jackson Hole, Wyoming, to New Orleans, Louisiana,, although I hate living near mountains.","Jackson Hole, Wyoming, has mountains nearby","New Orleans, Louisiana, has mountains nearby",Yes
+20027,preference,although,hate,7,living near mountains,"Telluride, Colorado,","Dallas, Texas,","Although I hate living near mountains, I prefer Telluride, Colorado, to Dallas, Texas.","Telluride, Colorado, has mountains nearby","Dallas, Texas, has mountains nearby",Yes
+20028,preference,although,love,8,equatorial climates,"Toronto, Canada,",Singapore,"Although I prefer Toronto, Canada, to Singapore, I love equatorial climates.","Toronto, Canada, has an equatorial climate",Singapore has an equatorial climate,No
+20029,preference,although,love,8,equatorial climates,"Oslo, Norway",Singapore,"I prefer Oslo, Norway to Singapore, although I love equatorial climates.","Oslo, Norway has an equatorial climate",Singapore has an equatorial climate,No
+20030,preference,although,hate,8,equatorial climates,Singapore,"Moscow, Russia,","Although I prefer Singapore to Moscow, Russia,, I hate equatorial climates.",Singapore has an equatorial climate,"Moscow, Russia, has an equatorial climate",Yes
+20031,preference,although,hate,8,equatorial climates,Singapore,"Moscow, Russia,","I prefer Singapore to Moscow, Russia,, although I hate equatorial climates.",Singapore has an equatorial climate,"Moscow, Russia, has an equatorial climate",Yes
+20032,preference,although,love,9,coastal cities,Delhi,Lisbon,"Although I prefer Delhi to Lisbon, I love coastal cities.",Delhi is a coastal city,Lisbon is a coastal city,No
+20033,preference,although,love,9,coastal cities,Pittsburgh,Miami,"I prefer Pittsburgh to Miami, although I love coastal cities.",Pittsburgh is a coastal city,Miami is a coastal city,No
+20034,preference,although,hate,9,coastal cities,Boston,Madrid,"Although I hate coastal cities, I prefer Boston to Madrid.",Boston is a coastal city,Madrid is a coastal city,Yes
+20035,preference,although,hate,9,coastal cities,Boston,Reno,"Although I prefer Boston to Reno, I hate coastal cities.",Boston is a coastal city,Reno is a coastal city,Yes
+20036,preference,although,love,10,islands,Brazil,Japan,"Although I prefer Brazil to Japan, I love islands.",Brazil is an island,Japan is an island,No
+20037,preference,although,love,10,islands,Nevada,Sicily,"Although I prefer Nevada to Sicily, I love islands.",Nevada is an island,Sicily is an island,No
+20038,preference,although,hate,10,islands,Sicily,South Korea,"I prefer Sicily to South Korea, although I hate islands.",Sicily is an island,South Korea is an island,Yes
+20039,preference,although,hate,10,islands,Hawaii,South Korea,"Although I prefer Hawaii to South Korea, I hate islands.",Hawaii is an island,South Korea is an island,Yes
+20040,preference,as,love,1,leafy vegetables,spinach,tomatos,"I prefer spinach to tomatos, as I love leafy vegetables.",spinach are leafy vegetables,tomatos are leafy vegetables,Yes
+20041,preference,as,love,1,leafy vegetables,arugula,asparagus,"I prefer arugula to asparagus, as I love leafy vegetables.",arugula are leafy vegetables,asparagus are leafy vegetables,Yes
+20042,preference,as,hate,1,leafy vegetables,cucumbers,arugula,"I prefer cucumbers to arugula, as I hate leafy vegetables.",cucumbers are leafy vegetables,arugula are leafy vegetables,No
+20043,preference,as,hate,1,leafy vegetables,onions,cabbage,"I prefer onions to cabbage, as I hate leafy vegetables.",onions are leafy vegetables,cabbage are leafy vegetables,No
+20044,preference,as,love,2,mammals,sheep,snakes,"I prefer sheep to snakes, as I love mammals.",sheep are mammals,snakes are mammals,Yes
+20045,preference,as,love,2,mammals,cows,lizards,"I prefer cows to lizards, as I love mammals.",cows are mammals,lizards are mammals,Yes
+20046,preference,as,hate,2,mammals,lizards,cows,"I prefer lizards to cows, as I hate mammals.",lizards are mammals,cows are mammals,No
+20047,preference,as,hate,2,mammals,frogs,sheep,"I prefer frogs to sheep, as I hate mammals.",frogs are mammals,sheep are mammals,No
+20048,preference,as,love,3,fruits,mangos,kale,"I prefer mangos to kale, as I love fruits.",mangos are fruits,kale are fruits,Yes
+20049,preference,as,love,3,fruits,grapes,kale,"I prefer grapes to kale, as I love fruits.",grapes are fruits,kale are fruits,Yes
+20050,preference,as,hate,3,fruits,cabbage,grapes,"I prefer cabbage to grapes, as I hate fruits.",cabbage are fruits,grapes are fruits,No
+20051,preference,as,hate,3,fruits,arugula,apples,"I prefer arugula to apples, as I hate fruits.",arugula are fruits,apples are fruits,No
+20052,preference,as,love,4,string instruments,guitars,clarinets,"I prefer guitars to clarinets, as I love string instruments.",guitars are string instruments,clarinets are string instruments,Yes
+20053,preference,as,love,4,string instruments,violins,clarinets,"I prefer violins to clarinets, as I love string instruments.",violins are string instruments,clarinets are string instruments,Yes
+20054,preference,as,hate,4,string instruments,clarinets,guitars,"I prefer clarinets to guitars, as I hate string instruments.",clarinets are string instruments,guitars are string instruments,No
+20055,preference,as,hate,4,string instruments,trumpets,double basses,"I prefer trumpets to double basses, as I hate string instruments.",trumpets are string instruments,double basses are string instruments,No
+20056,preference,as,love,5,insects,cicadas,cats,"I prefer cicadas to cats, as I love insects.",cicadas are insects,cats are insects,Yes
+20057,preference,as,love,5,insects,beetles,mice,"I prefer beetles to mice, as I love insects.",beetles are insects,mice are insects,Yes
+20058,preference,as,hate,5,insects,cats,flies,"I prefer cats to flies, as I hate insects.",cats are insects,flies are insects,No
+20059,preference,as,hate,5,insects,gerbils,flies,"I prefer gerbils to flies, as I hate insects.",gerbils are insects,flies are insects,No
+20060,preference,as,love,6,college towns,"Ann Arbor, Michigan,","Detroit, Michigan,","I prefer Ann Arbor, Michigan, to Detroit, Michigan,, as I love college towns.","Ann Arbor, Michigan, is a college town","Detroit, Michigan, is a college town",Yes
+20061,preference,as,love,6,college towns,"Lubbock, Texas,","London, England,","I prefer Lubbock, Texas, to London, England,, as I love college towns.","Lubbock, Texas, is a college town","London, England, is a college town",Yes
+20062,preference,as,hate,6,college towns,"London, England,","Oxford, England,","I prefer London, England, to Oxford, England,, as I hate college towns.","London, England, is a college town","Oxford, England, is a college town",No
+20063,preference,as,hate,6,college towns,"London, England,","Ann Arbor, Michigan,","I prefer London, England, to Ann Arbor, Michigan,, as I hate college towns.","London, England, is a college town","Ann Arbor, Michigan, is a college town",No
+20064,preference,as,love,7,living near mountains,"Tucson, Arizona,","Dallas, Texas,","I prefer Tucson, Arizona, to Dallas, Texas,, as I love living near mountains.","Tucson, Arizona, has mountains nearby","Dallas, Texas, has mountains nearby",Yes
+20065,preference,as,love,7,living near mountains,"Salt Lake City, Utah,","Chicago, Illinois,","I prefer Salt Lake City, Utah, to Chicago, Illinois,, as I love living near mountains.","Salt Lake City, Utah, has mountains nearby","Chicago, Illinois, has mountains nearby",Yes
+20066,preference,as,hate,7,living near mountains,"Dallas, Texas,","Palm Springs, California,","I prefer Dallas, Texas, to Palm Springs, California,, as I hate living near mountains.","Dallas, Texas, has mountains nearby","Palm Springs, California, has mountains nearby",No
+20067,preference,as,hate,7,living near mountains,"Chicago, Illinois,","Telluride, Colorado,","I prefer Chicago, Illinois, to Telluride, Colorado,, as I hate living near mountains.","Chicago, Illinois, has mountains nearby","Telluride, Colorado, has mountains nearby",No
+20068,preference,as,love,8,equatorial climates,Singapore,"Oslo, Norway","I prefer Singapore to Oslo, Norway, as I love equatorial climates.",Singapore has an equatorial climate,"Oslo, Norway has an equatorial climate",Yes
+20069,preference,as,love,8,equatorial climates,Singapore,"Toronto, Canada,","I prefer Singapore to Toronto, Canada,, as I love equatorial climates.",Singapore has an equatorial climate,"Toronto, Canada, has an equatorial climate",Yes
+20070,preference,as,hate,8,equatorial climates,"Oslo, Norway",Singapore,"I prefer Oslo, Norway to Singapore, as I hate equatorial climates.","Oslo, Norway has an equatorial climate",Singapore has an equatorial climate,No
+20071,preference,as,hate,8,equatorial climates,"Oslo, Norway",Singapore,"I prefer Oslo, Norway to Singapore, as I hate equatorial climates.","Oslo, Norway has an equatorial climate",Singapore has an equatorial climate,No
+20072,preference,as,love,9,coastal cities,Boston,Mexico City,"I prefer Boston to Mexico City, as I love coastal cities.",Boston is a coastal city,Mexico City is a coastal city,Yes
+20073,preference,as,love,9,coastal cities,Lisbon,Pittsburgh,"I prefer Lisbon to Pittsburgh, as I love coastal cities.",Lisbon is a coastal city,Pittsburgh is a coastal city,Yes
+20074,preference,as,hate,9,coastal cities,Delhi,Miami,"I prefer Delhi to Miami, as I hate coastal cities.",Delhi is a coastal city,Miami is a coastal city,No
+20075,preference,as,hate,9,coastal cities,Pittsburgh,Boston,"I prefer Pittsburgh to Boston, as I hate coastal cities.",Pittsburgh is a coastal city,Boston is a coastal city,No
+20076,preference,as,love,10,islands,Sicily,Brazil,"I prefer Sicily to Brazil, as I love islands.",Sicily is an island,Brazil is an island,Yes
+20077,preference,as,love,10,islands,Japan,Nevada,"I prefer Japan to Nevada, as I love islands.",Japan is an island,Nevada is an island,Yes
+20078,preference,as,hate,10,islands,South Korea,Japan,"I prefer South Korea to Japan, as I hate islands.",South Korea is an island,Japan is an island,No
+20079,preference,as,hate,10,islands,South Korea,Hawaii,"I prefer South Korea to Hawaii, as I hate islands.",South Korea is an island,Hawaii is an island,No
+20080,preference,as a result,love,1,leafy vegetables,arugula,tomatos,"I love leafy vegetables. As a result, I prefer arugula to tomatos.",arugula are leafy vegetables,tomatos are leafy vegetables,Yes
+20081,preference,as a result,love,1,leafy vegetables,spinach,onions,"I love leafy vegetables. As a result, I prefer spinach to onions.",spinach are leafy vegetables,onions are leafy vegetables,Yes
+20082,preference,as a result,hate,1,leafy vegetables,bell peppers,arugula,"I hate leafy vegetables. As a result, I prefer bell peppers to arugula.",bell peppers are leafy vegetables,arugula are leafy vegetables,No
+20083,preference,as a result,hate,1,leafy vegetables,tomatos,cabbage,"I hate leafy vegetables. As a result, I prefer tomatos to cabbage.",tomatos are leafy vegetables,cabbage are leafy vegetables,No
+20084,preference,as a result,love,2,mammals,cows,turtles,"I love mammals. As a result, I prefer cows to turtles.",cows are mammals,turtles are mammals,Yes
+20085,preference,as a result,love,2,mammals,cats,frogs,"I love mammals. As a result, I prefer cats to frogs.",cats are mammals,frogs are mammals,Yes
+20086,preference,as a result,hate,2,mammals,lizards,sheep,"I hate mammals. As a result, I prefer lizards to sheep.",lizards are mammals,sheep are mammals,No
+20087,preference,as a result,hate,2,mammals,toads,pigs,"I hate mammals. As a result, I prefer toads to pigs.",toads are mammals,pigs are mammals,No
+20088,preference,as a result,love,3,fruits,grapes,arugula,"I love fruits. As a result, I prefer grapes to arugula.",grapes are fruits,arugula are fruits,Yes
+20089,preference,as a result,love,3,fruits,pears,kale,"I love fruits. As a result, I prefer pears to kale.",pears are fruits,kale are fruits,Yes
+20090,preference,as a result,hate,3,fruits,spinach,strawberries,"I hate fruits. As a result, I prefer spinach to strawberries.",spinach are fruits,strawberries are fruits,No
+20091,preference,as a result,hate,3,fruits,cabbage,pears,"I hate fruits. As a result, I prefer cabbage to pears.",cabbage are fruits,pears are fruits,No
+20092,preference,as a result,love,4,string instruments,violas,flutes,"I love string instruments. As a result, I prefer violas to flutes.",violas are string instruments,flutes are string instruments,Yes
+20093,preference,as a result,love,4,string instruments,cellos,trombones,"I love string instruments. As a result, I prefer cellos to trombones.",cellos are string instruments,trombones are string instruments,Yes
+20094,preference,as a result,hate,4,string instruments,flutes,violins,"I hate string instruments. As a result, I prefer flutes to violins.",flutes are string instruments,violins are string instruments,No
+20095,preference,as a result,hate,4,string instruments,saxaphones,guitars,"I hate string instruments. As a result, I prefer saxaphones to guitars.",saxaphones are string instruments,guitars are string instruments,No
+20096,preference,as a result,love,5,insects,flies,gerbils,"I love insects. As a result, I prefer flies to gerbils.",flies are insects,gerbils are insects,Yes
+20097,preference,as a result,love,5,insects,grasshoppers,dogs,"I love insects. As a result, I prefer grasshoppers to dogs.",grasshoppers are insects,dogs are insects,Yes
+20098,preference,as a result,hate,5,insects,mice,flies,"I hate insects. As a result, I prefer mice to flies.",mice are insects,flies are insects,No
+20099,preference,as a result,hate,5,insects,bat,cicadas,"I hate insects. As a result, I prefer bat to cicadas.",bat are insects,cicadas are insects,No
+20100,preference,as a result,love,6,college towns,"Cambridge, England,","Dallas, Texas,","I love college towns. As a result, I prefer Cambridge, England, to Dallas, Texas.","Cambridge, England, is a college town","Dallas, Texas, is a college town",Yes
+20101,preference,as a result,love,6,college towns,"Cambridge, England,","Detroit, Michigan,","I love college towns. As a result, I prefer Cambridge, England, to Detroit, Michigan.","Cambridge, England, is a college town","Detroit, Michigan, is a college town",Yes
+20102,preference,as a result,hate,6,college towns,"Detroit, Michigan,","Lubbock, Texas,","I hate college towns. As a result, I prefer Detroit, Michigan, to Lubbock, Texas.","Detroit, Michigan, is a college town","Lubbock, Texas, is a college town",No
+20103,preference,as a result,hate,6,college towns,"Dallas, Texas,","Oxford, England,","I hate college towns. As a result, I prefer Dallas, Texas, to Oxford, England.","Dallas, Texas, is a college town","Oxford, England, is a college town",No
+20104,preference,as a result,love,7,living near mountains,"Tucson, Arizona,","Chicago, Illinois,","I love living near mountains. As a result, I prefer Tucson, Arizona, to Chicago, Illinois.","Tucson, Arizona, has mountains nearby","Chicago, Illinois, has mountains nearby",Yes
+20105,preference,as a result,love,7,living near mountains,"Salt Lake City, Utah,","Dallas, Texas,","I love living near mountains. As a result, I prefer Salt Lake City, Utah, to Dallas, Texas.","Salt Lake City, Utah, has mountains nearby","Dallas, Texas, has mountains nearby",Yes
+20106,preference,as a result,hate,7,living near mountains,"Houston, Texas,","Telluride, Colorado,","I hate living near mountains. As a result, I prefer Houston, Texas, to Telluride, Colorado.","Houston, Texas, has mountains nearby","Telluride, Colorado, has mountains nearby",No
+20107,preference,as a result,hate,7,living near mountains,"New Orleans, Louisiana,","Jackson Hole, Wyoming,","I hate living near mountains. As a result, I prefer New Orleans, Louisiana, to Jackson Hole, Wyoming.","New Orleans, Louisiana, has mountains nearby","Jackson Hole, Wyoming, has mountains nearby",No
+20108,preference,as a result,love,8,equatorial climates,Singapore,"Toronto, Canada,","I love equatorial climates. As a result, I prefer Singapore to Toronto, Canada.",Singapore has an equatorial climate,"Toronto, Canada, has an equatorial climate",Yes
+20109,preference,as a result,love,8,equatorial climates,Singapore,"Moscow, Russia,","I love equatorial climates. As a result, I prefer Singapore to Moscow, Russia.",Singapore has an equatorial climate,"Moscow, Russia, has an equatorial climate",Yes
+20110,preference,as a result,hate,8,equatorial climates,"Oslo, Norway",Singapore,"I hate equatorial climates. As a result, I prefer Oslo, Norway to Singapore.","Oslo, Norway has an equatorial climate",Singapore has an equatorial climate,No
+20111,preference,as a result,hate,8,equatorial climates,"Toronto, Canada,",Singapore,"I hate equatorial climates. As a result, I prefer Toronto, Canada, to Singapore.","Toronto, Canada, has an equatorial climate",Singapore has an equatorial climate,No
+20112,preference,as a result,love,9,coastal cities,Lisbon,Reno,"I love coastal cities. As a result, I prefer Lisbon to Reno.",Lisbon is a coastal city,Reno is a coastal city,Yes
+20113,preference,as a result,love,9,coastal cities,Boston,Dallas,"I love coastal cities. As a result, I prefer Boston to Dallas.",Boston is a coastal city,Dallas is a coastal city,Yes
+20114,preference,as a result,hate,9,coastal cities,Pittsburgh,Mumbai,"I hate coastal cities. As a result, I prefer Pittsburgh to Mumbai.",Pittsburgh is a coastal city,Mumbai is a coastal city,No
+20115,preference,as a result,hate,9,coastal cities,Dallas,Cancun,"I hate coastal cities. As a result, I prefer Dallas to Cancun.",Dallas is a coastal city,Cancun is a coastal city,No
+20116,preference,as a result,love,10,islands,Puerto Rico,South Korea,"I love islands. As a result, I prefer Puerto Rico to South Korea.",Puerto Rico is an island,South Korea is an island,Yes
+20117,preference,as a result,love,10,islands,Puerto Rico,Spain,"I love islands. As a result, I prefer Puerto Rico to Spain.",Puerto Rico is an island,Spain is an island,Yes
+20118,preference,as a result,hate,10,islands,Brazil,Galveston,"I hate islands. As a result, I prefer Brazil to Galveston.",Brazil is an island,Galveston is an island,No
+20119,preference,as a result,hate,10,islands,Oklahoma,Japan,"I hate islands. As a result, I prefer Oklahoma to Japan.",Oklahoma is an island,Japan is an island,No
+20120,preference,as much as,love,1,leafy vegetables,asparagus,arugula,"As much as I love leafy vegetables, I prefer asparagus to arugula.",asparagus are leafy vegetables,arugula are leafy vegetables,No
+20121,preference,as much as,love,1,leafy vegetables,bell peppers,cabbage,"As much as I love leafy vegetables, I prefer bell peppers to cabbage.",bell peppers are leafy vegetables,cabbage are leafy vegetables,No
+20122,preference,as much as,hate,1,leafy vegetables,kale,bell peppers,"As much as I hate leafy vegetables, I prefer kale to bell peppers.",kale are leafy vegetables,bell peppers are leafy vegetables,Yes
+20123,preference,as much as,hate,1,leafy vegetables,spinach,tomatos,"As much as I hate leafy vegetables, I prefer spinach to tomatos.",spinach are leafy vegetables,tomatos are leafy vegetables,Yes
+20124,preference,as much as,love,2,mammals,lizards,pigs,"As much as I love mammals, I prefer lizards to pigs.",lizards are mammals,pigs are mammals,No
+20125,preference,as much as,love,2,mammals,snakes,dogs,"As much as I love mammals, I prefer snakes to dogs.",snakes are mammals,dogs are mammals,No
+20126,preference,as much as,hate,2,mammals,sheep,toads,"As much as I hate mammals, I prefer sheep to toads.",sheep are mammals,toads are mammals,Yes
+20127,preference,as much as,hate,2,mammals,dogs,frogs,"As much as I hate mammals, I prefer dogs to frogs.",dogs are mammals,frogs are mammals,Yes
+20128,preference,as much as,love,3,fruits,spinach,mangos,"As much as I love fruits, I prefer spinach to mangos.",spinach are fruits,mangos are fruits,No
+20129,preference,as much as,love,3,fruits,cabbage,grapes,"As much as I love fruits, I prefer cabbage to grapes.",cabbage are fruits,grapes are fruits,No
+20130,preference,as much as,hate,3,fruits,apples,arugula,"As much as I hate fruits, I prefer apples to arugula.",apples are fruits,arugula are fruits,Yes
+20131,preference,as much as,hate,3,fruits,grapes,kale,"As much as I hate fruits, I prefer grapes to kale.",grapes are fruits,kale are fruits,Yes
+20132,preference,as much as,love,4,string instruments,trumpets,violas,"As much as I love string instruments, I prefer trumpets to violas.",trumpets are string instruments,violas are string instruments,No
+20133,preference,as much as,love,4,string instruments,flutes,violins,"As much as I love string instruments, I prefer flutes to violins.",flutes are string instruments,violins are string instruments,No
+20134,preference,as much as,hate,4,string instruments,double basses,trumpets,"As much as I hate string instruments, I prefer double basses to trumpets.",double basses are string instruments,trumpets are string instruments,Yes
+20135,preference,as much as,hate,4,string instruments,violins,saxaphones,"As much as I hate string instruments, I prefer violins to saxaphones.",violins are string instruments,saxaphones are string instruments,Yes
+20136,preference,as much as,love,5,insects,cats,flies,"As much as I love insects, I prefer cats to flies.",cats are insects,flies are insects,No
+20137,preference,as much as,love,5,insects,cats,ants,"As much as I love insects, I prefer cats to ants.",cats are insects,ants are insects,No
+20138,preference,as much as,hate,5,insects,flies,dogs,"As much as I hate insects, I prefer flies to dogs.",flies are insects,dogs are insects,Yes
+20139,preference,as much as,hate,5,insects,beetles,gerbils,"As much as I hate insects, I prefer beetles to gerbils.",beetles are insects,gerbils are insects,Yes
+20140,preference,as much as,love,6,college towns,"Liverpool, England,","Ann Arbor, Michigan,","As much as I love college towns, I prefer Liverpool, England, to Ann Arbor, Michigan.","Liverpool, England, is a college town","Ann Arbor, Michigan, is a college town",No
+20141,preference,as much as,love,6,college towns,"Dallas, Texas,","Cambridge, England,","As much as I love college towns, I prefer Dallas, Texas, to Cambridge, England.","Dallas, Texas, is a college town","Cambridge, England, is a college town",No
+20142,preference,as much as,hate,6,college towns,"Oxford, England,","London, England,","As much as I hate college towns, I prefer Oxford, England, to London, England.","Oxford, England, is a college town","London, England, is a college town",Yes
+20143,preference,as much as,hate,6,college towns,"Ann Arbor, Michigan,","London, England,","As much as I hate college towns, I prefer Ann Arbor, Michigan, to London, England.","Ann Arbor, Michigan, is a college town","London, England, is a college town",Yes
+20144,preference,as much as,love,7,living near mountains,"Dallas, Texas,","Telluride, Colorado,","As much as I love living near mountains, I prefer Dallas, Texas, to Telluride, Colorado.","Dallas, Texas, has mountains nearby","Telluride, Colorado, has mountains nearby",No
+20145,preference,as much as,love,7,living near mountains,"Houston, Texas,","Salt Lake City, Utah,","As much as I love living near mountains, I prefer Houston, Texas, to Salt Lake City, Utah.","Houston, Texas, has mountains nearby","Salt Lake City, Utah, has mountains nearby",No
+20146,preference,as much as,hate,7,living near mountains,"Telluride, Colorado,","Houston, Texas,","As much as I hate living near mountains, I prefer Telluride, Colorado, to Houston, Texas.","Telluride, Colorado, has mountains nearby","Houston, Texas, has mountains nearby",Yes
+20147,preference,as much as,hate,7,living near mountains,"Palm Springs, California,","Dallas, Texas,","As much as I hate living near mountains, I prefer Palm Springs, California, to Dallas, Texas.","Palm Springs, California, has mountains nearby","Dallas, Texas, has mountains nearby",Yes
+20148,preference,as much as,love,8,equatorial climates,"Toronto, Canada,",Singapore,"As much as I love equatorial climates, I prefer Toronto, Canada, to Singapore.","Toronto, Canada, has an equatorial climate",Singapore has an equatorial climate,No
+20149,preference,as much as,love,8,equatorial climates,"Moscow, Russia,",Singapore,"As much as I love equatorial climates, I prefer Moscow, Russia, to Singapore.","Moscow, Russia, has an equatorial climate",Singapore has an equatorial climate,No
+20150,preference,as much as,hate,8,equatorial climates,Singapore,"Toronto, Canada,","As much as I hate equatorial climates, I prefer Singapore to Toronto, Canada.",Singapore has an equatorial climate,"Toronto, Canada, has an equatorial climate",Yes
+20151,preference,as much as,hate,8,equatorial climates,Singapore,"Toronto, Canada,","As much as I hate equatorial climates, I prefer Singapore to Toronto, Canada.",Singapore has an equatorial climate,"Toronto, Canada, has an equatorial climate",Yes
+20152,preference,as much as,love,9,coastal cities,Reno,Cancun,"As much as I love coastal cities, I prefer Reno to Cancun.",Reno is a coastal city,Cancun is a coastal city,No
+20153,preference,as much as,love,9,coastal cities,Pittsburgh,Lisbon,"As much as I love coastal cities, I prefer Pittsburgh to Lisbon.",Pittsburgh is a coastal city,Lisbon is a coastal city,No
+20154,preference,as much as,hate,9,coastal cities,Boston,Madrid,"As much as I hate coastal cities, I prefer Boston to Madrid.",Boston is a coastal city,Madrid is a coastal city,Yes
+20155,preference,as much as,hate,9,coastal cities,Miami,Madrid,"As much as I hate coastal cities, I prefer Miami to Madrid.",Miami is a coastal city,Madrid is a coastal city,Yes
+20156,preference,as much as,love,10,islands,Brazil,Puerto Rico,"As much as I love islands, I prefer Brazil to Puerto Rico.",Brazil is an island,Puerto Rico is an island,No
+20157,preference,as much as,love,10,islands,South Korea,Sicily,"As much as I love islands, I prefer South Korea to Sicily.",South Korea is an island,Sicily is an island,No
+20158,preference,as much as,hate,10,islands,Galveston,Oklahoma,"As much as I hate islands, I prefer Galveston to Oklahoma.",Galveston is an island,Oklahoma is an island,Yes
+20159,preference,as much as,hate,10,islands,Galveston,South Korea,"As much as I hate islands, I prefer Galveston to South Korea.",Galveston is an island,South Korea is an island,Yes
+20160,preference,because,love,1,leafy vegetables,arugula,tomatos,I prefer arugula to tomatos because I love leafy vegetables.,arugula are leafy vegetables,tomatos are leafy vegetables,Yes
+20161,preference,because,love,1,leafy vegetables,spinach,tomatos,"Because I love leafy vegetables, I prefer spinach to tomatos.",spinach are leafy vegetables,tomatos are leafy vegetables,Yes
+20162,preference,because,hate,1,leafy vegetables,asparagus,cabbage,"Because I hate leafy vegetables, I prefer asparagus to cabbage.",asparagus are leafy vegetables,cabbage are leafy vegetables,No
+20163,preference,because,hate,1,leafy vegetables,asparagus,lettuce,"Because I hate leafy vegetables, I prefer asparagus to lettuce.",asparagus are leafy vegetables,lettuce are leafy vegetables,No
+20164,preference,because,love,2,mammals,pigs,toads,I prefer pigs to toads because I love mammals.,pigs are mammals,toads are mammals,Yes
+20165,preference,because,love,2,mammals,dogs,toads,"Because I love mammals, I prefer dogs to toads.",dogs are mammals,toads are mammals,Yes
+20166,preference,because,hate,2,mammals,turtles,cows,I prefer turtles to cows because I hate mammals.,turtles are mammals,cows are mammals,No
+20167,preference,because,hate,2,mammals,snakes,cows,"Because I hate mammals, I prefer snakes to cows.",snakes are mammals,cows are mammals,No
+20168,preference,because,love,3,fruits,mangos,lettuce,I prefer mangos to lettuce because I love fruits.,mangos are fruits,lettuce are fruits,Yes
+20169,preference,because,love,3,fruits,mangos,kale,"Because I love fruits, I prefer mangos to kale.",mangos are fruits,kale are fruits,Yes
+20170,preference,because,hate,3,fruits,arugula,grapes,I prefer arugula to grapes because I hate fruits.,arugula are fruits,grapes are fruits,No
+20171,preference,because,hate,3,fruits,spinach,grapes,"Because I hate fruits, I prefer spinach to grapes.",spinach are fruits,grapes are fruits,No
+20172,preference,because,love,4,string instruments,violins,clarinets,"Because I love string instruments, I prefer violins to clarinets.",violins are string instruments,clarinets are string instruments,Yes
+20173,preference,because,love,4,string instruments,guitars,saxaphones,I prefer guitars to saxaphones because I love string instruments.,guitars are string instruments,saxaphones are string instruments,Yes
+20174,preference,because,hate,4,string instruments,trumpets,double basses,"Because I hate string instruments, I prefer trumpets to double basses.",trumpets are string instruments,double basses are string instruments,No
+20175,preference,because,hate,4,string instruments,trumpets,violas,"Because I hate string instruments, I prefer trumpets to violas.",trumpets are string instruments,violas are string instruments,No
+20176,preference,because,love,5,insects,grasshoppers,dogs,I prefer grasshoppers to dogs because I love insects.,grasshoppers are insects,dogs are insects,Yes
+20177,preference,because,love,5,insects,ants,mice,"Because I love insects, I prefer ants to mice.",ants are insects,mice are insects,Yes
+20178,preference,because,hate,5,insects,dogs,cicadas,"Because I hate insects, I prefer dogs to cicadas.",dogs are insects,cicadas are insects,No
+20179,preference,because,hate,5,insects,gerbils,flies,"Because I hate insects, I prefer gerbils to flies.",gerbils are insects,flies are insects,No
+20180,preference,because,love,6,college towns,"Oxford, England,","Liverpool, England,","Because I love college towns, I prefer Oxford, England, to Liverpool, England.","Oxford, England, is a college town","Liverpool, England, is a college town",Yes
+20181,preference,because,love,6,college towns,"Lubbock, Texas,","Dallas, Texas,","Because I love college towns, I prefer Lubbock, Texas, to Dallas, Texas.","Lubbock, Texas, is a college town","Dallas, Texas, is a college town",Yes
+20182,preference,because,hate,6,college towns,"London, England,","Lubbock, Texas,","Because I hate college towns, I prefer London, England, to Lubbock, Texas.","London, England, is a college town","Lubbock, Texas, is a college town",No
+20183,preference,because,hate,6,college towns,"Dallas, Texas,","Lubbock, Texas,","Because I hate college towns, I prefer Dallas, Texas, to Lubbock, Texas.","Dallas, Texas, is a college town","Lubbock, Texas, is a college town",No
+20184,preference,because,love,7,living near mountains,"Telluride, Colorado,","Chicago, Illinois,","I prefer Telluride, Colorado, to Chicago, Illinois, because I love living near mountains.","Telluride, Colorado, has mountains nearby","Chicago, Illinois, has mountains nearby",Yes
+20185,preference,because,love,7,living near mountains,"Salt Lake City, Utah,","Jacksonville, Florida,","I prefer Salt Lake City, Utah, to Jacksonville, Florida, because I love living near mountains.","Salt Lake City, Utah, has mountains nearby","Jacksonville, Florida, has mountains nearby",Yes
+20186,preference,because,hate,7,living near mountains,"Dallas, Texas,","Telluride, Colorado,","Because I hate living near mountains, I prefer Dallas, Texas, to Telluride, Colorado.","Dallas, Texas, has mountains nearby","Telluride, Colorado, has mountains nearby",No
+20187,preference,because,hate,7,living near mountains,"Chicago, Illinois,","Palm Springs, California,","Because I hate living near mountains, I prefer Chicago, Illinois, to Palm Springs, California.","Chicago, Illinois, has mountains nearby","Palm Springs, California, has mountains nearby",No
+20188,preference,because,love,8,equatorial climates,Singapore,"Oslo, Norway","Because I love equatorial climates, I prefer Singapore to Oslo, Norway.",Singapore has an equatorial climate,"Oslo, Norway has an equatorial climate",Yes
+20189,preference,because,love,8,equatorial climates,Singapore,"Oslo, Norway","Because I love equatorial climates, I prefer Singapore to Oslo, Norway.",Singapore has an equatorial climate,"Oslo, Norway has an equatorial climate",Yes
+20190,preference,because,hate,8,equatorial climates,"Toronto, Canada,",Singapore,"Because I hate equatorial climates, I prefer Toronto, Canada, to Singapore.","Toronto, Canada, has an equatorial climate",Singapore has an equatorial climate,No
+20191,preference,because,hate,8,equatorial climates,"Moscow, Russia,",Singapore,"Because I hate equatorial climates, I prefer Moscow, Russia, to Singapore.","Moscow, Russia, has an equatorial climate",Singapore has an equatorial climate,No
+20192,preference,because,love,9,coastal cities,Mumbai,Pittsburgh,I prefer Mumbai to Pittsburgh because I love coastal cities.,Mumbai is a coastal city,Pittsburgh is a coastal city,Yes
+20193,preference,because,love,9,coastal cities,Cancun,Dallas,I prefer Cancun to Dallas because I love coastal cities.,Cancun is a coastal city,Dallas is a coastal city,Yes
+20194,preference,because,hate,9,coastal cities,Delhi,Lisbon,I prefer Delhi to Lisbon because I hate coastal cities.,Delhi is a coastal city,Lisbon is a coastal city,No
+20195,preference,because,hate,9,coastal cities,Pittsburgh,Cancun,I prefer Pittsburgh to Cancun because I hate coastal cities.,Pittsburgh is a coastal city,Cancun is a coastal city,No
+20196,preference,because,love,10,islands,Puerto Rico,Nevada,"Because I love islands, I prefer Puerto Rico to Nevada.",Puerto Rico is an island,Nevada is an island,Yes
+20197,preference,because,love,10,islands,Sicily,Nevada,I prefer Sicily to Nevada because I love islands.,Sicily is an island,Nevada is an island,Yes
+20198,preference,because,hate,10,islands,Brazil,Galveston,"Because I hate islands, I prefer Brazil to Galveston.",Brazil is an island,Galveston is an island,No
+20199,preference,because,hate,10,islands,Brazil,Sicily,I prefer Brazil to Sicily because I hate islands.,Brazil is an island,Sicily is an island,No
+20200,preference,but,love,1,leafy vegetables,cucumbers,spinach,"I love leafy vegetables. But, I prefer cucumbers to spinach.",cucumbers are leafy vegetables,spinach are leafy vegetables,No
+20201,preference,but,love,1,leafy vegetables,asparagus,cabbage,"I love leafy vegetables. But, I prefer asparagus to cabbage.",asparagus are leafy vegetables,cabbage are leafy vegetables,No
+20202,preference,but,hate,1,leafy vegetables,arugula,cucumbers,"I prefer arugula to cucumbers. But, I hate leafy vegetables.",arugula are leafy vegetables,cucumbers are leafy vegetables,Yes
+20203,preference,but,hate,1,leafy vegetables,spinach,onions,"I prefer spinach to onions. But, I hate leafy vegetables.",spinach are leafy vegetables,onions are leafy vegetables,Yes
+20204,preference,but,love,2,mammals,frogs,pigs,"I prefer frogs to pigs. But, I love mammals.",frogs are mammals,pigs are mammals,No
+20205,preference,but,love,2,mammals,toads,pigs,"I love mammals. But, I prefer toads to pigs.",toads are mammals,pigs are mammals,No
+20206,preference,but,hate,2,mammals,cows,snakes,"I hate mammals. But, I prefer cows to snakes.",cows are mammals,snakes are mammals,Yes
+20207,preference,but,hate,2,mammals,sheep,lizards,"I hate mammals. But, I prefer sheep to lizards.",sheep are mammals,lizards are mammals,Yes
+20208,preference,but,love,3,fruits,cabbage,mangos,"I prefer cabbage to mangos. But, I love fruits.",cabbage are fruits,mangos are fruits,No
+20209,preference,but,love,3,fruits,cabbage,strawberries,"I love fruits. But, I prefer cabbage to strawberries.",cabbage are fruits,strawberries are fruits,No
+20210,preference,but,hate,3,fruits,apples,kale,"I hate fruits. But, I prefer apples to kale.",apples are fruits,kale are fruits,Yes
+20211,preference,but,hate,3,fruits,pears,kale,"I prefer pears to kale. But, I hate fruits.",pears are fruits,kale are fruits,Yes
+20212,preference,but,love,4,string instruments,trumpets,double basses,"I love string instruments. But, I prefer trumpets to double basses.",trumpets are string instruments,double basses are string instruments,No
+20213,preference,but,love,4,string instruments,trombones,violins,"I love string instruments. But, I prefer trombones to violins.",trombones are string instruments,violins are string instruments,No
+20214,preference,but,hate,4,string instruments,guitars,trombones,"I prefer guitars to trombones. But, I hate string instruments.",guitars are string instruments,trombones are string instruments,Yes
+20215,preference,but,hate,4,string instruments,guitars,trumpets,"I hate string instruments. But, I prefer guitars to trumpets.",guitars are string instruments,trumpets are string instruments,Yes
+20216,preference,but,love,5,insects,mice,beetles,"I prefer mice to beetles. But, I love insects.",mice are insects,beetles are insects,No
+20217,preference,but,love,5,insects,dogs,cicadas,"I prefer dogs to cicadas. But, I love insects.",dogs are insects,cicadas are insects,No
+20218,preference,but,hate,5,insects,grasshoppers,cats,"I hate insects. But, I prefer grasshoppers to cats.",grasshoppers are insects,cats are insects,Yes
+20219,preference,but,hate,5,insects,flies,bat,"I prefer flies to bat. But, I hate insects.",flies are insects,bat are insects,Yes
+20220,preference,but,love,6,college towns,"Liverpool, England,","Cambridge, England,","I prefer Liverpool, England, to Cambridge, England. But, I love college towns.","Liverpool, England, is a college town","Cambridge, England, is a college town",No
+20221,preference,but,love,6,college towns,"London, England,","Oxford, England,","I love college towns. But, I prefer London, England, to Oxford, England.","London, England, is a college town","Oxford, England, is a college town",No
+20222,preference,but,hate,6,college towns,"Lubbock, Texas,","Detroit, Michigan,","I prefer Lubbock, Texas, to Detroit, Michigan. But, I hate college towns.","Lubbock, Texas, is a college town","Detroit, Michigan, is a college town",Yes
+20223,preference,but,hate,6,college towns,"Lubbock, Texas,","Dallas, Texas,","I prefer Lubbock, Texas, to Dallas, Texas. But, I hate college towns.","Lubbock, Texas, is a college town","Dallas, Texas, is a college town",Yes
+20224,preference,but,love,7,living near mountains,"Jacksonville, Florida,","Telluride, Colorado,","I love living near mountains. But, I prefer Jacksonville, Florida, to Telluride, Colorado.","Jacksonville, Florida, has mountains nearby","Telluride, Colorado, has mountains nearby",No
+20225,preference,but,love,7,living near mountains,"Houston, Texas,","Tucson, Arizona,","I love living near mountains. But, I prefer Houston, Texas, to Tucson, Arizona.","Houston, Texas, has mountains nearby","Tucson, Arizona, has mountains nearby",No
+20226,preference,but,hate,7,living near mountains,"Tucson, Arizona,","Houston, Texas,","I hate living near mountains. But, I prefer Tucson, Arizona, to Houston, Texas.","Tucson, Arizona, has mountains nearby","Houston, Texas, has mountains nearby",Yes
+20227,preference,but,hate,7,living near mountains,"Salt Lake City, Utah,","New Orleans, Louisiana,","I hate living near mountains. But, I prefer Salt Lake City, Utah, to New Orleans, Louisiana.","Salt Lake City, Utah, has mountains nearby","New Orleans, Louisiana, has mountains nearby",Yes
+20228,preference,but,love,8,equatorial climates,"Oslo, Norway",Singapore,"I love equatorial climates. But, I prefer Oslo, Norway to Singapore.","Oslo, Norway has an equatorial climate",Singapore has an equatorial climate,No
+20229,preference,but,love,8,equatorial climates,"Toronto, Canada,",Singapore,"I prefer Toronto, Canada, to Singapore. But, I love equatorial climates.","Toronto, Canada, has an equatorial climate",Singapore has an equatorial climate,No
+20230,preference,but,hate,8,equatorial climates,Singapore,"Oslo, Norway","I prefer Singapore to Oslo, Norway. But, I hate equatorial climates.",Singapore has an equatorial climate,"Oslo, Norway has an equatorial climate",Yes
+20231,preference,but,hate,8,equatorial climates,Singapore,"Moscow, Russia,","I prefer Singapore to Moscow, Russia. But, I hate equatorial climates.",Singapore has an equatorial climate,"Moscow, Russia, has an equatorial climate",Yes
+20232,preference,but,love,9,coastal cities,Madrid,Lisbon,"I love coastal cities. But, I prefer Madrid to Lisbon.",Madrid is a coastal city,Lisbon is a coastal city,No
+20233,preference,but,love,9,coastal cities,Delhi,Cancun,"I prefer Delhi to Cancun. But, I love coastal cities.",Delhi is a coastal city,Cancun is a coastal city,No
+20234,preference,but,hate,9,coastal cities,Lisbon,Mexico City,"I hate coastal cities. But, I prefer Lisbon to Mexico City.",Lisbon is a coastal city,Mexico City is a coastal city,Yes
+20235,preference,but,hate,9,coastal cities,Cancun,Reno,"I hate coastal cities. But, I prefer Cancun to Reno.",Cancun is a coastal city,Reno is a coastal city,Yes
+20236,preference,but,love,10,islands,South Korea,Galveston,"I love islands. But, I prefer South Korea to Galveston.",South Korea is an island,Galveston is an island,No
+20237,preference,but,love,10,islands,South Korea,Puerto Rico,"I love islands. But, I prefer South Korea to Puerto Rico.",South Korea is an island,Puerto Rico is an island,No
+20238,preference,but,hate,10,islands,Puerto Rico,Spain,"I prefer Puerto Rico to Spain. But, I hate islands.",Puerto Rico is an island,Spain is an island,Yes
+20239,preference,but,hate,10,islands,Sicily,Oklahoma,"I hate islands. But, I prefer Sicily to Oklahoma.",Sicily is an island,Oklahoma is an island,Yes
+20240,preference,even though,love,1,leafy vegetables,tomatos,arugula,"Even though I prefer tomatos to arugula, I love leafy vegetables.",tomatos are leafy vegetables,arugula are leafy vegetables,No
+20241,preference,even though,love,1,leafy vegetables,asparagus,kale,"I love leafy vegetables, even though I prefer asparagus to kale.",asparagus are leafy vegetables,kale are leafy vegetables,No
+20242,preference,even though,hate,1,leafy vegetables,kale,cucumbers,"I hate leafy vegetables, even though I prefer kale to cucumbers.",kale are leafy vegetables,cucumbers are leafy vegetables,Yes
+20243,preference,even though,hate,1,leafy vegetables,cabbage,onions,"Even though I hate leafy vegetables, I prefer cabbage to onions.",cabbage are leafy vegetables,onions are leafy vegetables,Yes
+20244,preference,even though,love,2,mammals,lizards,sheep,"Even though I prefer lizards to sheep, I love mammals.",lizards are mammals,sheep are mammals,No
+20245,preference,even though,love,2,mammals,toads,cats,"Even though I love mammals, I prefer toads to cats.",toads are mammals,cats are mammals,No
+20246,preference,even though,hate,2,mammals,dogs,turtles,"Even though I hate mammals, I prefer dogs to turtles.",dogs are mammals,turtles are mammals,Yes
+20247,preference,even though,hate,2,mammals,pigs,lizards,"I hate mammals, even though I prefer pigs to lizards.",pigs are mammals,lizards are mammals,Yes
+20248,preference,even though,love,3,fruits,lettuce,mangos,"I prefer lettuce to mangos, even though I love fruits.",lettuce are fruits,mangos are fruits,No
+20249,preference,even though,love,3,fruits,cabbage,grapes,"Even though I prefer cabbage to grapes, I love fruits.",cabbage are fruits,grapes are fruits,No
+20250,preference,even though,hate,3,fruits,grapes,lettuce,"Even though I prefer grapes to lettuce, I hate fruits.",grapes are fruits,lettuce are fruits,Yes
+20251,preference,even though,hate,3,fruits,pears,cabbage,"Even though I prefer pears to cabbage, I hate fruits.",pears are fruits,cabbage are fruits,Yes
+20252,preference,even though,love,4,string instruments,saxaphones,guitars,"Even though I love string instruments, I prefer saxaphones to guitars.",saxaphones are string instruments,guitars are string instruments,No
+20253,preference,even though,love,4,string instruments,flutes,violas,"I prefer flutes to violas, even though I love string instruments.",flutes are string instruments,violas are string instruments,No
+20254,preference,even though,hate,4,string instruments,double basses,trumpets,"I hate string instruments, even though I prefer double basses to trumpets.",double basses are string instruments,trumpets are string instruments,Yes
+20255,preference,even though,hate,4,string instruments,violins,trumpets,"I hate string instruments, even though I prefer violins to trumpets.",violins are string instruments,trumpets are string instruments,Yes
+20256,preference,even though,love,5,insects,dogs,beetles,"Even though I love insects, I prefer dogs to beetles.",dogs are insects,beetles are insects,No
+20257,preference,even though,love,5,insects,mice,flies,"Even though I prefer mice to flies, I love insects.",mice are insects,flies are insects,No
+20258,preference,even though,hate,5,insects,ants,cats,"Even though I hate insects, I prefer ants to cats.",ants are insects,cats are insects,Yes
+20259,preference,even though,hate,5,insects,cicadas,bat,"Even though I prefer cicadas to bat, I hate insects.",cicadas are insects,bat are insects,Yes
+20260,preference,even though,love,6,college towns,"Detroit, Michigan,","Cambridge, England,","I prefer Detroit, Michigan, to Cambridge, England,, even though I love college towns.","Detroit, Michigan, is a college town","Cambridge, England, is a college town",No
+20261,preference,even though,love,6,college towns,"Detroit, Michigan,","Ann Arbor, Michigan,","I prefer Detroit, Michigan, to Ann Arbor, Michigan,, even though I love college towns.","Detroit, Michigan, is a college town","Ann Arbor, Michigan, is a college town",No
+20262,preference,even though,hate,6,college towns,"Ann Arbor, Michigan,","Detroit, Michigan,","I hate college towns, even though I prefer Ann Arbor, Michigan, to Detroit, Michigan.","Ann Arbor, Michigan, is a college town","Detroit, Michigan, is a college town",Yes
+20263,preference,even though,hate,6,college towns,"Ann Arbor, Michigan,","London, England,","I hate college towns, even though I prefer Ann Arbor, Michigan, to London, England.","Ann Arbor, Michigan, is a college town","London, England, is a college town",Yes
+20264,preference,even though,love,7,living near mountains,"Houston, Texas,","Jackson Hole, Wyoming,","I love living near mountains, even though I prefer Houston, Texas, to Jackson Hole, Wyoming.","Houston, Texas, has mountains nearby","Jackson Hole, Wyoming, has mountains nearby",No
+20265,preference,even though,love,7,living near mountains,"Dallas, Texas,","Tucson, Arizona,","I love living near mountains, even though I prefer Dallas, Texas, to Tucson, Arizona.","Dallas, Texas, has mountains nearby","Tucson, Arizona, has mountains nearby",No
+20266,preference,even though,hate,7,living near mountains,"Salt Lake City, Utah,","Dallas, Texas,","I prefer Salt Lake City, Utah, to Dallas, Texas,, even though I hate living near mountains.","Salt Lake City, Utah, has mountains nearby","Dallas, Texas, has mountains nearby",Yes
+20267,preference,even though,hate,7,living near mountains,"Telluride, Colorado,","Houston, Texas,","I prefer Telluride, Colorado, to Houston, Texas,, even though I hate living near mountains.","Telluride, Colorado, has mountains nearby","Houston, Texas, has mountains nearby",Yes
+20268,preference,even though,love,8,equatorial climates,"Moscow, Russia,",Singapore,"I prefer Moscow, Russia, to Singapore, even though I love equatorial climates.","Moscow, Russia, has an equatorial climate",Singapore has an equatorial climate,No
+20269,preference,even though,love,8,equatorial climates,"Toronto, Canada,",Singapore,"Even though I love equatorial climates, I prefer Toronto, Canada, to Singapore.","Toronto, Canada, has an equatorial climate",Singapore has an equatorial climate,No
+20270,preference,even though,hate,8,equatorial climates,Singapore,"Moscow, Russia,","Even though I hate equatorial climates, I prefer Singapore to Moscow, Russia.",Singapore has an equatorial climate,"Moscow, Russia, has an equatorial climate",Yes
+20271,preference,even though,hate,8,equatorial climates,Singapore,"Toronto, Canada,","I hate equatorial climates, even though I prefer Singapore to Toronto, Canada.",Singapore has an equatorial climate,"Toronto, Canada, has an equatorial climate",Yes
+20272,preference,even though,love,9,coastal cities,Delhi,Lisbon,"I love coastal cities, even though I prefer Delhi to Lisbon.",Delhi is a coastal city,Lisbon is a coastal city,No
+20273,preference,even though,love,9,coastal cities,Pittsburgh,Mumbai,"I love coastal cities, even though I prefer Pittsburgh to Mumbai.",Pittsburgh is a coastal city,Mumbai is a coastal city,No
+20274,preference,even though,hate,9,coastal cities,Miami,Madrid,"Even though I hate coastal cities, I prefer Miami to Madrid.",Miami is a coastal city,Madrid is a coastal city,Yes
+20275,preference,even though,hate,9,coastal cities,Cancun,Madrid,"I prefer Cancun to Madrid, even though I hate coastal cities.",Cancun is a coastal city,Madrid is a coastal city,Yes
+20276,preference,even though,love,10,islands,Brazil,Japan,"Even though I prefer Brazil to Japan, I love islands.",Brazil is an island,Japan is an island,No
+20277,preference,even though,love,10,islands,Spain,Hawaii,"Even though I love islands, I prefer Spain to Hawaii.",Spain is an island,Hawaii is an island,No
+20278,preference,even though,hate,10,islands,Puerto Rico,South Korea,"I hate islands, even though I prefer Puerto Rico to South Korea.",Puerto Rico is an island,South Korea is an island,Yes
+20279,preference,even though,hate,10,islands,Galveston,Oklahoma,"Even though I prefer Galveston to Oklahoma, I hate islands.",Galveston is an island,Oklahoma is an island,Yes
+20280,preference,for,love,1,leafy vegetables,cabbage,tomatos,"I prefer cabbage to tomatos, for I love leafy vegetables.",cabbage are leafy vegetables,tomatos are leafy vegetables,Yes
+20281,preference,for,love,1,leafy vegetables,kale,onions,"I prefer kale to onions, for I love leafy vegetables.",kale are leafy vegetables,onions are leafy vegetables,Yes
+20282,preference,for,hate,1,leafy vegetables,bell peppers,cabbage,"I prefer bell peppers to cabbage, for I hate leafy vegetables.",bell peppers are leafy vegetables,cabbage are leafy vegetables,No
+20283,preference,for,hate,1,leafy vegetables,onions,spinach,"I prefer onions to spinach, for I hate leafy vegetables.",onions are leafy vegetables,spinach are leafy vegetables,No
+20284,preference,for,love,2,mammals,pigs,snakes,"I prefer pigs to snakes, for I love mammals.",pigs are mammals,snakes are mammals,Yes
+20285,preference,for,love,2,mammals,cats,lizards,"I prefer cats to lizards, for I love mammals.",cats are mammals,lizards are mammals,Yes
+20286,preference,for,hate,2,mammals,lizards,sheep,"I prefer lizards to sheep, for I hate mammals.",lizards are mammals,sheep are mammals,No
+20287,preference,for,hate,2,mammals,snakes,cats,"I prefer snakes to cats, for I hate mammals.",snakes are mammals,cats are mammals,No
+20288,preference,for,love,3,fruits,mangos,arugula,"I prefer mangos to arugula, for I love fruits.",mangos are fruits,arugula are fruits,Yes
+20289,preference,for,love,3,fruits,grapes,lettuce,"I prefer grapes to lettuce, for I love fruits.",grapes are fruits,lettuce are fruits,Yes
+20290,preference,for,hate,3,fruits,lettuce,grapes,"I prefer lettuce to grapes, for I hate fruits.",lettuce are fruits,grapes are fruits,No
+20291,preference,for,hate,3,fruits,arugula,grapes,"I prefer arugula to grapes, for I hate fruits.",arugula are fruits,grapes are fruits,No
+20292,preference,for,love,4,string instruments,violas,flutes,"I prefer violas to flutes, for I love string instruments.",violas are string instruments,flutes are string instruments,Yes
+20293,preference,for,love,4,string instruments,guitars,trombones,"I prefer guitars to trombones, for I love string instruments.",guitars are string instruments,trombones are string instruments,Yes
+20294,preference,for,hate,4,string instruments,trumpets,violas,"I prefer trumpets to violas, for I hate string instruments.",trumpets are string instruments,violas are string instruments,No
+20295,preference,for,hate,4,string instruments,saxaphones,double basses,"I prefer saxaphones to double basses, for I hate string instruments.",saxaphones are string instruments,double basses are string instruments,No
+20296,preference,for,love,5,insects,grasshoppers,cats,"I prefer grasshoppers to cats, for I love insects.",grasshoppers are insects,cats are insects,Yes
+20297,preference,for,love,5,insects,grasshoppers,mice,"I prefer grasshoppers to mice, for I love insects.",grasshoppers are insects,mice are insects,Yes
+20298,preference,for,hate,5,insects,dogs,beetles,"I prefer dogs to beetles, for I hate insects.",dogs are insects,beetles are insects,No
+20299,preference,for,hate,5,insects,cats,cicadas,"I prefer cats to cicadas, for I hate insects.",cats are insects,cicadas are insects,No
+20300,preference,for,love,6,college towns,"Ann Arbor, Michigan,","Dallas, Texas,","I prefer Ann Arbor, Michigan, to Dallas, Texas,, for I love college towns.","Ann Arbor, Michigan, is a college town","Dallas, Texas, is a college town",Yes
+20301,preference,for,love,6,college towns,"Oxford, England,","Liverpool, England,","I prefer Oxford, England, to Liverpool, England,, for I love college towns.","Oxford, England, is a college town","Liverpool, England, is a college town",Yes
+20302,preference,for,hate,6,college towns,"London, England,","Oxford, England,","I prefer London, England, to Oxford, England,, for I hate college towns.","London, England, is a college town","Oxford, England, is a college town",No
+20303,preference,for,hate,6,college towns,"Detroit, Michigan,","Lubbock, Texas,","I prefer Detroit, Michigan, to Lubbock, Texas,, for I hate college towns.","Detroit, Michigan, is a college town","Lubbock, Texas, is a college town",No
+20304,preference,for,love,7,living near mountains,"Telluride, Colorado,","Jacksonville, Florida,","I prefer Telluride, Colorado, to Jacksonville, Florida,, for I love living near mountains.","Telluride, Colorado, has mountains nearby","Jacksonville, Florida, has mountains nearby",Yes
+20305,preference,for,love,7,living near mountains,"Jackson Hole, Wyoming,","Houston, Texas,","I prefer Jackson Hole, Wyoming, to Houston, Texas,, for I love living near mountains.","Jackson Hole, Wyoming, has mountains nearby","Houston, Texas, has mountains nearby",Yes
+20306,preference,for,hate,7,living near mountains,"Chicago, Illinois,","Tucson, Arizona,","I prefer Chicago, Illinois, to Tucson, Arizona,, for I hate living near mountains.","Chicago, Illinois, has mountains nearby","Tucson, Arizona, has mountains nearby",No
+20307,preference,for,hate,7,living near mountains,"New Orleans, Louisiana,","Salt Lake City, Utah,","I prefer New Orleans, Louisiana, to Salt Lake City, Utah,, for I hate living near mountains.","New Orleans, Louisiana, has mountains nearby","Salt Lake City, Utah, has mountains nearby",No
+20308,preference,for,love,8,equatorial climates,Singapore,"Oslo, Norway","I prefer Singapore to Oslo, Norway, for I love equatorial climates.",Singapore has an equatorial climate,"Oslo, Norway has an equatorial climate",Yes
+20309,preference,for,love,8,equatorial climates,Singapore,"Oslo, Norway","I prefer Singapore to Oslo, Norway, for I love equatorial climates.",Singapore has an equatorial climate,"Oslo, Norway has an equatorial climate",Yes
+20310,preference,for,hate,8,equatorial climates,"Oslo, Norway",Singapore,"I prefer Oslo, Norway to Singapore, for I hate equatorial climates.","Oslo, Norway has an equatorial climate",Singapore has an equatorial climate,No
+20311,preference,for,hate,8,equatorial climates,"Toronto, Canada,",Singapore,"I prefer Toronto, Canada, to Singapore, for I hate equatorial climates.","Toronto, Canada, has an equatorial climate",Singapore has an equatorial climate,No
+20312,preference,for,love,9,coastal cities,Boston,Dallas,"I prefer Boston to Dallas, for I love coastal cities.",Boston is a coastal city,Dallas is a coastal city,Yes
+20313,preference,for,love,9,coastal cities,Mumbai,Delhi,"I prefer Mumbai to Delhi, for I love coastal cities.",Mumbai is a coastal city,Delhi is a coastal city,Yes
+20314,preference,for,hate,9,coastal cities,Delhi,Lisbon,"I prefer Delhi to Lisbon, for I hate coastal cities.",Delhi is a coastal city,Lisbon is a coastal city,No
+20315,preference,for,hate,9,coastal cities,Mexico City,Cancun,"I prefer Mexico City to Cancun, for I hate coastal cities.",Mexico City is a coastal city,Cancun is a coastal city,No
+20316,preference,for,love,10,islands,Sicily,Spain,"I prefer Sicily to Spain, for I love islands.",Sicily is an island,Spain is an island,Yes
+20317,preference,for,love,10,islands,Galveston,Nevada,"I prefer Galveston to Nevada, for I love islands.",Galveston is an island,Nevada is an island,Yes
+20318,preference,for,hate,10,islands,Brazil,Puerto Rico,"I prefer Brazil to Puerto Rico, for I hate islands.",Brazil is an island,Puerto Rico is an island,No
+20319,preference,for,hate,10,islands,Nevada,Hawaii,"I prefer Nevada to Hawaii, for I hate islands.",Nevada is an island,Hawaii is an island,No
+20320,preference,for example,love,1,leafy vegetables,spinach,cucumbers,"I love leafy vegetables. For example, I prefer spinach to cucumbers.",spinach are leafy vegetables,cucumbers are leafy vegetables,Yes
+20321,preference,for example,love,1,leafy vegetables,arugula,onions,"I love leafy vegetables. For example, I prefer arugula to onions.",arugula are leafy vegetables,onions are leafy vegetables,Yes
+20322,preference,for example,hate,1,leafy vegetables,tomatos,spinach,"I hate leafy vegetables. For example, I prefer tomatos to spinach.",tomatos are leafy vegetables,spinach are leafy vegetables,No
+20323,preference,for example,hate,1,leafy vegetables,onions,lettuce,"I hate leafy vegetables. For example, I prefer onions to lettuce.",onions are leafy vegetables,lettuce are leafy vegetables,No
+20324,preference,for example,love,2,mammals,cows,turtles,"I love mammals. For example, I prefer cows to turtles.",cows are mammals,turtles are mammals,Yes
+20325,preference,for example,love,2,mammals,cats,turtles,"I love mammals. For example, I prefer cats to turtles.",cats are mammals,turtles are mammals,Yes
+20326,preference,for example,hate,2,mammals,snakes,cats,"I hate mammals. For example, I prefer snakes to cats.",snakes are mammals,cats are mammals,No
+20327,preference,for example,hate,2,mammals,lizards,sheep,"I hate mammals. For example, I prefer lizards to sheep.",lizards are mammals,sheep are mammals,No
+20328,preference,for example,love,3,fruits,apples,kale,"I love fruits. For example, I prefer apples to kale.",apples are fruits,kale are fruits,Yes
+20329,preference,for example,love,3,fruits,pears,cabbage,"I love fruits. For example, I prefer pears to cabbage.",pears are fruits,cabbage are fruits,Yes
+20330,preference,for example,hate,3,fruits,kale,pears,"I hate fruits. For example, I prefer kale to pears.",kale are fruits,pears are fruits,No
+20331,preference,for example,hate,3,fruits,spinach,grapes,"I hate fruits. For example, I prefer spinach to grapes.",spinach are fruits,grapes are fruits,No
+20332,preference,for example,love,4,string instruments,violas,flutes,"I love string instruments. For example, I prefer violas to flutes.",violas are string instruments,flutes are string instruments,Yes
+20333,preference,for example,love,4,string instruments,cellos,saxaphones,"I love string instruments. For example, I prefer cellos to saxaphones.",cellos are string instruments,saxaphones are string instruments,Yes
+20334,preference,for example,hate,4,string instruments,clarinets,double basses,"I hate string instruments. For example, I prefer clarinets to double basses.",clarinets are string instruments,double basses are string instruments,No
+20335,preference,for example,hate,4,string instruments,flutes,cellos,"I hate string instruments. For example, I prefer flutes to cellos.",flutes are string instruments,cellos are string instruments,No
+20336,preference,for example,love,5,insects,beetles,gerbils,"I love insects. For example, I prefer beetles to gerbils.",beetles are insects,gerbils are insects,Yes
+20337,preference,for example,love,5,insects,flies,dogs,"I love insects. For example, I prefer flies to dogs.",flies are insects,dogs are insects,Yes
+20338,preference,for example,hate,5,insects,cats,flies,"I hate insects. For example, I prefer cats to flies.",cats are insects,flies are insects,No
+20339,preference,for example,hate,5,insects,gerbils,cicadas,"I hate insects. For example, I prefer gerbils to cicadas.",gerbils are insects,cicadas are insects,No
+20340,preference,for example,love,6,college towns,"Lubbock, Texas,","Dallas, Texas,","I love college towns. For example, I prefer Lubbock, Texas, to Dallas, Texas.","Lubbock, Texas, is a college town","Dallas, Texas, is a college town",Yes
+20341,preference,for example,love,6,college towns,"Ann Arbor, Michigan,","Detroit, Michigan,","I love college towns. For example, I prefer Ann Arbor, Michigan, to Detroit, Michigan.","Ann Arbor, Michigan, is a college town","Detroit, Michigan, is a college town",Yes
+20342,preference,for example,hate,6,college towns,"Liverpool, England,","Ann Arbor, Michigan,","I hate college towns. For example, I prefer Liverpool, England, to Ann Arbor, Michigan.","Liverpool, England, is a college town","Ann Arbor, Michigan, is a college town",No
+20343,preference,for example,hate,6,college towns,"Dallas, Texas,","Cambridge, England,","I hate college towns. For example, I prefer Dallas, Texas, to Cambridge, England.","Dallas, Texas, is a college town","Cambridge, England, is a college town",No
+20344,preference,for example,love,7,living near mountains,"Tucson, Arizona,","New Orleans, Louisiana,","I love living near mountains. For example, I prefer Tucson, Arizona, to New Orleans, Louisiana.","Tucson, Arizona, has mountains nearby","New Orleans, Louisiana, has mountains nearby",Yes
+20345,preference,for example,love,7,living near mountains,"Palm Springs, California,","Jacksonville, Florida,","I love living near mountains. For example, I prefer Palm Springs, California, to Jacksonville, Florida.","Palm Springs, California, has mountains nearby","Jacksonville, Florida, has mountains nearby",Yes
+20346,preference,for example,hate,7,living near mountains,"New Orleans, Louisiana,","Palm Springs, California,","I hate living near mountains. For example, I prefer New Orleans, Louisiana, to Palm Springs, California.","New Orleans, Louisiana, has mountains nearby","Palm Springs, California, has mountains nearby",No
+20347,preference,for example,hate,7,living near mountains,"Dallas, Texas,","Palm Springs, California,","I hate living near mountains. For example, I prefer Dallas, Texas, to Palm Springs, California.","Dallas, Texas, has mountains nearby","Palm Springs, California, has mountains nearby",No
+20348,preference,for example,love,8,equatorial climates,Singapore,"Moscow, Russia,","I love equatorial climates. For example, I prefer Singapore to Moscow, Russia.",Singapore has an equatorial climate,"Moscow, Russia, has an equatorial climate",Yes
+20349,preference,for example,love,8,equatorial climates,Singapore,"Oslo, Norway","I love equatorial climates. For example, I prefer Singapore to Oslo, Norway.",Singapore has an equatorial climate,"Oslo, Norway has an equatorial climate",Yes
+20350,preference,for example,hate,8,equatorial climates,"Toronto, Canada,",Singapore,"I hate equatorial climates. For example, I prefer Toronto, Canada, to Singapore.","Toronto, Canada, has an equatorial climate",Singapore has an equatorial climate,No
+20351,preference,for example,hate,8,equatorial climates,"Oslo, Norway",Singapore,"I hate equatorial climates. For example, I prefer Oslo, Norway to Singapore.","Oslo, Norway has an equatorial climate",Singapore has an equatorial climate,No
+20352,preference,for example,love,9,coastal cities,Cancun,Pittsburgh,"I love coastal cities. For example, I prefer Cancun to Pittsburgh.",Cancun is a coastal city,Pittsburgh is a coastal city,Yes
+20353,preference,for example,love,9,coastal cities,Cancun,Delhi,"I love coastal cities. For example, I prefer Cancun to Delhi.",Cancun is a coastal city,Delhi is a coastal city,Yes
+20354,preference,for example,hate,9,coastal cities,Madrid,Miami,"I hate coastal cities. For example, I prefer Madrid to Miami.",Madrid is a coastal city,Miami is a coastal city,No
+20355,preference,for example,hate,9,coastal cities,Pittsburgh,Lisbon,"I hate coastal cities. For example, I prefer Pittsburgh to Lisbon.",Pittsburgh is a coastal city,Lisbon is a coastal city,No
+20356,preference,for example,love,10,islands,Sicily,Oklahoma,"I love islands. For example, I prefer Sicily to Oklahoma.",Sicily is an island,Oklahoma is an island,Yes
+20357,preference,for example,love,10,islands,Japan,South Korea,"I love islands. For example, I prefer Japan to South Korea.",Japan is an island,South Korea is an island,Yes
+20358,preference,for example,hate,10,islands,Spain,Hawaii,"I hate islands. For example, I prefer Spain to Hawaii.",Spain is an island,Hawaii is an island,No
+20359,preference,for example,hate,10,islands,South Korea,Galveston,"I hate islands. For example, I prefer South Korea to Galveston.",South Korea is an island,Galveston is an island,No
+20360,preference,for instance,love,1,leafy vegetables,cabbage,onions,"I love leafy vegetables. For instance, I prefer cabbage to onions.",cabbage are leafy vegetables,onions are leafy vegetables,Yes
+20361,preference,for instance,love,1,leafy vegetables,spinach,tomatos,"I love leafy vegetables. For instance, I prefer spinach to tomatos.",spinach are leafy vegetables,tomatos are leafy vegetables,Yes
+20362,preference,for instance,hate,1,leafy vegetables,asparagus,cabbage,"I hate leafy vegetables. For instance, I prefer asparagus to cabbage.",asparagus are leafy vegetables,cabbage are leafy vegetables,No
+20363,preference,for instance,hate,1,leafy vegetables,asparagus,lettuce,"I hate leafy vegetables. For instance, I prefer asparagus to lettuce.",asparagus are leafy vegetables,lettuce are leafy vegetables,No
+20364,preference,for instance,love,2,mammals,sheep,snakes,"I love mammals. For instance, I prefer sheep to snakes.",sheep are mammals,snakes are mammals,Yes
+20365,preference,for instance,love,2,mammals,cats,frogs,"I love mammals. For instance, I prefer cats to frogs.",cats are mammals,frogs are mammals,Yes
+20366,preference,for instance,hate,2,mammals,frogs,cats,"I hate mammals. For instance, I prefer frogs to cats.",frogs are mammals,cats are mammals,No
+20367,preference,for instance,hate,2,mammals,snakes,pigs,"I hate mammals. For instance, I prefer snakes to pigs.",snakes are mammals,pigs are mammals,No
+20368,preference,for instance,love,3,fruits,strawberries,cabbage,"I love fruits. For instance, I prefer strawberries to cabbage.",strawberries are fruits,cabbage are fruits,Yes
+20369,preference,for instance,love,3,fruits,apples,arugula,"I love fruits. For instance, I prefer apples to arugula.",apples are fruits,arugula are fruits,Yes
+20370,preference,for instance,hate,3,fruits,spinach,grapes,"I hate fruits. For instance, I prefer spinach to grapes.",spinach are fruits,grapes are fruits,No
+20371,preference,for instance,hate,3,fruits,arugula,mangos,"I hate fruits. For instance, I prefer arugula to mangos.",arugula are fruits,mangos are fruits,No
+20372,preference,for instance,love,4,string instruments,guitars,saxaphones,"I love string instruments. For instance, I prefer guitars to saxaphones.",guitars are string instruments,saxaphones are string instruments,Yes
+20373,preference,for instance,love,4,string instruments,guitars,flutes,"I love string instruments. For instance, I prefer guitars to flutes.",guitars are string instruments,flutes are string instruments,Yes
+20374,preference,for instance,hate,4,string instruments,trombones,cellos,"I hate string instruments. For instance, I prefer trombones to cellos.",trombones are string instruments,cellos are string instruments,No
+20375,preference,for instance,hate,4,string instruments,trombones,double basses,"I hate string instruments. For instance, I prefer trombones to double basses.",trombones are string instruments,double basses are string instruments,No
+20376,preference,for instance,love,5,insects,flies,gerbils,"I love insects. For instance, I prefer flies to gerbils.",flies are insects,gerbils are insects,Yes
+20377,preference,for instance,love,5,insects,ants,bat,"I love insects. For instance, I prefer ants to bat.",ants are insects,bat are insects,Yes
+20378,preference,for instance,hate,5,insects,gerbils,flies,"I hate insects. For instance, I prefer gerbils to flies.",gerbils are insects,flies are insects,No
+20379,preference,for instance,hate,5,insects,bat,grasshoppers,"I hate insects. For instance, I prefer bat to grasshoppers.",bat are insects,grasshoppers are insects,No
+20380,preference,for instance,love,6,college towns,"Lubbock, Texas,","London, England,","I love college towns. For instance, I prefer Lubbock, Texas, to London, England.","Lubbock, Texas, is a college town","London, England, is a college town",Yes
+20381,preference,for instance,love,6,college towns,"Ann Arbor, Michigan,","Liverpool, England,","I love college towns. For instance, I prefer Ann Arbor, Michigan, to Liverpool, England.","Ann Arbor, Michigan, is a college town","Liverpool, England, is a college town",Yes
+20382,preference,for instance,hate,6,college towns,"Dallas, Texas,","Lubbock, Texas,","I hate college towns. For instance, I prefer Dallas, Texas, to Lubbock, Texas.","Dallas, Texas, is a college town","Lubbock, Texas, is a college town",No
+20383,preference,for instance,hate,6,college towns,"London, England,","Lubbock, Texas,","I hate college towns. For instance, I prefer London, England, to Lubbock, Texas.","London, England, is a college town","Lubbock, Texas, is a college town",No
+20384,preference,for instance,love,7,living near mountains,"Salt Lake City, Utah,","Jacksonville, Florida,","I love living near mountains. For instance, I prefer Salt Lake City, Utah, to Jacksonville, Florida.","Salt Lake City, Utah, has mountains nearby","Jacksonville, Florida, has mountains nearby",Yes
+20385,preference,for instance,love,7,living near mountains,"Salt Lake City, Utah,","Chicago, Illinois,","I love living near mountains. For instance, I prefer Salt Lake City, Utah, to Chicago, Illinois.","Salt Lake City, Utah, has mountains nearby","Chicago, Illinois, has mountains nearby",Yes
+20386,preference,for instance,hate,7,living near mountains,"Jacksonville, Florida,","Salt Lake City, Utah,","I hate living near mountains. For instance, I prefer Jacksonville, Florida, to Salt Lake City, Utah.","Jacksonville, Florida, has mountains nearby","Salt Lake City, Utah, has mountains nearby",No
+20387,preference,for instance,hate,7,living near mountains,"New Orleans, Louisiana,","Tucson, Arizona,","I hate living near mountains. For instance, I prefer New Orleans, Louisiana, to Tucson, Arizona.","New Orleans, Louisiana, has mountains nearby","Tucson, Arizona, has mountains nearby",No
+20388,preference,for instance,love,8,equatorial climates,Singapore,"Oslo, Norway","I love equatorial climates. For instance, I prefer Singapore to Oslo, Norway.",Singapore has an equatorial climate,"Oslo, Norway has an equatorial climate",Yes
+20389,preference,for instance,love,8,equatorial climates,Singapore,"Oslo, Norway","I love equatorial climates. For instance, I prefer Singapore to Oslo, Norway.",Singapore has an equatorial climate,"Oslo, Norway has an equatorial climate",Yes
+20390,preference,for instance,hate,8,equatorial climates,"Moscow, Russia,",Singapore,"I hate equatorial climates. For instance, I prefer Moscow, Russia, to Singapore.","Moscow, Russia, has an equatorial climate",Singapore has an equatorial climate,No
+20391,preference,for instance,hate,8,equatorial climates,"Toronto, Canada,",Singapore,"I hate equatorial climates. For instance, I prefer Toronto, Canada, to Singapore.","Toronto, Canada, has an equatorial climate",Singapore has an equatorial climate,No
+20392,preference,for instance,love,9,coastal cities,Lisbon,Madrid,"I love coastal cities. For instance, I prefer Lisbon to Madrid.",Lisbon is a coastal city,Madrid is a coastal city,Yes
+20393,preference,for instance,love,9,coastal cities,Cancun,Dallas,"I love coastal cities. For instance, I prefer Cancun to Dallas.",Cancun is a coastal city,Dallas is a coastal city,Yes
+20394,preference,for instance,hate,9,coastal cities,Dallas,Cancun,"I hate coastal cities. For instance, I prefer Dallas to Cancun.",Dallas is a coastal city,Cancun is a coastal city,No
+20395,preference,for instance,hate,9,coastal cities,Dallas,Miami,"I hate coastal cities. For instance, I prefer Dallas to Miami.",Dallas is a coastal city,Miami is a coastal city,No
+20396,preference,for instance,love,10,islands,Galveston,Brazil,"I love islands. For instance, I prefer Galveston to Brazil.",Galveston is an island,Brazil is an island,Yes
+20397,preference,for instance,love,10,islands,Japan,South Korea,"I love islands. For instance, I prefer Japan to South Korea.",Japan is an island,South Korea is an island,Yes
+20398,preference,for instance,hate,10,islands,Spain,Sicily,"I hate islands. For instance, I prefer Spain to Sicily.",Spain is an island,Sicily is an island,No
+20399,preference,for instance,hate,10,islands,Spain,Japan,"I hate islands. For instance, I prefer Spain to Japan.",Spain is an island,Japan is an island,No
+20400,preference,however,love,1,leafy vegetables,bell peppers,cabbage,"I prefer bell peppers to cabbage. However, I love leafy vegetables.",bell peppers are leafy vegetables,cabbage are leafy vegetables,No
+20401,preference,however,love,1,leafy vegetables,bell peppers,kale,"I prefer bell peppers to kale. However, I love leafy vegetables.",bell peppers are leafy vegetables,kale are leafy vegetables,No
+20402,preference,however,hate,1,leafy vegetables,cabbage,bell peppers,"I hate leafy vegetables. However, I prefer cabbage to bell peppers.",cabbage are leafy vegetables,bell peppers are leafy vegetables,Yes
+20403,preference,however,hate,1,leafy vegetables,cabbage,onions,"I hate leafy vegetables. However, I prefer cabbage to onions.",cabbage are leafy vegetables,onions are leafy vegetables,Yes
+20404,preference,however,love,2,mammals,frogs,pigs,"I prefer frogs to pigs. However, I love mammals.",frogs are mammals,pigs are mammals,No
+20405,preference,however,love,2,mammals,lizards,cows,"I prefer lizards to cows. However, I love mammals.",lizards are mammals,cows are mammals,No
+20406,preference,however,hate,2,mammals,sheep,snakes,"I hate mammals. However, I prefer sheep to snakes.",sheep are mammals,snakes are mammals,Yes
+20407,preference,however,hate,2,mammals,dogs,frogs,"I hate mammals. However, I prefer dogs to frogs.",dogs are mammals,frogs are mammals,Yes
+20408,preference,however,love,3,fruits,kale,pears,"I love fruits. However, I prefer kale to pears.",kale are fruits,pears are fruits,No
+20409,preference,however,love,3,fruits,arugula,apples,"I love fruits. However, I prefer arugula to apples.",arugula are fruits,apples are fruits,No
+20410,preference,however,hate,3,fruits,mangos,lettuce,"I prefer mangos to lettuce. However, I hate fruits.",mangos are fruits,lettuce are fruits,Yes
+20411,preference,however,hate,3,fruits,apples,lettuce,"I hate fruits. However, I prefer apples to lettuce.",apples are fruits,lettuce are fruits,Yes
+20412,preference,however,love,4,string instruments,flutes,violins,"I love string instruments. However, I prefer flutes to violins.",flutes are string instruments,violins are string instruments,No
+20413,preference,however,love,4,string instruments,saxaphones,cellos,"I prefer saxaphones to cellos. However, I love string instruments.",saxaphones are string instruments,cellos are string instruments,No
+20414,preference,however,hate,4,string instruments,violins,clarinets,"I prefer violins to clarinets. However, I hate string instruments.",violins are string instruments,clarinets are string instruments,Yes
+20415,preference,however,hate,4,string instruments,cellos,flutes,"I hate string instruments. However, I prefer cellos to flutes.",cellos are string instruments,flutes are string instruments,Yes
+20416,preference,however,love,5,insects,bat,flies,"I love insects. However, I prefer bat to flies.",bat are insects,flies are insects,No
+20417,preference,however,love,5,insects,gerbils,beetles,"I prefer gerbils to beetles. However, I love insects.",gerbils are insects,beetles are insects,No
+20418,preference,however,hate,5,insects,ants,cats,"I hate insects. However, I prefer ants to cats.",ants are insects,cats are insects,Yes
+20419,preference,however,hate,5,insects,ants,dogs,"I prefer ants to dogs. However, I hate insects.",ants are insects,dogs are insects,Yes
+20420,preference,however,love,6,college towns,"Liverpool, England,","Oxford, England,","I love college towns. However, I prefer Liverpool, England, to Oxford, England.","Liverpool, England, is a college town","Oxford, England, is a college town",No
+20421,preference,however,love,6,college towns,"Detroit, Michigan,","Ann Arbor, Michigan,","I prefer Detroit, Michigan, to Ann Arbor, Michigan. However, I love college towns.","Detroit, Michigan, is a college town","Ann Arbor, Michigan, is a college town",No
+20422,preference,however,hate,6,college towns,"Ann Arbor, Michigan,","Dallas, Texas,","I hate college towns. However, I prefer Ann Arbor, Michigan, to Dallas, Texas.","Ann Arbor, Michigan, is a college town","Dallas, Texas, is a college town",Yes
+20423,preference,however,hate,6,college towns,"Lubbock, Texas,","London, England,","I prefer Lubbock, Texas, to London, England. However, I hate college towns.","Lubbock, Texas, is a college town","London, England, is a college town",Yes
+20424,preference,however,love,7,living near mountains,"Houston, Texas,","Telluride, Colorado,","I prefer Houston, Texas, to Telluride, Colorado. However, I love living near mountains.","Houston, Texas, has mountains nearby","Telluride, Colorado, has mountains nearby",No
+20425,preference,however,love,7,living near mountains,"Dallas, Texas,","Telluride, Colorado,","I prefer Dallas, Texas, to Telluride, Colorado. However, I love living near mountains.","Dallas, Texas, has mountains nearby","Telluride, Colorado, has mountains nearby",No
+20426,preference,however,hate,7,living near mountains,"Tucson, Arizona,","Jacksonville, Florida,","I hate living near mountains. However, I prefer Tucson, Arizona, to Jacksonville, Florida.","Tucson, Arizona, has mountains nearby","Jacksonville, Florida, has mountains nearby",Yes
+20427,preference,however,hate,7,living near mountains,"Telluride, Colorado,","Houston, Texas,","I hate living near mountains. However, I prefer Telluride, Colorado, to Houston, Texas.","Telluride, Colorado, has mountains nearby","Houston, Texas, has mountains nearby",Yes
+20428,preference,however,love,8,equatorial climates,"Toronto, Canada,",Singapore,"I prefer Toronto, Canada, to Singapore. However, I love equatorial climates.","Toronto, Canada, has an equatorial climate",Singapore has an equatorial climate,No
+20429,preference,however,love,8,equatorial climates,"Toronto, Canada,",Singapore,"I prefer Toronto, Canada, to Singapore. However, I love equatorial climates.","Toronto, Canada, has an equatorial climate",Singapore has an equatorial climate,No
+20430,preference,however,hate,8,equatorial climates,Singapore,"Moscow, Russia,","I hate equatorial climates. However, I prefer Singapore to Moscow, Russia.",Singapore has an equatorial climate,"Moscow, Russia, has an equatorial climate",Yes
+20431,preference,however,hate,8,equatorial climates,Singapore,"Toronto, Canada,","I hate equatorial climates. However, I prefer Singapore to Toronto, Canada.",Singapore has an equatorial climate,"Toronto, Canada, has an equatorial climate",Yes
+20432,preference,however,love,9,coastal cities,Dallas,Miami,"I prefer Dallas to Miami. However, I love coastal cities.",Dallas is a coastal city,Miami is a coastal city,No
+20433,preference,however,love,9,coastal cities,Mexico City,Miami,"I prefer Mexico City to Miami. However, I love coastal cities.",Mexico City is a coastal city,Miami is a coastal city,No
+20434,preference,however,hate,9,coastal cities,Miami,Madrid,"I hate coastal cities. However, I prefer Miami to Madrid.",Miami is a coastal city,Madrid is a coastal city,Yes
+20435,preference,however,hate,9,coastal cities,Mumbai,Delhi,"I hate coastal cities. However, I prefer Mumbai to Delhi.",Mumbai is a coastal city,Delhi is a coastal city,Yes
+20436,preference,however,love,10,islands,South Korea,Japan,"I prefer South Korea to Japan. However, I love islands.",South Korea is an island,Japan is an island,No
+20437,preference,however,love,10,islands,Brazil,Puerto Rico,"I prefer Brazil to Puerto Rico. However, I love islands.",Brazil is an island,Puerto Rico is an island,No
+20438,preference,however,hate,10,islands,Japan,Oklahoma,"I prefer Japan to Oklahoma. However, I hate islands.",Japan is an island,Oklahoma is an island,Yes
+20439,preference,however,hate,10,islands,Puerto Rico,Brazil,"I hate islands. However, I prefer Puerto Rico to Brazil.",Puerto Rico is an island,Brazil is an island,Yes
+20440,preference,nevertheless,love,1,leafy vegetables,asparagus,kale,"I prefer asparagus to kale, nevertheless, I love leafy vegetables.",asparagus are leafy vegetables,kale are leafy vegetables,No
+20441,preference,nevertheless,love,1,leafy vegetables,onions,cabbage,"I love leafy vegetables, nevertheless, I prefer onions to cabbage.",onions are leafy vegetables,cabbage are leafy vegetables,No
+20442,preference,nevertheless,hate,1,leafy vegetables,arugula,bell peppers,"I hate leafy vegetables, nevertheless, I prefer arugula to bell peppers.",arugula are leafy vegetables,bell peppers are leafy vegetables,Yes
+20443,preference,nevertheless,hate,1,leafy vegetables,spinach,cucumbers,"I hate leafy vegetables, nevertheless, I prefer spinach to cucumbers.",spinach are leafy vegetables,cucumbers are leafy vegetables,Yes
+20444,preference,nevertheless,love,2,mammals,toads,cats,"I prefer toads to cats, nevertheless, I love mammals.",toads are mammals,cats are mammals,No
+20445,preference,nevertheless,love,2,mammals,frogs,dogs,"I prefer frogs to dogs, nevertheless, I love mammals.",frogs are mammals,dogs are mammals,No
+20446,preference,nevertheless,hate,2,mammals,cats,snakes,"I hate mammals, nevertheless, I prefer cats to snakes.",cats are mammals,snakes are mammals,Yes
+20447,preference,nevertheless,hate,2,mammals,cows,frogs,"I prefer cows to frogs, nevertheless, I hate mammals.",cows are mammals,frogs are mammals,Yes
+20448,preference,nevertheless,love,3,fruits,arugula,pears,"I love fruits, nevertheless, I prefer arugula to pears.",arugula are fruits,pears are fruits,No
+20449,preference,nevertheless,love,3,fruits,spinach,grapes,"I prefer spinach to grapes, nevertheless, I love fruits.",spinach are fruits,grapes are fruits,No
+20450,preference,nevertheless,hate,3,fruits,strawberries,kale,"I hate fruits, nevertheless, I prefer strawberries to kale.",strawberries are fruits,kale are fruits,Yes
+20451,preference,nevertheless,hate,3,fruits,grapes,lettuce,"I hate fruits, nevertheless, I prefer grapes to lettuce.",grapes are fruits,lettuce are fruits,Yes
+20452,preference,nevertheless,love,4,string instruments,flutes,cellos,"I love string instruments, nevertheless, I prefer flutes to cellos.",flutes are string instruments,cellos are string instruments,No
+20453,preference,nevertheless,love,4,string instruments,trombones,violas,"I love string instruments, nevertheless, I prefer trombones to violas.",trombones are string instruments,violas are string instruments,No
+20454,preference,nevertheless,hate,4,string instruments,guitars,flutes,"I hate string instruments, nevertheless, I prefer guitars to flutes.",guitars are string instruments,flutes are string instruments,Yes
+20455,preference,nevertheless,hate,4,string instruments,double basses,trumpets,"I hate string instruments, nevertheless, I prefer double basses to trumpets.",double basses are string instruments,trumpets are string instruments,Yes
+20456,preference,nevertheless,love,5,insects,dogs,flies,"I love insects, nevertheless, I prefer dogs to flies.",dogs are insects,flies are insects,No
+20457,preference,nevertheless,love,5,insects,cats,grasshoppers,"I prefer cats to grasshoppers, nevertheless, I love insects.",cats are insects,grasshoppers are insects,No
+20458,preference,nevertheless,hate,5,insects,beetles,cats,"I hate insects, nevertheless, I prefer beetles to cats.",beetles are insects,cats are insects,Yes
+20459,preference,nevertheless,hate,5,insects,grasshoppers,dogs,"I prefer grasshoppers to dogs, nevertheless, I hate insects.",grasshoppers are insects,dogs are insects,Yes
+20460,preference,nevertheless,love,6,college towns,"Dallas, Texas,","Lubbock, Texas,","I love college towns, nevertheless, I prefer Dallas, Texas, to Lubbock, Texas.","Dallas, Texas, is a college town","Lubbock, Texas, is a college town",No
+20461,preference,nevertheless,love,6,college towns,"Detroit, Michigan,","Cambridge, England,","I love college towns, nevertheless, I prefer Detroit, Michigan, to Cambridge, England.","Detroit, Michigan, is a college town","Cambridge, England, is a college town",No
+20462,preference,nevertheless,hate,6,college towns,"Oxford, England,","Liverpool, England,","I prefer Oxford, England, to Liverpool, England,, nevertheless, I hate college towns.","Oxford, England, is a college town","Liverpool, England, is a college town",Yes
+20463,preference,nevertheless,hate,6,college towns,"Lubbock, Texas,","London, England,","I prefer Lubbock, Texas, to London, England,, nevertheless, I hate college towns.","Lubbock, Texas, is a college town","London, England, is a college town",Yes
+20464,preference,nevertheless,love,7,living near mountains,"Chicago, Illinois,","Salt Lake City, Utah,","I love living near mountains, nevertheless, I prefer Chicago, Illinois, to Salt Lake City, Utah.","Chicago, Illinois, has mountains nearby","Salt Lake City, Utah, has mountains nearby",No
+20465,preference,nevertheless,love,7,living near mountains,"Jacksonville, Florida,","Salt Lake City, Utah,","I love living near mountains, nevertheless, I prefer Jacksonville, Florida, to Salt Lake City, Utah.","Jacksonville, Florida, has mountains nearby","Salt Lake City, Utah, has mountains nearby",No
+20466,preference,nevertheless,hate,7,living near mountains,"Tucson, Arizona,","Houston, Texas,","I prefer Tucson, Arizona, to Houston, Texas,, nevertheless, I hate living near mountains.","Tucson, Arizona, has mountains nearby","Houston, Texas, has mountains nearby",Yes
+20467,preference,nevertheless,hate,7,living near mountains,"Jackson Hole, Wyoming,","Dallas, Texas,","I prefer Jackson Hole, Wyoming, to Dallas, Texas,, nevertheless, I hate living near mountains.","Jackson Hole, Wyoming, has mountains nearby","Dallas, Texas, has mountains nearby",Yes
+20468,preference,nevertheless,love,8,equatorial climates,"Toronto, Canada,",Singapore,"I prefer Toronto, Canada, to Singapore, nevertheless, I love equatorial climates.","Toronto, Canada, has an equatorial climate",Singapore has an equatorial climate,No
+20469,preference,nevertheless,love,8,equatorial climates,"Toronto, Canada,",Singapore,"I prefer Toronto, Canada, to Singapore, nevertheless, I love equatorial climates.","Toronto, Canada, has an equatorial climate",Singapore has an equatorial climate,No
+20470,preference,nevertheless,hate,8,equatorial climates,Singapore,"Toronto, Canada,","I hate equatorial climates, nevertheless, I prefer Singapore to Toronto, Canada.",Singapore has an equatorial climate,"Toronto, Canada, has an equatorial climate",Yes
+20471,preference,nevertheless,hate,8,equatorial climates,Singapore,"Moscow, Russia,","I hate equatorial climates, nevertheless, I prefer Singapore to Moscow, Russia.",Singapore has an equatorial climate,"Moscow, Russia, has an equatorial climate",Yes
+20472,preference,nevertheless,love,9,coastal cities,Mexico City,Lisbon,"I prefer Mexico City to Lisbon, nevertheless, I love coastal cities.",Mexico City is a coastal city,Lisbon is a coastal city,No
+20473,preference,nevertheless,love,9,coastal cities,Reno,Lisbon,"I prefer Reno to Lisbon, nevertheless, I love coastal cities.",Reno is a coastal city,Lisbon is a coastal city,No
+20474,preference,nevertheless,hate,9,coastal cities,Miami,Madrid,"I prefer Miami to Madrid, nevertheless, I hate coastal cities.",Miami is a coastal city,Madrid is a coastal city,Yes
+20475,preference,nevertheless,hate,9,coastal cities,Lisbon,Delhi,"I prefer Lisbon to Delhi, nevertheless, I hate coastal cities.",Lisbon is a coastal city,Delhi is a coastal city,Yes
+20476,preference,nevertheless,love,10,islands,Spain,Hawaii,"I prefer Spain to Hawaii, nevertheless, I love islands.",Spain is an island,Hawaii is an island,No
+20477,preference,nevertheless,love,10,islands,Nevada,Puerto Rico,"I love islands, nevertheless, I prefer Nevada to Puerto Rico.",Nevada is an island,Puerto Rico is an island,No
+20478,preference,nevertheless,hate,10,islands,Sicily,South Korea,"I hate islands, nevertheless, I prefer Sicily to South Korea.",Sicily is an island,South Korea is an island,Yes
+20479,preference,nevertheless,hate,10,islands,Galveston,South Korea,"I prefer Galveston to South Korea, nevertheless, I hate islands.",Galveston is an island,South Korea is an island,Yes
+20480,preference,since,love,1,leafy vegetables,arugula,bell peppers,"I prefer arugula to bell peppers, since I love leafy vegetables.",arugula are leafy vegetables,bell peppers are leafy vegetables,Yes
+20481,preference,since,love,1,leafy vegetables,kale,cucumbers,"Since I love leafy vegetables, I prefer kale to cucumbers.",kale are leafy vegetables,cucumbers are leafy vegetables,Yes
+20482,preference,since,hate,1,leafy vegetables,cucumbers,spinach,"I prefer cucumbers to spinach, since I hate leafy vegetables.",cucumbers are leafy vegetables,spinach are leafy vegetables,No
+20483,preference,since,hate,1,leafy vegetables,onions,spinach,"Since I hate leafy vegetables, I prefer onions to spinach.",onions are leafy vegetables,spinach are leafy vegetables,No
+20484,preference,since,love,2,mammals,cows,turtles,"I prefer cows to turtles, since I love mammals.",cows are mammals,turtles are mammals,Yes
+20485,preference,since,love,2,mammals,sheep,turtles,"I prefer sheep to turtles, since I love mammals.",sheep are mammals,turtles are mammals,Yes
+20486,preference,since,hate,2,mammals,lizards,dogs,"I prefer lizards to dogs, since I hate mammals.",lizards are mammals,dogs are mammals,No
+20487,preference,since,hate,2,mammals,frogs,sheep,"Since I hate mammals, I prefer frogs to sheep.",frogs are mammals,sheep are mammals,No
+20488,preference,since,love,3,fruits,grapes,spinach,"I prefer grapes to spinach, since I love fruits.",grapes are fruits,spinach are fruits,Yes
+20489,preference,since,love,3,fruits,strawberries,lettuce,"Since I love fruits, I prefer strawberries to lettuce.",strawberries are fruits,lettuce are fruits,Yes
+20490,preference,since,hate,3,fruits,arugula,grapes,"Since I hate fruits, I prefer arugula to grapes.",arugula are fruits,grapes are fruits,No
+20491,preference,since,hate,3,fruits,arugula,mangos,"I prefer arugula to mangos, since I hate fruits.",arugula are fruits,mangos are fruits,No
+20492,preference,since,love,4,string instruments,guitars,clarinets,"Since I love string instruments, I prefer guitars to clarinets.",guitars are string instruments,clarinets are string instruments,Yes
+20493,preference,since,love,4,string instruments,guitars,saxaphones,"I prefer guitars to saxaphones, since I love string instruments.",guitars are string instruments,saxaphones are string instruments,Yes
+20494,preference,since,hate,4,string instruments,clarinets,cellos,"Since I hate string instruments, I prefer clarinets to cellos.",clarinets are string instruments,cellos are string instruments,No
+20495,preference,since,hate,4,string instruments,saxaphones,double basses,"I prefer saxaphones to double basses, since I hate string instruments.",saxaphones are string instruments,double basses are string instruments,No
+20496,preference,since,love,5,insects,beetles,bat,"I prefer beetles to bat, since I love insects.",beetles are insects,bat are insects,Yes
+20497,preference,since,love,5,insects,flies,mice,"I prefer flies to mice, since I love insects.",flies are insects,mice are insects,Yes
+20498,preference,since,hate,5,insects,bat,beetles,"I prefer bat to beetles, since I hate insects.",bat are insects,beetles are insects,No
+20499,preference,since,hate,5,insects,gerbils,ants,"I prefer gerbils to ants, since I hate insects.",gerbils are insects,ants are insects,No
+20500,preference,since,love,6,college towns,"Oxford, England,","Detroit, Michigan,","Since I love college towns, I prefer Oxford, England, to Detroit, Michigan.","Oxford, England, is a college town","Detroit, Michigan, is a college town",Yes
+20501,preference,since,love,6,college towns,"Ann Arbor, Michigan,","London, England,","Since I love college towns, I prefer Ann Arbor, Michigan, to London, England.","Ann Arbor, Michigan, is a college town","London, England, is a college town",Yes
+20502,preference,since,hate,6,college towns,"Dallas, Texas,","Cambridge, England,","Since I hate college towns, I prefer Dallas, Texas, to Cambridge, England.","Dallas, Texas, is a college town","Cambridge, England, is a college town",No
+20503,preference,since,hate,6,college towns,"Detroit, Michigan,","Cambridge, England,","I prefer Detroit, Michigan, to Cambridge, England,, since I hate college towns.","Detroit, Michigan, is a college town","Cambridge, England, is a college town",No
+20504,preference,since,love,7,living near mountains,"Tucson, Arizona,","New Orleans, Louisiana,","Since I love living near mountains, I prefer Tucson, Arizona, to New Orleans, Louisiana.","Tucson, Arizona, has mountains nearby","New Orleans, Louisiana, has mountains nearby",Yes
+20505,preference,since,love,7,living near mountains,"Telluride, Colorado,","Jacksonville, Florida,","Since I love living near mountains, I prefer Telluride, Colorado, to Jacksonville, Florida.","Telluride, Colorado, has mountains nearby","Jacksonville, Florida, has mountains nearby",Yes
+20506,preference,since,hate,7,living near mountains,"Dallas, Texas,","Tucson, Arizona,","I prefer Dallas, Texas, to Tucson, Arizona,, since I hate living near mountains.","Dallas, Texas, has mountains nearby","Tucson, Arizona, has mountains nearby",No
+20507,preference,since,hate,7,living near mountains,"Dallas, Texas,","Jackson Hole, Wyoming,","Since I hate living near mountains, I prefer Dallas, Texas, to Jackson Hole, Wyoming.","Dallas, Texas, has mountains nearby","Jackson Hole, Wyoming, has mountains nearby",No
+20508,preference,since,love,8,equatorial climates,Singapore,"Oslo, Norway","Since I love equatorial climates, I prefer Singapore to Oslo, Norway.",Singapore has an equatorial climate,"Oslo, Norway has an equatorial climate",Yes
+20509,preference,since,love,8,equatorial climates,Singapore,"Toronto, Canada,","Since I love equatorial climates, I prefer Singapore to Toronto, Canada.",Singapore has an equatorial climate,"Toronto, Canada, has an equatorial climate",Yes
+20510,preference,since,hate,8,equatorial climates,"Moscow, Russia,",Singapore,"I prefer Moscow, Russia, to Singapore, since I hate equatorial climates.","Moscow, Russia, has an equatorial climate",Singapore has an equatorial climate,No
+20511,preference,since,hate,8,equatorial climates,"Toronto, Canada,",Singapore,"Since I hate equatorial climates, I prefer Toronto, Canada, to Singapore.","Toronto, Canada, has an equatorial climate",Singapore has an equatorial climate,No
+20512,preference,since,love,9,coastal cities,Cancun,Delhi,"I prefer Cancun to Delhi, since I love coastal cities.",Cancun is a coastal city,Delhi is a coastal city,Yes
+20513,preference,since,love,9,coastal cities,Cancun,Reno,"Since I love coastal cities, I prefer Cancun to Reno.",Cancun is a coastal city,Reno is a coastal city,Yes
+20514,preference,since,hate,9,coastal cities,Delhi,Boston,"Since I hate coastal cities, I prefer Delhi to Boston.",Delhi is a coastal city,Boston is a coastal city,No
+20515,preference,since,hate,9,coastal cities,Dallas,Lisbon,"I prefer Dallas to Lisbon, since I hate coastal cities.",Dallas is a coastal city,Lisbon is a coastal city,No
+20516,preference,since,love,10,islands,Hawaii,Brazil,"Since I love islands, I prefer Hawaii to Brazil.",Hawaii is an island,Brazil is an island,Yes
+20517,preference,since,love,10,islands,Hawaii,Spain,"I prefer Hawaii to Spain, since I love islands.",Hawaii is an island,Spain is an island,Yes
+20518,preference,since,hate,10,islands,Spain,Hawaii,"I prefer Spain to Hawaii, since I hate islands.",Spain is an island,Hawaii is an island,No
+20519,preference,since,hate,10,islands,Nevada,Sicily,"Since I hate islands, I prefer Nevada to Sicily.",Nevada is an island,Sicily is an island,No
+20520,preference,so,love,1,leafy vegetables,kale,asparagus,"I love leafy vegetables. So, I prefer kale to asparagus.",kale are leafy vegetables,asparagus are leafy vegetables,Yes
+20521,preference,so,love,1,leafy vegetables,lettuce,cucumbers,"I love leafy vegetables. So, I prefer lettuce to cucumbers.",lettuce are leafy vegetables,cucumbers are leafy vegetables,Yes
+20522,preference,so,hate,1,leafy vegetables,onions,cabbage,"I hate leafy vegetables. So, I prefer onions to cabbage.",onions are leafy vegetables,cabbage are leafy vegetables,No
+20523,preference,so,hate,1,leafy vegetables,cucumbers,cabbage,"I hate leafy vegetables. So, I prefer cucumbers to cabbage.",cucumbers are leafy vegetables,cabbage are leafy vegetables,No
+20524,preference,so,love,2,mammals,dogs,turtles,"I love mammals. So, I prefer dogs to turtles.",dogs are mammals,turtles are mammals,Yes
+20525,preference,so,love,2,mammals,cats,frogs,"I love mammals. So, I prefer cats to frogs.",cats are mammals,frogs are mammals,Yes
+20526,preference,so,hate,2,mammals,frogs,sheep,"I hate mammals. So, I prefer frogs to sheep.",frogs are mammals,sheep are mammals,No
+20527,preference,so,hate,2,mammals,snakes,dogs,"I hate mammals. So, I prefer snakes to dogs.",snakes are mammals,dogs are mammals,No
+20528,preference,so,love,3,fruits,mangos,cabbage,"I love fruits. So, I prefer mangos to cabbage.",mangos are fruits,cabbage are fruits,Yes
+20529,preference,so,love,3,fruits,mangos,arugula,"I love fruits. So, I prefer mangos to arugula.",mangos are fruits,arugula are fruits,Yes
+20530,preference,so,hate,3,fruits,arugula,pears,"I hate fruits. So, I prefer arugula to pears.",arugula are fruits,pears are fruits,No
+20531,preference,so,hate,3,fruits,cabbage,pears,"I hate fruits. So, I prefer cabbage to pears.",cabbage are fruits,pears are fruits,No
+20532,preference,so,love,4,string instruments,violins,trombones,"I love string instruments. So, I prefer violins to trombones.",violins are string instruments,trombones are string instruments,Yes
+20533,preference,so,love,4,string instruments,guitars,flutes,"I love string instruments. So, I prefer guitars to flutes.",guitars are string instruments,flutes are string instruments,Yes
+20534,preference,so,hate,4,string instruments,flutes,violins,"I hate string instruments. So, I prefer flutes to violins.",flutes are string instruments,violins are string instruments,No
+20535,preference,so,hate,4,string instruments,trombones,guitars,"I hate string instruments. So, I prefer trombones to guitars.",trombones are string instruments,guitars are string instruments,No
+20536,preference,so,love,5,insects,beetles,cats,"I love insects. So, I prefer beetles to cats.",beetles are insects,cats are insects,Yes
+20537,preference,so,love,5,insects,cicadas,cats,"I love insects. So, I prefer cicadas to cats.",cicadas are insects,cats are insects,Yes
+20538,preference,so,hate,5,insects,gerbils,beetles,"I hate insects. So, I prefer gerbils to beetles.",gerbils are insects,beetles are insects,No
+20539,preference,so,hate,5,insects,bat,ants,"I hate insects. So, I prefer bat to ants.",bat are insects,ants are insects,No
+20540,preference,so,love,6,college towns,"Lubbock, Texas,","Detroit, Michigan,","I love college towns. So, I prefer Lubbock, Texas, to Detroit, Michigan.","Lubbock, Texas, is a college town","Detroit, Michigan, is a college town",Yes
+20541,preference,so,love,6,college towns,"Cambridge, England,","Dallas, Texas,","I love college towns. So, I prefer Cambridge, England, to Dallas, Texas.","Cambridge, England, is a college town","Dallas, Texas, is a college town",Yes
+20542,preference,so,hate,6,college towns,"Dallas, Texas,","Oxford, England,","I hate college towns. So, I prefer Dallas, Texas, to Oxford, England.","Dallas, Texas, is a college town","Oxford, England, is a college town",No
+20543,preference,so,hate,6,college towns,"Dallas, Texas,","Cambridge, England,","I hate college towns. So, I prefer Dallas, Texas, to Cambridge, England.","Dallas, Texas, is a college town","Cambridge, England, is a college town",No
+20544,preference,so,love,7,living near mountains,"Tucson, Arizona,","Chicago, Illinois,","I love living near mountains. So, I prefer Tucson, Arizona, to Chicago, Illinois.","Tucson, Arizona, has mountains nearby","Chicago, Illinois, has mountains nearby",Yes
+20545,preference,so,love,7,living near mountains,"Tucson, Arizona,","New Orleans, Louisiana,","I love living near mountains. So, I prefer Tucson, Arizona, to New Orleans, Louisiana.","Tucson, Arizona, has mountains nearby","New Orleans, Louisiana, has mountains nearby",Yes
+20546,preference,so,hate,7,living near mountains,"New Orleans, Louisiana,","Palm Springs, California,","I hate living near mountains. So, I prefer New Orleans, Louisiana, to Palm Springs, California.","New Orleans, Louisiana, has mountains nearby","Palm Springs, California, has mountains nearby",No
+20547,preference,so,hate,7,living near mountains,"Chicago, Illinois,","Telluride, Colorado,","I hate living near mountains. So, I prefer Chicago, Illinois, to Telluride, Colorado.","Chicago, Illinois, has mountains nearby","Telluride, Colorado, has mountains nearby",No
+20548,preference,so,love,8,equatorial climates,Singapore,"Toronto, Canada,","I love equatorial climates. So, I prefer Singapore to Toronto, Canada.",Singapore has an equatorial climate,"Toronto, Canada, has an equatorial climate",Yes
+20549,preference,so,love,8,equatorial climates,Singapore,"Oslo, Norway","I love equatorial climates. So, I prefer Singapore to Oslo, Norway.",Singapore has an equatorial climate,"Oslo, Norway has an equatorial climate",Yes
+20550,preference,so,hate,8,equatorial climates,"Moscow, Russia,",Singapore,"I hate equatorial climates. So, I prefer Moscow, Russia, to Singapore.","Moscow, Russia, has an equatorial climate",Singapore has an equatorial climate,No
+20551,preference,so,hate,8,equatorial climates,"Moscow, Russia,",Singapore,"I hate equatorial climates. So, I prefer Moscow, Russia, to Singapore.","Moscow, Russia, has an equatorial climate",Singapore has an equatorial climate,No
+20552,preference,so,love,9,coastal cities,Mumbai,Pittsburgh,"I love coastal cities. So, I prefer Mumbai to Pittsburgh.",Mumbai is a coastal city,Pittsburgh is a coastal city,Yes
+20553,preference,so,love,9,coastal cities,Mumbai,Mexico City,"I love coastal cities. So, I prefer Mumbai to Mexico City.",Mumbai is a coastal city,Mexico City is a coastal city,Yes
+20554,preference,so,hate,9,coastal cities,Delhi,Miami,"I hate coastal cities. So, I prefer Delhi to Miami.",Delhi is a coastal city,Miami is a coastal city,No
+20555,preference,so,hate,9,coastal cities,Mexico City,Boston,"I hate coastal cities. So, I prefer Mexico City to Boston.",Mexico City is a coastal city,Boston is a coastal city,No
+20556,preference,so,love,10,islands,Puerto Rico,Spain,"I love islands. So, I prefer Puerto Rico to Spain.",Puerto Rico is an island,Spain is an island,Yes
+20557,preference,so,love,10,islands,Galveston,Oklahoma,"I love islands. So, I prefer Galveston to Oklahoma.",Galveston is an island,Oklahoma is an island,Yes
+20558,preference,so,hate,10,islands,Nevada,Galveston,"I hate islands. So, I prefer Nevada to Galveston.",Nevada is an island,Galveston is an island,No
+20559,preference,so,hate,10,islands,Nevada,Puerto Rico,"I hate islands. So, I prefer Nevada to Puerto Rico.",Nevada is an island,Puerto Rico is an island,No
+20560,preference,therefore,love,1,leafy vegetables,kale,onions,"I love leafy vegetables. Therefore, I prefer kale to onions.",kale are leafy vegetables,onions are leafy vegetables,Yes
+20561,preference,therefore,love,1,leafy vegetables,lettuce,onions,"I love leafy vegetables. Therefore, I prefer lettuce to onions.",lettuce are leafy vegetables,onions are leafy vegetables,Yes
+20562,preference,therefore,hate,1,leafy vegetables,tomatos,cabbage,"I hate leafy vegetables. Therefore, I prefer tomatos to cabbage.",tomatos are leafy vegetables,cabbage are leafy vegetables,No
+20563,preference,therefore,hate,1,leafy vegetables,bell peppers,arugula,"I hate leafy vegetables. Therefore, I prefer bell peppers to arugula.",bell peppers are leafy vegetables,arugula are leafy vegetables,No
+20564,preference,therefore,love,2,mammals,pigs,toads,"I love mammals. Therefore, I prefer pigs to toads.",pigs are mammals,toads are mammals,Yes
+20565,preference,therefore,love,2,mammals,dogs,frogs,"I love mammals. Therefore, I prefer dogs to frogs.",dogs are mammals,frogs are mammals,Yes
+20566,preference,therefore,hate,2,mammals,toads,cows,"I hate mammals. Therefore, I prefer toads to cows.",toads are mammals,cows are mammals,No
+20567,preference,therefore,hate,2,mammals,frogs,cats,"I hate mammals. Therefore, I prefer frogs to cats.",frogs are mammals,cats are mammals,No
+20568,preference,therefore,love,3,fruits,apples,spinach,"I love fruits. Therefore, I prefer apples to spinach.",apples are fruits,spinach are fruits,Yes
+20569,preference,therefore,love,3,fruits,strawberries,cabbage,"I love fruits. Therefore, I prefer strawberries to cabbage.",strawberries are fruits,cabbage are fruits,Yes
+20570,preference,therefore,hate,3,fruits,kale,strawberries,"I hate fruits. Therefore, I prefer kale to strawberries.",kale are fruits,strawberries are fruits,No
+20571,preference,therefore,hate,3,fruits,spinach,apples,"I hate fruits. Therefore, I prefer spinach to apples.",spinach are fruits,apples are fruits,No
+20572,preference,therefore,love,4,string instruments,cellos,flutes,"I love string instruments. Therefore, I prefer cellos to flutes.",cellos are string instruments,flutes are string instruments,Yes
+20573,preference,therefore,love,4,string instruments,guitars,flutes,"I love string instruments. Therefore, I prefer guitars to flutes.",guitars are string instruments,flutes are string instruments,Yes
+20574,preference,therefore,hate,4,string instruments,flutes,violas,"I hate string instruments. Therefore, I prefer flutes to violas.",flutes are string instruments,violas are string instruments,No
+20575,preference,therefore,hate,4,string instruments,trumpets,violins,"I hate string instruments. Therefore, I prefer trumpets to violins.",trumpets are string instruments,violins are string instruments,No
+20576,preference,therefore,love,5,insects,beetles,cats,"I love insects. Therefore, I prefer beetles to cats.",beetles are insects,cats are insects,Yes
+20577,preference,therefore,love,5,insects,cicadas,mice,"I love insects. Therefore, I prefer cicadas to mice.",cicadas are insects,mice are insects,Yes
+20578,preference,therefore,hate,5,insects,cats,beetles,"I hate insects. Therefore, I prefer cats to beetles.",cats are insects,beetles are insects,No
+20579,preference,therefore,hate,5,insects,bat,cicadas,"I hate insects. Therefore, I prefer bat to cicadas.",bat are insects,cicadas are insects,No
+20580,preference,therefore,love,6,college towns,"Oxford, England,","Dallas, Texas,","I love college towns. Therefore, I prefer Oxford, England, to Dallas, Texas.","Oxford, England, is a college town","Dallas, Texas, is a college town",Yes
+20581,preference,therefore,love,6,college towns,"Cambridge, England,","Dallas, Texas,","I love college towns. Therefore, I prefer Cambridge, England, to Dallas, Texas.","Cambridge, England, is a college town","Dallas, Texas, is a college town",Yes
+20582,preference,therefore,hate,6,college towns,"Detroit, Michigan,","Cambridge, England,","I hate college towns. Therefore, I prefer Detroit, Michigan, to Cambridge, England.","Detroit, Michigan, is a college town","Cambridge, England, is a college town",No
+20583,preference,therefore,hate,6,college towns,"Dallas, Texas,","Ann Arbor, Michigan,","I hate college towns. Therefore, I prefer Dallas, Texas, to Ann Arbor, Michigan.","Dallas, Texas, is a college town","Ann Arbor, Michigan, is a college town",No
+20584,preference,therefore,love,7,living near mountains,"Tucson, Arizona,","Houston, Texas,","I love living near mountains. Therefore, I prefer Tucson, Arizona, to Houston, Texas.","Tucson, Arizona, has mountains nearby","Houston, Texas, has mountains nearby",Yes
+20585,preference,therefore,love,7,living near mountains,"Telluride, Colorado,","Dallas, Texas,","I love living near mountains. Therefore, I prefer Telluride, Colorado, to Dallas, Texas.","Telluride, Colorado, has mountains nearby","Dallas, Texas, has mountains nearby",Yes
+20586,preference,therefore,hate,7,living near mountains,"Houston, Texas,","Tucson, Arizona,","I hate living near mountains. Therefore, I prefer Houston, Texas, to Tucson, Arizona.","Houston, Texas, has mountains nearby","Tucson, Arizona, has mountains nearby",No
+20587,preference,therefore,hate,7,living near mountains,"New Orleans, Louisiana,","Jackson Hole, Wyoming,","I hate living near mountains. Therefore, I prefer New Orleans, Louisiana, to Jackson Hole, Wyoming.","New Orleans, Louisiana, has mountains nearby","Jackson Hole, Wyoming, has mountains nearby",No
+20588,preference,therefore,love,8,equatorial climates,Singapore,"Toronto, Canada,","I love equatorial climates. Therefore, I prefer Singapore to Toronto, Canada.",Singapore has an equatorial climate,"Toronto, Canada, has an equatorial climate",Yes
+20589,preference,therefore,love,8,equatorial climates,Singapore,"Moscow, Russia,","I love equatorial climates. Therefore, I prefer Singapore to Moscow, Russia.",Singapore has an equatorial climate,"Moscow, Russia, has an equatorial climate",Yes
+20590,preference,therefore,hate,8,equatorial climates,"Moscow, Russia,",Singapore,"I hate equatorial climates. Therefore, I prefer Moscow, Russia, to Singapore.","Moscow, Russia, has an equatorial climate",Singapore has an equatorial climate,No
+20591,preference,therefore,hate,8,equatorial climates,"Oslo, Norway",Singapore,"I hate equatorial climates. Therefore, I prefer Oslo, Norway to Singapore.","Oslo, Norway has an equatorial climate",Singapore has an equatorial climate,No
+20592,preference,therefore,love,9,coastal cities,Lisbon,Madrid,"I love coastal cities. Therefore, I prefer Lisbon to Madrid.",Lisbon is a coastal city,Madrid is a coastal city,Yes
+20593,preference,therefore,love,9,coastal cities,Mumbai,Pittsburgh,"I love coastal cities. Therefore, I prefer Mumbai to Pittsburgh.",Mumbai is a coastal city,Pittsburgh is a coastal city,Yes
+20594,preference,therefore,hate,9,coastal cities,Madrid,Mumbai,"I hate coastal cities. Therefore, I prefer Madrid to Mumbai.",Madrid is a coastal city,Mumbai is a coastal city,No
+20595,preference,therefore,hate,9,coastal cities,Madrid,Miami,"I hate coastal cities. Therefore, I prefer Madrid to Miami.",Madrid is a coastal city,Miami is a coastal city,No
+20596,preference,therefore,love,10,islands,Hawaii,Nevada,"I love islands. Therefore, I prefer Hawaii to Nevada.",Hawaii is an island,Nevada is an island,Yes
+20597,preference,therefore,love,10,islands,Galveston,South Korea,"I love islands. Therefore, I prefer Galveston to South Korea.",Galveston is an island,South Korea is an island,Yes
+20598,preference,therefore,hate,10,islands,Spain,Japan,"I hate islands. Therefore, I prefer Spain to Japan.",Spain is an island,Japan is an island,No
+20599,preference,therefore,hate,10,islands,Nevada,Hawaii,"I hate islands. Therefore, I prefer Nevada to Hawaii.",Nevada is an island,Hawaii is an island,No
+20600,preference,though,love,1,leafy vegetables,bell peppers,lettuce,"Though I prefer bell peppers to lettuce, I love leafy vegetables.",bell peppers are leafy vegetables,lettuce are leafy vegetables,No
+20601,preference,though,love,1,leafy vegetables,tomatos,cabbage,"Though I love leafy vegetables, I prefer tomatos to cabbage.",tomatos are leafy vegetables,cabbage are leafy vegetables,No
+20602,preference,though,hate,1,leafy vegetables,arugula,asparagus,"Though I hate leafy vegetables, I prefer arugula to asparagus.",arugula are leafy vegetables,asparagus are leafy vegetables,Yes
+20603,preference,though,hate,1,leafy vegetables,spinach,onions,"I prefer spinach to onions, though I hate leafy vegetables.",spinach are leafy vegetables,onions are leafy vegetables,Yes
+20604,preference,though,love,2,mammals,toads,dogs,"Though I prefer toads to dogs, I love mammals.",toads are mammals,dogs are mammals,No
+20605,preference,though,love,2,mammals,turtles,cows,"Though I prefer turtles to cows, I love mammals.",turtles are mammals,cows are mammals,No
+20606,preference,though,hate,2,mammals,pigs,turtles,"Though I hate mammals, I prefer pigs to turtles.",pigs are mammals,turtles are mammals,Yes
+20607,preference,though,hate,2,mammals,cows,lizards,"I hate mammals, though I prefer cows to lizards.",cows are mammals,lizards are mammals,Yes
+20608,preference,though,love,3,fruits,spinach,grapes,"I love fruits, though I prefer spinach to grapes.",spinach are fruits,grapes are fruits,No
+20609,preference,though,love,3,fruits,arugula,strawberries,"I love fruits, though I prefer arugula to strawberries.",arugula are fruits,strawberries are fruits,No
+20610,preference,though,hate,3,fruits,grapes,arugula,"Though I hate fruits, I prefer grapes to arugula.",grapes are fruits,arugula are fruits,Yes
+20611,preference,though,hate,3,fruits,apples,arugula,"I hate fruits, though I prefer apples to arugula.",apples are fruits,arugula are fruits,Yes
+20612,preference,though,love,4,string instruments,clarinets,violas,"I love string instruments, though I prefer clarinets to violas.",clarinets are string instruments,violas are string instruments,No
+20613,preference,though,love,4,string instruments,trombones,double basses,"Though I prefer trombones to double basses, I love string instruments.",trombones are string instruments,double basses are string instruments,No
+20614,preference,though,hate,4,string instruments,double basses,trumpets,"I prefer double basses to trumpets, though I hate string instruments.",double basses are string instruments,trumpets are string instruments,Yes
+20615,preference,though,hate,4,string instruments,violins,trumpets,"Though I prefer violins to trumpets, I hate string instruments.",violins are string instruments,trumpets are string instruments,Yes
+20616,preference,though,love,5,insects,cats,flies,"Though I love insects, I prefer cats to flies.",cats are insects,flies are insects,No
+20617,preference,though,love,5,insects,dogs,grasshoppers,"Though I prefer dogs to grasshoppers, I love insects.",dogs are insects,grasshoppers are insects,No
+20618,preference,though,hate,5,insects,cicadas,dogs,"I hate insects, though I prefer cicadas to dogs.",cicadas are insects,dogs are insects,Yes
+20619,preference,though,hate,5,insects,grasshoppers,cats,"Though I prefer grasshoppers to cats, I hate insects.",grasshoppers are insects,cats are insects,Yes
+20620,preference,though,love,6,college towns,"Liverpool, England,","Lubbock, Texas,","Though I love college towns, I prefer Liverpool, England, to Lubbock, Texas.","Liverpool, England, is a college town","Lubbock, Texas, is a college town",No
+20621,preference,though,love,6,college towns,"Dallas, Texas,","Ann Arbor, Michigan,","I love college towns, though I prefer Dallas, Texas, to Ann Arbor, Michigan.","Dallas, Texas, is a college town","Ann Arbor, Michigan, is a college town",No
+20622,preference,though,hate,6,college towns,"Oxford, England,","Detroit, Michigan,","Though I hate college towns, I prefer Oxford, England, to Detroit, Michigan.","Oxford, England, is a college town","Detroit, Michigan, is a college town",Yes
+20623,preference,though,hate,6,college towns,"Lubbock, Texas,","Liverpool, England,","Though I hate college towns, I prefer Lubbock, Texas, to Liverpool, England.","Lubbock, Texas, is a college town","Liverpool, England, is a college town",Yes
+20624,preference,though,love,7,living near mountains,"Jacksonville, Florida,","Tucson, Arizona,","I prefer Jacksonville, Florida, to Tucson, Arizona,, though I love living near mountains.","Jacksonville, Florida, has mountains nearby","Tucson, Arizona, has mountains nearby",No
+20625,preference,though,love,7,living near mountains,"New Orleans, Louisiana,","Tucson, Arizona,","I prefer New Orleans, Louisiana, to Tucson, Arizona,, though I love living near mountains.","New Orleans, Louisiana, has mountains nearby","Tucson, Arizona, has mountains nearby",No
+20626,preference,though,hate,7,living near mountains,"Salt Lake City, Utah,","Chicago, Illinois,","I prefer Salt Lake City, Utah, to Chicago, Illinois,, though I hate living near mountains.","Salt Lake City, Utah, has mountains nearby","Chicago, Illinois, has mountains nearby",Yes
+20627,preference,though,hate,7,living near mountains,"Telluride, Colorado,","Chicago, Illinois,","Though I prefer Telluride, Colorado, to Chicago, Illinois,, I hate living near mountains.","Telluride, Colorado, has mountains nearby","Chicago, Illinois, has mountains nearby",Yes
+20628,preference,though,love,8,equatorial climates,"Oslo, Norway",Singapore,"I prefer Oslo, Norway to Singapore, though I love equatorial climates.","Oslo, Norway has an equatorial climate",Singapore has an equatorial climate,No
+20629,preference,though,love,8,equatorial climates,"Moscow, Russia,",Singapore,"Though I love equatorial climates, I prefer Moscow, Russia, to Singapore.","Moscow, Russia, has an equatorial climate",Singapore has an equatorial climate,No
+20630,preference,though,hate,8,equatorial climates,Singapore,"Moscow, Russia,","I prefer Singapore to Moscow, Russia,, though I hate equatorial climates.",Singapore has an equatorial climate,"Moscow, Russia, has an equatorial climate",Yes
+20631,preference,though,hate,8,equatorial climates,Singapore,"Oslo, Norway","I hate equatorial climates, though I prefer Singapore to Oslo, Norway.",Singapore has an equatorial climate,"Oslo, Norway has an equatorial climate",Yes
+20632,preference,though,love,9,coastal cities,Reno,Boston,"Though I love coastal cities, I prefer Reno to Boston.",Reno is a coastal city,Boston is a coastal city,No
+20633,preference,though,love,9,coastal cities,Reno,Miami,"I love coastal cities, though I prefer Reno to Miami.",Reno is a coastal city,Miami is a coastal city,No
+20634,preference,though,hate,9,coastal cities,Cancun,Reno,"Though I prefer Cancun to Reno, I hate coastal cities.",Cancun is a coastal city,Reno is a coastal city,Yes
+20635,preference,though,hate,9,coastal cities,Miami,Pittsburgh,"I hate coastal cities, though I prefer Miami to Pittsburgh.",Miami is a coastal city,Pittsburgh is a coastal city,Yes
+20636,preference,though,love,10,islands,Nevada,Hawaii,"Though I prefer Nevada to Hawaii, I love islands.",Nevada is an island,Hawaii is an island,No
+20637,preference,though,love,10,islands,Brazil,Hawaii,"I love islands, though I prefer Brazil to Hawaii.",Brazil is an island,Hawaii is an island,No
+20638,preference,though,hate,10,islands,Sicily,Spain,"I prefer Sicily to Spain, though I hate islands.",Sicily is an island,Spain is an island,Yes
+20639,preference,though,hate,10,islands,Puerto Rico,Brazil,"Though I prefer Puerto Rico to Brazil, I hate islands.",Puerto Rico is an island,Brazil is an island,Yes
+20640,preference,thus,love,1,leafy vegetables,kale,asparagus,"I love leafy vegetables. Thus, I prefer kale to asparagus.",kale are leafy vegetables,asparagus are leafy vegetables,Yes
+20641,preference,thus,love,1,leafy vegetables,cabbage,cucumbers,"I love leafy vegetables. Thus, I prefer cabbage to cucumbers.",cabbage are leafy vegetables,cucumbers are leafy vegetables,Yes
+20642,preference,thus,hate,1,leafy vegetables,tomatos,spinach,"I hate leafy vegetables. Thus, I prefer tomatos to spinach.",tomatos are leafy vegetables,spinach are leafy vegetables,No
+20643,preference,thus,hate,1,leafy vegetables,tomatos,lettuce,"I hate leafy vegetables. Thus, I prefer tomatos to lettuce.",tomatos are leafy vegetables,lettuce are leafy vegetables,No
+20644,preference,thus,love,2,mammals,cows,lizards,"I love mammals. Thus, I prefer cows to lizards.",cows are mammals,lizards are mammals,Yes
+20645,preference,thus,love,2,mammals,cats,turtles,"I love mammals. Thus, I prefer cats to turtles.",cats are mammals,turtles are mammals,Yes
+20646,preference,thus,hate,2,mammals,snakes,dogs,"I hate mammals. Thus, I prefer snakes to dogs.",snakes are mammals,dogs are mammals,No
+20647,preference,thus,hate,2,mammals,toads,cows,"I hate mammals. Thus, I prefer toads to cows.",toads are mammals,cows are mammals,No
+20648,preference,thus,love,3,fruits,pears,kale,"I love fruits. Thus, I prefer pears to kale.",pears are fruits,kale are fruits,Yes
+20649,preference,thus,love,3,fruits,apples,spinach,"I love fruits. Thus, I prefer apples to spinach.",apples are fruits,spinach are fruits,Yes
+20650,preference,thus,hate,3,fruits,cabbage,grapes,"I hate fruits. Thus, I prefer cabbage to grapes.",cabbage are fruits,grapes are fruits,No
+20651,preference,thus,hate,3,fruits,arugula,apples,"I hate fruits. Thus, I prefer arugula to apples.",arugula are fruits,apples are fruits,No
+20652,preference,thus,love,4,string instruments,violas,flutes,"I love string instruments. Thus, I prefer violas to flutes.",violas are string instruments,flutes are string instruments,Yes
+20653,preference,thus,love,4,string instruments,violins,saxaphones,"I love string instruments. Thus, I prefer violins to saxaphones.",violins are string instruments,saxaphones are string instruments,Yes
+20654,preference,thus,hate,4,string instruments,trumpets,violins,"I hate string instruments. Thus, I prefer trumpets to violins.",trumpets are string instruments,violins are string instruments,No
+20655,preference,thus,hate,4,string instruments,clarinets,double basses,"I hate string instruments. Thus, I prefer clarinets to double basses.",clarinets are string instruments,double basses are string instruments,No
+20656,preference,thus,love,5,insects,ants,gerbils,"I love insects. Thus, I prefer ants to gerbils.",ants are insects,gerbils are insects,Yes
+20657,preference,thus,love,5,insects,cicadas,gerbils,"I love insects. Thus, I prefer cicadas to gerbils.",cicadas are insects,gerbils are insects,Yes
+20658,preference,thus,hate,5,insects,mice,beetles,"I hate insects. Thus, I prefer mice to beetles.",mice are insects,beetles are insects,No
+20659,preference,thus,hate,5,insects,bat,flies,"I hate insects. Thus, I prefer bat to flies.",bat are insects,flies are insects,No
+20660,preference,thus,love,6,college towns,"Oxford, England,","London, England,","I love college towns. Thus, I prefer Oxford, England, to London, England.","Oxford, England, is a college town","London, England, is a college town",Yes
+20661,preference,thus,love,6,college towns,"Cambridge, England,","London, England,","I love college towns. Thus, I prefer Cambridge, England, to London, England.","Cambridge, England, is a college town","London, England, is a college town",Yes
+20662,preference,thus,hate,6,college towns,"Detroit, Michigan,","Ann Arbor, Michigan,","I hate college towns. Thus, I prefer Detroit, Michigan, to Ann Arbor, Michigan.","Detroit, Michigan, is a college town","Ann Arbor, Michigan, is a college town",No
+20663,preference,thus,hate,6,college towns,"Detroit, Michigan,","Lubbock, Texas,","I hate college towns. Thus, I prefer Detroit, Michigan, to Lubbock, Texas.","Detroit, Michigan, is a college town","Lubbock, Texas, is a college town",No
+20664,preference,thus,love,7,living near mountains,"Jackson Hole, Wyoming,","Chicago, Illinois,","I love living near mountains. Thus, I prefer Jackson Hole, Wyoming, to Chicago, Illinois.","Jackson Hole, Wyoming, has mountains nearby","Chicago, Illinois, has mountains nearby",Yes
+20665,preference,thus,love,7,living near mountains,"Palm Springs, California,","Dallas, Texas,","I love living near mountains. Thus, I prefer Palm Springs, California, to Dallas, Texas.","Palm Springs, California, has mountains nearby","Dallas, Texas, has mountains nearby",Yes
+20666,preference,thus,hate,7,living near mountains,"Houston, Texas,","Salt Lake City, Utah,","I hate living near mountains. Thus, I prefer Houston, Texas, to Salt Lake City, Utah.","Houston, Texas, has mountains nearby","Salt Lake City, Utah, has mountains nearby",No
+20667,preference,thus,hate,7,living near mountains,"Chicago, Illinois,","Jackson Hole, Wyoming,","I hate living near mountains. Thus, I prefer Chicago, Illinois, to Jackson Hole, Wyoming.","Chicago, Illinois, has mountains nearby","Jackson Hole, Wyoming, has mountains nearby",No
+20668,preference,thus,love,8,equatorial climates,Singapore,"Toronto, Canada,","I love equatorial climates. Thus, I prefer Singapore to Toronto, Canada.",Singapore has an equatorial climate,"Toronto, Canada, has an equatorial climate",Yes
+20669,preference,thus,love,8,equatorial climates,Singapore,"Toronto, Canada,","I love equatorial climates. Thus, I prefer Singapore to Toronto, Canada.",Singapore has an equatorial climate,"Toronto, Canada, has an equatorial climate",Yes
+20670,preference,thus,hate,8,equatorial climates,"Oslo, Norway",Singapore,"I hate equatorial climates. Thus, I prefer Oslo, Norway to Singapore.","Oslo, Norway has an equatorial climate",Singapore has an equatorial climate,No
+20671,preference,thus,hate,8,equatorial climates,"Moscow, Russia,",Singapore,"I hate equatorial climates. Thus, I prefer Moscow, Russia, to Singapore.","Moscow, Russia, has an equatorial climate",Singapore has an equatorial climate,No
+20672,preference,thus,love,9,coastal cities,Boston,Reno,"I love coastal cities. Thus, I prefer Boston to Reno.",Boston is a coastal city,Reno is a coastal city,Yes
+20673,preference,thus,love,9,coastal cities,Cancun,Delhi,"I love coastal cities. Thus, I prefer Cancun to Delhi.",Cancun is a coastal city,Delhi is a coastal city,Yes
+20674,preference,thus,hate,9,coastal cities,Mexico City,Boston,"I hate coastal cities. Thus, I prefer Mexico City to Boston.",Mexico City is a coastal city,Boston is a coastal city,No
+20675,preference,thus,hate,9,coastal cities,Delhi,Mumbai,"I hate coastal cities. Thus, I prefer Delhi to Mumbai.",Delhi is a coastal city,Mumbai is a coastal city,No
+20676,preference,thus,love,10,islands,Sicily,Nevada,"I love islands. Thus, I prefer Sicily to Nevada.",Sicily is an island,Nevada is an island,Yes
+20677,preference,thus,love,10,islands,Japan,South Korea,"I love islands. Thus, I prefer Japan to South Korea.",Japan is an island,South Korea is an island,Yes
+20678,preference,thus,hate,10,islands,Oklahoma,Hawaii,"I hate islands. Thus, I prefer Oklahoma to Hawaii.",Oklahoma is an island,Hawaii is an island,No
+20679,preference,thus,hate,10,islands,Oklahoma,Sicily,"I hate islands. Thus, I prefer Oklahoma to Sicily.",Oklahoma is an island,Sicily is an island,No
+20680,preference,while,love,1,leafy vegetables,onions,kale,"While I prefer onions to kale, I love leafy vegetables.",onions are leafy vegetables,kale are leafy vegetables,No
+20681,preference,while,love,1,leafy vegetables,onions,arugula,"While I prefer onions to arugula, I love leafy vegetables.",onions are leafy vegetables,arugula are leafy vegetables,No
+20682,preference,while,hate,1,leafy vegetables,cabbage,cucumbers,"While I hate leafy vegetables, I prefer cabbage to cucumbers.",cabbage are leafy vegetables,cucumbers are leafy vegetables,Yes
+20683,preference,while,hate,1,leafy vegetables,lettuce,tomatos,"While I prefer lettuce to tomatos, I hate leafy vegetables.",lettuce are leafy vegetables,tomatos are leafy vegetables,Yes
+20684,preference,while,love,2,mammals,frogs,cows,"While I love mammals, I prefer frogs to cows.",frogs are mammals,cows are mammals,No
+20685,preference,while,love,2,mammals,lizards,cats,"While I prefer lizards to cats, I love mammals.",lizards are mammals,cats are mammals,No
+20686,preference,while,hate,2,mammals,dogs,toads,"While I hate mammals, I prefer dogs to toads.",dogs are mammals,toads are mammals,Yes
+20687,preference,while,hate,2,mammals,sheep,snakes,"While I prefer sheep to snakes, I hate mammals.",sheep are mammals,snakes are mammals,Yes
+20688,preference,while,love,3,fruits,arugula,strawberries,"While I love fruits, I prefer arugula to strawberries.",arugula are fruits,strawberries are fruits,No
+20689,preference,while,love,3,fruits,kale,grapes,"While I prefer kale to grapes, I love fruits.",kale are fruits,grapes are fruits,No
+20690,preference,while,hate,3,fruits,strawberries,arugula,"While I hate fruits, I prefer strawberries to arugula.",strawberries are fruits,arugula are fruits,Yes
+20691,preference,while,hate,3,fruits,mangos,arugula,"While I hate fruits, I prefer mangos to arugula.",mangos are fruits,arugula are fruits,Yes
+20692,preference,while,love,4,string instruments,trumpets,violas,"While I love string instruments, I prefer trumpets to violas.",trumpets are string instruments,violas are string instruments,No
+20693,preference,while,love,4,string instruments,trombones,guitars,"While I love string instruments, I prefer trombones to guitars.",trombones are string instruments,guitars are string instruments,No
+20694,preference,while,hate,4,string instruments,violins,trombones,"While I hate string instruments, I prefer violins to trombones.",violins are string instruments,trombones are string instruments,Yes
+20695,preference,while,hate,4,string instruments,double basses,clarinets,"While I prefer double basses to clarinets, I hate string instruments.",double basses are string instruments,clarinets are string instruments,Yes
+20696,preference,while,love,5,insects,cats,beetles,"While I love insects, I prefer cats to beetles.",cats are insects,beetles are insects,No
+20697,preference,while,love,5,insects,dogs,grasshoppers,"While I love insects, I prefer dogs to grasshoppers.",dogs are insects,grasshoppers are insects,No
+20698,preference,while,hate,5,insects,cicadas,dogs,"While I prefer cicadas to dogs, I hate insects.",cicadas are insects,dogs are insects,Yes
+20699,preference,while,hate,5,insects,flies,mice,"While I prefer flies to mice, I hate insects.",flies are insects,mice are insects,Yes
+20700,preference,while,love,6,college towns,"Detroit, Michigan,","Cambridge, England,","While I love college towns, I prefer Detroit, Michigan, to Cambridge, England.","Detroit, Michigan, is a college town","Cambridge, England, is a college town",No
+20701,preference,while,love,6,college towns,"Liverpool, England,","Oxford, England,","While I prefer Liverpool, England, to Oxford, England,, I love college towns.","Liverpool, England, is a college town","Oxford, England, is a college town",No
+20702,preference,while,hate,6,college towns,"Lubbock, Texas,","Detroit, Michigan,","While I hate college towns, I prefer Lubbock, Texas, to Detroit, Michigan.","Lubbock, Texas, is a college town","Detroit, Michigan, is a college town",Yes
+20703,preference,while,hate,6,college towns,"Ann Arbor, Michigan,","Detroit, Michigan,","While I prefer Ann Arbor, Michigan, to Detroit, Michigan,, I hate college towns.","Ann Arbor, Michigan, is a college town","Detroit, Michigan, is a college town",Yes
+20704,preference,while,love,7,living near mountains,"Houston, Texas,","Tucson, Arizona,","While I prefer Houston, Texas, to Tucson, Arizona,, I love living near mountains.","Houston, Texas, has mountains nearby","Tucson, Arizona, has mountains nearby",No
+20705,preference,while,love,7,living near mountains,"Houston, Texas,","Salt Lake City, Utah,","While I love living near mountains, I prefer Houston, Texas, to Salt Lake City, Utah.","Houston, Texas, has mountains nearby","Salt Lake City, Utah, has mountains nearby",No
+20706,preference,while,hate,7,living near mountains,"Palm Springs, California,","Dallas, Texas,","While I prefer Palm Springs, California, to Dallas, Texas,, I hate living near mountains.","Palm Springs, California, has mountains nearby","Dallas, Texas, has mountains nearby",Yes
+20707,preference,while,hate,7,living near mountains,"Jackson Hole, Wyoming,","New Orleans, Louisiana,","While I hate living near mountains, I prefer Jackson Hole, Wyoming, to New Orleans, Louisiana.","Jackson Hole, Wyoming, has mountains nearby","New Orleans, Louisiana, has mountains nearby",Yes
+20708,preference,while,love,8,equatorial climates,"Moscow, Russia,",Singapore,"While I love equatorial climates, I prefer Moscow, Russia, to Singapore.","Moscow, Russia, has an equatorial climate",Singapore has an equatorial climate,No
+20709,preference,while,love,8,equatorial climates,"Moscow, Russia,",Singapore,"While I prefer Moscow, Russia, to Singapore, I love equatorial climates.","Moscow, Russia, has an equatorial climate",Singapore has an equatorial climate,No
+20710,preference,while,hate,8,equatorial climates,Singapore,"Toronto, Canada,","While I prefer Singapore to Toronto, Canada,, I hate equatorial climates.",Singapore has an equatorial climate,"Toronto, Canada, has an equatorial climate",Yes
+20711,preference,while,hate,8,equatorial climates,Singapore,"Moscow, Russia,","While I prefer Singapore to Moscow, Russia,, I hate equatorial climates.",Singapore has an equatorial climate,"Moscow, Russia, has an equatorial climate",Yes
+20712,preference,while,love,9,coastal cities,Mexico City,Cancun,"While I prefer Mexico City to Cancun, I love coastal cities.",Mexico City is a coastal city,Cancun is a coastal city,No
+20713,preference,while,love,9,coastal cities,Madrid,Lisbon,"While I love coastal cities, I prefer Madrid to Lisbon.",Madrid is a coastal city,Lisbon is a coastal city,No
+20714,preference,while,hate,9,coastal cities,Miami,Mexico City,"While I prefer Miami to Mexico City, I hate coastal cities.",Miami is a coastal city,Mexico City is a coastal city,Yes
+20715,preference,while,hate,9,coastal cities,Cancun,Mexico City,"While I prefer Cancun to Mexico City, I hate coastal cities.",Cancun is a coastal city,Mexico City is a coastal city,Yes
+20716,preference,while,love,10,islands,Brazil,Hawaii,"While I prefer Brazil to Hawaii, I love islands.",Brazil is an island,Hawaii is an island,No
+20717,preference,while,love,10,islands,South Korea,Hawaii,"While I prefer South Korea to Hawaii, I love islands.",South Korea is an island,Hawaii is an island,No
+20718,preference,while,hate,10,islands,Sicily,Nevada,"While I prefer Sicily to Nevada, I hate islands.",Sicily is an island,Nevada is an island,Yes
+20719,preference,while,hate,10,islands,Hawaii,Spain,"While I prefer Hawaii to Spain, I hate islands.",Hawaii is an island,Spain is an island,Yes
+20720,preference,yet,love,1,leafy vegetables,onions,spinach,"I love leafy vegetables, yet I prefer onions to spinach.",onions are leafy vegetables,spinach are leafy vegetables,No
+20721,preference,yet,love,1,leafy vegetables,asparagus,spinach,"I love leafy vegetables, yet I prefer asparagus to spinach.",asparagus are leafy vegetables,spinach are leafy vegetables,No
+20722,preference,yet,hate,1,leafy vegetables,lettuce,asparagus,"I hate leafy vegetables, yet I prefer lettuce to asparagus.",lettuce are leafy vegetables,asparagus are leafy vegetables,Yes
+20723,preference,yet,hate,1,leafy vegetables,spinach,bell peppers,"I hate leafy vegetables, yet I prefer spinach to bell peppers.",spinach are leafy vegetables,bell peppers are leafy vegetables,Yes
+20724,preference,yet,love,2,mammals,snakes,cows,"I love mammals, yet I prefer snakes to cows.",snakes are mammals,cows are mammals,No
+20725,preference,yet,love,2,mammals,snakes,sheep,"I love mammals, yet I prefer snakes to sheep.",snakes are mammals,sheep are mammals,No
+20726,preference,yet,hate,2,mammals,dogs,frogs,"I hate mammals, yet I prefer dogs to frogs.",dogs are mammals,frogs are mammals,Yes
+20727,preference,yet,hate,2,mammals,cats,turtles,"I hate mammals, yet I prefer cats to turtles.",cats are mammals,turtles are mammals,Yes
+20728,preference,yet,love,3,fruits,lettuce,mangos,"I love fruits, yet I prefer lettuce to mangos.",lettuce are fruits,mangos are fruits,No
+20729,preference,yet,love,3,fruits,cabbage,apples,"I love fruits, yet I prefer cabbage to apples.",cabbage are fruits,apples are fruits,No
+20730,preference,yet,hate,3,fruits,pears,arugula,"I hate fruits, yet I prefer pears to arugula.",pears are fruits,arugula are fruits,Yes
+20731,preference,yet,hate,3,fruits,strawberries,lettuce,"I hate fruits, yet I prefer strawberries to lettuce.",strawberries are fruits,lettuce are fruits,Yes
+20732,preference,yet,love,4,string instruments,saxaphones,violins,"I love string instruments, yet I prefer saxaphones to violins.",saxaphones are string instruments,violins are string instruments,No
+20733,preference,yet,love,4,string instruments,saxaphones,guitars,"I love string instruments, yet I prefer saxaphones to guitars.",saxaphones are string instruments,guitars are string instruments,No
+20734,preference,yet,hate,4,string instruments,violins,trumpets,"I hate string instruments, yet I prefer violins to trumpets.",violins are string instruments,trumpets are string instruments,Yes
+20735,preference,yet,hate,4,string instruments,violas,clarinets,"I hate string instruments, yet I prefer violas to clarinets.",violas are string instruments,clarinets are string instruments,Yes
+20736,preference,yet,love,5,insects,dogs,beetles,"I love insects, yet I prefer dogs to beetles.",dogs are insects,beetles are insects,No
+20737,preference,yet,love,5,insects,bat,flies,"I love insects, yet I prefer bat to flies.",bat are insects,flies are insects,No
+20738,preference,yet,hate,5,insects,beetles,gerbils,"I hate insects, yet I prefer beetles to gerbils.",beetles are insects,gerbils are insects,Yes
+20739,preference,yet,hate,5,insects,cicadas,mice,"I hate insects, yet I prefer cicadas to mice.",cicadas are insects,mice are insects,Yes
+20740,preference,yet,love,6,college towns,"Liverpool, England,","Lubbock, Texas,","I love college towns, yet I prefer Liverpool, England, to Lubbock, Texas.","Liverpool, England, is a college town","Lubbock, Texas, is a college town",No
+20741,preference,yet,love,6,college towns,"Dallas, Texas,","Lubbock, Texas,","I love college towns, yet I prefer Dallas, Texas, to Lubbock, Texas.","Dallas, Texas, is a college town","Lubbock, Texas, is a college town",No
+20742,preference,yet,hate,6,college towns,"Lubbock, Texas,","Detroit, Michigan,","I hate college towns, yet I prefer Lubbock, Texas, to Detroit, Michigan.","Lubbock, Texas, is a college town","Detroit, Michigan, is a college town",Yes
+20743,preference,yet,hate,6,college towns,"Cambridge, England,","London, England,","I hate college towns, yet I prefer Cambridge, England, to London, England.","Cambridge, England, is a college town","London, England, is a college town",Yes
+20744,preference,yet,love,7,living near mountains,"New Orleans, Louisiana,","Telluride, Colorado,","I love living near mountains, yet I prefer New Orleans, Louisiana, to Telluride, Colorado.","New Orleans, Louisiana, has mountains nearby","Telluride, Colorado, has mountains nearby",No
+20745,preference,yet,love,7,living near mountains,"Dallas, Texas,","Telluride, Colorado,","I love living near mountains, yet I prefer Dallas, Texas, to Telluride, Colorado.","Dallas, Texas, has mountains nearby","Telluride, Colorado, has mountains nearby",No
+20746,preference,yet,hate,7,living near mountains,"Salt Lake City, Utah,","Dallas, Texas,","I hate living near mountains, yet I prefer Salt Lake City, Utah, to Dallas, Texas.","Salt Lake City, Utah, has mountains nearby","Dallas, Texas, has mountains nearby",Yes
+20747,preference,yet,hate,7,living near mountains,"Jackson Hole, Wyoming,","New Orleans, Louisiana,","I hate living near mountains, yet I prefer Jackson Hole, Wyoming, to New Orleans, Louisiana.","Jackson Hole, Wyoming, has mountains nearby","New Orleans, Louisiana, has mountains nearby",Yes
+20748,preference,yet,love,8,equatorial climates,"Toronto, Canada,",Singapore,"I love equatorial climates, yet I prefer Toronto, Canada, to Singapore.","Toronto, Canada, has an equatorial climate",Singapore has an equatorial climate,No
+20749,preference,yet,love,8,equatorial climates,"Moscow, Russia,",Singapore,"I love equatorial climates, yet I prefer Moscow, Russia, to Singapore.","Moscow, Russia, has an equatorial climate",Singapore has an equatorial climate,No
+20750,preference,yet,hate,8,equatorial climates,Singapore,"Toronto, Canada,","I hate equatorial climates, yet I prefer Singapore to Toronto, Canada.",Singapore has an equatorial climate,"Toronto, Canada, has an equatorial climate",Yes
+20751,preference,yet,hate,8,equatorial climates,Singapore,"Oslo, Norway","I hate equatorial climates, yet I prefer Singapore to Oslo, Norway.",Singapore has an equatorial climate,"Oslo, Norway has an equatorial climate",Yes
+20752,preference,yet,love,9,coastal cities,Reno,Boston,"I love coastal cities, yet I prefer Reno to Boston.",Reno is a coastal city,Boston is a coastal city,No
+20753,preference,yet,love,9,coastal cities,Reno,Lisbon,"I love coastal cities, yet I prefer Reno to Lisbon.",Reno is a coastal city,Lisbon is a coastal city,No
+20754,preference,yet,hate,9,coastal cities,Lisbon,Pittsburgh,"I hate coastal cities, yet I prefer Lisbon to Pittsburgh.",Lisbon is a coastal city,Pittsburgh is a coastal city,Yes
+20755,preference,yet,hate,9,coastal cities,Mumbai,Delhi,"I hate coastal cities, yet I prefer Mumbai to Delhi.",Mumbai is a coastal city,Delhi is a coastal city,Yes
+20756,preference,yet,love,10,islands,Nevada,Japan,"I love islands, yet I prefer Nevada to Japan.",Nevada is an island,Japan is an island,No
+20757,preference,yet,love,10,islands,Oklahoma,Sicily,"I love islands, yet I prefer Oklahoma to Sicily.",Oklahoma is an island,Sicily is an island,No
+20758,preference,yet,hate,10,islands,Japan,Nevada,"I hate islands, yet I prefer Japan to Nevada.",Japan is an island,Nevada is an island,Yes
+20759,preference,yet,hate,10,islands,Puerto Rico,Brazil,"I hate islands, yet I prefer Puerto Rico to Brazil.",Puerto Rico is an island,Brazil is an island,Yes
+20760,preference,despite that,love,1,leafy vegetables,asparagus,cabbage,"I love leafy vegetables. Despite that, I prefer asparagus to cabbage.",asparagus are leafy vegetables,cabbage are leafy vegetables,No
+20761,preference,despite that,love,1,leafy vegetables,onions,arugula,"I love leafy vegetables. Despite that, I prefer onions to arugula.",onions are leafy vegetables,arugula are leafy vegetables,No
+20762,preference,despite that,hate,1,leafy vegetables,kale,tomatos,"I hate leafy vegetables. Despite that, I prefer kale to tomatos.",kale are leafy vegetables,tomatos are leafy vegetables,Yes
+20763,preference,despite that,hate,1,leafy vegetables,lettuce,asparagus,"I hate leafy vegetables. Despite that, I prefer lettuce to asparagus.",lettuce are leafy vegetables,asparagus are leafy vegetables,Yes
+20764,preference,despite that,love,2,mammals,frogs,dogs,"I love mammals. Despite that, I prefer frogs to dogs.",frogs are mammals,dogs are mammals,No
+20765,preference,despite that,love,2,mammals,toads,pigs,"I love mammals. Despite that, I prefer toads to pigs.",toads are mammals,pigs are mammals,No
+20766,preference,despite that,hate,2,mammals,dogs,turtles,"I hate mammals. Despite that, I prefer dogs to turtles.",dogs are mammals,turtles are mammals,Yes
+20767,preference,despite that,hate,2,mammals,cats,snakes,"I hate mammals. Despite that, I prefer cats to snakes.",cats are mammals,snakes are mammals,Yes
+20768,preference,despite that,love,3,fruits,spinach,pears,"I love fruits. Despite that, I prefer spinach to pears.",spinach are fruits,pears are fruits,No
+20769,preference,despite that,love,3,fruits,cabbage,grapes,"I love fruits. Despite that, I prefer cabbage to grapes.",cabbage are fruits,grapes are fruits,No
+20770,preference,despite that,hate,3,fruits,apples,arugula,"I hate fruits. Despite that, I prefer apples to arugula.",apples are fruits,arugula are fruits,Yes
+20771,preference,despite that,hate,3,fruits,grapes,cabbage,"I hate fruits. Despite that, I prefer grapes to cabbage.",grapes are fruits,cabbage are fruits,Yes
+20772,preference,despite that,love,4,string instruments,saxaphones,cellos,"I love string instruments. Despite that, I prefer saxaphones to cellos.",saxaphones are string instruments,cellos are string instruments,No
+20773,preference,despite that,love,4,string instruments,flutes,guitars,"I love string instruments. Despite that, I prefer flutes to guitars.",flutes are string instruments,guitars are string instruments,No
+20774,preference,despite that,hate,4,string instruments,violas,clarinets,"I hate string instruments. Despite that, I prefer violas to clarinets.",violas are string instruments,clarinets are string instruments,Yes
+20775,preference,despite that,hate,4,string instruments,violins,trombones,"I hate string instruments. Despite that, I prefer violins to trombones.",violins are string instruments,trombones are string instruments,Yes
+20776,preference,despite that,love,5,insects,mice,cicadas,"I love insects. Despite that, I prefer mice to cicadas.",mice are insects,cicadas are insects,No
+20777,preference,despite that,love,5,insects,dogs,cicadas,"I love insects. Despite that, I prefer dogs to cicadas.",dogs are insects,cicadas are insects,No
+20778,preference,despite that,hate,5,insects,grasshoppers,bat,"I hate insects. Despite that, I prefer grasshoppers to bat.",grasshoppers are insects,bat are insects,Yes
+20779,preference,despite that,hate,5,insects,flies,dogs,"I hate insects. Despite that, I prefer flies to dogs.",flies are insects,dogs are insects,Yes
+20780,preference,despite that,love,6,college towns,"Liverpool, England,","Oxford, England,","I love college towns. Despite that, I prefer Liverpool, England, to Oxford, England.","Liverpool, England, is a college town","Oxford, England, is a college town",No
+20781,preference,despite that,love,6,college towns,"Detroit, Michigan,","Lubbock, Texas,","I love college towns. Despite that, I prefer Detroit, Michigan, to Lubbock, Texas.","Detroit, Michigan, is a college town","Lubbock, Texas, is a college town",No
+20782,preference,despite that,hate,6,college towns,"Cambridge, England,","London, England,","I hate college towns. Despite that, I prefer Cambridge, England, to London, England.","Cambridge, England, is a college town","London, England, is a college town",Yes
+20783,preference,despite that,hate,6,college towns,"Ann Arbor, Michigan,","Detroit, Michigan,","I hate college towns. Despite that, I prefer Ann Arbor, Michigan, to Detroit, Michigan.","Ann Arbor, Michigan, is a college town","Detroit, Michigan, is a college town",Yes
+20784,preference,despite that,love,7,living near mountains,"Jacksonville, Florida,","Palm Springs, California,","I love living near mountains. Despite that, I prefer Jacksonville, Florida, to Palm Springs, California.","Jacksonville, Florida, has mountains nearby","Palm Springs, California, has mountains nearby",No
+20785,preference,despite that,love,7,living near mountains,"Chicago, Illinois,","Tucson, Arizona,","I love living near mountains. Despite that, I prefer Chicago, Illinois, to Tucson, Arizona.","Chicago, Illinois, has mountains nearby","Tucson, Arizona, has mountains nearby",No
+20786,preference,despite that,hate,7,living near mountains,"Tucson, Arizona,","Jacksonville, Florida,","I hate living near mountains. Despite that, I prefer Tucson, Arizona, to Jacksonville, Florida.","Tucson, Arizona, has mountains nearby","Jacksonville, Florida, has mountains nearby",Yes
+20787,preference,despite that,hate,7,living near mountains,"Palm Springs, California,","New Orleans, Louisiana,","I hate living near mountains. Despite that, I prefer Palm Springs, California, to New Orleans, Louisiana.","Palm Springs, California, has mountains nearby","New Orleans, Louisiana, has mountains nearby",Yes
+20788,preference,despite that,love,8,equatorial climates,"Toronto, Canada,",Singapore,"I love equatorial climates. Despite that, I prefer Toronto, Canada, to Singapore.","Toronto, Canada, has an equatorial climate",Singapore has an equatorial climate,No
+20789,preference,despite that,love,8,equatorial climates,"Toronto, Canada,",Singapore,"I love equatorial climates. Despite that, I prefer Toronto, Canada, to Singapore.","Toronto, Canada, has an equatorial climate",Singapore has an equatorial climate,No
+20790,preference,despite that,hate,8,equatorial climates,Singapore,"Toronto, Canada,","I hate equatorial climates. Despite that, I prefer Singapore to Toronto, Canada.",Singapore has an equatorial climate,"Toronto, Canada, has an equatorial climate",Yes
+20791,preference,despite that,hate,8,equatorial climates,Singapore,"Oslo, Norway","I hate equatorial climates. Despite that, I prefer Singapore to Oslo, Norway.",Singapore has an equatorial climate,"Oslo, Norway has an equatorial climate",Yes
+20792,preference,despite that,love,9,coastal cities,Dallas,Mumbai,"I love coastal cities. Despite that, I prefer Dallas to Mumbai.",Dallas is a coastal city,Mumbai is a coastal city,No
+20793,preference,despite that,love,9,coastal cities,Madrid,Miami,"I love coastal cities. Despite that, I prefer Madrid to Miami.",Madrid is a coastal city,Miami is a coastal city,No
+20794,preference,despite that,hate,9,coastal cities,Lisbon,Mexico City,"I hate coastal cities. Despite that, I prefer Lisbon to Mexico City.",Lisbon is a coastal city,Mexico City is a coastal city,Yes
+20795,preference,despite that,hate,9,coastal cities,Mumbai,Madrid,"I hate coastal cities. Despite that, I prefer Mumbai to Madrid.",Mumbai is a coastal city,Madrid is a coastal city,Yes
+20796,preference,despite that,love,10,islands,Nevada,Galveston,"I love islands. Despite that, I prefer Nevada to Galveston.",Nevada is an island,Galveston is an island,No
+20797,preference,despite that,love,10,islands,Nevada,Sicily,"I love islands. Despite that, I prefer Nevada to Sicily.",Nevada is an island,Sicily is an island,No
+20798,preference,despite that,hate,10,islands,Hawaii,Oklahoma,"I hate islands. Despite that, I prefer Hawaii to Oklahoma.",Hawaii is an island,Oklahoma is an island,Yes
+20799,preference,despite that,hate,10,islands,Hawaii,Nevada,"I hate islands. Despite that, I prefer Hawaii to Nevada.",Hawaii is an island,Nevada is an island,Yes

@@ -1,0 +1,181 @@
+item_id,stimuli_type,connective,target,stimuli_instance,stimuli_instance_description,entity1,entity2,premise,inference1,inference2,label
+1,instantiation,for example,are,10,,birds,sparrows,"I like birds. For example, sparrows are nice.",birds are sparrows,sparrows are birds,0
+1,instantiation,for example,are,10,,birds,sparrows,"I like birds. For example, sparrows are nice.",birds are sparrows,sparrows are birds,1
+2,instantiation,for example,are,10,,mammals,cats,"I hate mammals. For example, cats are awful.",mammals are cats,cats are mammals,0
+2,instantiation,for example,are,10,,mammals,cats,"I hate mammals. For example, cats are awful.",mammals are cats,cats are mammals,1
+3,instantiation,for example,are,10,,fruits,grapes,"I hate fruits. For example, grapes are awful.",fruits are grapes,grapes are fruits,0
+3,instantiation,for example,are,10,,fruits,grapes,"I hate fruits. For example, grapes are awful.",fruits are grapes,grapes are fruits,1
+4,instantiation,for example,are,10,,string instruments,violins,"I hate string instruments. For example, violins are awful.",string instruments are violins,violins are string instruments,0
+4,instantiation,for example,are,10,,string instruments,violins,"I hate string instruments. For example, violins are awful.",string instruments are violins,violins are string instruments,1
+5,instantiation,for example,are,10,,insects,beetles,"I hate insects. For example, beetles are awful.",insects are beetles,beetles are insects,0
+5,instantiation,for example,are,10,,insects,beetles,"I hate insects. For example, beetles are awful.",insects are beetles,beetles are insects,1
+6,instantiation,for example,are,10,,fish,tuna,"I like fish. For example, tuna are nice.",fish are tuna,tuna are fish,0
+6,instantiation,for example,are,10,,fish,tuna,"I like fish. For example, tuna are nice.",fish are tuna,tuna are fish,1
+7,instantiation,for example,are,10,,birds,ravens,"I hate birds. For example, ravens are awful.",birds are ravens,ravens are birds,0
+7,instantiation,for example,are,10,,birds,ravens,"I hate birds. For example, ravens are awful.",birds are ravens,ravens are birds,1
+8,instantiation,for example,are,10,,mammals,dogs,"I hate mammals. For example, dogs are awful.",mammals are dogs,dogs are mammals,0
+8,instantiation,for example,are,10,,mammals,dogs,"I hate mammals. For example, dogs are awful.",mammals are dogs,dogs are mammals,1
+9,instantiation,for example,are,10,,fruits,apples,"I hate fruits. For example, apples are awful.",fruits are apples,apples are fruits,0
+9,instantiation,for example,are,10,,fruits,apples,"I hate fruits. For example, apples are awful.",fruits are apples,apples are fruits,1
+10,instantiation,for example,are,10,,string instruments,cellos,"I hate string instruments. For example, cellos are awful.",string instruments are cellos,cellos are string instruments,0
+10,instantiation,for example,are,10,,string instruments,cellos,"I hate string instruments. For example, cellos are awful.",string instruments are cellos,cellos are string instruments,1
+11,instantiation,for example,are,10,,insects,grasshoppers,"I hate insects. For example, grasshoppers are awful.",insects are grasshoppers,grasshoppers are insects,0
+11,instantiation,for example,are,10,,insects,grasshoppers,"I hate insects. For example, grasshoppers are awful.",insects are grasshoppers,grasshoppers are insects,1
+12,instantiation,for example,are,10,,fish,salmon,"I hate fish. For example, salmon are awful.",fish are salmon,salmon are fish,0
+12,instantiation,for example,are,10,,fish,salmon,"I hate fish. For example, salmon are awful.",fish are salmon,salmon are fish,1
+13,instantiation,for example,are,10,,birds,crows,"I hate birds. For example, crows are awful.",birds are crows,crows are birds,0
+13,instantiation,for example,are,10,,birds,crows,"I hate birds. For example, crows are awful.",birds are crows,crows are birds,1
+14,instantiation,for example,are,10,,mammals,sheep,"I like mammals. For example, sheep are nice.",mammals are sheep,sheep are mammals,0
+14,instantiation,for example,are,10,,mammals,sheep,"I like mammals. For example, sheep are nice.",mammals are sheep,sheep are mammals,1
+15,instantiation,for example,are,10,,fruits,pears,"I like fruits. For example, pears are nice.",fruits are pears,pears are fruits,0
+15,instantiation,for example,are,10,,fruits,pears,"I like fruits. For example, pears are nice.",fruits are pears,pears are fruits,1
+16,instantiation,for example,are,10,,string instruments,violas,"I like string instruments. For example, violas are nice.",string instruments are violas,violas are string instruments,0
+16,instantiation,for example,are,10,,string instruments,violas,"I like string instruments. For example, violas are nice.",string instruments are violas,violas are string instruments,1
+17,instantiation,for example,are,10,,insects,ants,"I like insects. For example, ants are nice.",insects are ants,ants are insects,0
+17,instantiation,for example,are,10,,insects,ants,"I like insects. For example, ants are nice.",insects are ants,ants are insects,1
+18,instantiation,for example,are,10,,fish,trout,"I hate fish. For example, trout are awful.",fish are trout,trout are fish,0
+18,instantiation,for example,are,10,,fish,trout,"I hate fish. For example, trout are awful.",fish are trout,trout are fish,1
+19,instantiation,for instance,are,10,,birds,sparrows,"I like birds. For instance, sparrows are nice.",birds are sparrows,sparrows are birds,0
+19,instantiation,for instance,are,10,,birds,sparrows,"I like birds. For instance, sparrows are nice.",birds are sparrows,sparrows are birds,1
+20,instantiation,for instance,are,10,,mammals,cats,"I hate mammals. For instance, cats are awful.",mammals are cats,cats are mammals,0
+20,instantiation,for instance,are,10,,mammals,cats,"I hate mammals. For instance, cats are awful.",mammals are cats,cats are mammals,1
+21,instantiation,for instance,are,10,,fruits,grapes,"I like fruits. For instance, grapes are nice.",fruits are grapes,grapes are fruits,0
+21,instantiation,for instance,are,10,,fruits,grapes,"I like fruits. For instance, grapes are nice.",fruits are grapes,grapes are fruits,1
+22,instantiation,for instance,are,10,,string instruments,violins,"I hate string instruments. For instance, violins are awful.",string instruments are violins,violins are string instruments,0
+22,instantiation,for instance,are,10,,string instruments,violins,"I hate string instruments. For instance, violins are awful.",string instruments are violins,violins are string instruments,1
+23,instantiation,for instance,are,10,,insects,beetles,"I hate insects. For instance, beetles are awful.",insects are beetles,beetles are insects,0
+23,instantiation,for instance,are,10,,insects,beetles,"I hate insects. For instance, beetles are awful.",insects are beetles,beetles are insects,1
+24,instantiation,for instance,are,10,,fish,tuna,"I hate fish. For instance, tuna are awful.",fish are tuna,tuna are fish,0
+24,instantiation,for instance,are,10,,fish,tuna,"I hate fish. For instance, tuna are awful.",fish are tuna,tuna are fish,1
+25,instantiation,for instance,are,10,,birds,ravens,"I like birds. For instance, ravens are nice.",birds are ravens,ravens are birds,0
+25,instantiation,for instance,are,10,,birds,ravens,"I like birds. For instance, ravens are nice.",birds are ravens,ravens are birds,1
+26,instantiation,for instance,are,10,,mammals,dogs,"I hate mammals. For instance, dogs are awful.",mammals are dogs,dogs are mammals,0
+26,instantiation,for instance,are,10,,mammals,dogs,"I hate mammals. For instance, dogs are awful.",mammals are dogs,dogs are mammals,1
+27,instantiation,for instance,are,10,,fruits,apples,"I hate fruits. For instance, apples are awful.",fruits are apples,apples are fruits,0
+27,instantiation,for instance,are,10,,fruits,apples,"I hate fruits. For instance, apples are awful.",fruits are apples,apples are fruits,1
+28,instantiation,for instance,are,10,,string instruments,cellos,"I like string instruments. For instance, cellos are nice.",string instruments are cellos,cellos are string instruments,0
+28,instantiation,for instance,are,10,,string instruments,cellos,"I like string instruments. For instance, cellos are nice.",string instruments are cellos,cellos are string instruments,1
+29,instantiation,for instance,are,10,,insects,grasshoppers,"I like insects. For instance, grasshoppers are nice.",insects are grasshoppers,grasshoppers are insects,0
+29,instantiation,for instance,are,10,,insects,grasshoppers,"I like insects. For instance, grasshoppers are nice.",insects are grasshoppers,grasshoppers are insects,1
+30,instantiation,for instance,are,10,,fish,salmon,"I like fish. For instance, salmon are nice.",fish are salmon,salmon are fish,0
+30,instantiation,for instance,are,10,,fish,salmon,"I like fish. For instance, salmon are nice.",fish are salmon,salmon are fish,1
+31,instantiation,for instance,are,10,,birds,crows,"I hate birds. For instance, crows are awful.",birds are crows,crows are birds,0
+31,instantiation,for instance,are,10,,birds,crows,"I hate birds. For instance, crows are awful.",birds are crows,crows are birds,1
+32,instantiation,for instance,are,10,,mammals,sheep,"I hate mammals. For instance, sheep are awful.",mammals are sheep,sheep are mammals,0
+32,instantiation,for instance,are,10,,mammals,sheep,"I hate mammals. For instance, sheep are awful.",mammals are sheep,sheep are mammals,1
+33,instantiation,for instance,are,10,,fruits,pears,"I hate fruits. For instance, pears are awful.",fruits are pears,pears are fruits,0
+33,instantiation,for instance,are,10,,fruits,pears,"I hate fruits. For instance, pears are awful.",fruits are pears,pears are fruits,1
+34,instantiation,for instance,are,10,,string instruments,violas,"I like string instruments. For instance, violas are nice.",string instruments are violas,violas are string instruments,0
+34,instantiation,for instance,are,10,,string instruments,violas,"I like string instruments. For instance, violas are nice.",string instruments are violas,violas are string instruments,1
+35,instantiation,for instance,are,10,,insects,ants,"I like insects. For instance, ants are nice.",insects are ants,ants are insects,0
+35,instantiation,for instance,are,10,,insects,ants,"I like insects. For instance, ants are nice.",insects are ants,ants are insects,1
+36,instantiation,for instance,are,10,,fish,trout,"I hate fish. For instance, trout are awful.",fish are trout,trout are fish,0
+36,instantiation,for instance,are,10,,fish,trout,"I hate fish. For instance, trout are awful.",fish are trout,trout are fish,1
+37,instantiation,in particular,are,10,,birds,sparrows,"I find birds, in particular, sparrows to be awful.",birds are sparrows,sparrows are birds,0
+37,instantiation,in particular,are,10,,birds,sparrows,"I find birds, in particular, sparrows to be awful.",birds are sparrows,sparrows are birds,1
+38,instantiation,in particular,are,10,,mammals,cats,"I find mammals, in particular, cats to be awful.",mammals are cats,cats are mammals,0
+38,instantiation,in particular,are,10,,mammals,cats,"I find mammals, in particular, cats to be awful.",mammals are cats,cats are mammals,1
+39,instantiation,in particular,are,10,,fruits,grapes,"I find fruits, in particular, grapes to be awful.",fruits are grapes,grapes are fruits,0
+39,instantiation,in particular,are,10,,fruits,grapes,"I find fruits, in particular, grapes to be awful.",fruits are grapes,grapes are fruits,1
+40,instantiation,in particular,are,10,,string instruments,violins,"I find string instruments, in particular, violins to be awful.",string instruments are violins,violins are string instruments,0
+40,instantiation,in particular,are,10,,string instruments,violins,"I find string instruments, in particular, violins to be awful.",string instruments are violins,violins are string instruments,1
+41,instantiation,in particular,are,10,,insects,beetles,"I find insects, in particular, beetles to be awful.",insects are beetles,beetles are insects,0
+41,instantiation,in particular,are,10,,insects,beetles,"I find insects, in particular, beetles to be awful.",insects are beetles,beetles are insects,1
+42,instantiation,in particular,are,10,,fish,tuna,"I find fish, in particular, tuna to be awful.",fish are tuna,tuna are fish,0
+42,instantiation,in particular,are,10,,fish,tuna,"I find fish, in particular, tuna to be awful.",fish are tuna,tuna are fish,1
+43,instantiation,in particular,are,10,,birds,ravens,"I find birds, in particular, ravens to be awful.",birds are ravens,ravens are birds,0
+43,instantiation,in particular,are,10,,birds,ravens,"I find birds, in particular, ravens to be awful.",birds are ravens,ravens are birds,1
+44,instantiation,in particular,are,10,,mammals,dogs,"I find mammals, in particular, dogs to be awful.",mammals are dogs,dogs are mammals,0
+44,instantiation,in particular,are,10,,mammals,dogs,"I find mammals, in particular, dogs to be awful.",mammals are dogs,dogs are mammals,1
+45,instantiation,in particular,are,10,,fruits,apples,"I find fruits, in particular, apples to be awful.",fruits are apples,apples are fruits,0
+45,instantiation,in particular,are,10,,fruits,apples,"I find fruits, in particular, apples to be awful.",fruits are apples,apples are fruits,1
+46,instantiation,in particular,are,10,,string instruments,cellos,"I find string instruments, in particular, cellos to be awful.",string instruments are cellos,cellos are string instruments,0
+46,instantiation,in particular,are,10,,string instruments,cellos,"I find string instruments, in particular, cellos to be awful.",string instruments are cellos,cellos are string instruments,1
+47,instantiation,in particular,are,10,,insects,grasshoppers,"I find insects, in particular, grasshoppers to be awful.",insects are grasshoppers,grasshoppers are insects,0
+47,instantiation,in particular,are,10,,insects,grasshoppers,"I find insects, in particular, grasshoppers to be awful.",insects are grasshoppers,grasshoppers are insects,1
+48,instantiation,in particular,are,10,,fish,salmon,"I find fish, in particular, salmon to be cute.",fish are salmon,salmon are fish,0
+48,instantiation,in particular,are,10,,fish,salmon,"I find fish, in particular, salmon to be cute.",fish are salmon,salmon are fish,1
+49,instantiation,in particular,are,10,,birds,crows,"I find birds, in particular, crows to be cute.",birds are crows,crows are birds,0
+49,instantiation,in particular,are,10,,birds,crows,"I find birds, in particular, crows to be cute.",birds are crows,crows are birds,1
+50,instantiation,in particular,are,10,,mammals,sheep,"I find mammals, in particular, sheep to be awful.",mammals are sheep,sheep are mammals,0
+50,instantiation,in particular,are,10,,mammals,sheep,"I find mammals, in particular, sheep to be awful.",mammals are sheep,sheep are mammals,1
+51,instantiation,in particular,are,10,,fruits,pears,"I find fruits, in particular, pears to be cute.",fruits are pears,pears are fruits,0
+51,instantiation,in particular,are,10,,fruits,pears,"I find fruits, in particular, pears to be cute.",fruits are pears,pears are fruits,1
+52,instantiation,in particular,are,10,,string instruments,violas,"I find string instruments, in particular, violas to be awful.",string instruments are violas,violas are string instruments,0
+52,instantiation,in particular,are,10,,string instruments,violas,"I find string instruments, in particular, violas to be awful.",string instruments are violas,violas are string instruments,1
+53,instantiation,in particular,are,10,,insects,ants,"I find insects, in particular, ants to be cute.",insects are ants,ants are insects,0
+53,instantiation,in particular,are,10,,insects,ants,"I find insects, in particular, ants to be cute.",insects are ants,ants are insects,1
+54,instantiation,in particular,are,10,,fish,trout,"I find fish, in particular, trout to be awful.",fish are trout,trout are fish,0
+54,instantiation,in particular,are,10,,fish,trout,"I find fish, in particular, trout to be awful.",fish are trout,trout are fish,1
+55,instantiation,specifically,are,10,,birds,sparrows,"I find birds, specifically, sparrows to be cute.",birds are sparrows,sparrows are birds,0
+55,instantiation,specifically,are,10,,birds,sparrows,"I find birds, specifically, sparrows to be cute.",birds are sparrows,sparrows are birds,1
+56,instantiation,specifically,are,10,,mammals,cats,"I find mammals, specifically, cats to be awful.",mammals are cats,cats are mammals,0
+56,instantiation,specifically,are,10,,mammals,cats,"I find mammals, specifically, cats to be awful.",mammals are cats,cats are mammals,1
+57,instantiation,specifically,are,10,,fruits,grapes,"I find fruits, specifically, grapes to be cute.",fruits are grapes,grapes are fruits,0
+57,instantiation,specifically,are,10,,fruits,grapes,"I find fruits, specifically, grapes to be cute.",fruits are grapes,grapes are fruits,1
+58,instantiation,specifically,are,10,,string instruments,violins,"I find string instruments, specifically, violins to be awful.",string instruments are violins,violins are string instruments,0
+58,instantiation,specifically,are,10,,string instruments,violins,"I find string instruments, specifically, violins to be awful.",string instruments are violins,violins are string instruments,1
+59,instantiation,specifically,are,10,,insects,beetles,"I find insects, specifically, beetles to be cute.",insects are beetles,beetles are insects,0
+59,instantiation,specifically,are,10,,insects,beetles,"I find insects, specifically, beetles to be cute.",insects are beetles,beetles are insects,1
+60,instantiation,specifically,are,10,,fish,tuna,"I find fish, specifically, tuna to be cute.",fish are tuna,tuna are fish,0
+60,instantiation,specifically,are,10,,fish,tuna,"I find fish, specifically, tuna to be cute.",fish are tuna,tuna are fish,1
+61,instantiation,specifically,are,10,,birds,ravens,"I find birds, specifically, ravens to be cute.",birds are ravens,ravens are birds,0
+61,instantiation,specifically,are,10,,birds,ravens,"I find birds, specifically, ravens to be cute.",birds are ravens,ravens are birds,1
+62,instantiation,specifically,are,10,,mammals,dogs,"I find mammals, specifically, dogs to be cute.",mammals are dogs,dogs are mammals,0
+62,instantiation,specifically,are,10,,mammals,dogs,"I find mammals, specifically, dogs to be cute.",mammals are dogs,dogs are mammals,1
+63,instantiation,specifically,are,10,,fruits,apples,"I find fruits, specifically, apples to be awful.",fruits are apples,apples are fruits,0
+63,instantiation,specifically,are,10,,fruits,apples,"I find fruits, specifically, apples to be awful.",fruits are apples,apples are fruits,1
+64,instantiation,specifically,are,10,,string instruments,cellos,"I find string instruments, specifically, cellos to be cute.",string instruments are cellos,cellos are string instruments,0
+64,instantiation,specifically,are,10,,string instruments,cellos,"I find string instruments, specifically, cellos to be cute.",string instruments are cellos,cellos are string instruments,1
+65,instantiation,specifically,are,10,,insects,grasshoppers,"I find insects, specifically, grasshoppers to be cute.",insects are grasshoppers,grasshoppers are insects,0
+65,instantiation,specifically,are,10,,insects,grasshoppers,"I find insects, specifically, grasshoppers to be cute.",insects are grasshoppers,grasshoppers are insects,1
+66,instantiation,specifically,are,10,,fish,salmon,"I find fish, specifically, salmon to be awful.",fish are salmon,salmon are fish,0
+66,instantiation,specifically,are,10,,fish,salmon,"I find fish, specifically, salmon to be awful.",fish are salmon,salmon are fish,1
+67,instantiation,specifically,are,10,,birds,crows,"I find birds, specifically, crows to be cute.",birds are crows,crows are birds,0
+67,instantiation,specifically,are,10,,birds,crows,"I find birds, specifically, crows to be cute.",birds are crows,crows are birds,1
+68,instantiation,specifically,are,10,,mammals,sheep,"I find mammals, specifically, sheep to be awful.",mammals are sheep,sheep are mammals,0
+68,instantiation,specifically,are,10,,mammals,sheep,"I find mammals, specifically, sheep to be awful.",mammals are sheep,sheep are mammals,1
+69,instantiation,specifically,are,10,,fruits,pears,"I find fruits, specifically, pears to be awful.",fruits are pears,pears are fruits,0
+69,instantiation,specifically,are,10,,fruits,pears,"I find fruits, specifically, pears to be awful.",fruits are pears,pears are fruits,1
+70,instantiation,specifically,are,10,,string instruments,violas,"I find string instruments, specifically, violas to be awful.",string instruments are violas,violas are string instruments,0
+70,instantiation,specifically,are,10,,string instruments,violas,"I find string instruments, specifically, violas to be awful.",string instruments are violas,violas are string instruments,1
+71,instantiation,specifically,are,10,,insects,ants,"I find insects, specifically, ants to be awful.",insects are ants,ants are insects,0
+71,instantiation,specifically,are,10,,insects,ants,"I find insects, specifically, ants to be awful.",insects are ants,ants are insects,1
+72,instantiation,specifically,are,10,,fish,trout,"I find fish, specifically, trout to be cute.",fish are trout,trout are fish,0
+72,instantiation,specifically,are,10,,fish,trout,"I find fish, specifically, trout to be cute.",fish are trout,trout are fish,1
+73,instantiation,such as,are,10,,birds,sparrows,"I find birds such as sparrows, to be cute.",birds are sparrows,sparrows are birds,0
+73,instantiation,such as,are,10,,birds,sparrows,"I find birds such as sparrows, to be cute.",birds are sparrows,sparrows are birds,1
+74,instantiation,such as,are,10,,mammals,cats,"I find mammals such as cats, to be awful.",mammals are cats,cats are mammals,0
+74,instantiation,such as,are,10,,mammals,cats,"I find mammals such as cats, to be awful.",mammals are cats,cats are mammals,1
+75,instantiation,such as,are,10,,fruits,grapes,"I find fruits such as grapes, to be cute.",fruits are grapes,grapes are fruits,0
+75,instantiation,such as,are,10,,fruits,grapes,"I find fruits such as grapes, to be cute.",fruits are grapes,grapes are fruits,1
+76,instantiation,such as,are,10,,string instruments,violins,"I find string instruments such as violins, to be awful.",string instruments are violins,violins are string instruments,0
+76,instantiation,such as,are,10,,string instruments,violins,"I find string instruments such as violins, to be awful.",string instruments are violins,violins are string instruments,1
+77,instantiation,such as,are,10,,insects,beetles,"I find insects such as beetles, to be awful.",insects are beetles,beetles are insects,0
+77,instantiation,such as,are,10,,insects,beetles,"I find insects such as beetles, to be awful.",insects are beetles,beetles are insects,1
+78,instantiation,such as,are,10,,fish,tuna,"I find fish such as tuna, to be awful.",fish are tuna,tuna are fish,0
+78,instantiation,such as,are,10,,fish,tuna,"I find fish such as tuna, to be awful.",fish are tuna,tuna are fish,1
+79,instantiation,such as,are,10,,birds,ravens,"I find birds such as ravens, to be awful.",birds are ravens,ravens are birds,0
+79,instantiation,such as,are,10,,birds,ravens,"I find birds such as ravens, to be awful.",birds are ravens,ravens are birds,1
+80,instantiation,such as,are,10,,mammals,dogs,"I find mammals such as dogs, to be awful.",mammals are dogs,dogs are mammals,0
+80,instantiation,such as,are,10,,mammals,dogs,"I find mammals such as dogs, to be awful.",mammals are dogs,dogs are mammals,1
+81,instantiation,such as,are,10,,fruits,apples,"I find fruits such as apples, to be cute.",fruits are apples,apples are fruits,0
+81,instantiation,such as,are,10,,fruits,apples,"I find fruits such as apples, to be cute.",fruits are apples,apples are fruits,1
+82,instantiation,such as,are,10,,string instruments,cellos,"I find string instruments such as cellos, to be awful.",string instruments are cellos,cellos are string instruments,0
+82,instantiation,such as,are,10,,string instruments,cellos,"I find string instruments such as cellos, to be awful.",string instruments are cellos,cellos are string instruments,1
+83,instantiation,such as,are,10,,insects,grasshoppers,"I find insects such as grasshoppers, to be cute.",insects are grasshoppers,grasshoppers are insects,0
+83,instantiation,such as,are,10,,insects,grasshoppers,"I find insects such as grasshoppers, to be cute.",insects are grasshoppers,grasshoppers are insects,1
+84,instantiation,such as,are,10,,fish,salmon,"I find fish such as salmon, to be awful.",fish are salmon,salmon are fish,0
+84,instantiation,such as,are,10,,fish,salmon,"I find fish such as salmon, to be awful.",fish are salmon,salmon are fish,1
+85,instantiation,such as,are,10,,birds,crows,"I find birds such as crows, to be cute.",birds are crows,crows are birds,0
+85,instantiation,such as,are,10,,birds,crows,"I find birds such as crows, to be cute.",birds are crows,crows are birds,1
+86,instantiation,such as,are,10,,mammals,sheep,"I find mammals such as sheep, to be cute.",mammals are sheep,sheep are mammals,0
+86,instantiation,such as,are,10,,mammals,sheep,"I find mammals such as sheep, to be cute.",mammals are sheep,sheep are mammals,1
+87,instantiation,such as,are,10,,fruits,pears,"I find fruits such as pears, to be cute.",fruits are pears,pears are fruits,0
+87,instantiation,such as,are,10,,fruits,pears,"I find fruits such as pears, to be cute.",fruits are pears,pears are fruits,1
+88,instantiation,such as,are,10,,string instruments,violas,"I find string instruments such as violas, to be awful.",string instruments are violas,violas are string instruments,0
+88,instantiation,such as,are,10,,string instruments,violas,"I find string instruments such as violas, to be awful.",string instruments are violas,violas are string instruments,1
+89,instantiation,such as,are,10,,insects,ants,"I find insects such as ants, to be cute.",insects are ants,ants are insects,0
+89,instantiation,such as,are,10,,insects,ants,"I find insects such as ants, to be cute.",insects are ants,ants are insects,1
+90,instantiation,such as,are,10,,fish,trout,"I find fish such as trout, to be awful.",fish are trout,trout are fish,0
+90,instantiation,such as,are,10,,fish,trout,"I find fish such as trout, to be awful.",fish are trout,trout are fish,1
