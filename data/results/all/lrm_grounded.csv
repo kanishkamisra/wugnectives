@@ -5661,7 +5661,7 @@ idx,prob,label,entailed
 5659,1,No,True
 5660,1,Yes,True
 5661,1,Yes,True
-5662,1,"answer: noexplanation: adam prefers london over oxford because he dislikes college towns. since oxford is a college town, adam is choosing london, which is not primarily known as a college town, despite having universities. thus, he does not mean that london is a college town.",True
+5662,1,No,True
 5663,1,No,True
 5664,1,Yes,True
 5665,1,Yes,True
@@ -5961,7 +5961,7 @@ idx,prob,label,entailed
 5959,1,No,True
 5960,1,Yes,True
 5961,1,Yes,True
-5962,1,"adam does not mean that asparagus are leafy vegetables. answer: noexplanation: adam hates leafy vegetables but prefers asparagus over cabbage. asparagus is not typically considered a leafy vegetable; it is a stalk vegetable. by preferring asparagus, adam is showing an exception to his dislike of leafy vegetables, implying asparagus is not leafy.",True
+5962,1,No,True
 5963,1,No,True
 5964,1,Yes,True
 5965,1,Yes,True
