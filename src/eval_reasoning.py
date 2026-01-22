@@ -10,6 +10,8 @@ from transformers import AutoTokenizer, AutoModelForCausalLM, set_seed
 from tqdm import tqdm
 import utils
 
+start = 577 + 369
+
 def main(args):
         results_dir = args.results_dir
 
@@ -65,6 +67,9 @@ def main(args):
         for i, (name, eval) in enumerate(zip(names, all_eval)):
             try:
                 batch_prompts = make_batch(tokenizer, eval)
+                
+
+                batch_prompts = batch_prompts[(start * 8):]
 
                 batches = DataLoader(batch_prompts, batch_size=8)
                 results, all_responses = run_model(model, name, tokenizer, batches)
@@ -100,7 +105,10 @@ def make_batch(tokenizer, eval):
 def run_model(model, name, tokenizer, batches):
     results = []
     all_responses = []
+
+
     try:
+        
         for i, batch in tqdm(enumerate(batches),desc=f"Running {name}...", total=len(batches)):
             model_inputs = tokenizer(batch, return_tensors="pt", padding=True, truncation=True,
                         ).to(model.device)
@@ -121,8 +129,8 @@ def run_model(model, name, tokenizer, batches):
                 except:
                     boxed = "ERROR"
                     
-                results.append((i, boxed))
-                all_responses.append((i, response))
+                results.append((i + start, boxed))
+                all_responses.append((i + start, response))
     finally:
         return results, all_responses
 
