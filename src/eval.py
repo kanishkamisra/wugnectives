@@ -137,8 +137,8 @@ def main(args):
     print("Temporal:")
     print([x["input"] for x in eval_temporal[:5]])
 
-    end = (577 + 369 + 134) * 8
-    non_temporal_batches = DataLoader(eval_non_temporal[:end], batch_size=args.batch_size)
+    
+    non_temporal_batches = DataLoader(eval_non_temporal, batch_size=args.batch_size)
     temporal_batches = DataLoader(eval_temporal, batch_size=args.batch_size)
 
     results = []

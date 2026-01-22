@@ -10,7 +10,7 @@ from transformers import AutoTokenizer, AutoModelForCausalLM, set_seed
 from tqdm import tqdm
 import utils
 
-start = 577 + 369
+start = 0
 
 def main(args):
         results_dir = args.results_dir
