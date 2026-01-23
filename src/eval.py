@@ -12,6 +12,7 @@ from tqdm import tqdm
 
 OPTIONS = ["Yes", "No", "yes", "no"]
 
+
 def chat_template(sentence, tok, response_prompt=None):
     """
     A function that applies the model's chat template to simulate
@@ -86,16 +87,13 @@ def main(args):
 
     label_nonces = {vv: k for k, v in nonce_options.items() for vv in v}
 
-
     def get_label_space(entity1, entity2):
         return nonce_options[entity1] + nonce_options[entity2]
-
 
     def p_yes(probs):
         alls = torch.tensor(probs).sum(1)
         yeses = [[p[0], p[2]] for p in probs]
         return (torch.tensor(yeses).sum(1) / alls).tolist()
-
 
     def label_prob(probs):
         alls = torch.tensor(probs).sum(1)
@@ -105,7 +103,7 @@ def main(args):
     def get_predictions(probs, label_space):
         readjusted = []
         for p in label_prob(probs):
-            readjusted.append([p, 1-p])
+            readjusted.append([p, 1 - p])
         readjusted = torch.tensor(readjusted)
         preds = readjusted.argmax(1).tolist()
         predictions = []
@@ -115,7 +113,18 @@ def main(args):
         return predictions
 
     # load the model
-    lm = scorer.IncrementalLMScorer(model, device=args.device, trust_remote_code=True, use_auth_token=True)
+    if args.bfloat:
+        lm = scorer.IncrementalLMScorer(
+            model,
+            device=args.device,
+            trust_remote_code=True,
+            use_auth_token=True,
+            torch_dtype=torch.bfloat16,
+        )
+    else:
+        lm = scorer.IncrementalLMScorer(
+            model, device=args.device, trust_remote_code=True, use_auth_token=True
+        )
 
     eval = utils.read_csv_dict(eval_path)
 
@@ -137,7 +146,6 @@ def main(args):
     print("Temporal:")
     print([x["input"] for x in eval_temporal[:5]])
 
-    
     non_temporal_batches = DataLoader(eval_non_temporal, batch_size=args.batch_size)
     temporal_batches = DataLoader(eval_temporal, batch_size=args.batch_size)
 
@@ -152,7 +160,7 @@ def main(args):
         probs, ranks = lm.query(dist, queries=label_space)
 
         yes_p = p_yes(probs)
-        
+
         for i, p in zip(idx, yes_p):
             if p >= 0.5:
                 l = "Yes"
@@ -166,7 +174,7 @@ def main(args):
         entity1 = batch["entity1"]
         entity2 = batch["entity2"]
         label_space = [get_label_space(e1, e2) for e1, e2 in zip(entity1, entity2)]
-        readj_space = [(e1,e2) for e1, e2 in zip(entity1, entity2)]
+        readj_space = [(e1, e2) for e1, e2 in zip(entity1, entity2)]
 
         dist = lm.next_word_distribution(inputs)
         probs, ranks = lm.query(dist, queries=label_space)
@@ -175,10 +183,13 @@ def main(args):
 
         for i, (l, p) in zip(idx, preds):
             results.append((i, p, l))
-        
 
     pathlib.Path(results_dir).mkdir(parents=True, exist_ok=True)
-    utils.write_csv(results, f"{results_dir}/{args.out_prefix}{model_name}.csv", header=["idx", "prob", "label"])
+    utils.write_csv(
+        results,
+        f"{results_dir}/{args.out_prefix}{model_name}.csv",
+        header=["idx", "prob", "label"],
+    )
 
 
 if __name__ == "__main__":
@@ -193,6 +204,7 @@ if __name__ == "__main__":
     parser.add_argument("--device", type=str, default="cuda:0")
 
     parser.add_argument("--out_prefix", type=str, default="")
+    parser.add_argument("--bfloat", action="store_true")
 
     args = parser.parse_args()
 
