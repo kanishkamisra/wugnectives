@@ -184,9 +184,9 @@ def main(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--model", type=str, default="Qwen/Qwen2.5-0.5B-Instruct")
-    parser.add_argument("--results-dir", type=str, default="data/results/nonce/")
+    parser.add_argument("--results-dir", type=str, default="data/results/all/")
     parser.add_argument(
-        "--eval_path", type=str, default="data/stimuli-nonce/prompts.csv"
+        "--eval_path", type=str, default="data/stimuli-nonce/all_prompts.csv"
     )
     parser.add_argument("--batch_size", type=int, default=8)
     parser.add_argument("--instruct", action="store_true")
